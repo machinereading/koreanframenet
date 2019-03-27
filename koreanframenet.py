@@ -12,9 +12,9 @@ from .src import dataio
 # In[2]:
 
 
-print('### Korean FrameNet ###')
-print('\t# contact: hahmyg@kaist, hahmyg@gmail.com #')
-print('')
+#print('### Korean FrameNet ###')
+#print('\t# contact: hahmyg@kaist, hahmyg@gmail.com #')
+#print('')
 
 
 # In[11]:
