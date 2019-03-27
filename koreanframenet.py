@@ -12,9 +12,9 @@ from .src import dataio
 # In[2]:
 
 
-#print('### Korean FrameNet ###')
-#print('\t# contact: hahmyg@kaist, hahmyg@gmail.com #')
-#print('')
+print('### Korean FrameNet ###')
+print('\t# contact: hahmyg@kaist, hahmyg@gmail.com #')
+print('')
 
 
 # In[11]:
@@ -60,7 +60,7 @@ class interface():
                 item['lu'] = d['lexeme']+'.'+d['pos']
                 item['frame'] = d['frame']
                 item['lu_id'] = int(luid)
-                result.append(item)
+                result.append(item)                
         return result
         
     
