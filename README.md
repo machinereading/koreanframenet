@@ -21,38 +21,39 @@ kfn = koreanframenet.interface(version=version)
 
 **Get LUs by word**
 ```
-lus = kfn.lus_by_word('가능하다')
+lus = kfn.lus_by_word('입증하다')
 `print(lus)
 ```
 ```
 [
-  {'lu': '가능하다.a', 'frame': 'Likelihood', 'lu_id': 23}, 
-  {'lu': '가능하다.a', 'frame': 'Capability', 'lu_id': 21}, 
-  {'lu': '가능하다.a', 'frame': 'Existence', 'lu_id': 22}
+  {'lu': '입증하다.v', 'frame': 'Statement', 'lu_id': 5565}, 
+  {'lu': '입증하다.v', 'frame': 'Verification', 'lu_id': 5566}, 
+  {'lu': '입증하다.v', 'frame': 'Evidence', 'lu_id': 5564}
 ]
 ```
 
 **Get annotations by LU id**
 ```
-annotations = kfn.annotations_by_lu(21)
-print(annotations[1])
+annotations = kfn.annotations_by_lu(5566)
+print(annotations[4])
 ```
 ```
-[{'arguments': ['입금은 [Event]'],
-  'lu': '가능하다.a.Capability',
-  'text': '입금은 인터넷으로도 가능합니다.'}
-]
+{'arguments': ['한국 축구팬들에게 첫선을 보인 마이클 오언이 [Inspector]',
+               '세계 최고 골잡이의 명성을 [Unconfirmed_Content]',
+               '그대로 [Manner]'],
+ 'lu': '입증하다.v.Verification',
+ 'text': '한국 축구팬들에게 첫선을 보인 마이클 오언이 세계 최고 골잡이의 명성을 그대로 입증했다.'}
 ```
 
 **Load dataset**
 
 `training_data, dev_data, test_data = kfn.load_data()`
 
-Each data is a list for a sentence and its FrameNet annotations. Each sentence consists of four lists: tokens, target, frame, and its arguments. For example, a sentence '이 도시는 대중교통수단이 잘 구비되어 있어 시민생활이 매우 편리하다' is shown in following four lists:
-* TOKENS: ['이', '도시는', '대중교통수단이', '잘', '구비되어', '있어', '시민생활이', '매우', '편리하다.']
-* TARGET: ['\_', '\_', '\_', '\_', '구비되다.v', '\_', '\_', '\_', '\_']
-* FRAME: ['\_', '\_', '\_', '\_', 'Possession', '\_', '\_', '\_', '\_']
-* ARGUMENTS: ['B-Owner', 'I-Owner', 'B-Possession', 'B-Manner', 'O', 'O', 'O', 'O', 'O']
+Each data is a list for a sentence and its FrameNet annotations. Each sentence consists of four lists: tokens, target, frame, and its arguments. For example, a sentence '한국 축구팬들에게 첫선을 보인 마이클 오언이 세계 최고 골잡이의 명성을 그대로 입증했다.' is shown in following four lists (`dev_data[2330]`):
+* TOKENS: ['한국', '축구팬들에게', '첫선을', '보인', '마이클', '오언이', '세계', '최고', '골잡이의', '명성을', '그대로', '입증했다.']
+* TARGET: ['_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '입증하다.v']
+* FRAME: ['_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', 'Verification']
+* ARGUMENTS: ['B-Inspector', 'I-Inspector', 'I-Inspector', 'I-Inspector', 'I-Inspector', 'I-Inspector', 'B-Unconfirmed_Content', 'I-Unconfirmed_Content', 'I-Unconfirmed_Content', 'I-Unconfirmed_Content', 'B-Manner', 'O']
 
 TARGET list provides target annotation. The tag `_` means that the token is not target word and other tag is target word. For above example, the lexeme `구비되다.v` is annotated for the target word `구비되어` (5th token in TOKEN list). In this case, the lexeme `구비되다.v` is annotated with the frame `Possession`. In terms of FrameNet, arguments is annotated with frame element tags of the frame `Possession` with BIO scheme. For above example, the word '이 도시는' is annotated with `Owner`, the word '대중교통수단이' is with `Possession`, and the word '잘' is with `Manner`. 
 
