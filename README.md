@@ -20,8 +20,10 @@ kfn = koreanframenet.interface(version=version)
 ```
 
 **Get LUs by word**
-`lus = kfn.lus_by_word('가능하다')`
-`print(lus)`
+```
+lus = kfn.lus_by_word('가능하다')
+`print(lus)
+```
 ```
 [
   {'lu': '가능하다.a', 'frame': 'Likelihood', 'lu_id': 23}, 
@@ -31,8 +33,10 @@ kfn = koreanframenet.interface(version=version)
 ```
 
 **Get annotations by LU id**
-`annotations = kfn.annotations_by_lu(21)`
-`print(annotations[1])`
+```
+annotations = kfn.annotations_by_lu(21)
+print(annotations[1])
+```
 ```
 [{'arguments': ['입금은 [Event]'],
   'lu': '가능하다.a.Capability',
