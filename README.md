@@ -30,7 +30,7 @@ kfn = koreanframenet.interface(version=version)
 **Get LUs by word**
 ```
 lus = kfn.lus_by_word('입증하다')
-`print(lus)
+print(lus)
 ```
 ```
 [
