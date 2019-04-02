@@ -5,7 +5,7 @@ Korean FrameNet is a lexical database that has rich annotations to represent the
 
 **KFN Statistics***
 
-<img src="./image/stat.JPG" width="300" height="300">
+<img src="./image/stat.JPG" width="30%" height="30%">
 
 ## prerequisite
 * `python 3`
