@@ -58,10 +58,10 @@ print(annotations[4])
 `training_data, dev_data, test_data = kfn.load_data()`
 
 Each data is a list for a sentence and its FrameNet annotations. Each sentence consists of four lists: tokens, target, frame, and its arguments. For example, a sentence '한국 축구팬들에게 첫선을 보인 마이클 오언이 세계 최고 골잡이의 명성을 그대로 입증했다.' is shown in following four lists (`dev_data[2330]`):
-* TOKENS: ` ['한국', '축구팬들에게', '첫선을', '보인', '마이클', '오언이', '세계', '최고', '골잡이의', '명성을', '그대로', '입증했다.'] `
-* TARGET: ` ['\_', '\_', '\_', '\_', '\_', '\_', '\_', '\_', '\_', '\_', '\_', '입증하다.v'] `
-* FRAME: ` ['\_', '\_', '\_', '\_', '\_', '\_', '\_', '\_', '\_', '\_', '\_', 'Verification'] `
-* ARGUMENTS: ` ['B-Inspector', 'I-Inspector', 'I-Inspector', 'I-Inspector', 'I-Inspector', 'I-Inspector', 'B-Unconfirmed_Content', 'I-Unconfirmed_Content', 'I-Unconfirmed_Content', 'I-Unconfirmed_Content', 'B-Manner', 'O'] `
+* TOKENS (`dev_data[2330][0]`): ` ['한국', '축구팬들에게', '첫선을', '보인', '마이클', '오언이', '세계', '최고', '골잡이의', '명성을', '그대로', '입증했다.'] `
+* TARGET (`dev_data[2330][1]`): ` ['_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '입증하다.v'] `
+* FRAME (`dev_data[2330][2]`): ` ['_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', 'Verification'] `
+* ARGUMENTS (`dev_data[2330][3]`): ` ['B-Inspector', 'I-Inspector', 'I-Inspector', 'I-Inspector', 'I-Inspector', 'I-Inspector', 'B-Unconfirmed_Content', 'I-Unconfirmed_Content', 'I-Unconfirmed_Content', 'I-Unconfirmed_Content', 'B-Manner', 'O'] `
 
 TARGET list provides target annotation. The tag `_` means that the token is not target word and other tag is target word. For above example, the lexeme "입증하다.v" is annotated for the target word "입증했다" (12th token in TOKEN list. i.e. `dev_data[2330][0][11]`). In this case, the lexeme "입증하다.v" is annotated with the frame **_Verification_**. In terms of FrameNet, arguments is annotated with frame element tags of the frame **_Verification_** with BIO scheme. For above example, the argument "한국 축구팬들에게 첫선을 보인 마이클 오언이" is annotated with **_Inspector_**, the argument '세계 최고 골잡이의 명성을' is with **_Unconfirmed_Content_**, and the argument '그대로' is with **_Manner_**. 
 
