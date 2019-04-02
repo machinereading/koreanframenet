@@ -7,9 +7,9 @@ Korean FrameNet is a lexical database that has rich annotations to represent the
 
 <img src="./image/stat.JPG" width="60%" height="60%">
 
-frame (frame semantics): a schematic representation of a situation. Korean FrameNet is based on ICSI [FrameNet 1.7](https://framenet.icsi.berkeley.edu/)
-lexeme: a word with its part-of-speech. e.g. 입증하다.v
-lexical unit (lu): a paring of a lexeme and frame. e.g. 입증하다.v.Verification
+* frame (frame semantics): a schematic representation of a situation. Korean FrameNet is based on ICSI [FrameNet 1.7](https://framenet.icsi.berkeley.edu/). e.g. Verification (*definition: An Inspector attains a degree of certainty in the Unconfirmed_content, generally by inspecting some evidence.*)
+* lexeme: a word with its part-of-speech. e.g. 입증하다.v
+* lexical unit (lu): a paring of a lexeme and frame. e.g. 입증하다.v.Verification
 
 ## prerequisite
 * `python 3`
