@@ -22,15 +22,23 @@ kfn = koreanframenet.interface(version=version)
 **Get LUs by word**
 `lus = kfn.lus_by_word('가능하다')`
 `print(lus)`
-[{'lu': '가능하다.a', 'frame': 'Likelihood', 'lu_id': 23}, {'lu': '가능하다.a', 'frame': 'Capability', 'lu_id': 21}, {'lu': '가능하다.a', 'frame': 'Existence', 'lu_id': 22}]
+```
+[
+  {'lu': '가능하다.a', 'frame': 'Likelihood', 'lu_id': 23}, 
+  {'lu': '가능하다.a', 'frame': 'Capability', 'lu_id': 21}, 
+  {'lu': '가능하다.a', 'frame': 'Existence', 'lu_id': 22}
+]
+```
 
 **Get annotations by LU id**
 `annotations = kfn.annotations_by_lu(21)`
 `print(annotations[1])`
-{'arguments': ['입금은 [Event]'],
+```
+[{'arguments': ['입금은 [Event]'],
   'lu': '가능하다.a.Capability',
   'text': '입금은 인터넷으로도 가능합니다.'}
-
+]
+```
 
 **Load dataset**
 
