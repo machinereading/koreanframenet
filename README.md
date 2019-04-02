@@ -7,7 +7,7 @@ Korean FrameNet is a lexical database that has rich annotations to represent the
 
 <img src="./image/stat.JPG" width="60%" height="60%">
 
-* frame (frame semantics): a schematic representation of a situation. Korean FrameNet is based on ICSI [FrameNet 1.7](https://framenet.icsi.berkeley.edu/). e.g. Verification (*definition: An Inspector attains a degree of certainty in the Unconfirmed_content, generally by inspecting some evidence.*)
+* frame (frame semantics): a schematic representation of a situation. Korean FrameNet is based on ICSI [FrameNet 1.7](https://framenet.icsi.berkeley.edu/). e.g. **_Verification_** (*definition: An Inspector attains a degree of certainty in the Unconfirmed_content, generally by inspecting some evidence.*)
 * lexeme: a word with its part-of-speech. e.g. 입증하다.v
 * lexical unit (lu): a paring of a lexeme and frame. e.g. 입증하다.v.Verification
 
@@ -63,7 +63,7 @@ Each data is a list for a sentence and its FrameNet annotations. Each sentence c
 * FRAME: ['\_', '\_', '\_', '\_', '\_', '\_', '\_', '\_', '\_', '\_', '\_', 'Verification']
 * ARGUMENTS: ['B-Inspector', 'I-Inspector', 'I-Inspector', 'I-Inspector', 'I-Inspector', 'I-Inspector', 'B-Unconfirmed_Content', 'I-Unconfirmed_Content', 'I-Unconfirmed_Content', 'I-Unconfirmed_Content', 'B-Manner', 'O']
 
-TARGET list provides target annotation. The tag `_` means that the token is not target word and other tag is target word. For above example, the lexeme "입증하다.v" is annotated for the target word "입증했다" (12th token in TOKEN list. i.e. `dev_data[2330][0][11]`). In this case, the lexeme "입증하다.v" is annotated with the frame Verification. In terms of FrameNet, arguments is annotated with frame element tags of the frame Verification with BIO scheme. For above example, the argument "한국 축구팬들에게 첫선을 보인 마이클 오언이" is annotated with `Inspector`, the argument '세계 최고 골잡이의 명성을' is with `Unconfirmed_Content`, and the argument '그대로' is with `Manner`. 
+TARGET list provides target annotation. The tag `_` means that the token is not target word and other tag is target word. For above example, the lexeme "입증하다.v" is annotated for the target word "입증했다" (12th token in TOKEN list. i.e. `dev_data[2330][0][11]`). In this case, the lexeme "입증하다.v" is annotated with the frame **_Verification_**. In terms of FrameNet, arguments is annotated with frame element tags of the frame **_Verification_** with BIO scheme. For above example, the argument "한국 축구팬들에게 첫선을 보인 마이클 오언이" is annotated with **_Inspector_**, the argument '세계 최고 골잡이의 명성을' is with **_Unconfirmed_Content_**, and the argument '그대로' is with **_Manner_**. 
 
 
 ## Licenses
