@@ -3,9 +3,9 @@
 ## About
 Korean FrameNet is a lexical database that has rich annotations to represent the meaning of text using semantic frames.
 
-**KFN Statistics***
+**KFN Statistics**
 
-<img src="./image/stat.JPG" width="50%" height="50%">
+<img src="./image/stat.JPG" width="60%" height="60%">
 
 ## prerequisite
 * `python 3`
