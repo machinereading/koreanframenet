@@ -51,11 +51,11 @@ print(annotations[4])
 
 Each data is a list for a sentence and its FrameNet annotations. Each sentence consists of four lists: tokens, target, frame, and its arguments. For example, a sentence '한국 축구팬들에게 첫선을 보인 마이클 오언이 세계 최고 골잡이의 명성을 그대로 입증했다.' is shown in following four lists (`dev_data[2330]`):
 * TOKENS: ['한국', '축구팬들에게', '첫선을', '보인', '마이클', '오언이', '세계', '최고', '골잡이의', '명성을', '그대로', '입증했다.']
-* TARGET: ['_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '입증하다.v']
-* FRAME: ['_', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_', 'Verification']
+* TARGET: ['\_', '\_', '\_', '\_', '\_', '\_', '\_', '\_', '\_', '\_', '\_', '입증하다.v']
+* FRAME: ['\_', '\_', '\_', '\_', '\_', '\_', '\_', '\_', '\_', '\_', '\_', 'Verification']
 * ARGUMENTS: ['B-Inspector', 'I-Inspector', 'I-Inspector', 'I-Inspector', 'I-Inspector', 'I-Inspector', 'B-Unconfirmed_Content', 'I-Unconfirmed_Content', 'I-Unconfirmed_Content', 'I-Unconfirmed_Content', 'B-Manner', 'O']
 
-TARGET list provides target annotation. The tag `_` means that the token is not target word and other tag is target word. For above example, the lexeme `구비되다.v` is annotated for the target word `구비되어` (5th token in TOKEN list). In this case, the lexeme `구비되다.v` is annotated with the frame `Possession`. In terms of FrameNet, arguments is annotated with frame element tags of the frame `Possession` with BIO scheme. For above example, the word '이 도시는' is annotated with `Owner`, the word '대중교통수단이' is with `Possession`, and the word '잘' is with `Manner`. 
+TARGET list provides target annotation. The tag `_` means that the token is not target word and other tag is target word. For above example, the lexeme `입증하다.v` is annotated for the target word `입증했다` (12th token in TOKEN list. i.e. `dev_data[2330][0][11]`). In this case, the lexeme `입증하다.v` is annotated with the frame `Verification`. In terms of FrameNet, arguments is annotated with frame element tags of the frame `Verification` with BIO scheme. For above example, the phrase '한국 축구팬들에게 첫선을 보인 마이클 오언이' is annotated with `Inspector`, the word '세계 최고 골잡이의 명성을' is with `Unconfirmed_Content`, and the word '그대로' is with `Manner`. 
 
 
 ## Licenses
