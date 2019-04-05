@@ -8,7 +8,6 @@ import json
 import os
 from .src import dataio
 
-
 # In[2]:
 
 
@@ -34,6 +33,12 @@ class interface():
             self.kfn_lus = json.load(f)
         with open(file_path+'KFN_annotations.json', 'r') as f:
             self.kfn_annos = json.load(f)
+        with open(dir_path+'/resource/info/kfn'+self.version+'_lufrmap.json', 'r') as f:
+            self.lufrmap = json.load(f)   
+        with open(dir_path+'/resource/info/fn1.7_frame2idx.json', 'r') as f:
+            self.fn17_idx = json.load(f)
+        with open(file_path+'frame2luid.json','r') as f:
+            self.frame2luid = json.load(f)
             
     def load_data(self):
         trn, dev, tst = dataio.load_framenet_data(self.version)
@@ -49,6 +54,18 @@ class interface():
                 item['frame'] = d['frame']
                 item['lu_id'] = int(luid)
                 result.append(item)
+        return result
+    
+    def lus_by_frame(self, frame):
+        result = []
+        luids = self.frame2luid[frame]
+        for luid in luids:
+            d = self.kfn_lus[str(luid)]
+            item = {}
+            item['lu'] = d['lexeme']+'.'+d['pos']
+            item['frame'] = d['frame']
+            item['lu_id'] = int(luid)
+            result.append(item)
         return result
     
     def lus_by_token(self, token):
@@ -82,6 +99,21 @@ class interface():
             item['arguments'] = args
             result.append(item)
         return result
+    
+    def frames(self):
+        result = []                   
+        frames = []
+        for lu in self.lufrmap:
+            frame = self.lufrmap[lu]
+            frames += frame
+        frames = list(set(frames))
+        for f in self.fn17_idx:
+            if self.fn17_idx[f] in frames:
+                result.append(f)
+        return result
+        
+            
+                      
     
     
 
