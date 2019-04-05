@@ -40,6 +40,37 @@ print(lus)
 ]
 ```
 
+**Get LUs by Frame**
+```
+lus = kfn.lus_by_word('Verification')
+print(lus)
+```
+```
+[
+  {'frame': 'Verification', 'lu': '인정받다.v', 'lu_id': 5441},
+  {'frame': 'Verification', 'lu': '인정시키다.v', 'lu_id': 5442},
+  {'frame': 'Verification', 'lu': '검증되다.v', 'lu_id': 419},
+  {'frame': 'Verification', 'lu': '검증시키다.v', 'lu_id': 420},
+  {'frame': 'Verification', 'lu': '확인.n', 'lu_id': 7782},
+  {'frame': 'Verification', 'lu': '검증하다.v', 'lu_id': 423},
+  {'frame': 'Verification', 'lu': '확인되다.v', 'lu_id': 7784},
+  {'frame': 'Verification', 'lu': '인증되다.v', 'lu_id': 5449},
+  {'frame': 'Verification', 'lu': '인증하다.v', 'lu_id': 5451},
+  {'frame': 'Verification', 'lu': '확인하다.v', 'lu_id': 7792},
+  ...
+```
+
+**Get all frames in KFN**
+```
+frames = kfn.frames()
+print(len(frames))
+print(frames
+```
+```
+809
+['Abandonment', 'Abounding_with', 'Absorb_heat', 'Abundance', 'Abusing', 'Accompaniment', 'Accomplishment', ...]
+```
+
 **Get annotations by LU id**
 ```
 annotations = kfn.annotations_by_lu(5566)
