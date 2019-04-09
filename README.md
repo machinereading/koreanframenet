@@ -42,7 +42,7 @@ print(lus)
 
 **Get LUs by Frame**
 ```
-lus = kfn.lus_by_word('Verification')
+lus = kfn.lus_by_frame('Verification')
 print(lus)
 ```
 ```
