@@ -75407,8 +75407,13 @@
         "annotation_ids": [
             6600
         ],
-        "origin_lu": [],
-        "edef": []
+        "origin_lu": [
+	    "confirm"
+	],
+        "edef": [
+	    "confirm"
+	
+	]
     },
     "5245": {
         "lu": "의심의_여지.n.Certainty",

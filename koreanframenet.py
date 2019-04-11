@@ -153,8 +153,11 @@ class interface():
         
     def get_frames_by_trans(self, trans):
         if nltk == True:
-            lemma = r'(?i)'+str(trans)
+            lemma = trans
             frames = fn.frames_by_lemma(lemma)
+            if len(frames) == 0:
+                lemma = r'(?i)'+str(trans)
+                frames = fn.frames_by_lemma(lemma)
             frames = [i.name for i in frames]
             return frames
             
