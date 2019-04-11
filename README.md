@@ -7,7 +7,7 @@ Korean FrameNet is a lexical database that has rich annotations to represent the
 
 <img src="./image/stat.JPG" width="60%" height="60%">
 
-* frame (frame semantics): a schematic representation of a situation. Korean FrameNet is based on ICSI [FrameNet 1.7](https://framenet.icsi.berkeley.edu/). e.g. **_Verification_** (*definition: An Inspector attains a degree of certainty in the Unconfirmed_content, generally by inspecting some evidence.*)
+* frame (frame semantics): a schematic representation of a situation. Korean FrameNet is based on ICSI [FrameNet 1.7](https://framenet.icsi.berkeley.edu/).  **_Verification_** is an example of frames. (*definition: An Inspector attains a degree of certainty in the Unconfirmed_content, generally by inspecting some evidence.*)
 * lexical unit (lu): a word with its part-of-speech. e.g. 입증하다.v
 * LU.frame: a paring of a lu and frame. e.g. 입증하다.v.Verification
 
@@ -119,7 +119,7 @@ definition = kfn.get_frame_definition('Verification')
 print(definition)
 ```
 ```
-A Money_owner exchanges Sum_1 in the  Source_currency for Sum_2 in the Target_currency...
+A Money_owner exchanges Sum_1 in the  Source_currency for Sum_2 in the Target_currency at some Exchange_service.  'After checking into the Intourist-operated $30-a-day Hotel Zerafshon, we each exchanged $50 for Uzbek currency with a shifty loiterer in the lobby at the rate .'  'We recently exchanged $100 for £64.00 UK pounds.'  'If he exchanged the money into Deutsch-marks, his 18 marks in Germany can just barely obtain four Big Macs.'  'He said the most crucial evidence was that of former police reservist, Simo Petersen-Jessen, now in Australia, who had converted the money into rands.'
 ```
 
 
