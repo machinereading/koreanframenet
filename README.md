@@ -126,11 +126,11 @@ A Money_owner exchanges Sum_1 in the  Source_currency for Sum_2 in the Target_cu
 ### (optional) Get frame by English word
 For advanced search, you can use NLTK FrameNet library (http://www.nltk.org/howto/framenet.html). This is a simple interface for NLTK.
 ```
-frames = kfn.get_frames_by_trans('prove')
+frames = kfn.get_frames_by_trans('verify')
 print(frames)
 ```
 ```
-['Cause_to_make_progress', 'Deny_or_grant_permission', 'Dough_rising', 'Evidence', 'Improvement_or_decline', 'Judgment', 'Judgment_direct_address', 'Reasoning', 'Turning_out', 'Unattributed_information']
+['Evidence', 'Verification']
 ```
 
 
