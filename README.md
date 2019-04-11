@@ -27,7 +27,7 @@ version = 1.1
 kfn = koreanframenet.interface(version=version)
 ```
 
-**Get LUs by word**
+### Get LUs by word
 ```
 lus = kfn.lus_by_word('입증하다')
 print(lus)
@@ -40,7 +40,7 @@ print(lus)
 ]
 ```
 
-**Get LUs by Frame**
+### Get LUs by Frame
 ```
 lus = kfn.lus_by_frame('Verification')
 print(lus)
