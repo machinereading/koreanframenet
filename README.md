@@ -97,7 +97,7 @@ print(trans)
 ```
 ```
 [
-  {'frame': 'Statement', 'lu': '입증하다.v', 'trans': []},
+  {'frame': 'Statement', 'lu': '입증하다.v', 'trans': ['confirm']},
   {'frame': 'Verification', 'lu': '입증하다.v', 'trans': ['establish', 'prove', 'testify', 'verify']},
   {'frame': 'Evidence', 'lu': '입증하다.v', 'trans': ['demonstrate']}
 ]
