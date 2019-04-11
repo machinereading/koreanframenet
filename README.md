@@ -84,6 +84,28 @@ print(annotations[4])
  'text': '한국 축구팬들에게 첫선을 보인 마이클 오언이 세계 최고 골잡이의 명성을 그대로 입증했다.'}
 ```
 
+**Get translated words**
+You can get the translated words in KFN in terms of frames. For example, the word '입증하다' would be translated to other words in sense of frames such as 'Statement', 'Verification', and 'Evidence'.
+```
+trans = kfn.get_trans_by_word('입증하다')
+print(trans)
+```
+```
+[
+  {'frame': 'Statement', 'lu': '입증하다.v', 'trans': []},
+  {'frame': 'Verification', 'lu': '입증하다.v', 'trans': ['establish', 'prove', 'testify', 'verify']},
+  {'frame': 'Evidence', 'lu': '입증하다.v', 'trans': ['demonstrate']}
+]
+ ```
+You can also get translated words directly by LU id. 
+```
+trans = kfn.get_trans(5566)
+print(trans)
+```
+```
+['establish', 'prove', 'testify', 'verify']
+```
+
 **Load dataset**
 
 `training_data, dev_data, test_data = kfn.load_data()`
@@ -96,6 +118,26 @@ Each data is a list for a sentence and its FrameNet annotations. Each sentence c
 
 TARGET list provides target annotation. The tag `_` means that the token is not target word and other tag is target word. For above example, the lexeme "입증하다.v" is annotated for the target word "입증했다" (12th token in TOKEN list. i.e. `dev_data[2330][0][11]`). In this case, the lexeme "입증하다.v" is annotated with the frame **_Verification_**. In terms of FrameNet, arguments is annotated with frame element tags of the frame **_Verification_** with BIO scheme. For above example, the argument "한국 축구팬들에게 첫선을 보인 마이클 오언이" is annotated with **_Inspector_**, the argument '세계 최고 골잡이의 명성을' is with **_Unconfirmed_Content_**, and the argument '그대로' is with **_Manner_**. 
 
+
+**(optional) Get Frame Definition**
+For advanced search, you can use NLTK FrameNet library (http://www.nltk.org/howto/framenet.html). This is a simple interface for NLTK.
+```
+definition = kfn.get_frame_definition('Verification')
+print(definition)
+```
+```
+A Money_owner exchanges Sum_1 in the  Source_currency for Sum_2 in the Target_currency...
+```
+
+**(optional) Get Frame by English word**
+For advanced search, you can use NLTK FrameNet library (http://www.nltk.org/howto/framenet.html). This is a simple interface for NLTK.
+```
+frames = kfn.get_frames_by_trans('prove')
+print(frames)
+```
+```
+['Cause_to_make_progress', 'Deny_or_grant_permission', 'Dough_rising', 'Evidence', 'Improvement_or_decline', 'Judgment', 'Judgment_direct_address', 'Reasoning', 'Turning_out', 'Unattributed_information']
+```
 
 ## Licenses
 * `CC BY-NC-SA` [Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/2.0/)
