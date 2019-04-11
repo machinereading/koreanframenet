@@ -112,7 +112,7 @@ print(trans)
 ```
 
 
-### (optional) Get Frame Definition
+### (optional) Get frame definition
 For advanced search, you can use NLTK FrameNet library (http://www.nltk.org/howto/framenet.html). This is a simple interface for NLTK.
 ```
 definition = kfn.get_frame_definition('Verification')
@@ -123,7 +123,7 @@ A Money_owner exchanges Sum_1 in the  Source_currency for Sum_2 in the Target_cu
 ```
 
 
-### (optional) Get Frame by English word
+### (optional) Get frame by English word
 For advanced search, you can use NLTK FrameNet library (http://www.nltk.org/howto/framenet.html). This is a simple interface for NLTK.
 ```
 frames = kfn.get_frames_by_trans('prove')
