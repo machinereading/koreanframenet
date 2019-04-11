@@ -8,6 +8,16 @@ import json
 import os
 from .src import dataio
 
+nltk = False
+try:
+    from nltk.corpus import framenet as fn
+    nltk = True
+except KeyboardInterrupt:
+    raise
+except:
+    pass
+
+
 # In[2]:
 
 
@@ -26,7 +36,7 @@ dir_path = os.path.dirname(os.path.abspath(__file__))
 
 
 class interface():
-    def __init__(self, version=1.0):
+    def __init__(self, version=1.1):
         self.version = str(version)
         file_path = dir_path+'/resource/'+self.version+'/'
         with open(file_path+'KFN_lus.json', 'r') as f:
@@ -111,6 +121,46 @@ class interface():
             if self.fn17_idx[f] in frames:
                 result.append(f)
         return result
+    
+    def get_trans(self, luid):
+        luid = str(luid)
+        trans = self.kfn_lus[luid]['edef']
+        return trans
+    
+    def get_trans_by_word(self, word):
+        result = []
+        kfn_interface = interface(version=self.version)
+        lus = kfn_interface.lus_by_word(word)
+        for lu_item in lus:
+            lu, frame, luid = lu_item['lu'],lu_item['frame'],lu_item['lu_id']
+            trans = kfn_interface.get_trans(luid)
+            item = {}
+            item['lu'] = lu
+            item['frame'] = frame
+            item['trans'] = trans
+            result.append(item)
+        return result
+    
+    def get_frame_definition(self, frame):
+        if nltk == True:
+            frame_idx = self.fn17_idx[frame]
+            f = fn.frame(frame_idx)
+            definition = f.definition
+            return definition            
+        else:
+            print('please install nltk FrameNet first. refer: http://www.nltk.org/howto/framenet.html')
+            return False
+        
+    def get_frames_by_trans(self, trans):
+        if nltk == True:
+            lemma = r'(?i)'+str(trans)
+            frames = fn.frames_by_lemma(lemma)
+            frames = [i.name for i in frames]
+            return frames
+            
+        else:
+            print('please install nltk FrameNet first. refer: http://www.nltk.org/howto/framenet.html')
+            return False
         
             
                       
