@@ -134,7 +134,7 @@ print(frames)
 ```
 
 
-### Load dataset
+## How to Load Korean FrameNet dataset: training data, dev data, and test data
 
 `training_data, dev_data, test_data = kfn.load_data()`
 
