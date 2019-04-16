@@ -255,7 +255,7 @@
 2	이	_	_	O
 3	시원한	_	_	O
 4	가을	가을.n	Calendric_unit	O
-5	저녁에	_	_	B-Gov
+5	저녁에	_	_	O
 6	종소리를	_	_	O
 7	즐기는	_	_	O
 8	교회를	_	_	O
@@ -806,8 +806,8 @@
 #sentid:49
 #text:하나의 완전히 새로운 그룹이 Great Torrington에서 오늘 종을 치는데, 이들 중 몇 명은 신도 멤버들이다.
 0	하나의	_	_	O
-1	완전히	_	_	B-Aggregateproperty
-2	새로운	_	_	I-Aggregateproperty
+1	완전히	_	_	B-Aggregate_property
+2	새로운	_	_	I-Aggregate_property
 3	그룹이	그룹.n	Aggregate	O
 4	Great	_	_	O
 5	Torrington에서	_	_	O
@@ -842,7 +842,7 @@
 #sentid:58
 #text:일종의 종치는 그룹들의 의회인 The Central Council of Church Bell Ringers는 교구 목사들과의 관계를 증진시키는데 목적을 둔다고 의장인 John C.
 0	일종의	_	_	O
-1	종치는	_	_	B-Aggregateproperty
+1	종치는	_	_	B-Aggregate_property
 2	그룹들의	그룹.n	Aggregate	O
 3	의회인	_	_	O
 4	The	_	_	O
@@ -2257,9 +2257,9 @@
 4	:	_	_	O
 5	나는	_	_	B-Perceiver_passive
 6	만	_	_	O
-7	건너	_	_	B-Location_of_perceiver
-8	나의	_	_	I-Location_of_perceiver
-9	집에서	_	_	I-Location_of_perceiver
+7	건너	_	_	B-Location_of_protagonist
+8	나의	_	_	I-Location_of_protagonist
+9	집에서	_	_	I-Location_of_protagonist
 10	샌프란시스코로부터	_	_	B-Phenomenon
 11	오는	_	_	I-Phenomenon
 12	화염을	_	_	I-Phenomenon
@@ -3362,9 +3362,9 @@
 7	앞으로	_	_	O
 8	걸어가	_	_	O
 9	서서,	_	_	O
-10	Merrill이	_	_	B-Desired_state
-11	집에	_	_	I-Desired_state
-12	오기를	_	_	I-Desired_state
+10	Merrill이	_	_	B-Desired_state_of_affairs
+11	집에	_	_	I-Desired_state_of_affairs
+12	오기를	_	_	I-Desired_state_of_affairs
 13	기다리며	_	_	O
 14	기도하고,	기도하다.v	Rite	O
 15	그가	_	_	O
@@ -3991,10 +3991,10 @@
 0	미국	_	_	O
 1	교육의	_	_	O
 2	미래는	_	_	O
-3	우리	_	_	B-Grantor
-4	모두가	_	_	I-Grantor
-5	이러한	_	_	B-Grantee
-6	상식이	_	_	I-Grantee
+3	우리	_	_	B-Authority
+4	모두가	_	_	I-Authority
+5	이러한	_	_	B-Protagonist
+6	상식이	_	_	I-Protagonist
 7	우리가	_	_	B-Action
 8	또한	_	_	I-Action
 9	공유하고	_	_	I-Action
@@ -4579,8 +4579,8 @@
 8	초등학교를	_	_	B-Action
 9	졸업하는	_	_	I-Action
 10	것은	_	_	I-Action
-11	어떤	_	_	B-Grantee
-12	학생들에게도	_	_	I-Grantee
+11	어떤	_	_	B-Protagonist
+12	학생들에게도	_	_	I-Protagonist
 13	허용해서는	허용하다.v	Deny_or_grant_permission	O
 14	안된다.	_	_	O
 
@@ -9732,7 +9732,7 @@
 #sentid:483
 #text:아니면 인터넷은 어떤 기업도 지배하기를 허용되지 않는 강한 회사들의 과잉 및 기업들의 복잡한 상호 연결을 허용하고 격려하기 때문에 이들 중 어떤 회사도 강자가 되지 않을까 ?
 0	아니면	_	_	O
-1	인터넷은	_	_	B-Grantor
+1	인터넷은	_	_	B-Authority
 2	어떤	_	_	B-Action
 3	기업도	_	_	I-Action
 4	지배하기를	_	_	I-Action
@@ -9820,8 +9820,8 @@
 #text:아니면 인터넷은 어떤 기업도 지배하기를 허용되지 않는 강한 회사들의 과잉 및 기업들의 복잡한 상호 연결을 허용하고 격려하기 때문에 이들 중 어떤 회사도 강자가 되지 않을까 ?
 0	아니면	_	_	O
 1	인터넷은	_	_	O
-2	어떤	_	_	B-Grantee
-3	기업도	_	_	I-Grantee
+2	어떤	_	_	B-Protagonist
+3	기업도	_	_	I-Protagonist
 4	지배하기를	_	_	B-Action
 5	허용되지	허용되다.v	Deny_or_grant_permission	O
 6	않는	_	_	O
@@ -10762,7 +10762,7 @@
 
 #sentid:527
 #text:섬의 공동체들은 한동안 어느 편을 지지할지에 대해 결정하지 못했다.
-0	섬의	_	_	B-Aggregateproperty
+0	섬의	_	_	B-Aggregate_property
 1	공동체들은	공동체.n	Aggregate	O
 2	한동안	_	_	O
 3	어느	_	_	O
@@ -12604,7 +12604,7 @@
 
 #sentid:592
 #text:그리스는 2,000 년 이상 실질적인 그리스 인구를 가진 소아시아 서부 해안에 있는 대상(臺狀)의 영토를 넘겨받았다.
-0	그리스는	_	_	B-Aggregateproperty
+0	그리스는	_	_	B-Aggregate_property
 1	2,000	_	_	O
 2	년	_	_	O
 3	이상	_	_	O
@@ -14353,8 +14353,8 @@
 1	바빌론	_	_	O
 2	왕국은	_	_	O
 3	전복되고	_	_	O
-4	이스라엘	_	_	B-Grantee
-5	백성들은	_	_	I-Grantee
+4	이스라엘	_	_	B-Protagonist
+5	백성들은	_	_	I-Protagonist
 6	기원전	_	_	B-Time
 7	539년에	_	_	I-Time
 8	예루살렘으로	_	_	B-Action
@@ -15028,11 +15028,11 @@
 
 #sentid:674
 #text:로마에 맞선 첫 반란의 결과로 백만 명의 시민의 절반은 갈릴리와 유대에서 죽었는데, 이 숫자는 고대 전투에서 필적할 수 없는 숫자이다.
-0	로마에	_	_	B-Sub_event
-1	맞선	_	_	I-Sub_event
-2	첫	_	_	I-Sub_event
-3	반란의	_	_	I-Sub_event
-4	결과로	_	_	I-Sub_event
+0	로마에	_	_	B-Containing_event
+1	맞선	_	_	I-Containing_event
+2	첫	_	_	I-Containing_event
+3	반란의	_	_	I-Containing_event
+4	결과로	_	_	I-Containing_event
 5	백만	_	_	B-Protagonist
 6	명의	_	_	I-Protagonist
 7	시민의	_	_	I-Protagonist
@@ -15324,7 +15324,7 @@
 4	도시의	_	_	O
 5	가장	_	_	O
 6	아름다운	_	_	O
-7	로마	_	_	B-Builder
+7	로마	_	_	B-Creator
 8	신전이	신전.n	Buildings	O
 9	십자가	_	_	O
 10	처형	_	_	O
@@ -15791,17 +15791,17 @@
 3	의해	_	_	O
 4	격리된	_	_	O
 5	도시로	_	_	O
-6	이스라엘이나	_	_	B-Grantee
-7	유대인	_	_	I-Grantee
-8	순례자들은	_	_	I-Grantee
-9	Western	_	_	I-Grantee
-10	Wall	_	_	I-Grantee
-11	이나	_	_	I-Grantee
-12	동예루살렘의	_	_	I-Grantee
-13	다른	_	_	I-Grantee
-14	유대인	_	_	I-Grantee
-15	지역으로의	_	_	I-Grantee
-16	방문이	_	_	I-Grantee
+6	이스라엘이나	_	_	B-Protagonist
+7	유대인	_	_	I-Protagonist
+8	순례자들은	_	_	I-Protagonist
+9	Western	_	_	I-Protagonist
+10	Wall	_	_	I-Protagonist
+11	이나	_	_	I-Protagonist
+12	동예루살렘의	_	_	I-Protagonist
+13	다른	_	_	I-Protagonist
+14	유대인	_	_	I-Protagonist
+15	지역으로의	_	_	I-Protagonist
+16	방문이	_	_	I-Protagonist
 17	허용되지	허용되다.v	Deny_or_grant_permission	O
 18	않았다.	_	_	O
 
@@ -17057,13 +17057,13 @@
 1	끝났을	_	_	O
 2	때,	_	_	O
 3	Hughes는	_	_	O
-4	Strip에서	_	_	B-Coparticipant
-5	산들이	_	_	I-Coparticipant
-6	있는	_	_	I-Coparticipant
-7	곳까지	_	_	I-Coparticipant
-8	뻗은	_	_	I-Coparticipant
-9	많은	_	_	I-Coparticipant
-10	대지와	_	_	I-Coparticipant
+4	Strip에서	_	_	B-Co_participant
+5	산들이	_	_	I-Co_participant
+6	있는	_	_	I-Co_participant
+7	곳까지	_	_	I-Co_participant
+8	뻗은	_	_	I-Co_participant
+9	많은	_	_	I-Co_participant
+10	대지와	_	_	I-Co_participant
 11	함께,	함께.ad	Accompaniment	O
 12	6개의	_	_	O
 13	카지노,	_	_	B-Participant
@@ -18578,8 +18578,8 @@
 7	되었고,	_	_	O
 8	이	_	_	B-Supplier
 9	호텔들은	_	_	I-Supplier
-10	완벽한	_	_	B-Purpose_of_recipient
-11	휴가에	_	_	I-Purpose_of_recipient
+10	완벽한	_	_	B-Imposed_purpose
+11	휴가에	_	_	I-Imposed_purpose
 12	필요한	_	_	B-Theme
 13	거의	_	_	I-Theme
 14	모든	_	_	I-Theme
@@ -18736,9 +18736,9 @@
 
 #sentid:933
 #text:모든 것이 포함된 패키지와 큰 리조트 호텔들은 식당, 스포츠 활동, 여흥, 바 내의 넓은 화면의 스포츠 채널, 쇼핑, 그리고 햇볕에 그을은 갈색 피부를 제공한다.
-0	모든	_	_	B-Aggregateproperty
-1	것이	_	_	I-Aggregateproperty
-2	포함된	_	_	I-Aggregateproperty
+0	모든	_	_	B-Aggregate_property
+1	것이	_	_	I-Aggregate_property
+2	포함된	_	_	I-Aggregate_property
 3	패키지와	패키지.n	Aggregate	O
 4	큰	_	_	O
 5	리조트	_	_	O
@@ -19277,7 +19277,7 @@
 0	번영은	_	_	O
 1	그와	_	_	O
 2	함께	_	_	O
-3	역사적	_	_	B-Undergoer
+3	역사적	_	_	B-Manner
 4	보존에	보존.n	Preserving	O
 5	대한	_	_	O
 6	새로운	_	_	O
@@ -21261,7 +21261,7 @@
 3	산장에	_	_	O
 4	속해	_	_	O
 5	있었지만	_	_	O
-6	건물은	_	_	B-Undergoer
+6	건물은	_	_	B-Patient
 7	홍콩	_	_	B-Containing_event
 8	점령	_	_	I-Containing_event
 9	기간동안	_	_	I-Containing_event
@@ -22061,10 +22061,10 @@
 1	여행자	_	_	O
 2	지역인	_	_	O
 3	이곳은	_	_	O
-4	많은	_	_	B-Coparticipant
-5	좋은	_	_	I-Coparticipant
-6	식당과	_	_	I-Coparticipant
-7	함께,	함께.ad	Accompaniment	I-Coparticipant
+4	많은	_	_	B-Co_participant
+5	좋은	_	_	I-Co_participant
+6	식당과	_	_	I-Co_participant
+7	함께,	함께.ad	Accompaniment	I-Co_participant
 8	쇼핑	_	_	B-Participant
 9	센터와	_	_	I-Participant
 10	백화점으로	_	_	I-Participant
@@ -24468,24 +24468,24 @@
 #text:보도에 의하면 일련의 인공위성 발사와 일부 식량 지원에 대한 요구를 클린턴 행정부에 의해 허물어졌지만, 잠재적인 거래는 북한이 여전히 핵심 부품이 부족하였는데 이것은-북한이 합의를 지키고 있는가를 확인하는 방법과-언제 클린턴 팀은 시간이 다 되었나 이다.
 0	보도에	_	_	O
 1	의하면	_	_	O
-2	일련의	_	_	B-Reported_fact
-3	인공위성	_	_	I-Reported_fact
-4	발사와	_	_	I-Reported_fact
-5	일부	_	_	I-Reported_fact
-6	식량	_	_	I-Reported_fact
-7	지원에	_	_	I-Reported_fact
-8	대한	_	_	I-Reported_fact
-9	요구를	_	_	I-Reported_fact
-10	클린턴	_	_	I-Reported_fact
-11	행정부에	_	_	I-Reported_fact
-12	의해	_	_	I-Reported_fact
-13	허물어졌지만,	_	_	I-Reported_fact
+2	일련의	_	_	O
+3	인공위성	_	_	O
+4	발사와	_	_	O
+5	일부	_	_	O
+6	식량	_	_	O
+7	지원에	_	_	O
+8	대한	_	_	O
+9	요구를	_	_	O
+10	클린턴	_	_	O
+11	행정부에	_	_	O
+12	의해	_	_	O
+13	허물어졌지만,	_	_	O
 14	잠재적인	_	_	O
 15	거래는	거래.n	Be_in_agreement_on_action	O
 16	북한이	_	_	B-Protagonist
 17	여전히	_	_	O
 18	핵심	_	_	O
-19	부품이	_	_	B-Means
+19	부품이	_	_	O
 20	부족하였는데	_	_	O
 21	이것은-북한이	_	_	O
 22	합의를	_	_	O
@@ -24494,7 +24494,7 @@
 25	확인하는	_	_	O
 26	방법과-언제	_	_	O
 27	클린턴	_	_	O
-28	팀은	_	_	B-Aggregate
+28	팀은	_	_	O
 29	시간이	_	_	O
 30	다	_	_	O
 31	되었나	_	_	O
@@ -25729,7 +25729,7 @@
 10	스커드	_	_	O
 11	미사일을	_	_	B-Product
 12	입수한	_	_	O
-13	이란인들은	_	_	B-Manufacturer
+13	이란인들은	_	_	B-Producer
 14	지금은	_	_	O
 15	스스로	_	_	B-Means
 16	미사일을	_	_	O
@@ -25908,7 +25908,7 @@
 #text:QN : 리비아는 현재 Rabta의 공장에서 신경작용제를 생산하고 있나 ?
 0	QN	_	_	O
 1	:	_	_	O
-2	리비아는	_	_	B-Manufacturer
+2	리비아는	_	_	B-Producer
 3	현재	_	_	B-Time
 4	Rabta의	_	_	B-Factory
 5	공장에서	_	_	I-Factory
@@ -26002,13 +26002,13 @@
 1	Dugway	_	_	I-Chosen
 2	Proving	_	_	I-Chosen
 3	Ground는	_	_	I-Chosen
-4	세균전작용제에	_	_	B-Intended_purpose
-5	저항할	_	_	I-Intended_purpose
-6	군	_	_	I-Intended_purpose
-7	백신을	_	_	I-Intended_purpose
-8	실험하기	_	_	I-Intended_purpose
-9	위한	_	_	I-Intended_purpose
-10	장소로	_	_	I-Intended_purpose
+4	세균전작용제에	_	_	B-Inherent_purpose
+5	저항할	_	_	I-Inherent_purpose
+6	군	_	_	I-Inherent_purpose
+7	백신을	_	_	I-Inherent_purpose
+8	실험하기	_	_	I-Inherent_purpose
+9	위한	_	_	I-Inherent_purpose
+10	장소로	_	_	I-Inherent_purpose
 11	선정되었다.	선정되다.v	Choosing	O
 
 #sentid:1357
@@ -26061,11 +26061,11 @@
 0	QN	_	_	O
 1	:	_	_	O
 2	누가	_	_	B-Destroyer
-3	GB	_	_	B-Undergoer
-4	신경작용제	_	_	I-Undergoer
-5	5	_	_	I-Undergoer
-6	백만	_	_	I-Undergoer
-7	파운드를	_	_	I-Undergoer
+3	GB	_	_	B-Patient
+4	신경작용제	_	_	I-Patient
+5	5	_	_	I-Patient
+6	백만	_	_	I-Patient
+7	파운드를	_	_	I-Patient
 8	파괴하였나	파괴하다.v	Destroying	O
 9	?	_	_	O
 
@@ -27177,7 +27177,7 @@
 #text:QN : 이란은 핵무기를 생산할 작정인가 ?
 0	QN	_	_	O
 1	:	_	_	O
-2	이란은	_	_	B-Manufacturer
+2	이란은	_	_	B-Producer
 3	핵무기를	_	_	B-Product
 4	생산할	생산하다.v	Manufacturing	O
 5	작정인가	_	_	O
@@ -27512,10 +27512,10 @@
 3	세계보건기구의	_	_	O
 4	보고에	_	_	O
 5	의하면,	_	_	O
-6	나라의	_	_	B-Undergoer
-7	많은	_	_	I-Undergoer
-8	의료	_	_	I-Undergoer
-9	기간시설을	_	_	I-Undergoer
+6	나라의	_	_	B-Patient
+7	많은	_	_	I-Patient
+8	의료	_	_	I-Patient
+9	기간시설을	_	_	I-Patient
 10	파괴하였다.	파괴하다.v	Destroying	O
 
 #sentid:1487
@@ -29553,9 +29553,9 @@
 #sentid:1541
 #text:우리들의 보기 드문 영구 소장품, 시설, 부지는 공공심이 있는 남녀의 박애주의적인 지원 없이는 가능하지 않았을 것이라는 것을 우리는 충분히 잘 알고 있습니다.
 0	우리들의	_	_	O
-1	보기	_	_	B-Aggregateproperty
-2	드문	_	_	I-Aggregateproperty
-3	영구	_	_	I-Aggregateproperty
+1	보기	_	_	B-Aggregate_property
+2	드문	_	_	I-Aggregate_property
+3	영구	_	_	I-Aggregate_property
 4	소장품,	소장품.n	Aggregate	O
 5	시설,	_	_	O
 6	부지는	_	_	O
@@ -36753,8 +36753,8 @@
 
 #sentid:1992
 #text:노리에가는 카스트로와 밀접하고 한때 그의 요원이었다.
-0	노리에가는	_	_	B-Individual1
-1	카스트로와	_	_	B-Individual2
+0	노리에가는	_	_	B-Individual_1
+1	카스트로와	_	_	B-Individual_2
 2	밀접하고	밀접하다.a	Social_connection	O
 3	한때	_	_	O
 4	그의	_	_	O
@@ -42021,7 +42021,7 @@
 #text:정부 보고나 추방 단체로부터의 주장을 검증할 구체적인 기제가 없기 때문에, 이란의 생물무기 프로그램에 관한 많은 주장은 입증되지 않고 있다.
 0	정부	_	_	O
 1	보고나	_	_	O
-2	추방	_	_	B-Aggregateproperty
+2	추방	_	_	B-Aggregate_property
 3	단체로부터의	단체.n	Aggregate	O
 4	주장을	_	_	O
 5	검증할	_	_	O
@@ -44863,7 +44863,7 @@
 #text:관리들은 또한 이란이 이런 작용제로 채워진 폭탄과 포를 생산하였고, 아마도 장거리 미사일에 화학 탄두를 장착할 수 있을 것이라고 주장한다.
 0	관리들은	_	_	O
 1	또한	_	_	O
-2	이란이	_	_	B-Manufacturer
+2	이란이	_	_	B-Producer
 3	이런	_	_	B-Product
 4	작용제로	_	_	I-Product
 5	채워진	_	_	I-Product
@@ -45073,7 +45073,7 @@
 5	이라크와의	_	_	I-Time
 6	전쟁	_	_	I-Time
 7	동안,	_	_	I-Time
-8	이란은	_	_	B-Undergoer
+8	이란은	_	_	B-Patient
 9	수포	_	_	B-Undesirable_event
 10	(	_	_	I-Undesirable_event
 11	겨자	_	_	I-Undesirable_event
@@ -48827,8 +48827,8 @@
 13	국방장관	_	_	O
 14	Ali	_	_	O
 15	Shamkhani이	_	_	O
-16	이란	_	_	B-Manufacturer
-17	군대가	_	_	I-Manufacturer
+16	이란	_	_	B-Producer
+17	군대가	_	_	I-Producer
 18	우라늄	_	_	B-Purpose
 19	농축을	_	_	I-Purpose
 20	위해	_	_	I-Purpose
@@ -48980,7 +48980,7 @@
 16	이란	_	_	O
 17	군대가	_	_	O
 18	우라늄	우라늄.n	Substance	O
-19	농축을	_	_	B-Gov
+19	농축을	_	_	B-Inherent_purpose
 20	위해	_	_	O
 21	원심분리기를	_	_	O
 22	만들었다고	_	_	O
@@ -49503,8 +49503,8 @@
 13	확보하였고	_	_	O
 14	고유의	_	_	O
 15	미사일	_	_	O
-16	제조를	_	_	B-Gov
-17	위한	_	_	I-Gov
+16	제조를	_	_	O
+17	위한	_	_	O
 18	기반	_	_	O
 19	시설을	_	_	O
 20	발전시켰다.	_	_	O
@@ -51035,7 +51035,7 @@
 9	만든	_	_	O
 10	대대급	_	_	O
 11	미사일	_	_	O
-12	부대에	_	_	B-Gov
+12	부대에	_	_	O
 13	배당되었고,	_	_	O
 14	이들의	_	_	O
 15	인원은	_	_	O
@@ -52543,7 +52543,7 @@
 3	혁명	_	_	O
 4	당시	_	_	O
 5	조국을	조국.n	Political_locales	O
-6	떠난	_	_	B-Gov
+6	떠난	_	_	B-Descriptor
 7	과학자들과	_	_	O
 8	기술	_	_	O
 9	전문가들을	_	_	O
@@ -52623,7 +52623,7 @@
 2	이란은	_	_	O
 3	신형	_	_	O
 4	액체	액체.n	Substance	O
-5	연료	_	_	B-Gov
+5	연료	_	_	B-Inherent_purpose
 6	Ra'ad	_	_	O
 7	미사일	_	_	O
 8	개시를	_	_	O
@@ -52701,7 +52701,7 @@
 14	미사일을	_	_	O
 15	위한	_	_	O
 16	생산	생산.n	Manufacturing	O
-17	시설을	_	_	B-Gov
+17	시설을	_	_	B-Factory
 18	착수하였다.	_	_	O
 
 #sentid:2513
@@ -53426,7 +53426,7 @@
 #sentid:2546
 #text:중국은 과학자들이 러시아제 SS-4 탄도 미사일 기술을 이용하여 연구를 수행하고 다른 탄도 미사일 기술을 만드는 탄도 미사일 공장 건축을 도운 것으로 여겨진다.
 0	중국은	_	_	O
-1	과학자들이	_	_	B-Manufacturer
+1	과학자들이	_	_	B-Producer
 2	러시아제	_	_	O
 3	SS-4	_	_	O
 4	탄도	_	_	O
@@ -53476,7 +53476,7 @@
 #text:1950 년대에, Shah 는 이란의 핵 연구 프로그램을 착수하였고 세기 말 까지 원자력 발전으로부터 23,000 메가와트를 생산하기 위한 야심찬 계획을 발전시켰다.
 0	1950	_	_	O
 1	년대에,	_	_	O
-2	Shah	_	_	B-Manufacturer
+2	Shah	_	_	B-Producer
 3	는	_	_	O
 4	이란의	_	_	O
 5	핵	_	_	O
@@ -56420,11 +56420,11 @@
 #sentid:2635
 #text:동시에, 일부 다른 IAEA 위원회 멤버들과 함께 미국은 이란이 지하 핵무기 프로그램을 추구하고 있다고 계속해서 주장하고 있다.
 0	동시에,	_	_	O
-1	일부	_	_	B-Coparticipant
-2	다른	_	_	I-Coparticipant
-3	IAEA	_	_	I-Coparticipant
-4	위원회	_	_	I-Coparticipant
-5	멤버들과	_	_	I-Coparticipant
+1	일부	_	_	B-Co_participant
+2	다른	_	_	I-Co_participant
+3	IAEA	_	_	I-Co_participant
+4	위원회	_	_	I-Co_participant
+5	멤버들과	_	_	I-Co_participant
 6	함께	함께하다.v	Accompaniment	O
 7	미국은	_	_	B-Participant
 8	이란이	_	_	O
@@ -57099,7 +57099,7 @@
 1	우라늄	우라늄.n	Substance	O
 2	매장층을	_	_	O
 3	탐험하고	_	_	O
-4	이용하기	_	_	B-Gov
+4	이용하기	_	_	B-Inherent_purpose
 5	위해	_	_	O
 6	Yazd	_	_	O
 7	지방에	_	_	O
@@ -58311,7 +58311,7 @@
 7	및	_	_	O
 8	관련	_	_	O
 9	기술의	_	_	O
-10	비확산에	_	_	B-Gov
+10	비확산에	_	_	O
 11	대한	_	_	O
 12	약속을	_	_	O
 13	선언하였다.	_	_	O
@@ -58733,7 +58733,7 @@
 0	SCQZI	_	_	O
 1	및	_	_	O
 2	SCQZI는	_	_	O
-3	광범위한	_	_	B-Aggregateproperty
+3	광범위한	_	_	B-Aggregate_property
 4	독성	_	_	B-Individuals
 5	염좌	_	_	I-Individuals
 6	더미를	더미.n	Aggregate	O
@@ -58805,10 +58805,10 @@
 6	위해	_	_	O
 7	러시아로	_	_	O
 8	이전하였고	_	_	O
-9	미사일	_	_	B-Undergoer
-10	격납고와	_	_	I-Undergoer
-11	격납고	_	_	I-Undergoer
-12	구조물은	_	_	I-Undergoer
+9	미사일	_	_	B-Patient
+10	격납고와	_	_	I-Patient
+11	격납고	_	_	I-Patient
+12	구조물은	_	_	I-Patient
 13	1999년	_	_	B-Time
 14	9월	_	_	I-Time
 15	까지	_	_	O
@@ -58924,7 +58924,7 @@
 5	해체를	해체.n	Destroying	O
 6	위해	_	_	O
 7	러시아로	_	_	O
-8	이전하였고	_	_	B-Gov
+8	이전하였고	_	_	O
 9	미사일	_	_	O
 10	격납고와	_	_	O
 11	격납고	_	_	O
@@ -59496,9 +59496,9 @@
 11	Mohamed	_	_	O
 12	ElBaradei에	_	_	O
 13	의하면,	_	_	O
-14	리비아의	_	_	B-Manufacturer
-15	핵무기	_	_	I-Manufacturer
-16	프로그램은	_	_	I-Manufacturer
+14	리비아의	_	_	B-Producer
+15	핵무기	_	_	I-Producer
+16	프로그램은	_	_	I-Producer
 17	핵무기	_	_	O
 18	생산에	생산.n	Manufacturing	O
 19	약	_	_	O
@@ -59672,7 +59672,7 @@
 1	대한	_	_	O
 2	2003년	_	_	O
 3	12월	_	_	O
-4	조사	_	_	B-Aggregateproperty
+4	조사	_	_	B-Aggregate_property
 5	팀을	팀.n	Aggregate	O
 6	이끈	_	_	O
 7	국제	_	_	O
@@ -61691,7 +61691,7 @@
 4	미국	_	_	O
 5	정보	_	_	O
 6	공동체는	_	_	O
-7	북한이	_	_	B-Manufacturer
+7	북한이	_	_	B-Producer
 8	한	_	_	B-Product
 9	개,	_	_	I-Product
 10	또는	_	_	I-Product
@@ -61849,7 +61849,7 @@
 3	북한	_	_	O
 4	기술자들은	_	_	O
 5	동결을	동결.n	Activity_pause	O
-6	감시하기	_	_	B-Gov
+6	감시하기	_	_	O
 7	위해	_	_	O
 8	IAEA가	_	_	O
 9	설치한	_	_	O
@@ -62580,7 +62580,7 @@
 23	비축량을	_	_	I-Product
 24	생산할	_	_	O
 25	능력을	_	_	O
-26	평양에	_	_	B-Manufacturer
+26	평양에	_	_	B-Producer
 27	주는	_	_	O
 28	것이다.	_	_	O
 
@@ -62703,7 +62703,7 @@
 #sentid:2824
 #text:지금까지, 북한은 탄저병 박테리아, 보툴리눔 독소, 그리고 전염병 박테리아를 개발 및 생산하였을 가능성이 있다.
 0	지금까지,	_	_	O
-1	북한은	_	_	B-Manufacturer
+1	북한은	_	_	B-Producer
 2	탄저병	_	_	B-Product
 3	박테리아,	_	_	I-Product
 4	보툴리눔	_	_	I-Product
@@ -64167,7 +64167,7 @@
 1	기반의	_	_	O
 2	폭탄	_	_	O
 3	프로그램은	_	_	O
-4	우라늄을	_	_	B-Undergoer
+4	우라늄을	_	_	B-Patient
 5	채굴	_	_	O
 6	및	_	_	O
 7	가공하고	가공하다.v	Grinding	O
@@ -64472,7 +64472,7 @@
 4	천연	_	_	O
 5	혹은	_	_	O
 6	가공된	가공되다.v	Ground_up	O
-7	우라늄을	_	_	B-Undergoer
+7	우라늄을	_	_	B-Patient
 8	구매하고,	_	_	O
 9	그런	_	_	O
 10	다음	_	_	O
@@ -64839,7 +64839,7 @@
 6	많은	_	_	I-Product
 7	핵무기를	_	_	I-Product
 8	한	_	_	O
-9	국가가	_	_	B-Manufacturer
+9	국가가	_	_	B-Producer
 10	생산할	생산하다.v	Manufacturing	O
 11	수	_	_	O
 12	있는가를	_	_	O
@@ -69820,7 +69820,7 @@
 
 #sentid:3004
 #text:러시아는 모든 사정거리의 고도로 정교한 정교한 액체 - 그리고 고체 - 연료 미사일을 생산할 능력을 가졌다.
-0	러시아는	_	_	B-Manufacturer
+0	러시아는	_	_	B-Producer
 1	모든	_	_	B-Product
 2	사정거리의	_	_	I-Product
 3	고도로	_	_	I-Product
@@ -70211,11 +70211,11 @@
 #sentid:3020
 #text:1973년에, 그 당시 수상이던 Johnnes Vorster 는 제한된 핵 억제 능력을 개발하기 위한 프로그램을 승인하였다.
 0	1973년에,	_	_	B-Time
-1	그	_	_	B-Grantor
-2	당시	_	_	I-Grantor
-3	수상이던	_	_	I-Grantor
-4	Johnnes	_	_	I-Grantor
-5	Vorster	_	_	I-Grantor
+1	그	_	_	B-Authority
+2	당시	_	_	I-Authority
+3	수상이던	_	_	I-Authority
+4	Johnnes	_	_	I-Authority
+5	Vorster	_	_	I-Authority
 6	는	_	_	O
 7	제한된	_	_	B-Action
 8	핵	_	_	I-Action
@@ -73081,9 +73081,9 @@
 #sentid:3087
 #text:MNSR은 핵 분석을 위한 중성자, 산업용을 위한 동위 원소, 그리고 훈련 목적의 방사성 동위 원소를 생산하기 위한 능력을 시리아에 제공하였으나, 무기 생산에는 부적합하였다.
 0	MNSR은	_	_	O
-1	핵	_	_	B-Purpose_of_created_entity
-2	분석을	_	_	I-Purpose_of_created_entity
-3	위한	_	_	I-Purpose_of_created_entity
+1	핵	_	_	B-Beneficiary
+2	분석을	_	_	I-Beneficiary
+3	위한	_	_	I-Beneficiary
 4	중성자,	_	_	B-Created_entity
 5	산업용을	_	_	O
 6	위한	_	_	O
@@ -73111,8 +73111,8 @@
 2	분석을	_	_	O
 3	위한	_	_	O
 4	중성자,	_	_	O
-5	산업용을	_	_	B-Purpose_of_created_entity
-6	위한	_	_	I-Purpose_of_created_entity
+5	산업용을	_	_	B-Beneficiary
+6	위한	_	_	I-Beneficiary
 7	동위	_	_	O
 8	원소,	_	_	O
 9	그리고	_	_	O
@@ -73142,8 +73142,8 @@
 7	동위	_	_	O
 8	원소,	_	_	O
 9	그리고	_	_	O
-10	훈련	_	_	B-Purpose_of_created_entity
-11	목적의	_	_	I-Purpose_of_created_entity
+10	훈련	_	_	B-Beneficiary
+11	목적의	_	_	I-Beneficiary
 12	방사성	_	_	B-Created_entity
 13	동위	_	_	I-Created_entity
 14	원소를	_	_	I-Created_entity
@@ -73159,9 +73159,9 @@
 #sentid:3087
 #text:MNSR은 핵 분석을 위한 중성자, 산업용을 위한 동위 원소, 그리고 훈련 목적의 방사성 동위 원소를 생산하기 위한 능력을 시리아에 제공하였으나, 무기 생산에는 부적합하였다.
 0	MNSR은	_	_	O
-1	핵	_	_	B-Purpose_of_created_entity
-2	분석을	_	_	I-Purpose_of_created_entity
-3	위한	_	_	I-Purpose_of_created_entity
+1	핵	_	_	B-Beneficiary
+2	분석을	_	_	I-Beneficiary
+3	위한	_	_	I-Beneficiary
 4	중성자,	_	_	B-Created_entity
 5	산업용을	_	_	O
 6	위한	_	_	O
@@ -73248,8 +73248,8 @@
 2	한	_	_	O
 3	이탈리아	_	_	O
 4	신문은	_	_	O
-5	시리아는	_	_	B-Grantor
-6	이라크가	_	_	B-Grantee
+5	시리아는	_	_	B-Authority
+6	이라크가	_	_	B-Protagonist
 7	시리아	_	_	O
 8	연구	_	_	B-Action
 9	센터에	_	_	I-Action
@@ -77726,7 +77726,7 @@
 4	국무장관	_	_	B-Author
 5	콜린	_	_	I-Author
 6	파월의	_	_	I-Author
-7	유엔	_	_	B-Honoree
+7	유엔	_	_	B-Beneficiary
 8	연설	연설.n	Text	O
 9	비밀	_	_	O
 10	초안에서	_	_	O
@@ -78867,7 +78867,7 @@
 5	모르는	_	_	O
 6	것을	_	_	O
 7	차	차.n	Vehicle	O
-8	안에서	_	_	B-Gov
+8	안에서	_	_	O
 9	발견한다.	_	_	O
 
 #sentid:3284
@@ -78927,7 +78927,7 @@
 4	다른	_	_	O
 5	사람들이	_	_	O
 6	폭탄을	폭탄.n	Weapon	O
-7	조립했을지도	_	_	B-Gov
+7	조립했을지도	_	_	O
 8	모르고	_	_	O
 9	,	_	_	O
 10	아마도	_	_	O
@@ -80958,7 +80958,7 @@
 #sentid:3353
 #text:이것은 이란이 IAEA 조사 하에 Natanz 시설과 생산하는 농축 우라늄을 그대로 두지만, 핵물질이 존재하지 않는 한 IAEA는 핵무기 설계 연구가 진행되고 있다고 믿어지는 이란 내의 장소를 조사할 능력이 없다는 것을 뜻한다.
 0	이것은	_	_	O
-1	이란이	_	_	B-Manufacturer
+1	이란이	_	_	B-Producer
 2	IAEA	_	_	O
 3	조사	_	_	O
 4	하에	_	_	O
@@ -81182,8 +81182,8 @@
 21	몇달만에라도	_	_	O
 22	신속하게	_	_	O
 23	핵무기를	핵무기.n	Weapon	O
-24	제조할	_	_	B-Gov
-25	것을	_	_	I-Gov
+24	제조할	_	_	O
+25	것을	_	_	O
 26	우려하고	_	_	O
 27	있다.	_	_	O
 
@@ -82324,8 +82324,8 @@
 1	핵	_	_	I-Ground
 2	프로그램의	_	_	I-Ground
 3	일상적인	_	_	O
-4	안전	_	_	B-Desired_state
-5	장치	_	_	I-Desired_state
+4	안전	_	_	B-Desired_state_of_affairs
+5	장치	_	_	I-Desired_state_of_affairs
 6	조사는	조사.n	Inspecting	O
 7	92년	_	_	O
 8	10월로	_	_	O
@@ -82436,7 +82436,7 @@
 15	받아들여질	_	_	O
 16	수	_	_	O
 17	없고,	_	_	O
-18	이란은	_	_	B-Manufacturer
+18	이란은	_	_	B-Producer
 19	필요할	_	_	O
 20	경우	_	_	O
 21	핵무기를	_	_	B-Product
@@ -85116,10 +85116,10 @@
 
 #sentid:3520
 #text:독일 정부는 지멘스/KWU 사업부가 이란의 Bushehr 원자로를 완성하도록 허용하지 않을 것과 Siemens의 자회사인 스페인의 Empresarios Agrupados사 또한 그 원자로들을 완성하지 못하게 할 것임을 발표한다.
-0	독일	_	_	B-Grantor
-1	정부는	_	_	I-Grantor
-2	지멘스/KWU	_	_	B-Grantee
-3	사업부가	_	_	I-Grantee
+0	독일	_	_	B-Authority
+1	정부는	_	_	I-Authority
+2	지멘스/KWU	_	_	B-Protagonist
+3	사업부가	_	_	I-Protagonist
 4	이란의	_	_	B-Action
 5	Bushehr	_	_	I-Action
 6	원자로를	_	_	I-Action
@@ -86195,7 +86195,7 @@
 #sentid:3617
 #text:내가, 병원까지 데려다주겠다고 하자, 처음에, 그녀는 사양했으나, 무척 아팠던지, 몇 번인가 권하자 차에 올라탔다.
 0	내가,	_	_	B-Agent
-1	병원까지	_	_	B-Path_end
+1	병원까지	_	_	B-Goal
 2	데려다주겠다고	데리다.v	Bringing	O
 3	하자,	_	_	O
 4	처음에,	_	_	O
@@ -86317,8 +86317,8 @@
 3	할	_	_	O
 4	뿐	_	_	O
 5	아니라,	_	_	O
-6	다른	_	_	B-Co_agent
-7	사람	_	_	I-Co_agent
+6	다른	_	_	B-Benefited_party
+7	사람	_	_	I-Benefited_party
 8	참견하는	참견하다.v	Assistance	B-Focal_entity
 9	것도	_	_	I-Focal_entity
 10	매우	_	_	O
@@ -87080,8 +87080,8 @@
 
 #sentid:3769
 #text:교실 창문으로 다케시 일행도 밖을 내다보았다.
-0	교실	_	_	B-Location_of_perceiver
-1	창문으로	_	_	I-Location_of_perceiver
+0	교실	_	_	B-Location_of_protagonist
+1	창문으로	_	_	I-Location_of_protagonist
 2	다케시	_	_	B-Perceiver_agentive
 3	일행도	_	_	I-Perceiver_agentive
 4	밖을	_	_	B-Phenomenon
@@ -88939,11 +88939,11 @@
 0	어렸을	_	_	O
 1	때부터,	_	_	O
 2	나는	_	_	O
-3	교회나	_	_	B-Entity1
-4	교회의	_	_	I-Entity1
-5	가르침과	_	_	I-Entity1
+3	교회나	_	_	B-Entity_1
+4	교회의	_	_	I-Entity_1
+5	가르침과	_	_	I-Entity_1
 6	관계된	관계되다.v	Relation	O
-7	것에,	_	_	B-Entity2
+7	것에,	_	_	B-Entity_2
 8	강한	_	_	O
 9	반감을	_	_	O
 10	느꼈다.	_	_	O
@@ -89243,11 +89243,11 @@
 
 #sentid:4050
 #text:이름이 밝혀지는 것이 싫은 사람은 말하지 않아도 좋다.
-0	이름이	_	_	B-Conditions
-1	밝혀지는	_	_	I-Conditions
-2	것이	_	_	I-Conditions
-3	싫은	_	_	I-Conditions
-4	사람은	_	_	I-Conditions
+0	이름이	_	_	B-Circumstances
+1	밝혀지는	_	_	I-Circumstances
+2	것이	_	_	I-Circumstances
+3	싫은	_	_	I-Circumstances
+4	사람은	_	_	I-Circumstances
 5	말하지	_	_	B-Action
 6	않아도	_	_	I-Action
 7	좋다.	좋다.a	Deny_or_grant_permission	O
@@ -89576,7 +89576,7 @@
 1	히나마쓰리는	_	_	O
 2	지금의	_	_	O
 3	4월	_	_	B-Time_period
-4	상순에	상순.n	Temporal_subregion	B-Sub_part
+4	상순에	상순.n	Temporal_subregion	B-Subpart
 5	해당하므로,	_	_	O
 6	꽤	_	_	O
 7	날씨도	_	_	O
@@ -90199,8 +90199,8 @@
 7	연속적인	_	_	O
 8	성능향상이	_	_	O
 9	요구되므로,	_	_	O
-10	설계되는	_	_	B-Invention
-11	제품은	_	_	I-Invention
+10	설계되는	_	_	O
+11	제품은	_	_	O
 12	대부분	_	_	O
 13	이론	_	_	B-Manner
 14	한계치에	_	_	I-Manner
@@ -90220,7 +90220,7 @@
 8	성능향상이	_	_	O
 9	요구되므로,	_	_	O
 10	설계되는	설계되다.v	Ingestion	O
-11	제품은	_	_	B-Invention
+11	제품은	_	_	O
 12	대부분	_	_	O
 13	이론	_	_	O
 14	한계치에	_	_	O
@@ -90418,7 +90418,7 @@
 6	있는	_	_	O
 7	것은,	_	_	O
 8	당신이	_	_	O
-9	처음에	처음.n	Temporal_subregion	B-Sub_part
+9	처음에	처음.n	Temporal_subregion	B-Subpart
 10	전제로	_	_	O
 11	하고	_	_	O
 12	있던	_	_	O
@@ -91929,8 +91929,8 @@
 #sentid:4455
 #text:가령 마이크로소프트와 오라클은 모두 애플리케이션 기업으로, 경쟁 관계에 있으나, 우리 시스코와는 부딪히는 분야가 없으므로, 시스코 쪽에서 보면, 둘 다 에코시스템을 구축할 수 있는 파트너이다.
 0	가령	_	_	O
-1	마이크로소프트와	_	_	B-Entity1
-2	오라클은	_	_	B-Entity2
+1	마이크로소프트와	_	_	B-Entity_1
+2	오라클은	_	_	B-Entity_2
 3	모두	_	_	O
 4	애플리케이션	_	_	O
 5	기업으로,	_	_	O
@@ -94509,9 +94509,9 @@
 3	넓은	_	_	I-Manner
 4	시야를	_	_	I-Manner
 5	가지고,	_	_	I-Manner
-6	더	_	_	B-Location_of_perceiver
-7	큰	_	_	I-Location_of_perceiver
-8	부분부터	_	_	I-Location_of_perceiver
+6	더	_	_	B-Location_of_protagonist
+7	큰	_	_	I-Location_of_protagonist
+8	부분부터	_	_	I-Location_of_protagonist
 9	보아야만	보다.v	Perception_active	O
 10	한다.	_	_	O
 
@@ -96092,10 +96092,10 @@
 5	때」는	_	_	I-Phenomenon
 6	언제인가	_	_	O
 7	하면	_	_	O
-8	「각자의	_	_	B-Location_of_perceiver
-9	내적	_	_	I-Location_of_perceiver
-10	생활의	_	_	I-Location_of_perceiver
-11	경험으로	_	_	I-Location_of_perceiver
+8	「각자의	_	_	B-Location_of_protagonist
+9	내적	_	_	I-Location_of_protagonist
+10	생활의	_	_	I-Location_of_protagonist
+11	경험으로	_	_	I-Location_of_protagonist
 12	보았을	보다.v	Perception_active	O
 13	때,	_	_	O
 14	그것은	_	_	B-Circumstances
@@ -96504,8 +96504,8 @@
 #sentid:4823
 #text:따라서, 그 작가가 충분히 실력을 발휘 할 수 있는 주제나 방향성을 찾도록 도움을 줄 것.
 0	따라서,	_	_	O
-1	그	_	_	B-Co_agent
-2	작가가	_	_	I-Co_agent
+1	그	_	_	B-Benefited_party
+2	작가가	_	_	I-Benefited_party
 3	충분히	_	_	B-Focal_entity
 4	실력을	_	_	I-Focal_entity
 5	발휘	_	_	I-Focal_entity
@@ -97892,7 +97892,7 @@
 3	수준으로	_	_	I-Manner
 4	설계되는	설계되다.v	Ingestion	O
 5	모든	_	_	O
-6	제품을,	_	_	B-Invention
+6	제품을,	_	_	O
 7	다른	_	_	O
 8	어떤	_	_	O
 9	기업보다도	_	_	O
