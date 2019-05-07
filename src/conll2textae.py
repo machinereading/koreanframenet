@@ -38,8 +38,7 @@ def get_textae(conll):
     result = []
     for item in range(len(conll)):
         anno = conll[item]
-        tokens, targets, frames, args = anno[0], anno[1], anno[2], anno[3]
-        
+        tokens, targets, frames, args = anno[0], anno[1], anno[2], anno[3]        
         text = ' '.join(tokens)
         
         tgt_list = []
@@ -47,7 +46,7 @@ def get_textae(conll):
         for idx in range(len(targets)):
             if targets[idx] != '_':
                 lu = targets[idx]
-                frame = targets[idx]
+                frame = frames[idx]
                 tgt_span.append(idx)
                 tgt_list.append(tokens[idx])
         tgt_text = ' '.join(tgt_list)
@@ -90,7 +89,7 @@ def get_textae(conll):
         relations = get_relations(denos)
         d = {}
         d['text'] = text
-        d['lu'] = lu
+        d['lu'] = lu+'.'+frame
         d['frame'] = frame
         d['denotations'] = denos
         d['relations'] = relations
