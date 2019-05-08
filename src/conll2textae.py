@@ -70,11 +70,12 @@ def get_textae(conll):
                 arg_tokens.append(tokens[idx])
                 arg_span.append(idx)
                 arg_tag = arg.split('-')[1]
-                next_idx = idx
-                while next_idx <= len(args) and args[next_idx][0] == 'I-'+arg_tag:
-                    next_idx +=1
+                next_idx = idx +1
+                while next_idx <= len(args) and args[next_idx] == 'I-'+arg_tag:
                     arg_tokens.append(tokens[next_idx])
                     arg_span.append(next_idx)
+                    next_idx +=1                
+                    
                 arg_text = ' '.join(arg_tokens)
                 deno = {}
                 deno['id'] = deno_id
