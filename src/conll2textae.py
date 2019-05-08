@@ -71,7 +71,7 @@ def get_textae(conll):
                 arg_span.append(idx)
                 arg_tag = arg.split('-')[1]
                 next_idx = idx +1
-                while next_idx <= len(args) and args[next_idx] == 'I-'+arg_tag:
+                while next_idx < len(args) and args[next_idx] == 'I-'+arg_tag:
                     arg_tokens.append(tokens[next_idx])
                     arg_span.append(next_idx)
                     next_idx +=1                
