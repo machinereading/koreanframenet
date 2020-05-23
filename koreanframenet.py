@@ -21,9 +21,9 @@ except:
 # In[2]:
 
 
-print('### Korean FrameNet ###')
-print('\t# contact: hahmyg@kaist, hahmyg@gmail.com #')
-print('')
+# print('### Korean FrameNet ###')
+# print('\t# contact: hahmyg@kaist, hahmyg@gmail.com #')
+# print('')
 
 
 # In[11]:
@@ -36,7 +36,7 @@ dir_path = os.path.dirname(os.path.abspath(__file__))
 
 
 class interface():
-    def __init__(self, version=1.1):
+    def __init__(self, version=1.1, info=True):
         self.version = str(version)
         file_path = dir_path+'/resource/'+self.version+'/'
         with open(file_path+'KFN_lus.json', 'r') as f:
@@ -49,9 +49,10 @@ class interface():
             self.fn17_idx = json.load(f)
         with open(file_path+'frame2luid.json','r') as f:
             self.frame2luid = json.load(f)
+        self.info = info
             
     def load_data(self):
-        trn, dev, tst = dataio.load_framenet_data(self.version)
+        trn, dev, tst = dataio.load_framenet_data(self.version, info=self.info)
         return trn, dev, tst
     
     def lus_by_word(self, word):

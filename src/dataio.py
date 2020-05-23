@@ -37,7 +37,7 @@ def conll2data(conll):
         data.append(sent_list)
     return data     
 
-def load_framenet_data(version):
+def load_framenet_data(version, info=True):
     dir_path = os.path.dirname(os.path.abspath(__file__))
     fname = dir_path+'/../data/'+version+'/'
     with open(fname+'training.tsv','r') as f:
@@ -51,9 +51,10 @@ def load_framenet_data(version):
     dev = conll2data(dev_data)
     tst = conll2data(tst_data)
     
-    print('\n### loading Korean FrameNet', version, 'data...')
-    print('\t# of instances in training data:', len(trn))
-    print('\t# of instances in dev data:', len(dev))
-    print('\t# of instances in test data:', len(tst))
+    if info:
+        print('\n### loading Korean FrameNet', version, 'data...')
+        print('\t# of instances in training data:', len(trn))
+        print('\t# of instances in dev data:', len(dev))
+        print('\t# of instances in test data:', len(tst))
     
     return trn, dev, tst

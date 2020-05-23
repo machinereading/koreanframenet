@@ -63,7 +63,7 @@
 2	간격으로	_	_	O
 3	몇	_	_	O
 4	분마다	_	_	O
-5	흔들림은	_	_	S-Theme
+5	흔들림은	_	_	B-Theme
 6	나의	_	_	B-Path
 7	집	_	_	I-Path
 8	전체로	_	_	I-Path
@@ -82,7 +82,7 @@
 #text:예측 못할 간격으로 몇 분마다 흔들림은 나의 집 전체로 퍼졌고, 나의 부엌에 살고 있던 쥐가 나의 책상 밑으로 피난하였다.
 0	예측	예측.n	Expectation	O
 1	못할	예측.n	Expectation	O
-2	간격으로	_	_	S-Phenomenon
+2	간격으로	_	_	B-Phenomenon
 3	몇	_	_	O
 4	분마다	_	_	O
 5	흔들림은	_	_	O
@@ -116,7 +116,7 @@
 11	부엌에	_	_	I-Location
 12	살고	살다.v	Residence	O
 13	있던	살다.v	Residence	O
-14	쥐가	_	_	S-Resident
+14	쥐가	_	_	B-Resident
 15	나의	_	_	O
 16	책상	_	_	O
 17	밑으로	_	_	O
@@ -171,7 +171,7 @@
 0	예측	_	_	O
 1	못할	_	_	O
 2	간격으로	_	_	O
-3	몇	_	_	S-Count
+3	몇	_	_	B-Count
 4	분마다	분.n	Measure_duration	O
 5	흔들림은	_	_	O
 6	나의	_	_	O
@@ -195,7 +195,7 @@
 2	50분	_	_	O
 3	CAROLG	_	_	O
 4	:	_	_	O
-5	나는	_	_	S-Protagonist
+5	나는	_	_	B-Protagonist
 6	치료를	_	_	B-Purpose
 7	위한	_	_	I-Purpose
 8	일부	_	_	I-Purpose
@@ -229,9 +229,9 @@
 13	만나려고	_	_	O
 14	앉아	_	_	O
 15	있었는데	_	_	O
-16	건물이	_	_	S-Event
+16	건물이	_	_	B-Event
 17	미친듯이	_	_	O
-18	흔들리기	_	_	S-Event
+18	흔들리기	_	_	B-Event
 19	시작하였다.	시작하다.v	Process_start	O
 
 #sentid:163
@@ -264,7 +264,7 @@
 2	50분	_	_	O
 3	CAROLG	_	_	O
 4	:	_	_	O
-5	나는	_	_	S-Party
+5	나는	_	_	B-Party
 6	치료를	_	_	O
 7	위한	_	_	O
 8	일부	_	_	O
@@ -321,8 +321,8 @@
 13	만나려고	_	_	O
 14	앉아	_	_	O
 15	있었는데	_	_	O
-16	건물이	_	_	S-Theme
-17	미친듯이	_	_	S-Manner
+16	건물이	_	_	B-Theme
+17	미친듯이	_	_	B-Manner
 18	흔들리기	흔들다.v	Moving_in_place	O
 19	시작하였다.	_	_	O
 
@@ -352,10 +352,10 @@
 #sentid:206
 #text:그러나 그들은 자신의 직무를 잘 수행할 필요는 없다.
 0	그러나	_	_	O
-1	그들은	_	_	S-Agent
+1	그들은	_	_	B-Agent
 2	자신의	_	_	B-Act
 3	직무를	_	_	I-Act
-4	잘	_	_	S-Manner
+4	잘	_	_	B-Manner
 5	수행할	수행하다.v	Intentionally_act	O
 6	필요는	_	_	O
 7	없다.	_	_	O
@@ -364,7 +364,7 @@
 #text:그러나 그들은 자신의 직무를 잘 수행할 필요는 없다.
 0	그러나	_	_	O
 1	그들은	_	_	O
-2	자신의	_	_	S-Employee
+2	자신의	_	_	B-Employee
 3	직무를	직무.n	Being_employed	O
 4	잘	_	_	O
 5	수행할	_	_	O
@@ -426,7 +426,7 @@
 20	후보자	_	_	I-Goal
 21	명부를	_	_	I-Goal
 22	내려는	_	_	I-Goal
-23	공화당의	_	_	S-Agent
+23	공화당의	_	_	B-Agent
 24	시도에	시도.n	Attempt	O
 25	방해를	_	_	O
 26	받는다.	_	_	O
@@ -555,7 +555,7 @@
 
 #sentid:410
 #text:많은 사람들이 우리의 도움을 필요로 합니다.
-0	많은	_	_	S-Descriptor
+0	많은	_	_	B-Descriptor
 1	사람들이	사람.n	People	O
 2	우리의	_	_	O
 3	도움을	_	_	O
@@ -574,7 +574,7 @@
 #sentid:410
 #text:많은 사람들이 우리의 도움을 필요로 합니다.
 0	많은	많다.a	Quantity	O
-1	사람들이	_	_	S-Individuals
+1	사람들이	_	_	B-Individuals
 2	우리의	_	_	O
 3	도움을	_	_	O
 4	필요로	_	_	O
@@ -596,7 +596,7 @@
 11	피보호자가	_	_	O
 12	되었고	_	_	O
 13	;	_	_	O
-14	Alice는	_	_	S-Benefited
+14	Alice는	_	_	B-Benefited_party
 15	심한	_	_	O
 16	행동	_	_	O
 17	장애	_	_	O
@@ -701,7 +701,7 @@
 11	피보호자가	_	_	O
 12	되었고	_	_	O
 13	;	_	_	O
-14	Alice는	_	_	S-Theme
+14	Alice는	_	_	B-Theme
 15	심한	_	_	B-Reason
 16	행동	_	_	I-Reason
 17	장애	_	_	I-Reason
@@ -736,12 +736,12 @@
 11	피보호자가	_	_	O
 12	되었고	_	_	O
 13	;	_	_	O
-14	Alice는	_	_	S-Recipient
+14	Alice는	_	_	B-Recipient
 15	심한	_	_	B-Reason
 16	행동	_	_	I-Reason
 17	장애	_	_	I-Reason
 18	때문에	_	_	I-Reason
-19	도움을	_	_	S-Theme
+19	도움을	_	_	B-Theme
 20	받기	축하받다.v	Getting	O
 21	위해	_	_	O
 22	공동	_	_	O
@@ -837,8 +837,8 @@
 7	반복적인	_	_	I-Reason
 8	구타	_	_	I-Reason
 9	때문에	_	_	I-Reason
-10	법원의	_	_	B-Final
-11	피보호자가	_	_	I-Final
+10	법원의	_	_	B-Final_value
+11	피보호자가	_	_	I-Final_value
 12	되었고	되다.a	Cause_change	O
 13	;	_	_	O
 14	Alice는	_	_	O
@@ -903,7 +903,7 @@
 3	아이들은	_	_	O
 4	알코올	알코올.n	Addiction	O
 5	중독자인	_	_	O
-6	아버지의	_	_	S-Addict
+6	아버지의	_	_	B-Addict
 7	반복적인	_	_	O
 8	구타	_	_	O
 9	때문에	_	_	O
@@ -990,11 +990,11 @@
 2	오는	_	_	O
 3	아이들과	_	_	O
 4	가족은	_	_	O
-5	행복하고,	_	_	B-Final
-6	사랑하고,	_	_	I-Final
-7	생산적인	_	_	I-Final
-8	우리	_	_	I-Final
-9	사회의	_	_	I-Final
+5	행복하고,	_	_	B-Final_category
+6	사랑하고,	_	_	I-Final_category
+7	생산적인	_	_	I-Final_category
+8	우리	_	_	I-Final_category
+9	사회의	_	_	I-Final_category
 10	구성원들이	_	_	O
 11	될	되다.a	Becoming	O
 12	기회를	_	_	O
@@ -1146,7 +1146,7 @@
 6	이전되었고	_	_	O
 7	그곳의	_	_	O
 8	예금은	_	_	O
-9	고전기의	_	_	S-Name
+9	고전기의	_	_	B-Name
 10	많은	_	_	O
 11	주요	_	_	O
 12	건물과	_	_	O
@@ -1166,9 +1166,9 @@
 6	이전되었고	_	_	O
 7	그곳의	_	_	O
 8	예금은	_	_	O
-9	고전기의	_	_	S-Type
+9	고전기의	_	_	B-Type
 10	많은	_	_	O
-11	주요	_	_	S-Descriptor
+11	주요	_	_	B-Descriptor
 12	건물과	건물.n	Buildings	O
 13	사원의	_	_	O
 14	건축	_	_	O
@@ -1186,11 +1186,11 @@
 6	이전되었고	_	_	O
 7	그곳의	_	_	O
 8	예금은	_	_	O
-9	고전기의	_	_	B-Created
-10	많은	_	_	I-Created
-11	주요	_	_	I-Created
-12	건물과	_	_	I-Created
-13	사원의	_	_	I-Created
+9	고전기의	_	_	B-Created_entity
+10	많은	_	_	I-Created_entity
+11	주요	_	_	I-Created_entity
+12	건물과	_	_	I-Created_entity
+13	사원의	_	_	I-Created_entity
 14	건축	건축.n	Building	O
 15	비용으로	_	_	O
 16	사용되었다.	_	_	O
@@ -1206,9 +1206,9 @@
 6	이전되었고	_	_	O
 7	그곳의	_	_	O
 8	예금은	_	_	O
-9	고전기의	_	_	S-Type
+9	고전기의	_	_	B-Type
 10	많은	_	_	O
-11	주요	_	_	S-Descriptor
+11	주요	_	_	B-Descriptor
 12	건물과	_	_	O
 13	사원의	사원.n	Buildings	O
 14	건축	_	_	O
@@ -1221,19 +1221,19 @@
 1	기원	_	_	O
 2	전	_	_	O
 3	454년에는	_	_	O
-4	보고가	_	_	B-Focal
-5	아테네로	_	_	I-Focal
-6	이전되었고	_	_	I-Focal
-7	그곳의	_	_	I-Focal
-8	예금은	_	_	I-Focal
-9	고전기의	_	_	I-Focal
-10	많은	_	_	I-Focal
-11	주요	_	_	I-Focal
-12	건물과	_	_	I-Focal
-13	사원의	_	_	I-Focal
-14	건축	_	_	I-Focal
-15	비용으로	_	_	I-Focal
-16	사용되었다.	_	_	I-Focal
+4	보고가	_	_	B-Focal_occasion
+5	아테네로	_	_	I-Focal_occasion
+6	이전되었고	_	_	I-Focal_occasion
+7	그곳의	_	_	I-Focal_occasion
+8	예금은	_	_	I-Focal_occasion
+9	고전기의	_	_	I-Focal_occasion
+10	많은	_	_	I-Focal_occasion
+11	주요	_	_	I-Focal_occasion
+12	건물과	_	_	I-Focal_occasion
+13	사원의	_	_	I-Focal_occasion
+14	건축	_	_	I-Focal_occasion
+15	비용으로	_	_	I-Focal_occasion
+16	사용되었다.	_	_	I-Focal_occasion
 
 #sentid:535
 #text:후에, 기원 전 454년에는 보고가 아테네로 이전되었고 그곳의 예금은 고전기의 많은 주요 건물과 사원의 건축 비용으로 사용되었다.
@@ -1241,8 +1241,8 @@
 1	기원	_	_	I-Time
 2	전	_	_	I-Time
 3	454년에는	_	_	I-Time
-4	보고가	_	_	S-Theme
-5	아테네로	_	_	S-Recipient
+4	보고가	_	_	B-Theme
+5	아테네로	_	_	B-Recipient
 6	이전되었고	이전되다.v	Transfer	O
 7	그곳의	_	_	O
 8	예금은	_	_	O
@@ -1265,7 +1265,7 @@
 5	아테네로	_	_	O
 6	이전되었고	_	_	O
 7	그곳의	_	_	O
-8	예금은	_	_	S-Instrument
+8	예금은	_	_	B-Instrument
 9	고전기의	_	_	B-Purpose
 10	많은	_	_	I-Purpose
 11	주요	_	_	I-Purpose
@@ -1277,7 +1277,7 @@
 
 #sentid:544
 #text:클레오파트라는 이 유명한 통치 씨족의 한 멤버였다.
-0	클레오파트라는	_	_	S-Member
+0	클레오파트라는	_	_	B-Member
 1	이	_	_	B-Group
 2	유명한	_	_	I-Group
 3	통치	_	_	I-Group
@@ -1295,7 +1295,7 @@
 5	개종한	_	_	O
 6	콘스탄틴	_	_	O
 7	황제가	_	_	O
-8	비잔티움을	_	_	S-Entity
+8	비잔티움을	_	_	B-Entity
 9	만들고,	_	_	O
 10	장차	_	_	O
 11	그리스	_	_	O
@@ -1310,7 +1310,7 @@
 20	Eastern	_	_	O
 21	Empire의	_	_	O
 22	수도를	_	_	O
-23	콘스탄티노플로	_	_	S-Name
+23	콘스탄티노플로	_	_	B-Name
 24	개명하였다.	개명하다.v	Name_conferral	O
 
 #sentid:551
@@ -1327,7 +1327,7 @@
 9	만들고,	_	_	O
 10	장차	_	_	O
 11	그리스	그리스.n	Origin	O
-12	생활에서	_	_	S-Entity
+12	생활에서	_	_	B-Entity
 13	기독교가	_	_	O
 14	그의	_	_	O
 15	지배적	_	_	O
@@ -1377,7 +1377,7 @@
 3	되어서야	_	_	O
 4	새로	_	_	B-Descriptor
 5	개종한	_	_	I-Descriptor
-6	콘스탄틴	_	_	S-Leader
+6	콘스탄틴	_	_	B-Leader
 7	황제가	황제.n	Leadership	O
 8	비잔티움을	_	_	O
 9	만들고,	_	_	O
@@ -1434,7 +1434,7 @@
 12	띄지	_	_	O
 13	않는	_	_	O
 14	내륙에	내륙.n	Locative_relation	O
-15	정착지를	_	_	S-Figure
+15	정착지를	_	_	B-Figure
 16	건설하였다.	_	_	O
 
 #sentid:561
@@ -1482,7 +1482,7 @@
 0	이에	_	_	B-Purpose
 1	대응하기	_	_	I-Purpose
 2	위해,	_	_	I-Purpose
-3	주민들이	_	_	S-Theme
+3	주민들이	_	_	B-Theme
 4	해안에	_	_	B-Source
 5	있는	_	_	I-Source
 6	그들의	_	_	I-Source
@@ -1508,7 +1508,7 @@
 6	그들의	_	_	O
 7	집에서	_	_	O
 8	이주하였고	_	_	O
-9	습격하는	_	_	S-Aggregateproperty
+9	습격하는	_	_	B-Aggregate_property
 10	일당들의	일당.n	Aggregate	O
 11	눈에	_	_	O
 12	띄지	_	_	O
@@ -1542,7 +1542,7 @@
 0	이에	_	_	B-Purpose
 1	대응하기	_	_	I-Purpose
 2	위해,	_	_	I-Purpose
-3	주민들이	_	_	S-Agent
+3	주민들이	_	_	B-Agent
 4	해안에	_	_	O
 5	있는	_	_	O
 6	그들의	_	_	O
@@ -1554,7 +1554,7 @@
 12	띄지	_	_	I-Place
 13	않는	_	_	I-Place
 14	내륙에	_	_	I-Place
-15	정착지를	_	_	S-Created
+15	정착지를	_	_	B-Created_entity
 16	건설하였다.	건설하다.v	Building	O
 
 #sentid:561
@@ -1579,23 +1579,23 @@
 
 #sentid:561
 #text:이에 대응하기 위해, 주민들이 해안에 있는 그들의 집에서 이주하였고 습격하는 일당들의 눈에 띄지 않는 내륙에 정착지를 건설하였다.
-0	이에	_	_	S-Action
+0	이에	_	_	B-Action
 1	대응하기	대응하다.v	Thwarting	O
 2	위해,	_	_	O
-3	주민들이	_	_	B-Preventing
-4	해안에	_	_	I-Preventing
-5	있는	_	_	I-Preventing
-6	그들의	_	_	I-Preventing
-7	집에서	_	_	I-Preventing
-8	이주하였고	_	_	I-Preventing
-9	습격하는	_	_	I-Preventing
-10	일당들의	_	_	I-Preventing
-11	눈에	_	_	I-Preventing
-12	띄지	_	_	I-Preventing
-13	않는	_	_	I-Preventing
-14	내륙에	_	_	I-Preventing
-15	정착지를	_	_	I-Preventing
-16	건설하였다.	_	_	I-Preventing
+3	주민들이	_	_	B-Preventing_cause
+4	해안에	_	_	I-Preventing_cause
+5	있는	_	_	I-Preventing_cause
+6	그들의	_	_	I-Preventing_cause
+7	집에서	_	_	I-Preventing_cause
+8	이주하였고	_	_	I-Preventing_cause
+9	습격하는	_	_	I-Preventing_cause
+10	일당들의	_	_	I-Preventing_cause
+11	눈에	_	_	I-Preventing_cause
+12	띄지	_	_	I-Preventing_cause
+13	않는	_	_	I-Preventing_cause
+14	내륙에	_	_	I-Preventing_cause
+15	정착지를	_	_	I-Preventing_cause
+16	건설하였다.	_	_	I-Preventing_cause
 
 #sentid:591
 #text:이러한 대 실패에 이어 오토만은 그리고 나서 제1차 세계대전에서 독일과 동맹하였고 전쟁에서 독일이 패배하여 더 많은 영토를 잃었다.
@@ -1670,7 +1670,7 @@
 5	그리고	_	_	O
 6	나서	_	_	O
 7	제1차	_	_	O
-8	세계대전에서	대전.n	Hostile_encounter	S-Sides
+8	세계대전에서	대전.n	Hostile_encounter	B-Sides
 9	독일과	_	_	O
 10	동맹하였고	_	_	O
 11	전쟁에서	_	_	O
@@ -1715,8 +1715,8 @@
 8	엄청난	_	_	O
 9	지진	_	_	O
 10	후에	_	_	O
-11	그리스가	_	_	S-Helper
-12	터키에	_	_	S-Benefited
+11	그리스가	_	_	B-Helper
+12	터키에	_	_	B-Benefited_party
 13	제공한	_	_	O
 14	도움은	도움.n	Assistance	O
 15	어쩌면	_	_	O
@@ -1762,8 +1762,8 @@
 
 #sentid:618
 #text:이것이 언제나 일어날 것인지 두고 볼 일이지만, 1999년의 엄청난 지진 후에 그리스가 터키에 제공한 도움은 어쩌면 이들 두 전통적인 적들 사이의 적대감이 감소되기 시작했다는 징후일지 모르겠다.
-0	이것이	_	_	S-Event
-1	언제나	_	_	S-Time
+0	이것이	_	_	B-Event
+1	언제나	_	_	B-Time
 2	일어날	일어나다.v	Event	O
 3	것인지	_	_	O
 4	두고	_	_	O
@@ -1800,7 +1800,7 @@
 6	일이지만,	_	_	O
 7	1999년의	_	_	O
 8	엄청난	엄청나다.a	Stimulus_focus	O
-9	지진	_	_	S-Stimulus
+9	지진	_	_	B-Stimulus
 10	후에	_	_	O
 11	그리스가	_	_	O
 12	터키에	_	_	O
@@ -2026,8 +2026,8 @@
 #text:그 선지자는 여기서 하늘로 올라갔고 천국을 잠깐 보도록 허용되었다.
 0	그	_	_	B-Theme
 1	선지자는	_	_	I-Theme
-2	여기서	_	_	S-Source
-3	하늘로	_	_	S-Goal
+2	여기서	_	_	B-Source
+3	하늘로	_	_	B-Goal
 4	올라갔고	올라가다.v	Traversing	O
 5	천국을	_	_	O
 6	잠깐	_	_	O
@@ -2070,9 +2070,9 @@
 #text:Holy City는 19세기 까지 후미로 남았었는데, 이 때 기독교 순례자들의 새로워진 관심이 이곳을 매년 수천 명의 여행객들의 목적지로 만들었다.
 0	Holy	_	_	B-Entity
 1	City는	_	_	I-Entity
-2	19세기	_	_	S-Time
+2	19세기	_	_	B-Time
 3	까지	_	_	O
-4	후미로	_	_	S-State
+4	후미로	_	_	B-State
 5	남았었는데,	남다.v	State_continue	O
 6	이	_	_	O
 7	때	_	_	O
@@ -2102,12 +2102,12 @@
 9	순례자들의	_	_	I-Cause
 10	새로워진	_	_	I-Cause
 11	관심이	_	_	I-Cause
-12	이곳을	_	_	S-Entity
-13	매년	_	_	B-Final
-14	수천	_	_	I-Final
-15	명의	_	_	I-Final
-16	여행객들의	_	_	I-Final
-17	목적지로	_	_	I-Final
+12	이곳을	_	_	B-Entity
+13	매년	_	_	B-Final_value
+14	수천	_	_	I-Final_value
+15	명의	_	_	I-Final_value
+16	여행객들의	_	_	I-Final_value
+17	목적지로	_	_	I-Final_value
 18	만들었다.	만들다.v	Cause_change	O
 
 #sentid:735
@@ -2160,12 +2160,12 @@
 
 #sentid:744
 #text:신비스럽게도, Anasazi는 서기 1150년 경 계곡에서 사라졌는데 또 다른 수렵 채집 부족인 남부 Paiutes가 다시 그곳에 살게 되었다.
-0	신비스럽게도,	_	_	S-Event
-1	Anasazi는	_	_	S-Theme
+0	신비스럽게도,	_	_	B-Event
+1	Anasazi는	_	_	B-Theme
 2	서기	_	_	O
 3	1150년	_	_	B-Time
 4	경	_	_	I-Time
-5	계곡에서	_	_	S-Source
+5	계곡에서	_	_	B-Source
 6	사라졌는데	사라지다.v	Departing	O
 7	또	_	_	B-Event
 8	다른	_	_	I-Event
@@ -2184,7 +2184,7 @@
 0	신비스럽게도,	_	_	O
 1	Anasazi는	_	_	O
 2	서기	_	_	O
-3	1150년	_	_	S-Reference
+3	1150년	_	_	B-Reference
 4	경	경.n	Relational_quantity	O
 5	계곡에서	_	_	O
 6	사라졌는데	_	_	O
@@ -2231,7 +2231,7 @@
 5	계곡(	_	_	O
 6	30명	_	_	O
 7	미만의	_	_	O
-8	비토착민이	비토착민.n	Aggregate	S-Aggregateproperty
+8	비토착민이	비토착민.n	Aggregate	B-Aggregate_property
 9	있었던	_	_	O
 10	때)	_	_	O
 11	도	_	_	O
@@ -2247,7 +2247,7 @@
 5	계곡(	_	_	O
 6	30명	_	_	O
 7	미만의	_	_	O
-8	비토착민이	비토착민.n	Indigenous_origin	S-Entity
+8	비토착민이	비토착민.n	Indigenous_origin	B-Entity
 9	있었던	_	_	O
 10	때)	_	_	O
 11	도	_	_	O
@@ -2292,7 +2292,7 @@
 2	불법화되거나	불법화되다.v	Prohibiting_or_licensing	O
 3	심하게	_	_	O
 4	통제되는	_	_	O
-5	악덕이	_	_	S-State
+5	악덕이	_	_	B-State
 6	여기서는	_	_	O
 7	어느	_	_	O
 8	날	_	_	O
@@ -2334,7 +2334,7 @@
 4	통제되는	_	_	O
 5	악덕이	_	_	O
 6	여기서는	_	_	O
-7	어느	_	_	S-Relative
+7	어느	_	_	B-Relative_time
 8	날	날.n	Calendric_unit	O
 9	(	_	_	O
 10	혹은	_	_	O
@@ -2354,8 +2354,8 @@
 4	통제되는	_	_	O
 5	악덕이	_	_	O
 6	여기서는	_	_	O
-7	어느	_	_	S-Relative
-8	날	_	_	S-Whole
+7	어느	_	_	B-Relative_time
+8	날	_	_	B-Whole
 9	(	_	_	O
 10	혹은	_	_	O
 11	밤	_	_	O
@@ -2387,7 +2387,7 @@
 
 #sentid:798
 #text:그래서 라스 베이거스의 평판이 성인 테마 파크로 유래되었다.
-0	그래서	_	_	S-Origin
+0	그래서	_	_	B-Origin
 1	라스	_	_	B-Entity
 2	베이거스의	_	_	I-Entity
 3	평판이	_	_	I-Entity
@@ -2400,7 +2400,7 @@
 #text:한때 확실했던 것이 훨씬 더 경쟁적이게 되었다.
 0	한때	_	_	O
 1	확실했던	확실하다.a	Certainty	O
-2	것이	_	_	S-Content
+2	것이	_	_	B-Content
 3	훨씬	_	_	O
 4	더	_	_	O
 5	경쟁적이게	_	_	O
@@ -2413,7 +2413,7 @@
 2	것이	_	_	O
 3	훨씬	_	_	O
 4	더	더하다.a	Increment	O
-5	경쟁적이게	_	_	S-Class
+5	경쟁적이게	_	_	B-Class
 6	되었다.	_	_	O
 
 #sentid:832
@@ -2421,9 +2421,9 @@
 0	한때	_	_	O
 1	확실했던	_	_	B-Entity
 2	것이	_	_	I-Entity
-3	훨씬	_	_	B-Final
-4	더	_	_	I-Final
-5	경쟁적이게	_	_	I-Final
+3	훨씬	_	_	B-Final_category
+4	더	_	_	I-Final_category
+5	경쟁적이게	_	_	I-Final_category
 6	되었다.	되다.a	Becoming	O
 
 #sentid:854
@@ -2443,7 +2443,7 @@
 
 #sentid:854
 #text:홍콩은 붐빈다 - 홍콩은 세계의 가장 큰 인구 조밀지역 중의 한 곳이다.
-0	홍콩은	_	_	S-Location
+0	홍콩은	_	_	B-Location
 1	붐빈다	붐비다.v	Abounding_with	O
 2	-	_	_	O
 3	홍콩은	_	_	O
@@ -2460,7 +2460,7 @@
 #text:노예 제도의 쓰라린 맛이 항상 배경에 있다.
 0	노예	_	_	B-Source
 1	제도의	_	_	I-Source
-2	쓰라린	_	_	S-Descriptor
+2	쓰라린	_	_	B-Descriptor
 3	맛이	맛.n	Sensation	O
 4	항상	_	_	O
 5	배경에	_	_	O
@@ -2468,10 +2468,10 @@
 
 #sentid:894
 #text:노예 제도의 쓰라린 맛이 항상 배경에 있다.
-0	노예	_	_	B-Perceptual
-1	제도의	_	_	I-Perceptual
+0	노예	_	_	B-Perceptual_source
+1	제도의	_	_	I-Perceptual_source
 2	쓰라린	쓰라리다.a	Chemical-sense_description	O
-3	맛이	_	_	S-Sensory
+3	맛이	_	_	B-Sensory_attribute
 4	항상	_	_	O
 5	배경에	_	_	O
 6	있다.	_	_	O
@@ -2536,15 +2536,15 @@
 4	가로질러	_	_	I-Area
 5	더블린	_	_	B-Goal
 6	만까지	_	_	I-Goal
-7	서쪽에서	_	_	S-Source
-8	동쪽으로	_	_	S-Goal
+7	서쪽에서	_	_	B-Source
+8	동쪽으로	_	_	B-Goal
 9	흐른다.	흐르다.v	Fluidic_motion	O
 
 #sentid:959
 #text:Liffey 강은 도시 중심을 가로질러 더블린 만까지 서쪽에서 동쪽으로 흐른다.
 0	Liffey	_	_	O
 1	강은	_	_	O
-2	도시	_	_	S-Whole
+2	도시	_	_	B-Whole
 3	중심을	중심.n	Part_inner_outer	O
 4	가로질러	_	_	O
 5	더블린	_	_	O
@@ -2581,7 +2581,7 @@
 
 #sentid:959
 #text:Liffey 강은 도시 중심을 가로질러 더블린 만까지 서쪽에서 동쪽으로 흐른다.
-0	Liffey	_	_	S-Name
+0	Liffey	_	_	B-Name
 1	강은	강.n	Natural_features	O
 2	도시	_	_	O
 3	중심을	_	_	O
@@ -2599,7 +2599,7 @@
 2	도시	_	_	O
 3	중심을	_	_	O
 4	가로질러	_	_	O
-5	더블린	_	_	S-Name
+5	더블린	_	_	B-Name
 6	만까지	만.n	Natural_features	O
 7	서쪽에서	_	_	O
 8	동쪽으로	_	_	O
@@ -2608,7 +2608,7 @@
 #sentid:976
 #text:문학 모더니즘의 고위 성직자인 Joyce는 더블린을 율리시스 ( 당신은 그것에 대한 참조를 도처에서 볼 것이다 ) 의 세계로 상상하고 해석하였다.
 0	문학	문학.n	Fields	O
-1	모더니즘의	_	_	S-Salient
+1	모더니즘의	_	_	B-Salient_entity
 2	고위	_	_	O
 3	성직자인	_	_	O
 4	Joyce는	_	_	O
@@ -2634,7 +2634,7 @@
 1	모더니즘의	_	_	I-Governed
 2	고위	고위공직자.n	Leadership	O
 3	성직자인	고위공직자.n	Leadership	O
-4	Joyce는	_	_	S-Leader
+4	Joyce는	_	_	B-Leader
 5	더블린을	_	_	O
 6	율리시스	_	_	O
 7	(	_	_	O
@@ -2658,7 +2658,7 @@
 2	고위	_	_	I-Cognizer
 3	성직자인	_	_	I-Cognizer
 4	Joyce는	_	_	I-Cognizer
-5	더블린을	_	_	S-Content
+5	더블린을	_	_	B-Content
 6	율리시스	_	_	O
 7	(	_	_	O
 8	당신은	_	_	O
@@ -2684,11 +2684,11 @@
 5	더블린을	_	_	O
 6	율리시스	_	_	O
 7	(	_	_	O
-8	당신은	_	_	S-Perceiver
+8	당신은	_	_	B-Perceiver
 9	그것에	_	_	B-Phenomenon
 10	대한	_	_	I-Phenomenon
 11	참조를	_	_	I-Phenomenon
-12	도처에서	_	_	S-State
+12	도처에서	_	_	B-State
 13	볼	보다.v	Perception_experience	O
 14	것이다	_	_	O
 15	)	_	_	O
@@ -2699,8 +2699,8 @@
 
 #sentid:1046
 #text:그것은 통근자들을 오전 6시부터 10시까지는 Mid-Level 아파트 단지에서 아래쪽으로, 그리고 오전 10시 부터 자정 까지는 윗쪽으로 수송한다.
-0	그것은	_	_	S-Carrier
-1	통근자들을	_	_	S-Theme
+0	그것은	_	_	B-Carrier
+1	통근자들을	_	_	B-Theme
 2	오전	_	_	B-Period
 3	6시부터	_	_	I-Period
 4	10시까지는	_	_	I-Period
@@ -2714,7 +2714,7 @@
 12	부터	_	_	I-Period
 13	자정	_	_	I-Period
 14	까지는	_	_	O
-15	윗쪽으로	_	_	S-Path
+15	윗쪽으로	_	_	B-Path
 16	수송한다.	수송하다.v	Bringing	O
 
 #sentid:1046
@@ -2725,7 +2725,7 @@
 3	6시부터	_	_	O
 4	10시까지는	_	_	O
 5	Mid-Level	_	_	O
-6	아파트	_	_	S-Use
+6	아파트	_	_	B-Use
 7	단지에서	단지.n	Locale_by_use	O
 8	아래쪽으로,	_	_	O
 9	그리고	_	_	O
@@ -2759,11 +2759,11 @@
 
 #sentid:1074
 #text:Peak 전차는, 원래 스팀 구동이였는데, 부유한 사장들을 산비탈의 피서지로 빠르게 보내기 위해 지어졌다.
-0	Peak	_	_	B-Created
-1	전차는,	_	_	I-Created
-2	원래	_	_	I-Created
-3	스팀	_	_	I-Created
-4	구동이였는데,	_	_	I-Created
+0	Peak	_	_	B-Created_entity
+1	전차는,	_	_	I-Created_entity
+2	원래	_	_	I-Created_entity
+3	스팀	_	_	I-Created_entity
+4	구동이였는데,	_	_	I-Created_entity
 5	부유한	_	_	B-Purpose
 6	사장들을	_	_	I-Purpose
 7	산비탈의	_	_	I-Purpose
@@ -2823,7 +2823,7 @@
 3	세단	_	_	O
 4	의자와	_	_	O
 5	인력거들이	_	_	O
-6	여기에	_	_	S-Goal
+6	여기에	_	_	B-Goal
 7	도달하는	도달하다.a	Arriving	O
 8	유일한	_	_	O
 9	방법이었다.	_	_	O
@@ -2843,7 +2843,7 @@
 
 #sentid:1075
 #text:전차가 만들어지기 전에는 세단 의자와 인력거들이 여기에 도달하는 유일한 방법이었다.
-0	전차가	_	_	S-Created
+0	전차가	_	_	B-Created_entity
 1	만들어지기	만들다.v	Building	O
 2	전에는	_	_	O
 3	세단	_	_	O
@@ -2856,7 +2856,7 @@
 
 #sentid:1113
 #text:금융 바로 동쪽의 Wan Chai는 한때 지저분한 클럽과 상반신 노출 바 이었고 ; 이것은 Suzy Wong의 세계를 위한 설치물이었다.
-0	금융	_	_	S-Base
+0	금융	_	_	B-Landmark
 1	바로	_	_	O
 2	동쪽의	동쪽.n	Direction	O
 3	Wan	_	_	O
@@ -2912,7 +2912,7 @@
 9	전시	_	_	I-Total
 10	센터가	_	_	I-Total
 11	압도하며,	_	_	O
-12	이곳은	_	_	S-Total
+12	이곳은	_	_	B-Total
 13	호텔,	_	_	B-Part
 14	극장,	_	_	I-Part
 15	그리고	_	_	I-Part
@@ -2972,7 +2972,7 @@
 6	홍콩	_	_	O
 7	컨벤션	_	_	O
 8	및	_	_	O
-9	전시	_	_	S-Function
+9	전시	_	_	B-Function
 10	센터가	_	_	O
 11	압도하며,	_	_	O
 12	이곳은	_	_	O
@@ -3054,11 +3054,11 @@
 #sentid:1193
 #text:그는 거기서 그를 기다리고 있던 Bob을 만날 계획을 하고 있었다.
 0	그는	_	_	O
-1	거기서	_	_	S-Place
-2	그를	_	_	S-Salient
+1	거기서	_	_	B-Place
+2	그를	_	_	B-Salient_entity
 3	기다리고	기다리다.v	Waiting	O
 4	있던	기다리다.v	Waiting	O
-5	Bob을	_	_	S-Protagonist
+5	Bob을	_	_	B-Protagonist
 6	만날	_	_	O
 7	계획을	_	_	O
 8	하고	_	_	O
@@ -3080,7 +3080,7 @@
 11	데에	_	_	O
 12	고등학교	_	_	B-Role
 13	선생으로서	_	_	I-Role
-14	그녀의	_	_	S-Protagonist
+14	그녀의	_	_	B-Protagonist
 15	경험에	경험.n	Expertise	O
 16	의지했던	_	_	O
 17	퇴직한	_	_	O
@@ -3180,7 +3180,7 @@
 9	공동	_	_	O
 10	작업하는	_	_	O
 11	데에	_	_	O
-12	고등학교	_	_	S-Level
+12	고등학교	_	_	B-Level
 13	선생으로서	선생.n	Education_teaching	O
 14	그녀의	_	_	O
 15	경험에	_	_	O
@@ -3203,7 +3203,7 @@
 #sentid:1232
 #text:젊은 십대들을 위한 호평을 받고 있는 일련의 책들에 대해 공동 작업하는 데에 고등학교 선생으로서 그녀의 경험에 의지했던 퇴직한 아이오아 주립대학의 영어 교수인 Annabelle Irwin은 아이오아주 디모인의 딸 집에서 9월 13일 죽었다.
 0	젊은	젊다.a	Age	O
-1	십대들을	_	_	S-Entity
+1	십대들을	_	_	B-Entity
 2	위한	_	_	O
 3	호평을	_	_	O
 4	받고	_	_	O
@@ -3287,11 +3287,11 @@
 14	그녀의	_	_	O
 15	경험에	_	_	O
 16	의지했던	_	_	O
-17	퇴직한	_	_	B-Partner
-18	아이오아	_	_	I-Partner
-19	주립대학의	_	_	I-Partner
-20	영어	_	_	I-Partner
-21	교수인	_	_	I-Partner
+17	퇴직한	_	_	B-Partner_1
+18	아이오아	_	_	I-Partner_1
+19	주립대학의	_	_	I-Partner_1
+20	영어	_	_	I-Partner_1
+21	교수인	_	_	I-Partner_1
 22	Annabelle	_	_	O
 23	Irwin은	_	_	O
 24	아이오아주	_	_	O
@@ -3306,8 +3306,8 @@
 #text:QN : 중국은 이란에 정화 물질을 제공하였나 ?
 0	QN	_	_	O
 1	:	_	_	O
-2	중국은	_	_	S-Supplier
-3	이란에	_	_	S-Recipient
+2	중국은	_	_	B-Supplier
+3	이란에	_	_	B-Recipient
 4	정화	_	_	B-Theme
 5	물질을	_	_	I-Theme
 6	제공하였나	제공하다.v	Supply	O
@@ -3319,11 +3319,11 @@
 1	그리고	_	_	O
 2	더	_	_	O
 3	중요하게,	_	_	O
-4	카다피는	_	_	S-Speaker
+4	카다피는	_	_	B-Speaker
 5	서방	_	_	O
 6	국가들에	_	_	O
 7	대해	_	_	O
-8	납치를	_	_	S-Message
+8	납치를	_	_	B-Message
 9	명령하고	명령하다.v	Request	O
 10	국제	_	_	O
 11	테러리즘을	_	_	O
@@ -3335,10 +3335,10 @@
 #text:QN : 이란은 스커드 미사일을 국내에서 생산하나 ?
 0	QN	_	_	O
 1	:	_	_	O
-2	이란은	_	_	S-Manufacturer
+2	이란은	_	_	B-Producer
 3	스커드	_	_	B-Product
 4	미사일을	_	_	I-Product
-5	국내에서	_	_	S-Means
+5	국내에서	_	_	B-Means
 6	생산하나	생산하다.v	Manufacturing	O
 7	?	_	_	O
 
@@ -3386,9 +3386,9 @@
 8	그	_	_	O
 9	시설의	_	_	O
 10	터널들은	_	_	O
-11	리비아의	_	_	S-Whole
+11	리비아의	_	_	B-Whole
 12	남부	남부.n	Part_orientational	O
-13	체수층에서	_	_	S-Part
+13	체수층에서	_	_	B-Part
 14	해안	_	_	O
 15	도시들까지	_	_	O
 16	물을	_	_	O
@@ -3417,10 +3417,10 @@
 8	그	_	_	O
 9	시설의	_	_	O
 10	터널들은	_	_	O
-11	리비아의	_	_	S-Container
+11	리비아의	_	_	B-Container
 12	남부	_	_	O
 13	체수층에서	_	_	O
-14	해안	_	_	S-Relative
+14	해안	_	_	B-Relative_location
 15	도시들까지	도시.n	Locale_by_use	O
 16	물을	_	_	O
 17	흐르게	_	_	O
@@ -3523,7 +3523,7 @@
 
 #sentid:1366
 #text:수단은 화학무기를 금지하는 국제협약에 서명할 준비가 되었다고 말한다
-0	수단은	_	_	S-Speaker
+0	수단은	_	_	B-Speaker
 1	화학무기를	_	_	B-Message
 2	금지하는	_	_	I-Message
 3	국제협약에	_	_	I-Message
@@ -3535,9 +3535,9 @@
 #sentid:1366
 #text:수단은 화학무기를 금지하는 국제협약에 서명할 준비가 되었다고 말한다
 0	수단은	_	_	O
-1	화학무기를	_	_	S-State
+1	화학무기를	_	_	B-State
 2	금지하는	금지하다.v	Prohibiting_or_licensing	O
-3	국제협약에	_	_	S-Principle
+3	국제협약에	_	_	B-Principle
 4	서명할	_	_	O
 5	준비가	_	_	O
 6	되었다고	_	_	O
@@ -3570,7 +3570,7 @@
 0	미국과	_	_	B-Communicator
 1	이스라엘	_	_	I-Communicator
 2	모두	_	_	I-Communicator
-3	이란이	_	_	S-Evaluee
+3	이란이	_	_	B-Evaluee
 4	그의	_	_	B-Reason
 5	원자력	_	_	I-Reason
 6	프로그램을	_	_	I-Reason
@@ -3587,7 +3587,7 @@
 0	미국과	_	_	O
 1	이스라엘	_	_	O
 2	모두	_	_	O
-3	이란이	_	_	S-Agent
+3	이란이	_	_	B-Agent
 4	그의	_	_	B-Instrument
 5	원자력	_	_	I-Instrument
 6	프로그램을	_	_	I-Instrument
@@ -3608,7 +3608,7 @@
 4	그의	_	_	O
 5	원자력	_	_	O
 6	프로그램을	_	_	O
-7	핵무기	_	_	S-Project
+7	핵무기	_	_	B-Project
 8	개발	개발.n	Cause_to_make_progress	O
 9	계획을	_	_	O
 10	위장하기	_	_	O
@@ -3632,7 +3632,7 @@
 
 #sentid:1522
 #text:이라크는 미국과 영국이 유엔의 영향력을 사용하여, 필요한 보급품 인도를 지연시켰다고 말한다.
-0	이라크는	_	_	S-Speaker
+0	이라크는	_	_	B-Speaker
 1	미국과	_	_	B-Message
 2	영국이	_	_	I-Message
 3	유엔의	_	_	I-Message
@@ -3652,7 +3652,7 @@
 3	유엔의	_	_	O
 4	영향력을	_	_	O
 5	사용하여,	_	_	O
-6	필요한	_	_	S-Descriptor
+6	필요한	_	_	B-Descriptor
 7	보급품	보급품.n	Store	O
 8	인도를	_	_	O
 9	지연시켰다고	_	_	O
@@ -3662,7 +3662,7 @@
 #text:한 성명에서, Hall은 이라크 국민에 대한 10년간의 제재에 대한 부정적인 영향에 유감을 표명하였다.
 0	한	_	_	O
 1	성명에서,	_	_	O
-2	Hall은	_	_	S-Experiencer
+2	Hall은	_	_	B-Experiencer
 3	이라크	_	_	B-Topic
 4	국민에	_	_	I-Topic
 5	대한	_	_	I-Topic
@@ -3678,7 +3678,7 @@
 #text:한 성명에서, Hall은 이라크 국민에 대한 10년간의 제재에 대한 부정적인 영향에 유감을 표명하였다.
 0	한	_	_	O
 1	성명에서,	성명.n	Statement	O
-2	Hall은	_	_	S-Speaker
+2	Hall은	_	_	B-Speaker
 3	이라크	_	_	O
 4	국민에	_	_	O
 5	대한	_	_	O
@@ -3694,7 +3694,7 @@
 #text:한 성명에서, Hall은 이라크 국민에 대한 10년간의 제재에 대한 부정적인 영향에 유감을 표명하였다.
 0	한	_	_	B-Medium
 1	성명에서,	_	_	I-Medium
-2	Hall은	_	_	S-Communicator
+2	Hall은	_	_	B-Communicator
 3	이라크	_	_	B-Content
 4	국민에	_	_	I-Content
 5	대한	_	_	I-Content
@@ -3711,7 +3711,7 @@
 0	한	_	_	O
 1	성명에서,	_	_	O
 2	Hall은	_	_	O
-3	이라크	_	_	S-Origin
+3	이라크	_	_	B-Origin
 4	국민에	국민.n	People	O
 5	대한	_	_	O
 6	10년간의	_	_	O
@@ -3730,10 +3730,10 @@
 3	이라크	_	_	B-Dependent
 4	국민에	_	_	I-Dependent
 5	대한	_	_	I-Dependent
-6	10년간의	_	_	B-Influencing
-7	제재에	_	_	I-Influencing
-8	대한	_	_	I-Influencing
-9	부정적인	_	_	S-Manner
+6	10년간의	_	_	B-Influencing_entity
+7	제재에	_	_	I-Influencing_entity
+8	대한	_	_	I-Influencing_entity
+9	부정적인	_	_	B-Manner
 10	영향에	영향.n	Objective_influence	O
 11	유감을	_	_	O
 12	표명하였다.	_	_	O
@@ -3753,7 +3753,7 @@
 #text:도랑은 깊이가 30 센티미터이고 넓이는 20 센티미터이어야 한다.
 0	도랑은	_	_	O
 1	깊이가	_	_	O
-2	30	_	_	S-Count
+2	30	_	_	B-Count
 3	센티미터이고	센티미터.n	Measure_linear_extent	O
 4	넓이는	_	_	O
 5	20	_	_	O
@@ -3767,7 +3767,7 @@
 2	30	_	_	O
 3	센티미터이고	센티미터.n	Measure_linear_extent	O
 4	넓이는	_	_	O
-5	20	_	_	S-Count
+5	20	_	_	B-Count
 6	센티미터이어야	_	_	O
 7	한다.	_	_	O
 
@@ -3789,8 +3789,8 @@
 2	같은	_	_	O
 3	주차	_	_	O
 4	장소는	장소.n	Locale	O
-5	주차장	_	_	B-Relative
-6	측면에	_	_	I-Relative
+5	주차장	_	_	B-Related_event
+6	측면에	_	_	I-Related_event
 7	있다.	_	_	O
 
 #sentid:1584
@@ -3853,7 +3853,7 @@
 9	실수를	_	_	I-Action
 10	과장할	_	_	I-Action
 11	때	_	_	I-Action
-12	당신은	_	_	S-Actor
+12	당신은	_	_	B-Actor
 13	공정하지	공정하다.a	Fairness_evaluation	O
 14	않다	_	_	O
 15	…	_	_	O
@@ -3863,7 +3863,7 @@
 0	Sheik	_	_	O
 1	Maqdasi는	_	_	O
 2	정권이	_	_	O
-3	이슬람	_	_	S-Type
+3	이슬람	_	_	B-Type
 4	법을	법.n	Law	O
 5	고수하지	_	_	O
 6	않았다면	_	_	O
@@ -3910,7 +3910,7 @@
 #text:Sheik Maqdasi는 정권이 이슬람 법을 고수하지 않았다면 정권을 변절자로 여기지 않을 것을 강조하는 그의 칙령에 대해서만 Sheik Bin Baz를 비난하지 않았다.
 0	Sheik	_	_	O
 1	Maqdasi는	_	_	O
-2	정권이	_	_	S-Protagonist
+2	정권이	_	_	B-Protagonist
 3	이슬람	_	_	B-Norm
 4	법을	_	_	I-Norm
 5	고수하지	고수하다.v	Compliance	O
@@ -3939,8 +3939,8 @@
 4	법을	_	_	I-Circumstances
 5	고수하지	_	_	I-Circumstances
 6	않았다면	_	_	I-Circumstances
-7	정권을	_	_	S-Item
-8	변절자로	_	_	S-Category
+7	정권을	_	_	B-Item
+8	변절자로	_	_	B-Category
 9	여기지	여기다.v	Categorization	O
 10	않을	_	_	O
 11	것을	_	_	O
@@ -3981,7 +3981,7 @@
 #sentid:1688
 #text:그러나, 나는 그들에 의해 반복된 이 증거들 중 하나를 언급할 것이다.
 0	그러나,	_	_	O
-1	나는	_	_	S-Speaker
+1	나는	_	_	B-Speaker
 2	그들에	_	_	B-Topic
 3	의해	_	_	I-Topic
 4	반복된	_	_	I-Topic
@@ -3996,7 +3996,7 @@
 #text:그러나, 그는 걸프 정권들이 사담 후세인을 공격하는데 있어서는 불신자들에게 의존하는 것을 허락하였다.
 0	그러나,	_	_	O
 1	그는	_	_	O
-2	걸프	_	_	S-Governed
+2	걸프	_	_	B-Governed
 3	정권들이	정권.n	Leadership	O
 4	사담	_	_	O
 5	후세인을	_	_	O
@@ -4017,7 +4017,7 @@
 5	후세인을	_	_	I-Means
 6	공격하는데	_	_	I-Means
 7	있어서는	_	_	I-Means
-8	불신자들에게	_	_	S-Intermediary
+8	불신자들에게	_	_	B-Intermediary
 9	의존하는	의존하다.v	Reliance	O
 10	것을	_	_	O
 11	허락하였다.	_	_	O
@@ -4041,7 +4041,7 @@
 #text:얇은 종이에 그것을 인쇄하세요 ; 신이 당신에게 보답하기 바래요.
 0	얇은	_	_	B-Form
 1	종이에	_	_	I-Form
-2	그것을	_	_	S-Text
+2	그것을	_	_	B-Text
 3	인쇄하세요	인쇄.n	Text_creation	O
 4	;	_	_	O
 5	신이	_	_	O
@@ -4089,8 +4089,8 @@
 1	:	_	_	O
 2	그	_	_	O
 3	곳에서는과거	과거.n	Relative_time	O
-4	2	_	_	B-Focal
-5	년	_	_	I-Focal
+4	2	_	_	B-Focal_occasion
+5	년	_	_	I-Focal_occasion
 6	동안	_	_	O
 7	조류	_	_	O
 8	독감으로	_	_	O
@@ -4104,8 +4104,8 @@
 0	Paula_Zahn	_	_	O
 1	:	_	_	O
 2	그	_	_	O
-3	곳에서는과거	_	_	S-Relative
-4	2	_	_	S-Count
+3	곳에서는과거	_	_	B-Relative_time
+4	2	_	_	B-Count
 5	년	년.n	Calendric_unit	O
 6	동안	_	_	O
 7	조류	_	_	O
@@ -4199,12 +4199,12 @@
 11	노력하자	_	_	O
 12	-	_	_	O
 13	그래서	_	_	O
-14	당신이	_	_	B-End
-15	7월과	_	_	I-End
-16	8월에	_	_	I-End
-17	회계처리를	_	_	I-End
-18	마칠	_	_	I-End
-19	때까지	_	_	I-End
+14	당신이	_	_	B-End_point
+15	7월과	_	_	I-End_point
+16	8월에	_	_	I-End_point
+17	회계처리를	_	_	I-End_point
+18	마칠	_	_	I-End_point
+19	때까지	_	_	I-End_point
 20	기다리라고	기다리다.v	Holding_off_on	O
 21	말하는	_	_	O
 22	것이다.	_	_	O
@@ -4240,7 +4240,7 @@
 0	24	_	_	O
 1	BILL	_	_	O
 2	:	_	_	O
-3	나는	_	_	S-Cognizer
+3	나는	_	_	B-Cognizer
 4	너를	_	_	B-Content
 5	믿을	_	_	I-Content
 6	수	_	_	I-Content
@@ -4253,7 +4253,7 @@
 0	24	_	_	O
 1	BILL	_	_	O
 2	:	_	_	O
-3	나는	_	_	S-Entity
+3	나는	_	_	B-Entity
 4	너를	_	_	B-Event
 5	믿을	_	_	I-Event
 6	수	있다.a	Capability	O
@@ -4263,7 +4263,7 @@
 
 #sentid:1894
 #text:우리는 무엇에 대해 얘기할 것인가를 안다고 나는 생각한다.
-0	우리는	_	_	S-Cognizer
+0	우리는	_	_	B-Cognizer
 1	무엇에	_	_	B-Content
 2	대해	_	_	I-Content
 3	얘기할	_	_	I-Content
@@ -4280,12 +4280,12 @@
 3	얘기할	_	_	I-Topic
 4	것인가를	_	_	I-Topic
 5	안다고	_	_	I-Topic
-6	나는	_	_	S-Cognizer
+6	나는	_	_	B-Cognizer
 7	생각한다.	생각하다.v	Cogitation	O
 
 #sentid:1928
 #text:그들은 정말로 선발된 그룹이 된다.
-0	그들은	_	_	S-Recipient
+0	그들은	_	_	B-Recipient
 1	정말로	_	_	O
 2	선발된	_	_	B-Theme
 3	그룹이	_	_	I-Theme
@@ -4293,15 +4293,15 @@
 
 #sentid:1945
 #text:나는 세탁실에 갇혀 있다.
-0	나는	_	_	S-Patient
-1	세탁실에	_	_	S-Place
+0	나는	_	_	B-Patient
+1	세탁실에	_	_	B-Place
 2	갇혀	갇히다.v	Immobilization	O
 3	있다.	_	_	O
 
 #sentid:1994
 #text:콜롬비아에서는 국가를 장악하고 민주주의를 파괴하려는 마약 재정지원을 받는 게릴라들은 M-19 이 포함되고, 이는 카스트로가 분명히 지원하였다.
 0	콜롬비아에서는	_	_	O
-1	국가를	_	_	S-Theme
+1	국가를	_	_	B-Theme
 2	장악하고	장악하다.v	Taking	O
 3	민주주의를	_	_	O
 4	파괴하려는	_	_	O
@@ -4360,7 +4360,7 @@
 0	콜롬비아에서는	_	_	O
 1	국가를	_	_	O
 2	장악하고	_	_	O
-3	민주주의를	_	_	S-Undergoer
+3	민주주의를	_	_	B-Patient
 4	파괴하려는	파괴하다.v	Destroying	O
 5	마약	_	_	B-Destroyer
 6	재정지원을	_	_	I-Destroyer
@@ -4404,7 +4404,7 @@
 6	재정지원을	_	_	I-Total
 7	받는	_	_	I-Total
 8	게릴라들은	_	_	I-Total
-9	M-19	_	_	S-Part
+9	M-19	_	_	B-Part
 10	이	_	_	O
 11	포함되고,	포함되다.v	Inclusion	O
 12	이는	_	_	O
@@ -4414,8 +4414,8 @@
 
 #sentid:2034
 #text:왜 테러리스트들은 화학 생물무기를 이용하기를 원하나 ?
-0	왜	_	_	S-Reason
-1	테러리스트들은	_	_	S-Experiencer
+0	왜	_	_	B-Reason
+1	테러리스트들은	_	_	B-Experiencer
 2	화학	_	_	B-Event
 3	생물무기를	_	_	I-Event
 4	이용하기를	_	_	I-Event
@@ -4425,7 +4425,7 @@
 #sentid:2034
 #text:왜 테러리스트들은 화학 생물무기를 이용하기를 원하나 ?
 0	왜	_	_	O
-1	테러리스트들은	_	_	S-Agent
+1	테러리스트들은	_	_	B-Agent
 2	화학	_	_	B-Instrument
 3	생물무기를	_	_	I-Instrument
 4	이용하기를	이용하다.v	Using	O
@@ -4466,7 +4466,7 @@
 29	(	_	_	O
 30	3	_	_	O
 31	)	_	_	O
-32	기술적	_	_	S-Relevant
+32	기술적	_	_	B-Relevant_feature
 33	능력.	능력.n	Capability	O
 
 #sentid:2042
@@ -4584,7 +4584,7 @@
 #text:화학 또는 생물무기를 갖는 테러리즘에 개입할 가능성이 가장 높은 이들 단체와 개인은 세 가지 특성의 교차점에 놓여 있다 : ( 1 ) 동기, ( 2 ) 조직 구조, 그리고 ( 3 ) 기술적 능력.
 0	화학	화학.n	Weapon	O
 1	또는	_	_	O
-2	생물무기를	_	_	S-Weapon
+2	생물무기를	_	_	B-Weapon
 3	갖는	_	_	O
 4	테러리즘에	_	_	O
 5	개입할	_	_	O
@@ -4693,18 +4693,18 @@
 
 #sentid:2042
 #text:화학 또는 생물무기를 갖는 테러리즘에 개입할 가능성이 가장 높은 이들 단체와 개인은 세 가지 특성의 교차점에 놓여 있다 : ( 1 ) 동기, ( 2 ) 조직 구조, 그리고 ( 3 ) 기술적 능력.
-0	화학	_	_	B-Hypothetical
-1	또는	_	_	I-Hypothetical
-2	생물무기를	_	_	I-Hypothetical
-3	갖는	_	_	I-Hypothetical
-4	테러리즘에	_	_	I-Hypothetical
-5	개입할	_	_	I-Hypothetical
+0	화학	_	_	B-Hypothetical_event
+1	또는	_	_	I-Hypothetical_event
+2	생물무기를	_	_	I-Hypothetical_event
+3	갖는	_	_	I-Hypothetical_event
+4	테러리즘에	_	_	I-Hypothetical_event
+5	개입할	_	_	I-Hypothetical_event
 6	가능성이	가능성.n	Likelihood	O
-7	가장	_	_	B-Hypothetical
-8	높은	_	_	I-Hypothetical
-9	이들	_	_	I-Hypothetical
-10	단체와	_	_	I-Hypothetical
-11	개인은	_	_	I-Hypothetical
+7	가장	_	_	B-Hypothetical_event
+8	높은	_	_	I-Hypothetical_event
+9	이들	_	_	I-Hypothetical_event
+10	단체와	_	_	I-Hypothetical_event
+11	개인은	_	_	I-Hypothetical_event
 12	세	_	_	O
 13	가지	_	_	O
 14	특성의	_	_	O
@@ -4731,7 +4731,7 @@
 #sentid:2102
 #text:중국의 핵무기 프로그램은 1955년에 시작되었고 1964년에 성공적인 핵실험에서 완성되었다.
 0	중국의	_	_	O
-1	핵무기	_	_	S-Product
+1	핵무기	_	_	B-Product
 2	프로그램은	_	_	O
 3	1955년에	_	_	O
 4	시작되었고	_	_	O
@@ -4766,8 +4766,8 @@
 
 #sentid:2102
 #text:중국의 핵무기 프로그램은 1955년에 시작되었고 1964년에 성공적인 핵실험에서 완성되었다.
-0	중국의	_	_	S-Agent
-1	핵무기	_	_	S-Salient
+0	중국의	_	_	B-Agent
+1	핵무기	_	_	B-Salient_entity
 2	프로그램은	프로그램.n	Project	O
 3	1955년에	_	_	O
 4	시작되었고	_	_	O
@@ -4844,9 +4844,9 @@
 0	이들	_	_	O
 1	보고서의	_	_	O
 2	대다수는	_	_	O
-3	이란이	_	_	S-Agent
+3	이란이	_	_	B-Agent
 4	비밀	_	_	O
-5	무기	_	_	S-Salient
+5	무기	_	_	B-Salient_entity
 6	프로그램을	프로그램.n	Project	O
 7	실행하고	_	_	O
 8	있다는	_	_	O
@@ -4886,7 +4886,7 @@
 0	이들	_	_	O
 1	보고서의	_	_	O
 2	대다수는	_	_	O
-3	이란이	_	_	S-Buyer
+3	이란이	_	_	B-Buyer
 4	비밀	_	_	O
 5	무기	_	_	O
 6	프로그램을	_	_	O
@@ -4896,7 +4896,7 @@
 10	캐나다와	_	_	B-Seller
 11	네델란드로부터	_	_	I-Seller
 12	이란이	_	_	O
-13	푸사륨을	_	_	S-Goods
+13	푸사륨을	_	_	B-Goods
 14	구매하려는	구매하다.v	Commerce_buy	O
 15	시도를	_	_	O
 16	인용하고	_	_	O
@@ -4924,7 +4924,7 @@
 
 #sentid:2214
 #text:이란의 National Council of Resistance에 따르면, 이란은 Amir Kabir 대학의 과학 기술 센터를 위장으로 사용하여 군민 양용 장비를 구매하였다.
-0	이란의	_	_	S-Agent
+0	이란의	_	_	B-Agent
 1	National	_	_	O
 2	Council	_	_	O
 3	of	_	_	O
@@ -4937,7 +4937,7 @@
 10	과학	_	_	I-Instrument
 11	기술	_	_	I-Instrument
 12	센터를	_	_	I-Instrument
-13	위장으로	_	_	S-Role
+13	위장으로	_	_	B-Role
 14	사용하여	사용하다.v	Using	O
 15	군민	_	_	O
 16	양용	_	_	O
@@ -5007,7 +5007,7 @@
 14	사용하여	사용하다.v	Purpose	O
 15	군민	_	_	O
 16	양용	_	_	O
-17	장비를	_	_	S-Means
+17	장비를	_	_	B-Means
 18	구매하였다.	_	_	O
 
 #sentid:2214
@@ -5019,9 +5019,9 @@
 4	Resistance에	_	_	O
 5	따르면,	_	_	O
 6	이란은	_	_	O
-7	Amir	_	_	B-Relative
-8	Kabir	_	_	I-Relative
-9	대학의	_	_	I-Relative
+7	Amir	_	_	B-Relative_location
+8	Kabir	_	_	I-Relative_location
+9	대학의	_	_	I-Relative_location
 10	과학	_	_	B-Use
 11	기술	_	_	I-Use
 12	센터를	센터.n	Locale_by_use	O
@@ -5034,7 +5034,7 @@
 
 #sentid:2214
 #text:이란의 National Council of Resistance에 따르면, 이란은 Amir Kabir 대학의 과학 기술 센터를 위장으로 사용하여 군민 양용 장비를 구매하였다.
-0	이란의	_	_	S-Buyer
+0	이란의	_	_	B-Buyer
 1	National	_	_	O
 2	Council	_	_	O
 3	of	_	_	O
@@ -5072,7 +5072,7 @@
 13	위장으로	_	_	O
 14	사용하여	_	_	O
 15	군민	_	_	O
-16	양용	_	_	S-Use
+16	양용	_	_	B-Use
 17	장비를	장비.n	Gizmo	O
 18	구매하였다.	_	_	O
 
@@ -5240,7 +5240,7 @@
 33	이들을	_	_	O
 34	명확하게	명확하다.a	Evidence	O
 35	입증할	명확하다.a	Evidence	O
-36	증거는	_	_	S-Proposition
+36	증거는	_	_	B-Proposition
 37	별로	_	_	O
 38	없다.	_	_	O
 
@@ -5259,8 +5259,8 @@
 10	있긴	_	_	O
 11	하지만,	_	_	O
 12	이란의	_	_	O
-13	화학무기	_	_	B-Reported
-14	프로그램에	_	_	I-Reported
+13	화학무기	_	_	B-Reported_fact
+14	프로그램에	_	_	I-Reported_fact
 15	대한	_	_	O
 16	의혹을	의혹.n	Unattributed_information	O
 17	평가하는	_	_	O
@@ -5291,9 +5291,9 @@
 0	비록	_	_	O
 1	많은	_	_	O
 2	국가의	_	_	O
-3	대량	_	_	B-Salient
-4	파괴	_	_	I-Salient
-5	무기에	_	_	I-Salient
+3	대량	_	_	B-Salient_entity
+4	파괴	_	_	I-Salient_entity
+5	무기에	_	_	I-Salient_entity
 6	대한	_	_	O
 7	정보가	_	_	O
 8	흔히	_	_	O
@@ -5342,8 +5342,8 @@
 9	한정되어	_	_	O
 10	있긴	_	_	O
 11	하지만,	_	_	O
-12	이란의	_	_	S-Agent
-13	화학무기	_	_	S-Salient
+12	이란의	_	_	B-Agent
+13	화학무기	_	_	B-Salient_entity
 14	프로그램에	프로그램.n	Project	O
 15	대한	_	_	O
 16	의혹을	_	_	O
@@ -5456,7 +5456,7 @@
 
 #sentid:2274
 #text:이란은 화학 시설과 과거 화학무기 비축에 관한 선언서를 제출하였는데, 이란은 화학무기 금지기구 조사관들이 있는 곳에서 화학무기 생산 장비를 파괴하였고, 화학 산업 시설들에 대해 화학무기 금지기구의 조사를 수 차례 받았다.
-0	이란은	_	_	S-Speaker
+0	이란은	_	_	B-Speaker
 1	화학	_	_	B-Topic
 2	시설과	_	_	I-Topic
 3	과거	_	_	I-Topic
@@ -5520,7 +5520,7 @@
 
 #sentid:2274
 #text:이란은 화학 시설과 과거 화학무기 비축에 관한 선언서를 제출하였는데, 이란은 화학무기 금지기구 조사관들이 있는 곳에서 화학무기 생산 장비를 파괴하였고, 화학 산업 시설들에 대해 화학무기 금지기구의 조사를 수 차례 받았다.
-0	이란은	_	_	S-Destroyer
+0	이란은	_	_	B-Destroyer
 1	화학	_	_	O
 2	시설과	_	_	O
 3	과거	_	_	O
@@ -5535,9 +5535,9 @@
 12	조사관들이	_	_	I-Place
 13	있는	_	_	I-Place
 14	곳에서	_	_	I-Place
-15	화학무기	_	_	B-Undergoer
-16	생산	_	_	I-Undergoer
-17	장비를	_	_	I-Undergoer
+15	화학무기	_	_	B-Patient
+16	생산	_	_	I-Patient
+17	장비를	_	_	I-Patient
 18	파괴하였고,	파괴하다.v	Destroying	O
 19	화학	_	_	O
 20	산업	_	_	O
@@ -5556,7 +5556,7 @@
 1	화학	_	_	O
 2	시설과	_	_	O
 3	과거	_	_	O
-4	화학무기	_	_	S-Resource
+4	화학무기	_	_	B-Resource
 5	비축에	비축.n	Store	O
 6	관한	_	_	O
 7	선언서를	_	_	O
@@ -5585,7 +5585,7 @@
 #sentid:2274
 #text:이란은 화학 시설과 과거 화학무기 비축에 관한 선언서를 제출하였는데, 이란은 화학무기 금지기구 조사관들이 있는 곳에서 화학무기 생산 장비를 파괴하였고, 화학 산업 시설들에 대해 화학무기 금지기구의 조사를 수 차례 받았다.
 0	이란은	_	_	O
-1	화학	_	_	S-Use
+1	화학	_	_	B-Use
 2	시설과	시설.n	Locale_by_use	O
 3	과거	_	_	O
 4	화학무기	_	_	O
@@ -5652,7 +5652,7 @@
 1	화학	_	_	O
 2	시설과	_	_	O
 3	과거	_	_	O
-4	화학무기	_	_	S-Product
+4	화학무기	_	_	B-Product
 5	비축에	_	_	O
 6	관한	_	_	O
 7	선언서를	_	_	O
@@ -5786,7 +5786,7 @@
 15	전환	_	_	O
 16	가능성	_	_	O
 17	때문에	_	_	O
-18	주목할	_	_	S-Action
+18	주목할	_	_	B-Action
 19	필요가	필요불가결.n	Deserving	O
 20	있다.	필요불가결.n	Deserving	O
 
@@ -5892,8 +5892,8 @@
 1	1월	_	_	I-Time
 2	-	_	_	I-Time
 3	2월에,	_	_	I-Time
-4	중국은	_	_	S-Supplier
-5	이란에	_	_	S-Recipient
+4	중국은	_	_	B-Supplier
+5	이란에	_	_	B-Recipient
 6	화학	_	_	B-Theme
 7	-	_	_	I-Theme
 8	생물	_	_	I-Theme
@@ -5922,7 +5922,7 @@
 11	제염제인	_	_	I-Stuff
 12	치아염소산	_	_	I-Stuff
 13	칼슘	_	_	I-Stuff
-14	40,000	_	_	S-Count
+14	40,000	_	_	B-Count
 15	배럴을	배럴.n	Measure_volume	O
 16	공급하였다.	_	_	O
 
@@ -5940,7 +5940,7 @@
 9	장비를	_	_	I-Goal
 10	획득하기	_	_	I-Goal
 11	위한	_	_	I-Goal
-12	이란의	_	_	S-Agent
+12	이란의	_	_	B-Agent
 13	노력에	노력.n	Attempt	O
 14	대한	_	_	O
 15	독일	_	_	O
@@ -5952,7 +5952,7 @@
 0	위장한	_	_	O
 1	세	_	_	O
 2	개의	_	_	O
-3	인도	_	_	S-Proprietor
+3	인도	_	_	B-Proprietor
 4	회사를	회사.n	Businesses	O
 5	이용하여,	_	_	O
 6	타분과	_	_	O
@@ -5970,7 +5970,7 @@
 
 #sentid:2305
 #text:위장한 세 개의 인도 회사를 이용하여, 타분과 사린의 생산 장비를 획득하기 위한 이란의 노력에 대한 독일 정보 보고.
-0	위장한	_	_	S-Role
+0	위장한	_	_	B-Role
 1	세	_	_	B-Instrument
 2	개의	_	_	I-Instrument
 3	인도	_	_	I-Instrument
@@ -5982,7 +5982,7 @@
 9	장비를	_	_	O
 10	획득하기	_	_	O
 11	위한	_	_	O
-12	이란의	_	_	S-Agent
+12	이란의	_	_	B-Agent
 13	노력에	_	_	O
 14	대한	_	_	O
 15	독일	_	_	O
@@ -6045,7 +6045,7 @@
 9	장비를	_	_	I-Theme
 10	획득하기	획득하다.v	Getting	O
 11	위한	_	_	O
-12	이란의	_	_	S-Recipient
+12	이란의	_	_	B-Recipient
 13	노력에	_	_	O
 14	대한	_	_	O
 15	독일	_	_	O
@@ -6075,9 +6075,9 @@
 
 #sentid:2321
 #text:1984년에, 한국은 이란에 결함이 있는 것으로 입증된, 핀란드의 Kemira 사 방독면 복제품을 이란에 공급하였다.
-0	1984년에,	_	_	S-Time
-1	한국은	_	_	S-Supplier
-2	이란에	_	_	S-Recipient
+0	1984년에,	_	_	B-Time
+1	한국은	_	_	B-Supplier
+2	이란에	_	_	B-Recipient
 3	결함이	_	_	B-Theme
 4	있는	_	_	I-Theme
 5	것으로	_	_	I-Theme
@@ -6139,13 +6139,13 @@
 
 #sentid:2328
 #text:이란은 현재 이들 물질의 생산에 자급 자족이 되도록 애쓰고 있다.
-0	이란은	_	_	S-Entity
-1	현재	_	_	S-Time
-2	이들	_	_	B-Final
-3	물질의	_	_	I-Final
-4	생산에	_	_	I-Final
-5	자급	_	_	I-Final
-6	자족이	_	_	I-Final
+0	이란은	_	_	B-Entity
+1	현재	_	_	B-Time
+2	이들	_	_	B-Final_category
+3	물질의	_	_	I-Final_category
+4	생산에	_	_	I-Final_category
+5	자급	_	_	I-Final_category
+6	자족이	_	_	I-Final_category
 7	되도록	되다.a	Becoming	O
 8	애쓰고	_	_	O
 9	있다.	_	_	O
@@ -6155,7 +6155,7 @@
 0	2003년	_	_	O
 1	2월에,	_	_	O
 2	이란	이란.n	Origin	O
-3	지도자들은	_	_	S-Entity
+3	지도자들은	_	_	B-Entity
 4	완전히	_	_	O
 5	국내	_	_	O
 6	자원을	_	_	O
@@ -6173,7 +6173,7 @@
 #text:2003년 2월에, 이란 지도자들은 완전히 국내 자원을 사용하는 핵 에너지 계획을 발전시키기 위한 새로운 계획을 발표하였다.
 0	2003년	_	_	O
 1	2월에,	_	_	O
-2	이란	_	_	S-Governed
+2	이란	_	_	B-Governed
 3	지도자들은	지도자.n	Leadership	O
 4	완전히	_	_	O
 5	국내	_	_	O
@@ -6325,7 +6325,7 @@
 5	계획이	_	_	I-Message
 6	2003년	_	_	B-Time
 7	5월	_	_	I-Time
-8	미국에	_	_	S-Addressee
+8	미국에	_	_	B-Addressee
 9	전달되었다.	전달되다.v	Communication	O
 
 #sentid:2364
@@ -6368,7 +6368,7 @@
 
 #sentid:2364
 #text:그것은 제재 해제와 궁극적인 관계 정상화의 대가로 핵무기에 대한 미국의 우려에 대해 조처를 취하겠다는 약속을 포함한다.
-0	그것은	_	_	S-Total
+0	그것은	_	_	B-Total
 1	제재	_	_	B-Part
 2	해제와	_	_	I-Part
 3	궁극적인	_	_	I-Part
@@ -6415,7 +6415,7 @@
 6	대가로	_	_	O
 7	핵무기에	_	_	B-Topic
 8	대한	_	_	I-Topic
-9	미국의	_	_	S-Experiencer
+9	미국의	_	_	B-Experiencer
 10	우려에	우려.n	Emotion_directed	O
 11	대해	_	_	O
 12	조처를	_	_	O
@@ -6427,7 +6427,7 @@
 #text:그것은 제재 해제와 궁극적인 관계 정상화의 대가로 핵무기에 대한 미국의 우려에 대해 조처를 취하겠다는 약속을 포함한다.
 0	그것은	_	_	O
 1	제재	제재.n	Revenge	O
-2	해제와	_	_	S-Gov
+2	해제와	_	_	O
 3	궁극적인	_	_	O
 4	관계	_	_	O
 5	정상화의	_	_	O
@@ -6463,8 +6463,8 @@
 
 #sentid:2375
 #text:이란은 생물무기 획득이나 생산을 강력히 부인한다.
-0	이란은	_	_	S-Recipient
-1	생물무기	_	_	S-Theme
+0	이란은	_	_	B-Recipient
+1	생물무기	_	_	B-Theme
 2	획득이나	획득.n	Getting	O
 3	생산을	_	_	O
 4	강력히	_	_	O
@@ -6472,8 +6472,8 @@
 
 #sentid:2375
 #text:이란은 생물무기 획득이나 생산을 강력히 부인한다.
-0	이란은	_	_	S-Manufacturer
-1	생물무기	_	_	S-Product
+0	이란은	_	_	B-Producer
+1	생물무기	_	_	B-Product
 2	획득이나	_	_	O
 3	생산을	생산.n	Manufacturing	O
 4	강력히	_	_	O
@@ -6481,11 +6481,11 @@
 
 #sentid:2375
 #text:이란은 생물무기 획득이나 생산을 강력히 부인한다.
-0	이란은	_	_	S-Speaker
+0	이란은	_	_	B-Speaker
 1	생물무기	_	_	B-Message
 2	획득이나	_	_	I-Message
 3	생산을	_	_	I-Message
-4	강력히	_	_	S-Manner
+4	강력히	_	_	B-Manner
 5	부인한다.	부인하다.v	Statement	O
 
 #sentid:2395
@@ -6524,7 +6524,7 @@
 11	맞게,	_	_	O
 12	그리고	_	_	O
 13	예측할만한	예측하다.v	Expectation	O
-14	방식으로	_	_	S-Phenomenon
+14	방식으로	_	_	B-Phenomenon
 15	진행되고	_	_	O
 16	있다.	_	_	O
 
@@ -6625,7 +6625,7 @@
 #sentid:2396
 #text:오늘날, 이란은 제3세계에서 두 번째로 가장 큰 ( 북한 -- DPRK의 뒤를 이어 ) 탄도 미사일 세력을 보유하고 있고 유럽과 미국 대륙을 위협할 수 있는 우주 로켓과 중거리 및 대륙간 탄도 미사일을 거의 개발하였다.
 0	오늘날,	_	_	O
-1	이란은	_	_	S-Owner
+1	이란은	_	_	B-Owner
 2	제3세계에서	_	_	B-Possession
 3	두	_	_	I-Possession
 4	번째로	_	_	I-Possession
@@ -6727,7 +6727,7 @@
 0	1984년	_	_	O
 1	중에,	_	_	O
 2	이란은	_	_	O
-3	소규모의	규모.n	Quantity	S-Quantity
+3	소규모의	규모.n	Quantity	B-Quantity
 4	이동식	_	_	B-Individuals
 5	트럭형	_	_	I-Individuals
 6	발사대인	_	_	I-Individuals
@@ -6752,7 +6752,7 @@
 #text:1984년 중에, 이란은 소규모의 이동식 트럭형 발사대인 MAZ -543P TEL ( TELs ) 과 스커드-B 미사일의 구매를 위해 리비아와 비밀 협정을 성공적으로 끝냈다.
 0	1984년	_	_	O
 1	중에,	_	_	O
-2	이란은	_	_	S-Party
+2	이란은	_	_	B-Party
 3	소규모의	_	_	B-Obligation
 4	이동식	_	_	I-Obligation
 5	트럭형	_	_	I-Obligation
@@ -6768,8 +6768,8 @@
 15	미사일의	_	_	I-Obligation
 16	구매를	_	_	I-Obligation
 17	위해	_	_	I-Obligation
-18	리비아와	_	_	S-Party
-19	비밀	_	_	S-Manner
+18	리비아와	_	_	B-Party
+19	비밀	_	_	B-Manner
 20	협정을	협정.n	Make_agreement_on_action	O
 21	성공적으로	_	_	O
 22	끝냈다.	_	_	O
@@ -6778,7 +6778,7 @@
 #text:1984년 중에, 이란은 소규모의 이동식 트럭형 발사대인 MAZ -543P TEL ( TELs ) 과 스커드-B 미사일의 구매를 위해 리비아와 비밀 협정을 성공적으로 끝냈다.
 0	1984년	_	_	B-Time
 1	중에,	_	_	I-Time
-2	이란은	_	_	S-Agent
+2	이란은	_	_	B-Agent
 3	소규모의	_	_	B-Activity
 4	이동식	_	_	I-Activity
 5	트럭형	_	_	I-Activity
@@ -6797,7 +6797,7 @@
 18	리비아와	_	_	I-Activity
 19	비밀	_	_	I-Activity
 20	협정을	_	_	I-Activity
-21	성공적으로	_	_	S-Manner
+21	성공적으로	_	_	B-Manner
 22	끝냈다.	끝내다.v	Activity_finish	O
 
 #sentid:2428
@@ -6832,7 +6832,7 @@
 1	이란이	_	_	O
 2	또한	_	_	O
 3	미사일	미사일.n	Weapon	O
-4	기술과	_	_	S-Gov
+4	기술과	_	_	O
 5	스커드-B	_	_	O
 6	급의	_	_	O
 7	전술	_	_	O
@@ -6852,7 +6852,7 @@
 #sentid:2433
 #text:이때가 이란이 또한 미사일 기술과 스커드-B 급의 전술 탄도 미사일을 획득하기 위해 북한과 중국 ( PRC ) 에 접근한 기간이었다.
 0	이때가	_	_	O
-1	이란이	_	_	S-Theme
+1	이란이	_	_	B-Theme
 2	또한	_	_	O
 3	미사일	_	_	B-Depictive
 4	기술과	_	_	I-Depictive
@@ -6923,7 +6923,7 @@
 0	이때가	_	_	O
 1	이란이	_	_	O
 2	또한	_	_	O
-3	미사일	_	_	S-Type
+3	미사일	_	_	B-Type
 4	기술과	기술.n	Artifact	O
 5	스커드-B	_	_	O
 6	급의	_	_	O
@@ -6944,15 +6944,15 @@
 #sentid:2433
 #text:이때가 이란이 또한 미사일 기술과 스커드-B 급의 전술 탄도 미사일을 획득하기 위해 북한과 중국 ( PRC ) 에 접근한 기간이었다.
 0	이때가	_	_	O
-1	이란이	_	_	S-Cognizer
+1	이란이	_	_	B-Cognizer
 2	또한	_	_	O
-3	미사일	_	_	B-Sought
-4	기술과	_	_	I-Sought
-5	스커드-B	_	_	I-Sought
-6	급의	_	_	I-Sought
-7	전술	_	_	I-Sought
-8	탄도	_	_	I-Sought
-9	미사일을	_	_	I-Sought
+3	미사일	_	_	B-Sought_entity
+4	기술과	_	_	I-Sought_entity
+5	스커드-B	_	_	I-Sought_entity
+6	급의	_	_	I-Sought_entity
+7	전술	_	_	I-Sought_entity
+8	탄도	_	_	I-Sought_entity
+9	미사일을	_	_	I-Sought_entity
 10	획득하기	획득하다.v	Seeking	O
 11	위해	_	_	O
 12	북한과	_	_	O
@@ -6979,7 +6979,7 @@
 
 #sentid:2481
 #text:이란은 전장에서 패했을 뿐만 아니라, 더욱 심각한 것은, 본거지에서 패배하였다.
-0	이란은	_	_	S-Loser
+0	이란은	_	_	B-Loser
 1	전장에서	_	_	O
 2	패했을	_	_	O
 3	뿐만	_	_	O
@@ -6987,12 +6987,12 @@
 5	더욱	_	_	O
 6	심각한	_	_	O
 7	것은,	_	_	O
-8	본거지에서	_	_	S-Competition
+8	본거지에서	_	_	B-Competition
 9	패배하였다.	패배하다.v	Beat_opponent	O
 
 #sentid:2543
 #text:이란의 탄도 미사일 능력은 광범위한 핵, 생물, 그리고 화학무기 프로그램에 의해 보완되었고, 이것들 자체가 상당한 외국의 지원을 받은 것이다.
-0	이란의	_	_	S-Entity
+0	이란의	_	_	B-Entity
 1	탄도	_	_	B-Event
 2	미사일	_	_	I-Event
 3	능력은	능력.n	Capability	O
@@ -7040,11 +7040,11 @@
 1	탄도	_	_	O
 2	미사일	_	_	O
 3	능력은	_	_	O
-4	광범위한	_	_	B-Salient
-5	핵,	_	_	I-Salient
-6	생물,	_	_	I-Salient
-7	그리고	_	_	I-Salient
-8	화학무기	_	_	I-Salient
+4	광범위한	_	_	B-Salient_entity
+5	핵,	_	_	I-Salient_entity
+6	생물,	_	_	I-Salient_entity
+7	그리고	_	_	I-Salient_entity
+8	화학무기	_	_	I-Salient_entity
 9	프로그램에	프로그램.n	Project	O
 10	의해	_	_	O
 11	보완되었고,	_	_	O
@@ -7072,8 +7072,8 @@
 11	보완되었고,	_	_	O
 12	이것들	_	_	O
 13	자체가	_	_	O
-14	상당한	_	_	S-Manner
-15	외국의	_	_	S-Helper
+14	상당한	_	_	B-Manner
+15	외국의	_	_	B-Helper
 16	지원을	지원.n	Assistance	O
 17	받은	_	_	O
 18	것이다.	_	_	O
@@ -7163,7 +7163,7 @@
 8	외국	_	_	O
 9	공급자들의	_	_	O
 10	철수와	_	_	O
-11	원자력	원자력.n	Electricity	S-Source
+11	원자력	원자력.n	Electricity	B-Source
 12	협력의	_	_	O
 13	포기에	_	_	O
 14	기여하였다.	_	_	O
@@ -7217,7 +7217,7 @@
 8	외국	_	_	O
 9	공급자들의	_	_	O
 10	철수와	_	_	O
-11	원자력	_	_	S-Topic
+11	원자력	_	_	B-Topic
 12	협력의	협력.n	Make_agreement_on_action	O
 13	포기에	_	_	O
 14	기여하였다.	_	_	O
@@ -7226,7 +7226,7 @@
 #text:이라크의 침입과 이란의 강력한 동맹국인 미국의 상실은 이란의 정치적 및 군사적 취약감에 기여했을 것이다.
 0	이라크의	_	_	O
 1	침입과	_	_	O
-2	이란의	_	_	S-Perceiver
+2	이란의	_	_	B-Perceiver
 3	강력한	_	_	O
 4	동맹국인	_	_	O
 5	미국의	_	_	O
@@ -7259,7 +7259,7 @@
 2	2003년	_	_	B-Time
 3	12월	_	_	I-Time
 4	18일에	_	_	I-Time
-5	이란은	_	_	S-Signatory
+5	이란은	_	_	B-Signatory
 6	핵확산	_	_	B-Agreement
 7	방지	_	_	I-Agreement
 8	조약의	_	_	I-Agreement
@@ -7294,7 +7294,7 @@
 14	의한	_	_	I-Inspector
 15	핵	_	_	B-Ground
 16	시설의	_	_	I-Ground
-17	불시	_	_	S-Manner
+17	불시	_	_	B-Manner
 18	점검을	점검.n	Inspecting	O
 19	허용하였다.	_	_	O
 
@@ -7306,7 +7306,7 @@
 3	12월	_	_	O
 4	18일에	_	_	O
 5	이란은	_	_	O
-6	핵확산	_	_	S-Use
+6	핵확산	_	_	B-Use
 7	방지	_	_	O
 8	조약의	_	_	O
 9	추가의정서에	_	_	O
@@ -7335,7 +7335,7 @@
 9	추가의정서에	_	_	O
 10	서명하였고,	_	_	O
 11	그래서	_	_	O
-12	IAEA	_	_	S-Knowledge
+12	IAEA	_	_	B-Knowledge
 13	전문가들에	전문가.n	Expertise	O
 14	의한	_	_	O
 15	핵	_	_	O
@@ -7393,8 +7393,8 @@
 15	그리고	_	_	I-Addressee
 16	북한에	_	_	I-Addressee
 17	대한	_	_	I-Addressee
-18	강한	_	_	S-Manner
-19	국제적	_	_	S-Speaker
+18	강한	_	_	B-Manner
+19	국제적	_	_	B-Speaker
 20	압력의	압력.n	Attempt_suasion	O
 21	형태로	_	_	O
 22	나올	_	_	O
@@ -7407,7 +7407,7 @@
 0	두	_	_	O
 1	번째	_	_	O
 2	영역은	_	_	O
-3	이란이	_	_	S-Benefited
+3	이란이	_	_	B-Benefited_party
 4	지식과	_	_	B-Goal
 5	기반시설을	_	_	I-Goal
 6	완료하도록	_	_	I-Goal
@@ -7415,7 +7415,7 @@
 8	돕는	돕다.v	Assistance	O
 9	위치에	_	_	O
 10	있는	_	_	O
-11	국가들인	_	_	S-Helper
+11	국가들인	_	_	B-Helper
 12	러시아,	_	_	O
 13	파키스탄,	_	_	O
 14	중국,	_	_	O
@@ -7474,7 +7474,7 @@
 #sentid:2650
 #text:그러나, 기구는 임무와 구조에서 몇 차례의 수정을 받았다.
 0	그러나,	_	_	O
-1	기구는	_	_	S-Entity
+1	기구는	_	_	B-Entity
 2	임무와	_	_	B-Event
 3	구조에서	_	_	I-Event
 4	몇	_	_	I-Event
@@ -7512,7 +7512,7 @@
 8	연구	_	_	O
 9	원자로,	_	_	O
 10	그리고	_	_	O
-11	미임계	_	_	S-Aggregateproperty
+11	미임계	_	_	B-Aggregate_property
 12	장치의	장치.n	Aggregate	O
 13	본거지이다.	_	_	O
 
@@ -7526,7 +7526,7 @@
 5	MNSR	_	_	O
 6	),	_	_	O
 7	다른	_	_	O
-8	연구	_	_	S-Use
+8	연구	_	_	B-Use
 9	원자로,	_	_	O
 10	그리고	_	_	O
 11	미임계	_	_	O
@@ -7536,8 +7536,8 @@
 #sentid:2659
 #text:ENTC는 소형 중성자 원자로 ( MNSR ), 다른 연구 원자로, 그리고 미임계 장치의 본거지이다.
 0	ENTC는	_	_	O
-1	소형	_	_	S-Descriptor
-2	중성자	_	_	S-Use
+1	소형	_	_	B-Descriptor
+2	중성자	_	_	B-Use
 3	원자로	원자.n	Locale_by_use	O
 4	(	_	_	O
 5	MNSR	_	_	O
@@ -7565,15 +7565,15 @@
 10	필요한	_	_	I-Theme
 11	장비를	_	_	I-Theme
 12	획득할	획득하다.v	Getting	O
-13	그의	_	_	S-Recipient
+13	그의	_	_	B-Recipient
 14	종전의	_	_	O
 15	의도를	_	_	O
 16	시인하였다.	_	_	O
 
 #sentid:2712
 #text:2003년에, 리비아는 생물 무기 ( BW ) 를 생산하기 위해 필요한 장비를 획득할 그의 종전의 의도를 시인하였다.
-0	2003년에,	_	_	S-Time
-1	리비아는	_	_	S-Speaker
+0	2003년에,	_	_	B-Time
+1	리비아는	_	_	B-Speaker
 2	생물	_	_	B-Message
 3	무기	_	_	I-Message
 4	(	_	_	I-Message
@@ -7620,7 +7620,7 @@
 5	BW	_	_	O
 6	)	_	_	O
 7	를	_	_	O
-8	생산하기	_	_	S-Gov
+8	생산하기	_	_	O
 9	위해	_	_	O
 10	필요한	_	_	O
 11	장비를	_	_	O
@@ -7647,7 +7647,7 @@
 12	획득할	_	_	O
 13	그의	_	_	O
 14	종전의	종전.n	Relative_time	O
-15	의도를	_	_	S-Focal
+15	의도를	_	_	B-Focal_occasion
 16	시인하였다.	_	_	O
 
 #sentid:2712
@@ -7677,9 +7677,9 @@
 2	리비아는	_	_	O
 3	소문에	의하다.v	Unattributed_information	O
 4	의하면	의하다.v	Unattributed_information	O
-5	950	_	_	B-Reported
-6	킬로미터	_	_	I-Reported
-7	사거리의	_	_	I-Reported
+5	950	_	_	B-Reported_fact
+6	킬로미터	_	_	I-Reported_fact
+7	사거리의	_	_	I-Reported_fact
 8	al-Fatah를	_	_	O
 9	가진	_	_	O
 10	더	_	_	O
@@ -7714,7 +7714,7 @@
 
 #sentid:2721
 #text:1980년대 초에, 리비아는 소문에 의하면 950 킬로미터 사거리의 al-Fatah를 가진 더 장거리의 탄도 미사일을 획득하기 위한 노력을 가속화하였다.
-0	1980년대	_	_	S-Time
+0	1980년대	_	_	B-Time
 1	초에,	초.n	Temporal_subregion	O
 2	리비아는	_	_	O
 3	소문에	_	_	O
@@ -7758,14 +7758,14 @@
 #text:1980년대 초에, 리비아는 소문에 의하면 950 킬로미터 사거리의 al-Fatah를 가진 더 장거리의 탄도 미사일을 획득하기 위한 노력을 가속화하였다.
 0	1980년대	_	_	O
 1	초에,	_	_	O
-2	리비아는	_	_	S-Participant
+2	리비아는	_	_	B-Participant
 3	소문에	_	_	O
 4	의하면	_	_	O
 5	950	_	_	O
 6	킬로미터	_	_	O
 7	사거리의	_	_	O
-8	al-Fatah를	_	_	B-Coparticipant
-9	가진	가지다.v	Accompaniment	I-Coparticipant
+8	al-Fatah를	_	_	B-Co_participant
+9	가진	가지다.v	Accompaniment	I-Co_participant
 10	더	_	_	O
 11	장거리의	_	_	O
 12	탄도	_	_	O
@@ -7779,7 +7779,7 @@
 #text:1980년대 초에, 리비아는 소문에 의하면 950 킬로미터 사거리의 al-Fatah를 가진 더 장거리의 탄도 미사일을 획득하기 위한 노력을 가속화하였다.
 0	1980년대	_	_	O
 1	초에,	_	_	O
-2	리비아는	_	_	S-Recipient
+2	리비아는	_	_	B-Recipient
 3	소문에	_	_	O
 4	의하면	_	_	O
 5	950	_	_	O
@@ -7831,7 +7831,7 @@
 5	협정의	_	_	O
 6	일부분으로,	_	_	O
 7	리비아는	_	_	O
-8	발사	_	_	S-Event
+8	발사	_	_	B-Event
 9	능력을	능력.n	Capability	O
 10	포함하여,	_	_	O
 11	북한의	_	_	O
@@ -7912,7 +7912,7 @@
 11	작용제의	_	_	O
 12	획득과	_	_	O
 13	무기화에	_	_	O
-14	불균형적인	_	_	S-Degree
+14	불균형적인	_	_	B-Degree
 15	성공을	성공.n	Success_or_failure	O
 16	이루었다.	_	_	O
 
@@ -7926,7 +7926,7 @@
 5	삼십년	_	_	O
 6	동안,	_	_	O
 7	북한의	_	_	O
-8	화학무기	_	_	S-Salient
+8	화학무기	_	_	B-Salient_entity
 9	프로그램은	프로그램.n	Project	O
 10	화학무기	_	_	O
 11	작용제의	_	_	O
@@ -7941,7 +7941,7 @@
 0	1990년대	_	_	O
 1	동안,	_	_	O
 2	일부	_	_	O
-3	신경	_	_	S-Type
+3	신경	_	_	B-Type
 4	작용제	작용제.n	Active_substance	O
 5	제조에	_	_	O
 6	필요한	_	_	O
@@ -8003,7 +8003,7 @@
 2	금지	_	_	I-Governed
 3	기구의	_	_	I-Governed
 4	한	_	_	O
-5	정보통의	_	_	S-Descriptor
+5	정보통의	_	_	B-Descriptor
 6	관리는,	관리.n	Leadership	O
 7	단기적으로는,	_	_	O
 8	북한이	_	_	O
@@ -8025,7 +8025,7 @@
 3	기구의	_	_	O
 4	한	_	_	O
 5	정보통의	정보통.n	Expertise	O
-6	관리는,	_	_	S-Protagonist
+6	관리는,	_	_	B-Protagonist
 7	단기적으로는,	_	_	O
 8	북한이	_	_	O
 9	화학무기금지협약	_	_	O
@@ -8047,7 +8047,7 @@
 4	대한	_	_	O
 5	믿을만한	_	_	O
 6	공개	공개.n	Secrecy_status	O
-7	출처	_	_	S-Phenomenon
+7	출처	_	_	B-Phenomenon
 8	정보를	_	_	O
 9	확보하는	_	_	O
 10	것은	_	_	O
@@ -8104,7 +8104,7 @@
 
 #sentid:2880
 #text:평양은 중유 오일 보급 손실에 대한 보상으로 전기를 생산하기 위해 동결을 해제한다고 언급하였고, 북한 기술자들은 봉인을 제거하고  수일 이내에 영변군의 핵 시설의 감시 카메라를 망가뜨릴 수 있었다.
-0	평양은	_	_	S-Agent
+0	평양은	_	_	B-Agent
 1	중유	_	_	O
 2	오일	_	_	O
 3	보급	_	_	O
@@ -8157,7 +8157,7 @@
 20	핵	_	_	O
 21	시설의	_	_	O
 22	감시	감시.n	Scrutiny	O
-23	카메라를	_	_	S-Instrument
+23	카메라를	_	_	B-Instrument
 24	망가뜨릴	_	_	O
 25	수	_	_	O
 26	있었다.	_	_	O
@@ -8194,7 +8194,7 @@
 
 #sentid:2880
 #text:평양은 중유 오일 보급 손실에 대한 보상으로 전기를 생산하기 위해 동결을 해제한다고 언급하였고, 북한 기술자들은 봉인을 제거하고  수일 이내에 영변군의 핵 시설의 감시 카메라를 망가뜨릴 수 있었다.
-0	평양은	_	_	S-Agent
+0	평양은	_	_	B-Agent
 1	중유	_	_	O
 2	오일	_	_	O
 3	보급	_	_	O
@@ -8204,7 +8204,7 @@
 7	전기를	_	_	O
 8	생산하기	_	_	O
 9	위해	_	_	O
-10	동결을	_	_	S-Process
+10	동결을	_	_	B-Process
 11	해제한다고	해제하다.v	Cause_to_end	O
 12	언급하였고,	_	_	O
 13	북한	_	_	O
@@ -8254,7 +8254,7 @@
 
 #sentid:2880
 #text:평양은 중유 오일 보급 손실에 대한 보상으로 전기를 생산하기 위해 동결을 해제한다고 언급하였고, 북한 기술자들은 봉인을 제거하고  수일 이내에 영변군의 핵 시설의 감시 카메라를 망가뜨릴 수 있었다.
-0	평양은	_	_	S-Speaker
+0	평양은	_	_	B-Speaker
 1	중유	_	_	B-Message
 2	오일	_	_	I-Message
 3	보급	_	_	I-Message
@@ -8297,7 +8297,7 @@
 10	동결을	_	_	O
 11	해제한다고	_	_	O
 12	언급하였고,	_	_	O
-13	북한	_	_	S-Origin
+13	북한	_	_	B-Origin
 14	기술자들은	기술자.n	People_by_vocation	O
 15	봉인을	_	_	O
 16	제거하고	_	_	O
@@ -8334,7 +8334,7 @@
 17	수일	_	_	O
 18	이내에	_	_	O
 19	영변군의	_	_	O
-20	핵	_	_	S-Use
+20	핵	_	_	B-Use
 21	시설의	시설.n	Locale_by_use	O
 22	감시	_	_	O
 23	카메라를	_	_	O
@@ -8344,14 +8344,14 @@
 
 #sentid:2880
 #text:평양은 중유 오일 보급 손실에 대한 보상으로 전기를 생산하기 위해 동결을 해제한다고 언급하였고, 북한 기술자들은 봉인을 제거하고  수일 이내에 영변군의 핵 시설의 감시 카메라를 망가뜨릴 수 있었다.
-0	평양은	_	_	S-Creator
+0	평양은	_	_	B-Creator
 1	중유	_	_	B-Purpose
 2	오일	_	_	I-Purpose
 3	보급	_	_	I-Purpose
 4	손실에	_	_	I-Purpose
 5	대한	_	_	I-Purpose
 6	보상으로	_	_	I-Purpose
-7	전기를	_	_	S-Created
+7	전기를	_	_	B-Created_entity
 8	생산하기	생산하다.v	Creating	O
 9	위해	_	_	O
 10	동결을	_	_	O
@@ -8420,7 +8420,7 @@
 13	북한	_	_	O
 14	기술자들은	_	_	O
 15	봉인을	봉인.n	Fastener	O
-16	제거하고	_	_	S-Gov
+16	제거하고	_	_	O
 17	수일	_	_	O
 18	이내에	_	_	O
 19	영변군의	_	_	O
@@ -8449,7 +8449,7 @@
 12	언급하였고,	_	_	O
 13	북한	_	_	B-Agent
 14	기술자들은	_	_	I-Agent
-15	봉인을	_	_	S-Theme
+15	봉인을	_	_	B-Theme
 16	제거하고	제거하다.v	Removing	O
 17	수일	_	_	O
 18	이내에	_	_	O
@@ -8515,8 +8515,8 @@
 2	국가라고	_	_	O
 3	믿는	_	_	O
 4	사람들은	_	_	O
-5	평양의	_	_	S-Agent
-6	핵	_	_	S-Action
+5	평양의	_	_	B-Agent
+6	핵	_	_	B-Action
 7	동기는	동기.n	Reason	O
 8	심각한	_	_	O
 9	외부	_	_	O
@@ -8546,7 +8546,7 @@
 1	수정론자	_	_	I-Content
 2	국가라고	_	_	I-Content
 3	믿는	믿다.v	Certainty	O
-4	사람들은	_	_	S-Cognizer
+4	사람들은	_	_	B-Cognizer
 5	평양의	_	_	O
 6	핵	_	_	O
 7	동기는	_	_	O
@@ -8579,7 +8579,7 @@
 1	말과	_	_	O
 2	1990년대	_	_	O
 3	초,	_	_	O
-4	시리아는	_	_	S-Agent
+4	시리아는	_	_	B-Agent
 5	고유의	_	_	O
 6	핵	_	_	B-Activity
 7	자원을	_	_	I-Activity
@@ -8592,7 +8592,7 @@
 #text:1980년대 말과 1990년대 초, 시리아는 고유의 핵 자원을 위한 가능성을 탐사하기 시작하였다.
 0	1980년대	_	_	O
 1	말과	_	_	O
-2	1990년대	_	_	S-Time
+2	1990년대	_	_	B-Time
 3	초,	초.n	Temporal_subregion	O
 4	시리아는	_	_	O
 5	고유의	_	_	O
@@ -8605,7 +8605,7 @@
 
 #sentid:3079
 #text:1980년대 말과 1990년대 초, 시리아는 고유의 핵 자원을 위한 가능성을 탐사하기 시작하였다.
-0	1980년대	_	_	S-Time
+0	1980년대	_	_	B-Time
 1	말과	말.n	Temporal_subregion	O
 2	1990년대	_	_	O
 3	초,	_	_	O
@@ -8698,7 +8698,7 @@
 
 #sentid:3081
 #text:1986년, IAEA와 원자력 위원회는 인산으로부터의 우라늄 추출 과정을 연구하기 위해 Homs 에 있는 General Phosphate Company Plant 에 소규모 공장을 건설하였다.
-0	1986년,	_	_	S-Time
+0	1986년,	_	_	B-Time
 1	IAEA와	_	_	B-Agent
 2	원자력	_	_	I-Agent
 3	위원회는	_	_	I-Agent
@@ -8716,8 +8716,8 @@
 15	Company	_	_	I-Place
 16	Plant	_	_	I-Place
 17	에	_	_	O
-18	소규모	_	_	B-Created
-19	공장을	_	_	I-Created
+18	소규모	_	_	B-Created_entity
+19	공장을	_	_	I-Created_entity
 20	건설하였다.	건설하다.v	Building	O
 
 #sentid:3081
@@ -8752,7 +8752,7 @@
 3	위해	_	_	O
 4	시리아에	_	_	O
 5	약	_	_	O
-6	980	_	_	S-Count
+6	980	_	_	B-Count
 7	그램의	그램.n	Measure_mass	O
 8	89%	_	_	B-Stuff
 9	농축	_	_	I-Stuff
@@ -8761,11 +8761,11 @@
 
 #sentid:3085
 #text:중국은 원자로를 운영하기 위해 시리아에 약 980 그램의 89% 농축 U235를 공급하였다.
-0	중국은	_	_	S-Supplier
+0	중국은	_	_	B-Supplier
 1	원자로를	_	_	B-Purpose
 2	운영하기	_	_	I-Purpose
 3	위해	_	_	I-Purpose
-4	시리아에	_	_	S-Recipient
+4	시리아에	_	_	B-Recipient
 5	약	_	_	B-Theme
 6	980	_	_	I-Theme
 7	그램의	_	_	I-Theme
@@ -8784,9 +8784,9 @@
 5	약	_	_	O
 6	980	_	_	O
 7	그램의	_	_	O
-8	89%	_	_	S-Degree
+8	89%	_	_	B-Degree
 9	농축	농축.n	Degree_of_processing	O
-10	U235를	_	_	S-Material
+10	U235를	_	_	B-Material
 11	공급하였다.	_	_	O
 
 #sentid:3093
@@ -8807,7 +8807,7 @@
 
 #sentid:3093
 #text:정부는 또한 여러 국가들과, 그리고 가장 주목할만 하게 러시아와 새로운 협력 협정을 체결하였다.
-0	정부는	_	_	S-Party
+0	정부는	_	_	B-Party
 1	또한	_	_	O
 2	여러	_	_	B-Party
 3	국가들과,	_	_	I-Party
@@ -8817,7 +8817,7 @@
 7	하게	_	_	I-Party
 8	러시아와	_	_	I-Party
 9	새로운	_	_	O
-10	협력	_	_	S-Obligation
+10	협력	_	_	B-Obligation
 11	협정을	협정.n	Make_agreement_on_action	O
 12	체결하였다.	_	_	O
 
@@ -8841,8 +8841,8 @@
 #text:SRI는 최근의 걸프 전쟁 전에 이라크 과학자들을 영입하였다고 전해진다.
 0	SRI는	_	_	O
 1	최근의	최근.n	Relative_time	O
-2	걸프	_	_	B-Focal
-3	전쟁	_	_	I-Focal
+2	걸프	_	_	B-Focal_occasion
+3	전쟁	_	_	I-Focal_occasion
 4	전에	_	_	O
 5	이라크	_	_	O
 6	과학자들을	_	_	O
@@ -8856,21 +8856,21 @@
 2	걸프	_	_	O
 3	전쟁	_	_	O
 4	전에	_	_	O
-5	이라크	_	_	S-Ethnicity
+5	이라크	_	_	B-Ethnicity
 6	과학자들을	과학자.n	People_by_vocation	O
 7	영입하였다고	_	_	O
 8	전해진다.	_	_	O
 
 #sentid:3098
 #text:SRI는 최근의 걸프 전쟁 전에 이라크 과학자들을 영입하였다고 전해진다.
-0	SRI는	_	_	B-Reported
-1	최근의	_	_	I-Reported
-2	걸프	_	_	I-Reported
-3	전쟁	_	_	I-Reported
-4	전에	_	_	I-Reported
-5	이라크	_	_	I-Reported
-6	과학자들을	_	_	I-Reported
-7	영입하였다고	_	_	I-Reported
+0	SRI는	_	_	B-Reported_fact
+1	최근의	_	_	I-Reported_fact
+2	걸프	_	_	I-Reported_fact
+3	전쟁	_	_	I-Reported_fact
+4	전에	_	_	I-Reported_fact
+5	이라크	_	_	I-Reported_fact
+6	과학자들을	_	_	I-Reported_fact
+7	영입하였다고	_	_	I-Reported_fact
 8	전해진다.	전해지다.v	Unattributed_information	O
 
 #sentid:3140
@@ -8886,7 +8886,7 @@
 8	전하는	_	_	O
 9	바에	_	_	O
 10	의하면	_	_	O
-11	미국의	_	_	S-Speaker
+11	미국의	_	_	B-Speaker
 12	압력	압력.n	Attempt_suasion	O
 13	때문에	_	_	O
 14	1980년대	_	_	O
@@ -8935,27 +8935,27 @@
 
 #sentid:3140
 #text:사거리 950 킬로미터의 탄도 미사일인 Tien Ma의 개발은 전하는 바에 의하면 미국의 압력 때문에 1980년대 초에 중단되었다.
-0	사거리	_	_	B-Reported
-1	950	_	_	I-Reported
-2	킬로미터의	_	_	I-Reported
-3	탄도	_	_	I-Reported
-4	미사일인	_	_	I-Reported
-5	Tien	_	_	I-Reported
-6	Ma의	_	_	I-Reported
-7	개발은	_	_	I-Reported
+0	사거리	_	_	B-Reported_fact
+1	950	_	_	I-Reported_fact
+2	킬로미터의	_	_	I-Reported_fact
+3	탄도	_	_	I-Reported_fact
+4	미사일인	_	_	I-Reported_fact
+5	Tien	_	_	I-Reported_fact
+6	Ma의	_	_	I-Reported_fact
+7	개발은	_	_	I-Reported_fact
 8	전하는	심기일전하다.v	Unattributed_information	O
 9	바에	심기일전하다.v	Unattributed_information	O
 10	의하면	심기일전하다.v	Unattributed_information	O
-11	미국의	_	_	B-Reported
-12	압력	_	_	I-Reported
-13	때문에	_	_	I-Reported
-14	1980년대	_	_	I-Reported
-15	초에	_	_	I-Reported
-16	중단되었다.	_	_	I-Reported
+11	미국의	_	_	B-Reported_fact
+12	압력	_	_	I-Reported_fact
+13	때문에	_	_	I-Reported_fact
+14	1980년대	_	_	I-Reported_fact
+15	초에	_	_	I-Reported_fact
+16	중단되었다.	_	_	I-Reported_fact
 
 #sentid:3160
 #text:그녀는 12 주 임신이고, HIV를 가졌고 출혈 중이라고 그들에게 말하였다.
-0	그녀는	_	_	S-Speaker
+0	그녀는	_	_	B-Speaker
 1	12	_	_	B-Message
 2	주	_	_	I-Message
 3	임신이고,	_	_	I-Message
@@ -8963,7 +8963,7 @@
 5	가졌고	_	_	I-Message
 6	출혈	_	_	I-Message
 7	중이라고	_	_	I-Message
-8	그들에게	_	_	S-Addressee
+8	그들에게	_	_	B-Addressee
 9	말하였다.	말하다.v	Telling	O
 
 #sentid:3173
@@ -9113,7 +9113,7 @@
 
 #sentid:3173
 #text:화학 및 생물 방어를 위한 APG 내의 1.5 백만 제곱 피트의 연구 및 엔지니어링 시설인 Edgewood 화학 생물 센터에서의 두 번째 사고에서 작업자들은 아무도 부상당하지 않았다.
-0	화학	_	_	S-Assailant
+0	화학	_	_	B-Assailant
 1	및	_	_	O
 2	생물	_	_	O
 3	방어를	방어.n	Defending	O
@@ -9192,7 +9192,7 @@
 18	센터에서의	_	_	O
 19	두	_	_	O
 20	번째	_	_	O
-21	사고에서	_	_	S-Containing
+21	사고에서	_	_	B-Containing_event
 22	작업자들은	_	_	B-Victim
 23	아무도	_	_	I-Victim
 24	부상당하지	부상당하다.v	Cause_harm	O
@@ -9200,7 +9200,7 @@
 
 #sentid:3174
 #text:센터 장은 안전 절차의 철저한 검토를 약속하였다.
-0	센터	_	_	S-Governed
+0	센터	_	_	B-Governed
 1	장은	장.n	Leadership	O
 2	안전	_	_	O
 3	절차의	_	_	O
@@ -9245,7 +9245,7 @@
 2	운전하는	_	_	I-Figures
 3	보병	_	_	I-Figures
 4	간의	간.n	Locative_relation	O
-5	틈을	_	_	S-Figure
+5	틈을	_	_	B-Figure
 6	메꾸기	_	_	O
 7	위해	_	_	O
 8	개발된,	_	_	O
@@ -9323,10 +9323,10 @@
 11	바퀴가	_	_	O
 12	달린	_	_	O
 13	차량은	_	_	O
-14	미래의	_	_	B-Final
-15	전투력이	_	_	I-Final
+14	미래의	_	_	B-Final_category
+15	전투력이	_	_	I-Final_category
 16	될	되다.a	Becoming	O
-17	육군의	_	_	S-Entity
+17	육군의	_	_	B-Entity
 18	다음	_	_	O
 19	단계이다.	_	_	O
 
@@ -9349,8 +9349,8 @@
 14	미래의	_	_	B-Purpose
 15	전투력이	_	_	I-Purpose
 16	될	_	_	I-Purpose
-17	육군의	_	_	S-Agent
-18	다음	_	_	S-Particular
+17	육군의	_	_	B-Agent
+18	다음	_	_	B-Particular_iteration
 19	단계이다.	단계.n	Intentionally_act	O
 
 #sentid:3184
@@ -9447,7 +9447,7 @@
 
 #sentid:3241
 #text:핵무기를 추구하는 알 카이다의 본거지인 남아시아에서 보다 핵전쟁이나 핵 테러리즘의 위협, 또는 핵무기를 보호할 필요성이 더 중요한 곳은 아무데도 없다고, Dorgan이 남아시아를 지역의 핵무기 보유국인 중국, 인도, 파키스탄 간의 관계가 역사적으로 긴장되어온 지역으로 설명하면서 말했다. ( DailyIndia.com ; 06년 6월 25일 ; Arun Kumar, Indo - Asian News Service ) ( Link )
-0	핵무기를	_	_	S-Instrument
+0	핵무기를	_	_	B-Instrument
 1	추구하는	_	_	O
 2	알	_	_	O
 3	카이다의	_	_	O
@@ -9485,7 +9485,7 @@
 
 #sentid:3241
 #text:핵무기를 추구하는 알 카이다의 본거지인 남아시아에서 보다 핵전쟁이나 핵 테러리즘의 위협, 또는 핵무기를 보호할 필요성이 더 중요한 곳은 아무데도 없다고, Dorgan이 남아시아를 지역의 핵무기 보유국인 중국, 인도, 파키스탄 간의 관계가 역사적으로 긴장되어온 지역으로 설명하면서 말했다. ( DailyIndia.com ; 06년 6월 25일 ; Arun Kumar, Indo - Asian News Service ) ( Link )
-0	핵무기를	핵무기.n	Leadership	S-Role
+0	핵무기를	핵무기.n	Leadership	B-Role
 1	추구하는	_	_	O
 2	알	_	_	O
 3	카이다의	_	_	O
@@ -9885,8 +9885,8 @@
 17	곳은	_	_	O
 18	아무데도	_	_	O
 19	없다고,	_	_	O
-20	Dorgan이	_	_	S-Speaker
-21	남아시아를	_	_	S-Item
+20	Dorgan이	_	_	B-Speaker
+21	남아시아를	_	_	B-Item
 22	지역의	_	_	B-Category
 23	핵무기	_	_	I-Category
 24	보유국인	_	_	I-Category
@@ -9923,7 +9923,7 @@
 17	곳은	_	_	I-Message
 18	아무데도	_	_	I-Message
 19	없다고,	_	_	I-Message
-20	Dorgan이	_	_	S-Speaker
+20	Dorgan이	_	_	B-Speaker
 21	남아시아를	_	_	O
 22	지역의	_	_	O
 23	핵무기	_	_	O
@@ -9941,7 +9941,7 @@
 
 #sentid:3241
 #text:핵무기를 추구하는 알 카이다의 본거지인 남아시아에서 보다 핵전쟁이나 핵 테러리즘의 위협, 또는 핵무기를 보호할 필요성이 더 중요한 곳은 아무데도 없다고, Dorgan이 남아시아를 지역의 핵무기 보유국인 중국, 인도, 파키스탄 간의 관계가 역사적으로 긴장되어온 지역으로 설명하면서 말했다. ( DailyIndia.com ; 06년 6월 25일 ; Arun Kumar, Indo - Asian News Service ) ( Link )
-0	핵무기를	_	_	S-Asset
+0	핵무기를	_	_	B-Asset
 1	추구하는	_	_	O
 2	알	_	_	O
 3	카이다의	_	_	O
@@ -10017,7 +10017,7 @@
 
 #sentid:3241
 #text:핵무기를 추구하는 알 카이다의 본거지인 남아시아에서 보다 핵전쟁이나 핵 테러리즘의 위협, 또는 핵무기를 보호할 필요성이 더 중요한 곳은 아무데도 없다고, Dorgan이 남아시아를 지역의 핵무기 보유국인 중국, 인도, 파키스탄 간의 관계가 역사적으로 긴장되어온 지역으로 설명하면서 말했다. ( DailyIndia.com ; 06년 6월 25일 ; Arun Kumar, Indo - Asian News Service ) ( Link )
-0	핵무기를	_	_	S-Instrument
+0	핵무기를	_	_	B-Instrument
 1	추구하는	_	_	O
 2	알	_	_	O
 3	카이다의	_	_	O
@@ -10055,7 +10055,7 @@
 
 #sentid:3241
 #text:핵무기를 추구하는 알 카이다의 본거지인 남아시아에서 보다 핵전쟁이나 핵 테러리즘의 위협, 또는 핵무기를 보호할 필요성이 더 중요한 곳은 아무데도 없다고, Dorgan이 남아시아를 지역의 핵무기 보유국인 중국, 인도, 파키스탄 간의 관계가 역사적으로 긴장되어온 지역으로 설명하면서 말했다. ( DailyIndia.com ; 06년 6월 25일 ; Arun Kumar, Indo - Asian News Service ) ( Link )
-0	핵무기를	_	_	S-Sought
+0	핵무기를	_	_	B-Sought_entity
 1	추구하는	추구하다.v	Seeking	O
 2	알	_	_	B-Cognizer
 3	카이다의	_	_	I-Cognizer
@@ -10110,7 +10110,7 @@
 2	지난	_	_	B-Time
 3	해	_	_	I-Time
 4	4월	_	_	I-Time
-5	협약은	_	_	S-Value
+5	협약은	_	_	B-Value
 6	유엔	_	_	B-Agent
 7	총회에서	_	_	I-Agent
 8	채택되었다.	채택되다.v	Adopt_selection	O
@@ -10131,7 +10131,7 @@
 #text:러시아 주도로 지난 해 4월 협약은 유엔 총회에서 채택되었다.
 0	러시아	_	_	O
 1	주도로	_	_	O
-2	지난	_	_	S-Relative
+2	지난	_	_	B-Relative_time
 3	해	해.n	Calendric_unit	O
 4	4월	_	_	O
 5	협약은	_	_	O
@@ -10166,7 +10166,7 @@
 10	북서쪽을	_	_	O
 11	휩쓰는	_	_	O
 12	일련의	일련.n	Connectors	O
-13	섬들인	_	_	S-Connected
+13	섬들인	_	_	B-Connected_item
 14	국가의	_	_	O
 15	최신	_	_	O
 16	천연	_	_	O
@@ -10223,13 +10223,13 @@
 
 #sentid:3247
 #text:한 Humboldt 참전 용사의 새로운 하와이제도 기념물과의 관계 : 하와이 북서쪽을 휩쓰는 일련의 섬들인 국가의 최신 천연 기념물은 그곳의 청색 물결과 낮은 흰색 모래 해변이 드러내는 것보다 더 어두운 과거를 가지고 있다.
-0	한	_	_	B-Concept
-1	Humboldt	_	_	I-Concept
-2	참전	_	_	I-Concept
-3	용사의	_	_	I-Concept
-4	새로운	_	_	B-Concept
-5	하와이제도	_	_	I-Concept
-6	기념물과의	_	_	I-Concept
+0	한	_	_	B-Concepts
+1	Humboldt	_	_	I-Concepts
+2	참전	_	_	I-Concepts
+3	용사의	_	_	I-Concepts
+4	새로운	_	_	B-Concepts
+5	하와이제도	_	_	I-Concepts
+6	기념물과의	_	_	I-Concepts
 7	관계	관계.n	Make_cognitive_connection	O
 8	:	_	_	O
 9	하와이	_	_	O
@@ -10333,7 +10333,7 @@
 2	참전	_	_	O
 3	용사의	_	_	O
 4	새로운	_	_	O
-5	하와이제도	하와이제.n	Natural_features	S-Container
+5	하와이제도	하와이제.n	Natural_features	B-Container
 6	기념물과의	_	_	O
 7	관계	_	_	O
 8	:	_	_	O
@@ -10383,7 +10383,7 @@
 17	기념물은	_	_	O
 18	그곳의	_	_	O
 19	청색	청색.n	Color	O
-20	물결과	_	_	S-Entity
+20	물결과	_	_	B-Entity
 21	낮은	_	_	O
 22	흰색	_	_	O
 23	모래	_	_	O
@@ -10457,7 +10457,7 @@
 #text:이란이 농축 우라늄을 비축하고 있다는 증거가 있나 ?
 0	이란이	_	_	O
 1	농축	농축.n	Degree_of_processing	O
-2	우라늄을	_	_	S-Material
+2	우라늄을	_	_	B-Material
 3	비축하고	_	_	O
 4	있다는	_	_	O
 5	증거가	_	_	O
@@ -10466,7 +10466,7 @@
 
 #sentid:3367
 #text:이란이 농축 우라늄을 비축하고 있다는 증거가 있나 ?
-0	이란이	_	_	S-Recipient
+0	이란이	_	_	B-Recipient
 1	농축	_	_	B-Mass
 2	우라늄을	_	_	I-Mass
 3	비축하고	비축하다.v	Amassing	O
@@ -10562,7 +10562,7 @@
 1	몇	_	_	O
 2	년	_	_	O
 3	베이징은	_	_	O
-4	중국의	_	_	S-Protagonist
+4	중국의	_	_	B-Protagonist
 5	중동	_	_	B-Instrument
 6	/	_	_	I-Instrument
 7	페르시아	_	_	I-Instrument
@@ -10599,7 +10599,7 @@
 10	대한	_	_	O
 11	의존도가	_	_	O
 12	증가하면서,	_	_	O
-13	석유	_	_	S-Variable
+13	석유	_	_	B-Variable
 14	자원이	자원.n	Position_on_a_scale	O
 15	풍부한	자원.n	Position_on_a_scale	O
 16	페르시아	_	_	O
@@ -10617,7 +10617,7 @@
 0	최근	_	_	B-Time
 1	몇	_	_	I-Time
 2	년	_	_	I-Time
-3	베이징은	_	_	S-Agent
+3	베이징은	_	_	B-Agent
 4	중국의	_	_	B-Goal
 5	중동	_	_	I-Goal
 6	/	_	_	I-Goal
@@ -10663,7 +10663,7 @@
 18	증가하는	_	_	O
 19	중요성을	_	_	O
 20	고려하여	_	_	O
-21	테헤란과의	_	_	S-Individual2
+21	테헤란과의	_	_	B-Individual_2
 22	유대를	유대.n	Social_connection	O
 23	강화하려	_	_	O
 24	하였다.	_	_	O
@@ -10756,7 +10756,7 @@
 #text:다시 말해, 우리는 아무리 국제 지침 하에 허용되었어도, 이란이 핵무기 추구를 위한 지식을 얻게 될 어떠한 가능성도 차단하기 원한다.
 0	다시	_	_	O
 1	말해,	_	_	O
-2	우리는	_	_	S-Experiencer
+2	우리는	_	_	B-Experiencer
 3	아무리	_	_	B-Event
 4	국제	_	_	I-Event
 5	지침	_	_	I-Event
@@ -10784,7 +10784,7 @@
 5	지침	_	_	O
 6	하에	_	_	O
 7	허용되었어도,	_	_	O
-8	이란이	_	_	S-Cognizer
+8	이란이	_	_	B-Cognizer
 9	핵무기	_	_	O
 10	추구를	_	_	O
 11	위한	_	_	O
@@ -10806,11 +10806,11 @@
 5	지침	_	_	O
 6	하에	_	_	O
 7	허용되었어도,	_	_	O
-8	이란이	_	_	S-Recipient
+8	이란이	_	_	B-Recipient
 9	핵무기	_	_	O
 10	추구를	_	_	O
 11	위한	_	_	O
-12	지식을	_	_	S-Theme
+12	지식을	_	_	B-Theme
 13	얻게	얻다.v	Getting	O
 14	될	_	_	O
 15	어떠한	_	_	O
@@ -10821,7 +10821,7 @@
 #sentid:3529
 #text:우리는 중국의 주장들과 조치들이 우리가 그와 같은 자격을 옹호하기에 충분하다는 추가적인 확신이 필요하다 … 우리는 이 주제에 관해 중국으로부터 최대 수준의 협력을 얻도록 우리가 할 수 있는 것은 다하였다고 확신하기 원한다. [ 미 국무성, 일일 기자단 브리핑, 1997년 10월 14일. ]
 0	우리는	_	_	O
-1	중국의	_	_	S-Agent
+1	중국의	_	_	B-Agent
 2	주장들과	_	_	O
 3	조치들이	조치.n	Intentionally_act	O
 4	우리가	_	_	O
@@ -10858,7 +10858,7 @@
 1	중국의	_	_	O
 2	주장들과	_	_	O
 3	조치들이	_	_	O
-4	우리가	_	_	S-Agent
+4	우리가	_	_	B-Agent
 5	그와	_	_	B-Act
 6	같은	_	_	I-Act
 7	자격을	_	_	I-Act
@@ -10926,7 +10926,7 @@
 1	중국의	_	_	O
 2	주장들과	_	_	O
 3	조치들이	_	_	O
-4	우리가	_	_	S-Cognizer
+4	우리가	_	_	B-Cognizer
 5	그와	_	_	O
 6	같은	_	_	O
 7	자격을	_	_	O
@@ -10957,7 +10957,7 @@
 #sentid:3529
 #text:우리는 중국의 주장들과 조치들이 우리가 그와 같은 자격을 옹호하기에 충분하다는 추가적인 확신이 필요하다 … 우리는 이 주제에 관해 중국으로부터 최대 수준의 협력을 얻도록 우리가 할 수 있는 것은 다하였다고 확신하기 원한다. [ 미 국무성, 일일 기자단 브리핑, 1997년 10월 14일. ]
 0	우리는	_	_	O
-1	중국의	_	_	S-Speaker
+1	중국의	_	_	B-Speaker
 2	주장들과	주장.n	Statement	O
 3	조치들이	_	_	O
 4	우리가	_	_	O
@@ -10994,7 +10994,7 @@
 1	중국의	_	_	O
 2	주장들과	_	_	O
 3	조치들이	_	_	O
-4	우리가	_	_	S-Experiencer
+4	우리가	_	_	B-Experiencer
 5	그와	_	_	O
 6	같은	_	_	O
 7	자격을	_	_	O
@@ -11028,7 +11028,7 @@
 1	중국의	_	_	O
 2	주장들과	_	_	O
 3	조치들이	_	_	O
-4	우리가	_	_	S-Agent
+4	우리가	_	_	B-Agent
 5	그와	_	_	O
 6	같은	_	_	O
 7	자격을	_	_	O
@@ -11062,11 +11062,11 @@
 1	중국의	_	_	B-Item
 2	주장들과	_	_	I-Item
 3	조치들이	_	_	I-Item
-4	우리가	_	_	B-Enabled
-5	그와	_	_	I-Enabled
-6	같은	_	_	I-Enabled
-7	자격을	_	_	I-Enabled
-8	옹호하기에	_	_	I-Enabled
+4	우리가	_	_	B-Enabled_situation
+5	그와	_	_	I-Enabled_situation
+6	같은	_	_	I-Enabled_situation
+7	자격을	_	_	I-Enabled_situation
+8	옹호하기에	_	_	I-Enabled_situation
 9	충분하다는	충분하다.a	Sufficiency	O
 10	추가적인	_	_	O
 11	확신이	_	_	O
@@ -11110,7 +11110,7 @@
 15	이	_	_	B-Undertaking
 16	주제에	_	_	I-Undertaking
 17	관해	_	_	I-Undertaking
-18	중국으로부터	_	_	S-Partner
+18	중국으로부터	_	_	B-Partner_1
 19	최대	_	_	O
 20	수준의	_	_	O
 21	협력을	협력.n	Collaboration	O
@@ -11130,7 +11130,7 @@
 1	중국의	_	_	O
 2	주장들과	_	_	O
 3	조치들이	_	_	O
-4	우리가	_	_	S-Recipient
+4	우리가	_	_	B-Recipient
 5	그와	_	_	O
 6	같은	_	_	O
 7	자격을	_	_	O
@@ -11164,7 +11164,7 @@
 1	1시간	_	_	B-Time
 2	15분	_	_	I-Time
 3	후에,	_	_	I-Time
-4	워터루역에	_	_	S-Goal
+4	워터루역에	_	_	B-Goal
 5	도착할	도착하다.v	Arriving	O
 6	예정입니다」	_	_	O
 
@@ -11187,7 +11187,7 @@
 #text:정월 초, A컨트리에서 올해의 첫 플레이를 즐겼습니다.
 0	정월	_	_	B-Time
 1	초,	_	_	I-Time
-2	A컨트리에서	_	_	S-Place
+2	A컨트리에서	_	_	B-Place
 3	올해의	_	_	B-Content
 4	첫	_	_	I-Content
 5	플레이를	_	_	I-Content
@@ -11214,7 +11214,7 @@
 4	또	_	_	O
 5	다른	_	_	O
 6	이름은	_	_	O
-7	카니발	카니발.n	Social_event	S-Social
+7	카니발	카니발.n	Social_event	B-Social_event
 8	휴가.	_	_	O
 
 #sentid:3758
@@ -11222,7 +11222,7 @@
 0	나	_	_	B-Agent
 1	같은	_	_	I-Agent
 2	사람은,	_	_	I-Agent
-3	일요일에	_	_	S-Time
+3	일요일에	_	_	B-Time
 4	친구와	_	_	O
 5	테니스나	_	_	B-Act
 6	골프를	_	_	I-Act
@@ -11251,11 +11251,11 @@
 
 #sentid:3758
 #text:나 같은 사람은, 일요일에 친구와 테니스나 골프를 치고 있어도, 건강상담이라면 눈이 번쩍 뜨입니다.
-0	나	_	_	B-Partner
-1	같은	_	_	I-Partner
-2	사람은,	_	_	I-Partner
+0	나	_	_	B-Partner_1
+1	같은	_	_	I-Partner_1
+2	사람은,	_	_	I-Partner_1
 3	일요일에	_	_	O
-4	친구와	친구.n	Personal_relationship	S-Partner
+4	친구와	친구.n	Personal_relationship	B-Partner_1
 5	테니스나	_	_	O
 6	골프를	_	_	O
 7	치고	_	_	O
@@ -11276,7 +11276,7 @@
 6	골프를	_	_	O
 7	치고	_	_	O
 8	있어도,	_	_	O
-9	건강상담이라면	상담.n	Discussion	S-Topic
+9	건강상담이라면	상담.n	Discussion	B-Topic
 10	눈이	_	_	O
 11	번쩍	_	_	O
 12	뜨입니다.	_	_	O
@@ -11294,10 +11294,10 @@
 8	미하라야마	_	_	O
 9	분화・13시간의	_	_	O
 10	드라마	_	_	O
-11	2000년,	_	_	S-Time
-12	미야케지마의	_	_	B-Undesirable
-13	오야마가	_	_	I-Undesirable
-14	분화하면서,	_	_	I-Undesirable
+11	2000년,	_	_	B-Time
+12	미야케지마의	_	_	B-Undesirable_location
+13	오야마가	_	_	I-Undesirable_location
+14	분화하면서,	_	_	I-Undesirable_location
 15	많은	_	_	O
 16	양의	_	_	O
 17	화산재와	_	_	O
@@ -11342,7 +11342,7 @@
 24	밖으로	_	_	I-Entity
 25	피난했던	_	_	I-Entity
 26	사건은	_	_	I-Entity
-27	기억에	_	_	S-Attribute
+27	기억에	_	_	B-Attribute
 28	새롭다.	새롭다.a	Age	O
 
 #sentid:3765
@@ -11358,8 +11358,8 @@
 8	미하라야마	_	_	O
 9	분화・13시간의	_	_	O
 10	드라마	_	_	O
-11	2000년,	_	_	S-Time
-12	미야케지마의	_	_	S-Place
+11	2000년,	_	_	B-Time
+12	미야케지마의	_	_	B-Place
 13	오야마가	_	_	B-Event
 14	분화하면서,	분화하다.v	Process_start	I-Event
 15	많은	_	_	O
@@ -11518,7 +11518,7 @@
 8	미하라야마	_	_	O
 9	분화・13시간의	_	_	O
 10	드라마	_	_	O
-11	2000년,	_	_	S-Time
+11	2000년,	_	_	B-Time
 12	미야케지마의	_	_	B-Reason
 13	오야마가	_	_	I-Reason
 14	분화하면서,	_	_	I-Reason
@@ -11544,9 +11544,9 @@
 2	인구	_	_	O
 3	1만	_	_	O
 4	명	_	_	O
-5	사상	_	_	S-Attribute
+5	사상	_	_	B-Attribute
 6	최대의	최대.n	Extreme_value	O
-7	탈출작전	_	_	S-Entity
+7	탈출작전	_	_	B-Entity
 8	미하라야마	_	_	O
 9	분화・13시간의	_	_	O
 10	드라마	_	_	O
@@ -11583,7 +11583,7 @@
 9	분화・13시간의	_	_	O
 10	드라마	_	_	O
 11	2000년,	_	_	O
-12	미야케지마의	_	_	S-Location
+12	미야케지마의	_	_	B-Location
 13	오야마가	_	_	O
 14	분화하면서,	_	_	O
 15	많은	_	_	O
@@ -11610,7 +11610,7 @@
 4	명	_	_	O
 5	사상	_	_	O
 6	최대의	_	_	O
-7	탈출작전	작전.n	Being_obligated	S-Duty
+7	탈출작전	작전.n	Being_obligated	B-Duty
 8	미하라야마	_	_	O
 9	분화・13시간의	_	_	O
 10	드라마	_	_	O
@@ -11646,7 +11646,7 @@
 8	미하라야마	_	_	O
 9	분화・13시간의	_	_	O
 10	드라마	_	_	O
-11	2000년,	_	_	S-Time
+11	2000년,	_	_	B-Time
 12	미야케지마의	_	_	B-Cause
 13	오야마가	_	_	I-Cause
 14	분화하면서,	_	_	I-Cause
@@ -11691,7 +11691,7 @@
 21	사람의	_	_	O
 22	「증언」과는	_	_	O
 23	크게	크다.a	Degree	O
-24	다르다.	_	_	S-Gradable
+24	다르다.	_	_	B-Gradable_attribute
 
 #sentid:3775
 #text:미충족 구인은, 산업별로는 제조업, 도매, 소매업, 건설업, 서비스 업 순서로 많다.
@@ -11734,7 +11734,7 @@
 1	시부터는	_	_	I-Source
 2	다이세쓰잔을	_	_	B-Purpose
 3	향해	_	_	I-Purpose
-4	내륙을	_	_	S-Area
+4	내륙을	_	_	B-Area
 5	가로질러	가로지르다.v	Motion	O
 6	간다.	가로지르다.v	Motion	O
 
@@ -11758,7 +11758,7 @@
 
 #sentid:3857
 #text:침이 빨개져 있었다.
-0	침이	_	_	S-Entity
+0	침이	_	_	B-Entity
 1	빨개져	빨개지다.v	Color	O
 2	있었다.	_	_	O
 
@@ -11775,14 +11775,14 @@
 
 #sentid:3927
 #text:시즈에가 살짝 움직였다.
-0	시즈에가	_	_	S-Theme
-1	살짝	_	_	S-Degree
+0	시즈에가	_	_	B-Theme
+1	살짝	_	_	B-Degree
 2	움직였다.	움직이다.v	Motion	O
 
 #sentid:3931
 #text:그래도, 병원에 갈 정도는 아닌데…하며, 그대로 방치하는 경우가 많습니다.
 0	그래도,	_	_	O
-1	병원에	병원.n	Locale_by_use	S-Locale
+1	병원에	병원.n	Locale_by_use	B-Locale
 2	갈	_	_	O
 3	정도는	_	_	O
 4	아닌데…하며,	_	_	O
@@ -11794,7 +11794,7 @@
 #sentid:3931
 #text:그래도, 병원에 갈 정도는 아닌데…하며, 그대로 방치하는 경우가 많습니다.
 0	그래도,	_	_	O
-1	병원에	_	_	S-Goal
+1	병원에	_	_	B-Goal
 2	갈	가다.v	Motion	O
 3	정도는	_	_	O
 4	아닌데…하며,	_	_	O
@@ -11839,7 +11839,7 @@
 
 #sentid:4102
 #text:의사들은, 자신들이 확립해 온 「불임치료」라는 틀이 붕괴되는 것을 두려워하고 있습니다.
-0	의사들은,	_	_	S-Experiencer
+0	의사들은,	_	_	B-Experiencer
 1	자신들이	_	_	B-Content
 2	확립해	_	_	I-Content
 3	온	_	_	I-Content
@@ -11868,8 +11868,8 @@
 #sentid:4121
 #text:반대로, 부인이, 힐끗하고, 싫다는 눈빛으로 노려보았습니다.
 0	반대로,	_	_	O
-1	부인이,	_	_	S-Perceiver
-2	힐끗하고,	_	_	S-Manner
+1	부인이,	_	_	B-Perceiver
+2	힐끗하고,	_	_	B-Manner
 3	싫다는	_	_	B-Body
 4	눈빛으로	_	_	I-Body
 5	노려보았습니다.	노려보다.v	Perception_active	O
@@ -11886,9 +11886,9 @@
 7	거야?」「그런	_	_	O
 8	말이	_	_	O
 9	아니라」「IQ는	_	_	O
-10	높았어」「솔직히,	_	_	S-Circumstances
-11	당신,	_	_	S-Evaluee
-12	머리,	_	_	S-Parameter
+10	높았어」「솔직히,	_	_	B-Circumstances
+11	당신,	_	_	B-Evaluee
+12	머리,	_	_	B-Parameter
 13	좋아.	좋다.a	Desirability	O
 
 #sentid:4135
@@ -11898,10 +11898,10 @@
 2	곤란을	_	_	O
 3	피하기	_	_	O
 4	위해서였다면,	_	_	O
-5	그들은	_	_	S-Experiencer
+5	그들은	_	_	B-Experiencer
 6	분명히	_	_	B-Circumstances
 7	야영자들이며,	_	_	I-Circumstances
-8	위험을	_	_	S-Content
+8	위험을	_	_	B-Content
 9	두려워하고	두려워하다.v	Experiencer_focus	O
 10	있다.	_	_	O
 
@@ -11974,7 +11974,7 @@
 6	독서를	_	_	O
 7	즐기는	_	_	O
 8	「아침의	_	_	O
-9	독서」	_	_	S-Descriptor
+9	독서」	_	_	B-Descriptor
 10	시간을	시간.n	Timespan	O
 11	만들면,	_	_	O
 12	책을	_	_	O
@@ -12069,7 +12069,7 @@
 5	힘으로	_	_	O
 6	독서를	_	_	O
 7	즐기는	_	_	O
-8	「아침의	_	_	S-Time
+8	「아침의	_	_	B-Time
 9	독서」	독서.n	Reading_perception	O
 10	시간을	_	_	O
 11	만들면,	_	_	O
@@ -12093,9 +12093,9 @@
 5	힘으로	_	_	O
 6	독서를	_	_	O
 7	즐기는	_	_	O
-8	「아침의	_	_	B-Created
-9	독서」	_	_	I-Created
-10	시간을	_	_	I-Created
+8	「아침의	_	_	B-Created_entity
+9	독서」	_	_	I-Created_entity
+10	시간을	_	_	I-Created_entity
 11	만들면,	만들다.v	Intentionally_create	O
 12	책을	_	_	O
 13	접할	_	_	O
@@ -12110,8 +12110,8 @@
 #sentid:4157
 #text:5 독서의 세계 배우기・두근두근・아니마시온 ■협동의 힘으로 독서를 즐기는 「아침의 독서」 시간을 만들면, 책을 접할 기회가 보장되어, 책 읽기를 좋아하는 아이가 늘어납니다.
 0	5	_	_	O
-1	독서의	_	_	S-Descriptor
-2	세계	세계.n	Political_locales	S-Locale
+1	독서의	_	_	B-Descriptor
+2	세계	세계.n	Political_locales	B-Locale
 3	배우기・두근두근・아니마시온	_	_	O
 4	■협동의	_	_	O
 5	힘으로	_	_	O
@@ -12193,7 +12193,7 @@
 9	독서」	_	_	O
 10	시간을	_	_	O
 11	만들면,	_	_	O
-12	책을	_	_	S-Party
+12	책을	_	_	B-Party
 13	접할	접하다.v	Encounter	O
 14	기회가	_	_	O
 15	보장되어,	_	_	O
@@ -12265,7 +12265,7 @@
 9	독서」	_	_	O
 10	시간을	_	_	O
 11	만들면,	_	_	O
-12	책을	책.n	Text	S-Text
+12	책을	책.n	Text	B-Text
 13	접할	_	_	O
 14	기회가	_	_	O
 15	보장되어,	_	_	O
@@ -12282,8 +12282,8 @@
 2	세계	_	_	O
 3	배우기・두근두근・아니마시온	_	_	O
 4	■협동의	_	_	O
-5	힘으로	_	_	S-Manner
-6	독서를	_	_	S-Event
+5	힘으로	_	_	B-Manner
+6	독서를	_	_	B-Event
 7	즐기는	즐기다.v	Experiencer_focus	O
 8	「아침의	_	_	O
 9	독서」	_	_	O
@@ -12320,7 +12320,7 @@
 16	책	책.n	Reading_perception	O
 17	읽기를	책.n	Reading_perception	O
 18	좋아하는	_	_	O
-19	아이가	_	_	S-Reader
+19	아이가	_	_	B-Reader
 20	늘어납니다.	_	_	O
 
 #sentid:4157
@@ -12349,26 +12349,26 @@
 
 #sentid:4168
 #text:고개를 넘어도, 그 구름 건너편에는 더 짙은 암운이 드리워져 있을 지도 모른다-고 아사미는 앞길을 걱정했다.
-0	고개를	_	_	B-Quotation
-1	넘어도,	_	_	I-Quotation
-2	그	_	_	I-Quotation
-3	구름	_	_	I-Quotation
-4	건너편에는	_	_	I-Quotation
-5	더	_	_	I-Quotation
-6	짙은	_	_	I-Quotation
-7	암운이	_	_	I-Quotation
-8	드리워져	_	_	I-Quotation
-9	있을	_	_	I-Quotation
-10	지도	_	_	I-Quotation
-11	모른다-고	_	_	I-Quotation
-12	아사미는	_	_	S-Experiencer
-13	앞길을	_	_	S-Content
+0	고개를	_	_	B-Explanation
+1	넘어도,	_	_	I-Explanation
+2	그	_	_	I-Explanation
+3	구름	_	_	I-Explanation
+4	건너편에는	_	_	I-Explanation
+5	더	_	_	I-Explanation
+6	짙은	_	_	I-Explanation
+7	암운이	_	_	I-Explanation
+8	드리워져	_	_	I-Explanation
+9	있을	_	_	I-Explanation
+10	지도	_	_	I-Explanation
+11	모른다-고	_	_	I-Explanation
+12	아사미는	_	_	B-Experiencer
+13	앞길을	_	_	B-Content
 14	걱정했다.	걱정하다.v	Experiencer_focus	O
 
 #sentid:4200
 #text:다카세는 슬며시 문 틈새로 집의 내부를 살펴보았다.
-0	다카세는	_	_	S-Perceiver
-1	슬며시	_	_	S-Manner
+0	다카세는	_	_	B-Perceiver
+1	슬며시	_	_	B-Manner
 2	문	_	_	B-Location
 3	틈새로	_	_	I-Location
 4	집의	_	_	B-Phenomenon
@@ -12416,7 +12416,7 @@
 2	home	_	_	O
 3	-무엇을	_	_	O
 4	위해	_	_	O
-5	집을	집.n	Buildings	S-Building
+5	집을	집.n	Buildings	B-Building
 6	짓는가-	_	_	O
 7	이곳은,	_	_	O
 8	다른	_	_	O
@@ -12448,12 +12448,12 @@
 0	거기에는	_	_	O
 1	다른	_	_	O
 2	의미는	_	_	O
-3	필요없습니다.	없다.a	Existence	S-Entity
+3	필요없습니다.	없다.a	Existence	B-Entity
 
 #sentid:4302
 #text:그리고 지금까지도 이중으로 보는 시선 때문에 고민하고 있다.
 0	그리고	_	_	O
-1	지금까지도	_	_	S-Time
+1	지금까지도	_	_	B-Time
 2	이중으로	_	_	B-Stimulus
 3	보는	_	_	I-Stimulus
 4	시선	_	_	I-Stimulus
@@ -12463,15 +12463,15 @@
 
 #sentid:4358
 #text:통행인이 우리에게로 시선을 멈추어 간다.
-0	통행인이	_	_	S-Perceiver
-1	우리에게로	_	_	S-Phenomenon
+0	통행인이	_	_	B-Perceiver
+1	우리에게로	_	_	B-Phenomenon
 2	시선을	시선.n	Perception_active	O
 3	멈추어	_	_	O
 4	간다.	_	_	O
 
 #sentid:4364
 #text:게이조가 작은 목소리로 물었다.
-0	게이조가	_	_	S-Speaker
+0	게이조가	_	_	B-Speaker
 1	작은	_	_	B-Manner
 2	목소리로	_	_	I-Manner
 3	물었다.	물다.v	Questioning	O
@@ -12488,7 +12488,7 @@
 
 #sentid:4410
 #text:「앞으로 전진하라.」 큰 북과 징도 울리며, 군은 엄숙하게 행진했다.
-0	「앞으로	_	_	S-Direction
+0	「앞으로	_	_	B-Direction
 1	전진하라.」	전진하다.v	Self_motion	O
 2	큰	_	_	O
 3	북과	_	_	O
@@ -12512,15 +12512,15 @@
 #sentid:4486
 #text:헤이시치로는 하나카와도 하안을 향해 서두르고 있었다.
 0	헤이시치로는	_	_	O
-1	하나카와도	_	_	S-Name
-2	하안을	하안.n	Natural_features	S-Locale
+1	하나카와도	_	_	B-Name
+2	하안을	하안.n	Natural_features	B-Locale
 3	향해	_	_	O
 4	서두르고	_	_	O
 5	있었다.	_	_	O
 
 #sentid:4486
 #text:헤이시치로는 하나카와도 하안을 향해 서두르고 있었다.
-0	헤이시치로는	_	_	S-Self
+0	헤이시치로는	_	_	B-Self_mover
 1	하나카와도	_	_	B-Goal
 2	하안을	_	_	I-Goal
 3	향해	_	_	I-Goal
@@ -12572,7 +12572,7 @@
 
 #sentid:4638
 #text:바다를 돌아다니며 이제껏 살아온 것 같지만, 섬이 보이지 않을 만큼 멀리까지는 가본 적이 없어, 돌아다닌 범위는 생각보다 좁다.
-0	바다를	바다.n	Natural_features	S-Locale
+0	바다를	바다.n	Natural_features	B-Locale
 1	돌아다니며	_	_	O
 2	이제껏	_	_	O
 3	살아온	_	_	O
@@ -12599,7 +12599,7 @@
 3	살아온	_	_	O
 4	것	_	_	O
 5	같지만,	_	_	O
-6	섬이	_	_	S-Phenomenon
+6	섬이	_	_	B-Phenomenon
 7	보이지	보이다.v	Perception_experience	O
 8	않을	_	_	O
 9	만큼	_	_	O
@@ -12620,7 +12620,7 @@
 3	살아온	_	_	O
 4	것	_	_	O
 5	같지만,	_	_	O
-6	섬이	섬.n	Natural_features	S-Locale
+6	섬이	섬.n	Natural_features	B-Locale
 7	보이지	_	_	O
 8	않을	_	_	O
 9	만큼	_	_	O
@@ -12652,7 +12652,7 @@
 14	돌아다닌	_	_	B-Phenomenon
 15	범위는	_	_	I-Phenomenon
 16	생각보다	생각.n	Expectation	O
-17	좁다.	_	_	S-Phenomenon
+17	좁다.	_	_	B-Phenomenon
 
 #sentid:4638
 #text:바다를 돌아다니며 이제껏 살아온 것 같지만, 섬이 보이지 않을 만큼 멀리까지는 가본 적이 없어, 돌아다닌 범위는 생각보다 좁다.
@@ -12691,7 +12691,7 @@
 11	가본	_	_	O
 12	적이	_	_	O
 13	없어,	_	_	O
-14	돌아다닌	_	_	S-Event
+14	돌아다닌	_	_	B-Event
 15	범위는	범위.n	Range	O
 16	생각보다	_	_	O
 17	좁다.	_	_	O
@@ -12734,7 +12734,7 @@
 12	적이	_	_	O
 13	없어,	_	_	O
 14	돌아다닌	돌아다니다.v	Motion	O
-15	범위는	_	_	S-Area
+15	범위는	_	_	B-Area
 16	생각보다	_	_	O
 17	좁다.	_	_	O
 
@@ -12785,7 +12785,7 @@
 
 #sentid:4682
 #text:토리는 고개를 끄덕이고, 위시본 서장에게로 눈을 돌렸다.
-0	토리는	_	_	S-Perceiver
+0	토리는	_	_	B-Perceiver
 1	고개를	_	_	B-Manner
 2	끄덕이고,	_	_	I-Manner
 3	위시본	_	_	B-Phenomenon
@@ -12817,7 +12817,7 @@
 
 #sentid:4727
 #text:펠은 현관 전체를 눈으로 훑어보았다.
-0	펠은	_	_	S-Perceiver
+0	펠은	_	_	B-Perceiver
 1	현관	_	_	B-Phenomenon
 2	전체를	_	_	I-Phenomenon
 3	눈으로	눈.n	Perception_active	O
@@ -12825,8 +12825,8 @@
 
 #sentid:4730
 #text:화산탄은 화구에서 바람에 실려 날아간다.
-0	화산탄은	_	_	S-Theme
-1	화구에서	_	_	S-Source
+0	화산탄은	_	_	B-Theme
+1	화구에서	_	_	B-Source
 2	바람에	_	_	B-Manner
 3	실려	_	_	I-Manner
 4	날아간다.	날아가다.v	Motion	O
@@ -12843,7 +12843,7 @@
 
 #sentid:4764
 #text:나는 마리가 시메온에게 키스라도 하는 건 아닐까, 하고 조금 조바심이 났다.
-0	나는	_	_	S-Experiencer
+0	나는	_	_	B-Experiencer
 1	마리가	_	_	B-Content
 2	시메온에게	_	_	I-Content
 3	키스라도	_	_	I-Content
@@ -12851,7 +12851,7 @@
 5	건	_	_	I-Content
 6	아닐까,	_	_	I-Content
 7	하고	_	_	I-Content
-8	조금	_	_	S-Degree
+8	조금	_	_	B-Degree
 9	조바심이	조바심.n	Experiencer_focus	O
 10	났다.	조바심.n	Experiencer_focus	O
 
@@ -12859,7 +12859,7 @@
 #text:『미즈호』도 『사쿠라』도 사가에서 정지한다.
 0	『미즈호』도	_	_	B-Theme
 1	『사쿠라』도	_	_	I-Theme
-2	사가에서	_	_	S-Goal
+2	사가에서	_	_	B-Goal
 3	정지한다.	정지하다.v	Motion	O
 
 #sentid:4800
@@ -12904,8 +12904,8 @@
 3	동거	동거.n	Residence	O
 4	생활을	_	_	O
 5	시작했던	_	_	O
-6	다카코와	_	_	S-Resident
-7	마사오의	_	_	S-Co
+6	다카코와	_	_	B-Resident
+7	마사오의	_	_	B-Co_resident
 8	관계는,	_	_	O
 9	이때	_	_	O
 10	이미	_	_	O
@@ -12916,8 +12916,8 @@
 #sentid:4800
 #text:하지만, 출산 전부터 동거 생활을 시작했던 다카코와 마사오의 관계는, 이때 이미 톱니바퀴가 엇나가고 있었다.
 0	하지만,	_	_	O
-1	출산	_	_	S-Landmark
-2	전부터	전.n	Time_vector	S-Direction
+1	출산	_	_	B-Landmark
+2	전부터	전.n	Time_vector	B-Direction
 3	동거	_	_	B-Event
 4	생활을	_	_	I-Event
 5	시작했던	_	_	I-Event
@@ -12960,7 +12960,7 @@
 8	관계는,	_	_	O
 9	이때	_	_	O
 10	이미	_	_	O
-11	톱니바퀴가	_	_	S-Items
+11	톱니바퀴가	_	_	B-Items
 12	엇나가고	엇나가다.v	Compatibility	O
 13	있었다.	_	_	O
 
@@ -12987,7 +12987,7 @@
 4	해부가	_	_	I-Event
 5	이루어진	_	_	I-Event
 6	것은,	_	_	I-Event
-7	250년	_	_	S-Distance
+7	250년	_	_	B-Distance
 8	전인	전.n	Time_vector	O
 9	호력	_	_	O
 10	4년(1754.)이다.	_	_	O
@@ -12998,7 +12998,7 @@
 1	법령이	_	_	O
 2	있음에도	_	_	O
 3	불구하고,	_	_	O
-4	한국측에는	_	_	S-Place
+4	한국측에는	_	_	B-Place
 5	그에	_	_	B-Entity
 6	해당하는	_	_	I-Entity
 7	법령이	_	_	I-Entity
@@ -13044,7 +13044,7 @@
 1	들어	_	_	O
 2	하리마노구니와	_	_	B-Entities
 3	셋쓰노구니의	_	_	I-Entities
-4	국경선에는	선.n	Boundary	S-Boundary
+4	국경선에는	선.n	Boundary	B-Boundary
 5	스마우라	_	_	O
 6	공원	_	_	O
 7	가장	_	_	O
@@ -13064,7 +13064,7 @@
 1	들어	_	_	O
 2	하리마노구니와	_	_	B-Entities
 3	셋쓰노구니의	_	_	I-Entities
-4	국경선에는	국경.n	Boundary	S-Boundary
+4	국경선에는	국경.n	Boundary	B-Boundary
 5	스마우라	_	_	O
 6	공원	_	_	O
 7	가장	_	_	O
@@ -13105,8 +13105,8 @@
 2	하리마노구니와	_	_	O
 3	셋쓰노구니의	_	_	O
 4	국경선에는	_	_	O
-5	스마우라	_	_	B-Base
-6	공원	_	_	I-Base
+5	스마우라	_	_	B-Landmark
+6	공원	_	_	I-Landmark
 7	가장	_	_	O
 8	서쪽에	서쪽.n	Direction	O
 9	사카이가와라는	_	_	O
@@ -13155,7 +13155,7 @@
 12	그것이	_	_	O
 13	말	_	_	O
 14	그대로	_	_	O
-15	양국의	_	_	S-Entities
+15	양국의	_	_	B-Entities
 16	경계였습니다.	경계.n	Boundary	O
 
 #sentid:4995
@@ -13170,7 +13170,7 @@
 7	납덩어리처럼	_	_	O
 8	무거워	_	_	O
 9	보였으므로,	_	_	O
-10	저는	_	_	S-Theme
+10	저는	_	_	B-Theme
 11	혹시	_	_	O
 12	몰라,	_	_	O
 13	우산을	_	_	O
@@ -13182,8 +13182,8 @@
 19	흙담	_	_	I-Depictive
 20	길을	_	_	I-Depictive
 21	따라	_	_	I-Depictive
-22	동쪽으로	_	_	S-Goal
-23	언덕을	_	_	S-Path
+22	동쪽으로	_	_	B-Goal
+23	언덕을	_	_	B-Path
 24	내려갔습니다.	내려가다.v	Motion_directional	O
 
 #sentid:4997
@@ -13205,6 +13205,6 @@
 3	자객에	_	_	I-Theme
 4	대한	_	_	I-Theme
 5	일이	_	_	I-Theme
-6	가슴을	_	_	S-Area
+6	가슴을	_	_	B-Area
 7	스쳐지나갔다.	스치다.v	Motion	O
 
