@@ -1,12 +1,7 @@
-
-# coding: utf-8
-
-# In[7]:
-
-
 import json
 import os
-from .src import dataio
+import sys
+from src import dataio
 
 nltk = False
 try:
@@ -17,26 +12,10 @@ except KeyboardInterrupt:
 except:
     pass
 
-
-# In[2]:
-
-
-# print('### Korean FrameNet ###')
-# print('\t# contact: hahmyg@kaist, hahmyg@gmail.com #')
-# print('')
-
-
-# In[11]:
-
-
 dir_path = os.path.dirname(os.path.abspath(__file__))
 
-
-# In[19]:
-
-
 class interface():
-    def __init__(self, version=1.1, info=True):
+    def __init__(self, version=1.2, info=True):
         self.version = str(version)
         file_path = dir_path+'/resource/'+self.version+'/'
         with open(file_path+'KFN_lus.json', 'r') as f:
@@ -89,8 +68,7 @@ class interface():
                 item['frame'] = d['frame']
                 item['lu_id'] = int(luid)
                 result.append(item)                
-        return result
-        
+        return result        
     
     def annotations_by_lu(self, luid):
         result = []
@@ -165,9 +143,3 @@ class interface():
         else:
             print('please install nltk FrameNet first. refer: http://www.nltk.org/howto/framenet.html')
             return False
-        
-            
-                      
-    
-    
-
