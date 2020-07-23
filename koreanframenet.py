@@ -1,7 +1,6 @@
 import json
 import os
-import sys
-from src import dataio
+from .src import dataio
 
 nltk = False
 try:
