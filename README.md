@@ -5,7 +5,7 @@ Korean FrameNet is a lexical database that has rich annotations to represent the
 
 **KFN Statistics**
 
-<img src="./image/stat.JPG" width="60%" height="60%">
+<img src="./image/stat.PNG" width="60%" height="60%">
 
 * frame (frame semantics): a schematic representation of a situation. Korean FrameNet is based on ICSI [FrameNet 1.7](https://framenet.icsi.berkeley.edu/).  **_Verification_** is an example of frames. (*definition: An Inspector attains a degree of certainty in the Unconfirmed_content, generally by inspecting some evidence.*)
 * lexical unit (lu): a word with its part-of-speech. e.g. 입증하다.v
@@ -23,7 +23,7 @@ Korean FrameNet is a lexical database that has rich annotations to represent the
 **Import Korean FrameNet (in your python code)**
 ```
 from koreanframenet import koreanframenet
-version = 1.1 
+version = 1.2 
 kfn = koreanframenet.interface(version=version)
 ```
 
