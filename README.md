@@ -88,30 +88,6 @@ print(annotations[4])
  'text': '한국 축구팬들에게 첫선을 보인 마이클 오언이 세계 최고 골잡이의 명성을 그대로 입증했다.'}
 ```
 
-
-### Get translated words
-You can get the translated words in KFN in terms of frames. For example, the word '입증하다' would be translated to other words in sense of frames such as 'Statement', 'Verification', and 'Evidence'.
-```
-trans = kfn.get_trans_by_word('입증하다')
-print(trans)
-```
-```
-[
-  {'frame': 'Statement', 'lu': '입증하다.v', 'trans': ['confirm']},
-  {'frame': 'Verification', 'lu': '입증하다.v', 'trans': ['establish', 'prove', 'testify', 'verify']},
-  {'frame': 'Evidence', 'lu': '입증하다.v', 'trans': ['demonstrate']}
-]
- ```
-You can also get translated words directly by LU id. 
-```
-trans = kfn.get_trans(5566)
-print(trans)
-```
-```
-['establish', 'prove', 'testify', 'verify']
-```
-
-
 ### (optional) Get frame definition
 For advanced search, you can use NLTK FrameNet library (http://www.nltk.org/howto/framenet.html). This is a simple interface for NLTK.
 ```
