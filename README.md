@@ -5,7 +5,7 @@ Korean FrameNet is a lexical database that has rich annotations to represent the
 
 **KFN Statistics**
 
-<img src="./image/stat.PNG" width="60%" height="60%">
+<img src="./image/stat.PNG" width="80%" height="80%">
 
 * frame (frame semantics): a schematic representation of a situation. Korean FrameNet is based on ICSI [FrameNet 1.7](https://framenet.icsi.berkeley.edu/).  **_Verification_** is an example of frames. (*definition: An Inspector attains a degree of certainty in the Unconfirmed_content, generally by inspecting some evidence.*)
 * lexical unit (lu): a word with its part-of-speech. e.g. 입증하다.v
