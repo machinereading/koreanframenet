@@ -29,9 +29,14 @@ class interface():
             self.frame2luid = json.load(f)
         self.info = info
             
-    def load_data(self):
-        trn, dev, tst = dataio.load_framenet_data(self.version, info=self.info)
-        return trn, dev, tst
+    def load_data(self, source=False):
+        if not source:
+            trn, dev, tst = dataio.load_framenet_data(self.version, info=self.info)
+            return trn, dev, tst
+        
+        else:
+            fn_data = dataio.load_data_by_source(source)
+            return fn_data
     
     def lus_by_word(self, word):
         result = []

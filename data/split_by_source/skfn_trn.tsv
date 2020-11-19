@@ -1,0 +1,5550 @@
+#anno-id:19934
+#source:sejong
+#text:회사는 김씨를 올해의 VIP로 임용했다.
+0	회사는	_	_	B-Selector
+1	김씨를	_	_	B-Official
+2	올해의	_	_	B-Role
+3	VIP로	_	_	I-Role
+4	임용했다.	임용하다.v	Appointing	O
+
+#anno-id:23561
+#source:sejong
+#text:우리들은 어제 영수의 함을 팔러 갔다.
+0	우리들은	_	_	B-Seller
+1	어제	_	_	B-Time
+2	영수의	_	_	B-Goods
+3	함을	_	_	I-Goods
+4	팔러	팔다.v	Commerce_sell	O
+5	갔다.	_	_	O
+
+#anno-id:24122
+#source:sejong
+#text:그 여자는 낮에 남편에게 한 말이 후회되어 잠을 이루지 못했다.
+0	그	_	_	B-Experiencer
+1	여자는	_	_	I-Experiencer
+2	낮에	_	_	B-Action
+3	남편에게	_	_	I-Action
+4	한	_	_	I-Action
+5	말이	_	_	I-Action
+6	후회되어	후회되다.v	Contrition	O
+7	잠을	_	_	O
+8	이루지	_	_	O
+9	못했다.	_	_	O
+
+#anno-id:22438
+#source:sejong
+#text:선생님은 나의 의견이 황당무계하다고 일소해 버리셨다.
+0	선생님은	_	_	B-Agent
+1	나의	_	_	B-Cause
+2	의견이	_	_	I-Cause
+3	황당무계하다고	_	_	I-Cause
+4	일소해	일소하다.v	Removing	O
+5	버리셨다.	_	_	O
+
+#anno-id:23315
+#source:sejong
+#text:판사는 법 위반자를 구속시키는 일에 인색해서는 안 되지만 그것보다 더 중요한 것은 형평성을 지키는 것이다.
+0	판사는	_	_	O
+1	법	_	_	B-Prisoner
+2	위반자를	_	_	I-Prisoner
+3	구속시키는	구속시키다.v	Imprisonment	O
+4	일에	_	_	O
+5	인색해서는	_	_	O
+6	안	_	_	O
+7	되지만	_	_	O
+8	그것보다	_	_	O
+9	더	_	_	O
+10	중요한	_	_	O
+11	것은	_	_	O
+12	형평성을	_	_	O
+13	지키는	_	_	O
+14	것이다.	_	_	O
+
+#anno-id:18975
+#source:sejong
+#text:IMF로 우수한 기술이 없는 업체들은 모두 녹아 버렸다.
+0	IMF로	_	_	O
+1	우수한	_	_	B-Patient
+2	기술이	_	_	I-Patient
+3	없는	_	_	I-Patient
+4	업체들은	_	_	I-Patient
+5	모두	_	_	B-Manner
+6	녹아	녹다.v	Change_of_phase	O
+7	버렸다.	_	_	O
+
+#anno-id:23818
+#source:sejong
+#text:경찰은 치안을 이유로 학생들을 수금했다.
+0	경찰은	_	_	B-Agent
+1	치안을	_	_	B-Purpose
+2	이유로	_	_	I-Purpose
+3	학생들을	_	_	B-Theme
+4	수금했다.	수금하다.v	Inhibit_movement	O
+
+#anno-id:18117
+#source:sejong
+#text:여동생은 오빠에게 끊임없이 뭐라고 재잘거리고 있었다.
+0	여동생은	_	_	B-Message
+1	오빠에게	_	_	I-Message
+2	끊임없이	_	_	I-Message
+3	뭐라고	_	_	I-Message
+4	재잘거리고	재잘거리다.v	Communication_noise	O
+5	있었다.	_	_	O
+
+#anno-id:21754
+#source:sejong
+#text:내가 대충 눈짐작한 것만으로도 그가 대학생이 아니라는 것을 알 수 있었다.
+0	내가	_	_	B-Speaker
+1	대충	_	_	B-Manner
+2	눈짐작한	눈짐작하다.v	Predicting	O
+3	것만으로도	_	_	O
+4	그가	_	_	O
+5	대학생이	_	_	O
+6	아니라는	_	_	O
+7	것을	_	_	O
+8	알	_	_	O
+9	수	_	_	O
+10	있었다.	_	_	O
+
+#anno-id:18399
+#source:sejong
+#text:설문에서는 안소니 홉킨스가 영화 사상 최고의 악인으로 평가되었다.
+0	설문에서는	_	_	O
+1	안소니	_	_	B-Phenomenon
+2	홉킨스가	_	_	I-Phenomenon
+3	영화	_	_	B-Feature
+4	사상	_	_	I-Feature
+5	최고의	_	_	I-Feature
+6	악인으로	_	_	I-Feature
+7	평가되었다.	평가되다.v	Assessing	O
+
+#anno-id:19532
+#source:sejong
+#text:미군 전투기는 적과 아무런 연관이 없는 민가를 무자비하게 폭격했다.
+0	미군	_	_	B-Assailant
+1	전투기는	_	_	I-Assailant
+2	적과	_	_	B-Victim
+3	아무런	_	_	I-Victim
+4	연관이	_	_	I-Victim
+5	없는	_	_	I-Victim
+6	민가를	_	_	I-Victim
+7	무자비하게	_	_	B-Manner
+8	폭격했다.	폭격하다.v	Attack	O
+
+#anno-id:22072
+#source:sejong
+#text:어떻게든 명확하게 승패를 판가름짓는 절차가 필요하다.
+0	어떻게든	_	_	O
+1	명확하게	_	_	O
+2	승패를	_	_	O
+3	판가름짓는	판가름짓다.v	Assessing	O
+4	절차가	_	_	O
+5	필요하다.	_	_	O
+
+#anno-id:20175
+#source:sejong
+#text:이 편지에는 보낸 사람의 정성이 실려 있는 것이 느껴진다.
+0	이	_	_	B-Transport_means
+1	편지에는	_	_	I-Transport_means
+2	보낸	_	_	B-Theme
+3	사람의	_	_	I-Theme
+4	정성이	_	_	I-Theme
+5	실려	실리다.v	Sending	O
+6	있는	_	_	O
+7	것이	_	_	O
+8	느껴진다.	_	_	O
+
+#anno-id:19594
+#source:sejong
+#text:우리는 북한 땅을 눈앞에 두고 물러섰다.
+0	우리는	_	_	B-Self_mover
+1	북한	_	_	B-Place
+2	땅을	_	_	I-Place
+3	눈앞에	_	_	B-Manner
+4	두고	_	_	O
+5	물러섰다.	물러서다.v	Quitting_a_place	O
+
+#anno-id:23724
+#source:sejong
+#text:지헌이는 그 결정에서 결정수를 탈수했다.
+0	지헌이는	_	_	B-Agent
+1	그	_	_	B-Dryee
+2	결정에서	_	_	I-Dryee
+3	결정수를	_	_	B-Dryee
+4	탈수했다.	탈수하다.v	Cause_to_be_dry	O
+
+#anno-id:23519
+#source:sejong
+#text:철수는 여자를 사냥하러 나이트클럽으로 갔다.
+0	철수는	_	_	B-Cognizer_agent
+1	여자를	_	_	B-Sought_entity
+2	사냥하러	사냥하다.v	Seeking	O
+3	나이트클럽으로	_	_	O
+4	갔다.	_	_	O
+
+#anno-id:20280
+#source:sejong
+#text:공이 상대방 진영으로 넘어갔다.
+0	공이	_	_	B-Self_mover
+1	상대방	_	_	B-Goal
+2	진영으로	_	_	I-Goal
+3	넘어갔다.	넘어가다.v	Self_motion	O
+
+#anno-id:21625
+#source:sejong
+#text:그 일은 사회적 소외감에서 나온 맹목적인 증오가 타인에게 공격적으로 표출돼 발생한 것으로 분석된다.
+0	그	_	_	O
+1	일은	_	_	O
+2	사회적	_	_	B-Emission
+3	소외감에서	_	_	I-Emission
+4	나온	_	_	I-Emission
+5	맹목적인	_	_	I-Emission
+6	증오가	_	_	I-Emission
+7	타인에게	_	_	O
+8	공격적으로	_	_	B-Manner
+9	표출돼	표출되다.v	Emanating	O
+10	발생한	_	_	O
+11	것으로	_	_	O
+12	분석된다.	_	_	O
+
+#anno-id:23512
+#source:sejong
+#text:한 무리의 불량자들이 그의 사무실을 피습했다.
+0	한	_	_	B-Assailant
+1	무리의	_	_	I-Assailant
+2	불량자들이	_	_	I-Assailant
+3	그의	_	_	B-Victim
+4	사무실을	_	_	I-Victim
+5	피습했다.	피습하다.v	Attack	O
+
+#anno-id:20475
+#source:sejong
+#text:개인기에서 우리 팀이 일본팀보다 약간 밀린다.
+0	개인기에서	_	_	B-Action
+1	우리	_	_	B-Protagonist
+2	팀이	_	_	I-Protagonist
+3	일본팀보다	_	_	B-Hindrance
+4	약간	_	_	B-Manner
+5	밀린다.	밀리다.v	Hindering	O
+
+#anno-id:21665
+#source:sejong
+#text:기영이는 밭에 있는 나쁜 벌레들을 소멸하기 위해서 약을 뿌렸다.
+0	기영이는	_	_	B-Agent
+1	밭에	_	_	B-Theme
+2	있는	_	_	I-Theme
+3	나쁜	_	_	I-Theme
+4	벌레들을	_	_	I-Theme
+5	소멸하기	소멸하다.v	Emptying	O
+6	위해서	_	_	O
+7	약을	_	_	O
+8	뿌렸다.	_	_	O
+
+#anno-id:25460
+#source:sejong
+#text:그때 저편에서 회중 전등이 번쩍하고 이리로 왔다.
+0	그때	_	_	B-Time
+1	저편에서	_	_	B-Place
+2	회중	_	_	B-Beam
+3	전등이	_	_	I-Beam
+4	번쩍하고	번쩍하다.v	Light_movement	O
+5	이리로	_	_	O
+6	왔다.	_	_	O
+
+#anno-id:17565
+#source:sejong
+#text:그 친구는 나에게 보험에 들어 줄 것을 재촉했다.
+0	그	_	_	B-Content
+1	친구는	_	_	I-Content
+2	나에게	_	_	I-Content
+3	보험에	_	_	I-Content
+4	들어	_	_	I-Content
+5	줄	_	_	I-Content
+6	것을	_	_	I-Content
+7	재촉했다.	재촉하다.v	Attempt_suasion	O
+
+#anno-id:19064
+#source:sejong
+#text:공룡은 지구상에서 멸종했다.
+0	공룡은	_	_	B-Theme
+1	지구상에서	_	_	B-Place
+2	멸종했다.	멸종하다.v	Emptying	O
+
+#anno-id:22922
+#source:sejong
+#text:도둑은 물건만 가져갔을 뿐 꼬리는 전혀 남기지 않았다.
+0	도둑은	_	_	B-Donor
+1	물건만	_	_	O
+2	가져갔을	_	_	O
+3	뿐	_	_	O
+4	꼬리는	_	_	B-Theme
+5	전혀	_	_	B-Manner
+6	남기지	남기다.v	Giving	O
+7	않았다.	_	_	O
+
+#anno-id:20588
+#source:sejong
+#text:그는 하나님을 철저히 의뢰했다.
+0	그는	_	_	B-Speaker
+1	하나님을	_	_	B-Addressee
+2	철저히	_	_	B-Manner
+3	의뢰했다.	의뢰하다.v	Request	O
+
+#anno-id:22426
+#source:sejong
+#text:명동 거리에 인파들이 붐볐다.
+0	명동	_	_	B-Location
+1	거리에	_	_	I-Location
+2	인파들이	_	_	B-Theme
+3	붐볐다.	붐비다.v	Abounding_with	O
+
+#anno-id:20778
+#source:sejong
+#text:황영조 선수는 세계대회에서 한국 마라톤 최고기록을 몇 분이나 앞당겼다.
+0	황영조	_	_	B-Agent
+1	선수는	_	_	I-Agent
+2	세계대회에서	_	_	B-Place
+3	한국	_	_	B-Event
+4	마라톤	_	_	I-Event
+5	최고기록을	_	_	I-Event
+6	몇	_	_	B-Manner
+7	분이나	_	_	I-Manner
+8	앞당겼다.	앞당기다.v	Change_event_time	O
+
+#anno-id:21208
+#source:sejong
+#text:범인은 살인의 흔적을 인멸했다.
+0	범인은	_	_	B-Agent
+1	살인의	_	_	B-Theme
+2	흔적을	_	_	I-Theme
+3	인멸했다.	인멸하다.v	Removing	O
+
+#anno-id:23252
+#source:sejong
+#text:폐광지역이었던 이 곳에 카지노가 들어서자 인구도 급격히 늘었다.
+0	폐광지역이었던	_	_	O
+1	이	_	_	O
+2	곳에	_	_	O
+3	카지노가	_	_	O
+4	들어서자	_	_	O
+5	인구도	_	_	B-Entity
+6	급격히	_	_	B-Manner
+7	늘었다.	늘다.v	Progression	O
+
+#anno-id:17676
+#source:sejong
+#text:세상 인심이 많이 변했다.
+0	세상	_	_	B-Entity
+1	인심이	_	_	I-Entity
+2	많이	_	_	B-Manner
+3	변했다.	변하다.v	Undergo_change	O
+
+#anno-id:21455
+#source:sejong
+#text:새 선거법이 정착하려면 시행착오가 필요하다.
+0	새	_	_	B-Colonists
+1	선거법이	_	_	I-Colonists
+2	정착하려면	정착하다.v	Colonization	O
+3	시행착오가	_	_	O
+4	필요하다.	_	_	O
+
+#anno-id:23819
+#source:sejong
+#text:고기를 싫어해서 채식을 하는 사람은 콩을 먹도록 하면 좋고 그렇지 않으면 두부로 대용해도 충분하다.
+0	고기를	_	_	B-Agent
+1	싫어해서	_	_	I-Agent
+2	채식을	_	_	I-Agent
+3	하는	_	_	I-Agent
+4	사람은	_	_	I-Agent
+5	콩을	_	_	O
+6	먹도록	_	_	O
+7	하면	_	_	O
+8	좋고	_	_	O
+9	그렇지	_	_	O
+10	않으면	_	_	O
+11	두부로	_	_	B-New
+12	대용해도	대용하다.v	Replacing	O
+13	충분하다.	_	_	O
+
+#anno-id:23071
+#source:sejong
+#text:아직도 방학 중에 읽을 책들을 정하지 못했니?.
+0	아직도	_	_	B-Time
+1	방학	_	_	B-Item
+2	중에	_	_	I-Item
+3	읽을	_	_	I-Item
+4	책들을	_	_	I-Item
+5	정하지	정하다.v	Categorization	O
+6	못했니?.	_	_	O
+
+#anno-id:17460
+#source:sejong
+#text:요즘 아이들은 물건을 너무 낭비한다.
+0	요즘	_	_	B-Resource_controller
+1	아이들은	_	_	I-Resource_controller
+2	물건을	_	_	B-Resource
+3	너무	_	_	B-Manner
+4	낭비한다.	낭비하다.v	Frugality	O
+
+#anno-id:20233
+#source:sejong
+#text:내 동생을 공부시키려면 일단같이 놀아주어야 한다.
+0	내	_	_	B-Student
+1	동생을	_	_	I-Student
+2	공부시키려면	공부시키다.v	Studying	O
+3	일단같이	_	_	O
+4	놀아주어야	_	_	O
+5	한다.	_	_	O
+
+#anno-id:17846
+#source:sejong
+#text:김 과장은 남은 일을 회사에서 집에 가져오곤 했다.
+0	김	_	_	B-Agent
+1	과장은	_	_	I-Agent
+2	남은	_	_	B-Theme
+3	일을	_	_	I-Theme
+4	회사에서	_	_	B-Source
+5	집에	_	_	B-Goal
+6	가져오곤	가져오다.v	Bringing	O
+7	했다.	_	_	O
+
+#anno-id:19268
+#source:sejong
+#text:그는 동양 철학을 현대 물리학에 결합해서 새로운 사상 체계를 만들어냈다.
+0	그는	_	_	O
+1	동양	_	_	B-Part_1
+2	철학을	_	_	I-Part_1
+3	현대	_	_	B-Part_2
+4	물리학에	_	_	I-Part_2
+5	결합해서	결합하다.v	Amalgamation	O
+6	새로운	_	_	O
+7	사상	_	_	O
+8	체계를	_	_	O
+9	만들어냈다.	_	_	O
+
+#anno-id:24433
+#source:sejong
+#text:이제 그런 일을 할 만큼 충분히 분위기가 조성되었다.
+0	이제	_	_	B-Purpose
+1	그런	_	_	I-Purpose
+2	일을	_	_	I-Purpose
+3	할	_	_	I-Purpose
+4	만큼	_	_	I-Purpose
+5	충분히	_	_	B-Manner
+6	분위기가	_	_	B-Created_entity
+7	조성되었다.	조성되다.v	Creating	O
+
+#anno-id:24454
+#source:sejong
+#text:공단은 공원들을 그 아파트에 입주시켰다.
+0	공단은	_	_	O
+1	공원들을	_	_	B-Resident
+2	그	_	_	B-Location
+3	아파트에	_	_	I-Location
+4	입주시켰다.	입주시키다.v	Residence	O
+
+#anno-id:21780
+#source:sejong
+#text:나의 존재는 언제나 무시된다.
+0	나의	_	_	B-Figure
+1	존재는	_	_	I-Figure
+2	언제나	_	_	B-Time
+3	무시된다.	무시되다.v	Attention	O
+
+#anno-id:20788
+#source:sejong
+#text:걱정했던 보다는 빨리 그러나 예상보다는 늦게 사퇴를 표명해 다행이다.
+0	걱정했던	_	_	O
+1	보다는	_	_	O
+2	빨리	_	_	B-Manner
+3	그러나	_	_	O
+4	예상보다는	_	_	O
+5	늦게	_	_	B-Manner
+6	사퇴를	_	_	B-Content
+7	표명해	표명하다.v	Expressing_publicly	O
+8	다행이다.	_	_	O
+
+#anno-id:17604
+#source:sejong
+#text:남한이 북한과 힘을 함께 뭉치면 두 나라 다 지금보다 훨씬 좋아질텐데.
+0	남한이	_	_	B-Partner_1
+1	북한과	_	_	B-Partner_2
+2	힘을	_	_	I-Partner_2
+3	함께	_	_	B-Manner
+4	뭉치면	뭉치다.v	Collaboration	O
+5	두	_	_	O
+6	나라	_	_	O
+7	다	_	_	O
+8	지금보다	_	_	O
+9	훨씬	_	_	O
+10	좋아질텐데.	_	_	O
+
+#anno-id:17681
+#source:sejong
+#text:조선 사회에서 그 친구처럼 노비가 잘되기란 쉽지 않다.
+0	조선	_	_	B-Place
+1	사회에서	_	_	I-Place
+2	그	_	_	B-Person
+3	친구처럼	_	_	I-Person
+4	노비가	_	_	B-Person
+5	잘되기란	잘되다.v	Personal_success	O
+6	쉽지	_	_	O
+7	않다.	_	_	O
+
+#anno-id:17909
+#source:sejong
+#text:야당의원은 국회의장에게서 마이크를 가로챘다.
+0	야당의원은	_	_	B-Agent
+1	국회의장에게서	_	_	B-Source
+2	마이크를	_	_	B-Theme
+3	가로챘다.	가로채다.v	Taking	O
+
+#anno-id:25218
+#source:sejong
+#text:경찰에서 그의 전과기록을 말소시켰다.
+0	경찰에서	_	_	B-Agent
+1	그의	_	_	B-Information
+2	전과기록을	_	_	I-Information
+3	말소시켰다.	말소시키다.v	Erasing	O
+
+#anno-id:25138
+#source:sejong
+#text:할머니는 왼쪽 귀를 먹어서 크게 말하지 않으면 잘 못 들으신다.
+0	할머니는	_	_	B-Perceiver_agentive
+1	왼쪽	_	_	B-Phenomenon
+2	귀를	_	_	I-Phenomenon
+3	먹어서	먹다.v	Perception_active	O
+4	크게	_	_	O
+5	말하지	_	_	O
+6	않으면	_	_	O
+7	잘	_	_	O
+8	못	_	_	O
+9	들으신다.	_	_	O
+
+#anno-id:23023
+#source:sejong
+#text:아까부터 저 녀석이 내 비위를 거스르는 말과 행동을 내내 하고 있어서 기분이 몹시 언짢았다.
+0	아까부터	_	_	O
+1	저	_	_	O
+2	녀석이	_	_	O
+3	내	_	_	B-Experiencer
+4	비위를	_	_	I-Experiencer
+5	거스르는	거스르다.v	Experiencer_obj	O
+6	말과	_	_	B-Stimulus
+7	행동을	_	_	I-Stimulus
+8	내내	_	_	O
+9	하고	_	_	O
+10	있어서	_	_	O
+11	기분이	_	_	O
+12	몹시	_	_	O
+13	언짢았다.	_	_	O
+
+#anno-id:21716
+#source:sejong
+#text:신용구매가 승인되었습니다.
+0	신용구매가	_	_	B-Action
+1	승인되었습니다.	승인되다.v	Deny_or_grant_permission	O
+
+#anno-id:23067
+#source:sejong
+#text:시민들의 국회 본회의 방청은 오랜 논란 끝에 결국 불허되었다.
+0	시민들의	_	_	B-Action
+1	국회	_	_	I-Action
+2	본회의	_	_	I-Action
+3	방청은	_	_	I-Action
+4	오랜	_	_	B-Manner
+5	논란	_	_	I-Manner
+6	끝에	_	_	I-Manner
+7	결국	_	_	B-Time
+8	불허되었다.	불허되다.v	Deny_or_grant_permission	O
+
+#anno-id:20701
+#source:sejong
+#text:복도에 서서 가는 사람들 때문에 열차 안은 무척 혼잡했다.
+0	복도에	_	_	B-Location
+1	서서	서다.v	Posture	O
+2	가는	_	_	O
+3	사람들	_	_	O
+4	때문에	_	_	O
+5	열차	_	_	O
+6	안은	_	_	O
+7	무척	_	_	O
+8	혼잡했다.	_	_	O
+
+#anno-id:17471
+#source:sejong
+#text:이 치마는 밑단이 사선으로 재단되어 있다.
+0	이	_	_	B-Perceiver_agentive
+1	치마는	_	_	I-Perceiver_agentive
+2	밑단이	_	_	B-Phenomenon
+3	사선으로	_	_	B-Manner
+4	재단되어	재단되다.v	Perception_active	O
+5	있다.	_	_	O
+
+#anno-id:21178
+#source:sejong
+#text:김 검사는 그 사건이 기억나지 않는다고 말했다.
+0	김	_	_	B-Cognizer
+1	검사는	_	_	I-Cognizer
+2	그	_	_	B-Content
+3	사건이	_	_	I-Content
+4	기억나지	기억나다.v	Memory	O
+5	않는다고	_	_	O
+6	말했다.	_	_	O
+
+#anno-id:23116
+#source:sejong
+#text:군사 정권 시대에는 모든 음반이 검열된 다음에야 출시될 수 있었다.
+0	군사	_	_	O
+1	정권	_	_	O
+2	시대에는	_	_	O
+3	모든	_	_	B-Ground
+4	음반이	_	_	I-Ground
+5	검열된	검열되다.v	Inspecting	O
+6	다음에야	_	_	B-Time
+7	출시될	_	_	O
+8	수	_	_	O
+9	있었다.	_	_	O
+
+#anno-id:21885
+#source:sejong
+#text:우리 여자들은 어릴 때부터 감정의 표출을 제지당해 왔다.
+0	우리	_	_	O
+1	여자들은	_	_	O
+2	어릴	_	_	O
+3	때부터	_	_	O
+4	감정의	_	_	O
+5	표출을	_	_	O
+6	제지당해	제지당하다.v	Preventing_or_letting	O
+7	왔다.	_	_	O
+
+#anno-id:24292
+#source:sejong
+#text:돼지가 먹이를 찾느라고 주둥이로 정원을 온통 파헤쳤다.
+0	돼지가	_	_	B-Cognizer_agent
+1	먹이를	_	_	O
+2	찾느라고	_	_	O
+3	주둥이로	_	_	B-Means
+4	정원을	_	_	B-Place
+5	온통	_	_	B-Manner
+6	파헤쳤다.	파헤치다.v	Seeking	O
+
+#anno-id:21950
+#source:sejong
+#text:그 건물은 붕괴할 위험이 있다.
+0	그	_	_	O
+1	건물은	_	_	O
+2	붕괴할	붕괴하다.v	Destroying	O
+3	위험이	_	_	O
+4	있다.	_	_	O
+
+#anno-id:24551
+#source:sejong
+#text:이번 정부의 대대적인 단속은 그동안 공공연히 행해져 왔던 불법 거래 행위들을 일소시키기에 충분한 듯 보였다.
+0	이번	_	_	B-Agent
+1	정부의	_	_	I-Agent
+2	대대적인	_	_	I-Agent
+3	단속은	_	_	I-Agent
+4	그동안	_	_	B-Theme
+5	공공연히	_	_	I-Theme
+6	행해져	_	_	I-Theme
+7	왔던	_	_	I-Theme
+8	불법	_	_	I-Theme
+9	거래	_	_	I-Theme
+10	행위들을	_	_	I-Theme
+11	일소시키기에	일소시키다.v	Removing	O
+12	충분한	_	_	O
+13	듯	_	_	O
+14	보였다.	_	_	O
+
+#anno-id:21998
+#source:sejong
+#text:그는 추격하는 경찰을 피하러 산길을 뛰어올랐다.
+0	그는	_	_	B-Self_mover
+1	추격하는	_	_	O
+2	경찰을	_	_	O
+3	피하러	_	_	O
+4	산길을	_	_	B-Path
+5	뛰어올랐다.	뛰어오르다.v	Self_motion	O
+
+#anno-id:19242
+#source:sejong
+#text:물건을 구입하고는 꼭 영수증을 챙겨야 한다.
+0	물건을	_	_	B-Goods
+1	구입하고는	구입하다.v	Commerce_buy	O
+2	꼭	_	_	O
+3	영수증을	_	_	O
+4	챙겨야	_	_	O
+5	한다.	_	_	O
+
+#anno-id:21009
+#source:sejong
+#text:그 컵은 이미 소비된 것이다.
+0	그	_	_	B-Resource
+1	컵은	_	_	I-Resource
+2	이미	_	_	B-Time
+3	소비된	소비되다.v	Expend_resource	O
+4	것이다.	_	_	O
+
+#anno-id:24983
+#source:sejong
+#text:우리는 향긋하고 구수한 냄새에 유혹당해 그 식당으로 들어갔다.
+0	우리는	_	_	B-Experiencer
+1	향긋하고	_	_	B-Stimulus
+2	구수한	_	_	I-Stimulus
+3	냄새에	_	_	I-Stimulus
+4	유혹당해	유혹당하다.v	Experiencer_obj	O
+5	그	_	_	O
+6	식당으로	_	_	O
+7	들어갔다.	_	_	O
+
+#anno-id:22552
+#source:sejong
+#text:나는 오늘도 작업량을 다 채우지 못하고 잠이 들었다.
+0	나는	_	_	B-Agent
+1	오늘도	_	_	B-Time
+2	작업량을	_	_	B-Theme
+3	다	_	_	B-Manner
+4	채우지	채우다.v	Filling	O
+5	못하고	_	_	O
+6	잠이	_	_	O
+7	들었다.	_	_	O
+
+#anno-id:20098
+#source:sejong
+#text:고양이가 의자에 앉아 있다.
+0	고양이가	_	_	B-Agent
+1	의자에	_	_	B-Location
+2	앉아	앉다.v	Posture	O
+3	있다.	_	_	O
+
+#anno-id:19572
+#source:sejong
+#text:우리가 좀 더 다양한 놀이문화가 개발해야 건전하게 여가시간을 보낼 수 있을 것이다.
+0	우리가	_	_	B-Project
+1	좀	_	_	I-Project
+2	더	_	_	I-Project
+3	다양한	_	_	I-Project
+4	놀이문화가	_	_	I-Project
+5	개발해야	개발하다.v	Cause_to_make_progress	O
+6	건전하게	_	_	O
+7	여가시간을	_	_	O
+8	보낼	_	_	O
+9	수	_	_	O
+10	있을	_	_	O
+11	것이다.	_	_	O
+
+#anno-id:22590
+#source:sejong
+#text:철수는 무슨 생각을 골똘히 하는지 연신 눈동자를 이리저리 굴리고 있었다.
+0	철수는	_	_	B-Agent
+1	무슨	_	_	O
+2	생각을	_	_	O
+3	골똘히	_	_	O
+4	하는지	_	_	O
+5	연신	_	_	B-Manner
+6	눈동자를	_	_	B-Body_part
+7	이리저리	_	_	B-Manner
+8	굴리고	굴리다.v	Body_movement	O
+9	있었다.	_	_	O
+
+#anno-id:17636
+#source:sejong
+#text:그는 원고를 출판사에 넘겼다.
+0	그는	_	_	B-Donor
+1	원고를	_	_	B-Theme
+2	출판사에	_	_	B-Recipient
+3	넘겼다.	넘기다.v	Transfer	O
+
+#anno-id:20865
+#source:sejong
+#text:지금 그 상선은 인천항에 정박해 있다.
+0	지금	_	_	B-Time
+1	그	_	_	B-Theme
+2	상선은	_	_	I-Theme
+3	인천항에	_	_	B-Place
+4	정박해	정박하다.v	Halt	O
+5	있다.	_	_	O
+
+#anno-id:18913
+#source:sejong
+#text:과로로 그녀는 입술이 헤어지고 피가 났다.
+0	과로로	_	_	O
+1	그녀는	_	_	B-Whole
+2	입술이	_	_	B-Parts
+3	헤어지고	헤어지다.v	Becoming_separated	O
+4	피가	_	_	O
+5	났다.	_	_	O
+
+#anno-id:17862
+#source:sejong
+#text:배웅을 위해 김경인 의원이 복도로 따라나섰다.
+0	배웅을	_	_	B-Goal
+1	위해	_	_	I-Goal
+2	김경인	_	_	B-Theme
+3	의원이	_	_	I-Theme
+4	복도로	_	_	B-Path
+5	따라나섰다.	따라나서다.v	Traversing	O
+
+#anno-id:25080
+#source:sejong
+#text:어머니는 쌀에 콩을 섞어서 밥을 지으셨다.
+0	어머니는	_	_	O
+1	쌀에	_	_	B-Part_1
+2	콩을	_	_	B-Part_2
+3	섞어서	섞다.v	Amalgamation	O
+4	밥을	_	_	O
+5	지으셨다.	_	_	O
+
+#anno-id:23269
+#source:sejong
+#text:사춘기 무렵이면 조숙한 아이들은 성에 눈이 뜨인다.
+0	사춘기	_	_	B-Time
+1	무렵이면	_	_	I-Time
+2	조숙한	_	_	B-Cognizer
+3	아이들은	_	_	I-Cognizer
+4	성에	_	_	B-Phenomenon
+5	눈이	_	_	O
+6	뜨인다.	뜨이다.v	Becoming_aware	O
+
+#anno-id:18374
+#source:sejong
+#text:가열찬 민주화 투쟁이 군부독재를 끝장냈다.
+0	가열찬	_	_	B-Destroyer
+1	민주화	_	_	I-Destroyer
+2	투쟁이	_	_	I-Destroyer
+3	군부독재를	_	_	B-Patient
+4	끝장냈다.	끝장내다.v	Destroying	O
+
+#anno-id:23485
+#source:sejong
+#text:과일 물은 더 빼기가 어렵다.
+0	과일	_	_	B-Theme
+1	물은	_	_	I-Theme
+2	더	_	_	O
+3	빼기가	빼다.v	Removing	O
+4	어렵다.	_	_	O
+
+#anno-id:25128
+#source:sejong
+#text:민주주의와 제국주의는 양립될 수 없다.
+0	민주주의와	_	_	B-Individuals
+1	제국주의는	_	_	I-Individuals
+2	양립될	양립되다.v	Come_together	O
+3	수	_	_	O
+4	없다.	_	_	O
+
+#anno-id:24480
+#source:sejong
+#text:재판장은 휴정을 선언하고 퇴정했다.
+0	재판장은	_	_	B-Speaker
+1	휴정을	_	_	B-Message
+2	선언하고	선언하다.v	Statement	O
+3	퇴정했다.	_	_	O
+
+#anno-id:24019
+#source:sejong
+#text:그의 말이 우리에게 판단 착오를 유발시켰다.
+0	그의	_	_	B-Cause
+1	말이	_	_	I-Cause
+2	우리에게	_	_	B-Affected
+3	판단	_	_	B-Effect
+4	착오를	_	_	I-Effect
+5	유발시켰다.	유발시키다.v	Causation	O
+
+#anno-id:22004
+#source:sejong
+#text:이런 위험한 절벽을 어떻게 건너라는 말입니까?
+0	이런	_	_	B-Path
+1	위험한	_	_	I-Path
+2	절벽을	_	_	I-Path
+3	어떻게	_	_	B-Manner
+4	건너라는	건너다.v	Traversing	O
+5	말입니까?	_	_	O
+
+#anno-id:21021
+#source:sejong
+#text:귀중품이 잘 관리되어야 좋은 호텔이라고 할 수 있다.
+0	귀중품이	_	_	B-System
+1	잘	_	_	B-Manner
+2	관리되어야	관리되다.v	Operating_a_system	O
+3	좋은	_	_	O
+4	호텔이라고	_	_	O
+5	할	_	_	O
+6	수	_	_	O
+7	있다.	_	_	O
+
+#anno-id:21540
+#source:sejong
+#text:수많은 노력 끝에 그들은 참정권을 쟁취했다.
+0	수많은	_	_	B-Means
+1	노력	_	_	I-Means
+2	끝에	_	_	I-Means
+3	그들은	_	_	B-Agent
+4	참정권을	_	_	B-Goal
+5	쟁취했다.	쟁취하다.v	Accomplishment	O
+
+#anno-id:22966
+#source:sejong
+#text:재영에게 내일까지 출두하라고 고지되었다.
+0	재영에게	_	_	B-Message
+1	내일까지	_	_	I-Message
+2	출두하라고	_	_	I-Message
+3	고지되었다.	고지되다.v	Telling	O
+
+#anno-id:18656
+#source:sejong
+#text:지난 해와 푸른 바다가 서로 어우러져 멋진 경치를 연출했다.
+0	지난	_	_	B-Parts
+1	해와	_	_	I-Parts
+2	푸른	_	_	I-Parts
+3	바다가	_	_	I-Parts
+4	서로	_	_	B-Manner
+5	어우러져	어우러지다.v	Amalgamation	O
+6	멋진	_	_	O
+7	경치를	_	_	O
+8	연출했다.	_	_	O
+
+#anno-id:20970
+#source:sejong
+#text:탈주범 일당은 관광버스를 습격해 이십 명을 인질로 붙잡고 협상을 요구했다.
+0	탈주범	_	_	B-Assailant
+1	일당은	_	_	I-Assailant
+2	관광버스를	_	_	B-Victim
+3	습격해	습격하다.v	Attack	O
+4	이십	_	_	O
+5	명을	_	_	O
+6	인질로	_	_	O
+7	붙잡고	_	_	O
+8	협상을	_	_	O
+9	요구했다.	_	_	O
+
+#anno-id:24046
+#source:sejong
+#text:기차가 잠시 대전역에 머물렀다.
+0	기차가	_	_	B-Guest
+1	잠시	_	_	B-Duration
+2	대전역에	_	_	B-Location
+3	머물렀다.	머무르다.v	Temporary_stay	O
+
+#anno-id:21383
+#source:sejong
+#text:우리는 학회를 세워 그 분야의 연구를 심화시키기로 뜻을 모았다.
+0	우리는	_	_	B-Creator
+1	학회를	_	_	B-Created_entity
+2	세워	세우다.v	Intentionally_create	O
+3	그	_	_	O
+4	분야의	_	_	O
+5	연구를	_	_	O
+6	심화시키기로	_	_	O
+7	뜻을	_	_	O
+8	모았다.	_	_	O
+
+#anno-id:17752
+#source:sejong
+#text:내친 김에 이것까지 마저 다 하자.
+0	내친	내치다.v	Respond_to_proposal	O
+1	김에	_	_	O
+2	이것까지	_	_	O
+3	마저	_	_	O
+4	다	_	_	O
+5	하자.	_	_	O
+
+#anno-id:21872
+#source:sejong
+#text:젊은 사람들이 압구정 거리에 북적거린다.
+0	젊은	_	_	B-Theme
+1	사람들이	_	_	I-Theme
+2	압구정	_	_	B-Location
+3	거리에	_	_	I-Location
+4	북적거린다.	북적거리다.v	Abounding_with	O
+
+#anno-id:23379
+#source:sejong
+#text:나는 그 일을 겪고 나서야 옛 성현들의 말씀이 옳다는 것을 체득할 수 있었다.
+0	나는	_	_	B-Cognizer
+1	그	_	_	O
+2	일을	_	_	O
+3	겪고	_	_	O
+4	나서야	_	_	O
+5	옛	_	_	B-Phenomenon
+6	성현들의	_	_	I-Phenomenon
+7	말씀이	_	_	I-Phenomenon
+8	옳다는	_	_	I-Phenomenon
+9	것을	_	_	I-Phenomenon
+10	체득할	체득하다.v	Grasp	O
+11	수	_	_	O
+12	있었다.	_	_	O
+
+#anno-id:23740
+#source:sejong
+#text:나라를 팔아서 제 한 몸 잘 먹고 잘 살려고 하는 자는 나쁘다.
+0	나라를	_	_	B-Goods
+1	팔아서	팔다.v	Commerce_sell	O
+2	제	_	_	O
+3	한	_	_	O
+4	몸	_	_	O
+5	잘	_	_	O
+6	먹고	_	_	O
+7	잘	_	_	O
+8	살려고	_	_	O
+9	하는	_	_	O
+10	자는	_	_	O
+11	나쁘다.	_	_	O
+
+#anno-id:24176
+#source:sejong
+#text:어머니는 나에게 늘 바른 예절을 교육시켰다
+0	어머니는	_	_	B-Teacher
+1	나에게	_	_	B-Student
+2	늘	_	_	B-Time
+3	바른	_	_	B-Subject
+4	예절을	_	_	I-Subject
+5	교육시켰다	교육시키다.v	Education_teaching	O
+
+#anno-id:24855
+#source:sejong
+#text:내가 그 놈을 작살내고 말테다.
+0	내가	_	_	B-Destroyer
+1	그	_	_	B-Patient
+2	놈을	_	_	I-Patient
+3	작살내고	작살내다.v	Destroying	O
+4	말테다.	_	_	O
+
+#anno-id:19649
+#source:sejong
+#text:경제 발전이 저해될 수 있는 소지를 미연에 없애버리시오.
+0	경제	_	_	B-Action
+1	발전이	_	_	I-Action
+2	저해될	저해되다.v	Hindering	O
+3	수	_	_	O
+4	있는	_	_	O
+5	소지를	_	_	O
+6	미연에	_	_	O
+7	없애버리시오.	_	_	O
+
+#anno-id:17937
+#source:sejong
+#text:사장님이 런던에서 도착하시는 중입니다.
+0	사장님이	_	_	B-Theme
+1	런던에서	_	_	O
+2	도착하시는	도착하다.v	Arriving	O
+3	중입니다.	_	_	O
+
+#anno-id:23526
+#source:sejong
+#text:고양이는 벌레처럼 몸이 꿈틀거리고 있었다.
+0	고양이는	_	_	B-Agent
+1	벌레처럼	_	_	B-Manner
+2	몸이	_	_	B-Body_part
+3	꿈틀거리고	꿈틀거리다.v	Body_movement	O
+4	있었다.	_	_	O
+
+#anno-id:25358
+#source:sejong
+#text:안경이 으스러져서 오늘은 렌즈를 끼고 학교에 갔다.
+0	안경이	_	_	B-Patient
+1	으스러져서	으스러지다.v	Grinding	O
+2	오늘은	_	_	O
+3	렌즈를	_	_	O
+4	끼고	_	_	O
+5	학교에	_	_	O
+6	갔다.	_	_	O
+
+#anno-id:22864
+#source:sejong
+#text:간첩은 톱으로 철조망을 끊고 침입했다.
+0	간첩은	_	_	B-Agent
+1	톱으로	_	_	B-Means
+2	철조망을	_	_	B-Whole
+3	끊고	끊다.v	Separating	O
+4	침입했다.	_	_	O
+
+#anno-id:20187
+#source:sejong
+#text:학생들은 헌신적으로 가르치는 김 교수를 흠모하며 따랐다.
+0	학생들은	_	_	B-Experiencer
+1	헌신적으로	_	_	B-Focal_participant
+2	가르치는	_	_	I-Focal_participant
+3	김	_	_	I-Focal_participant
+4	교수를	_	_	I-Focal_participant
+5	흠모하며	흠모하다.v	Desiring	O
+6	따랐다.	_	_	O
+
+#anno-id:18049
+#source:sejong
+#text:영희는 드디어 나에게 입을 떼고 사랑을 고백했다.
+0	영희는	_	_	B-Source
+1	드디어	_	_	B-Time
+2	나에게	_	_	O
+3	입을	_	_	B-Item
+4	떼고	떼다.v	Becoming_detached	O
+5	사랑을	_	_	O
+6	고백했다.	_	_	O
+
+#anno-id:24814
+#source:sejong
+#text:한 번 폭동이 시발되자 상황은 걷잡을 수 없이 커져갔다.
+0	한	_	_	B-Entity
+1	번	_	_	I-Entity
+2	폭동이	_	_	I-Entity
+3	시발되자	시발되다.v	Coming_to_be	O
+4	상황은	_	_	O
+5	걷잡을	_	_	O
+6	수	_	_	O
+7	없이	_	_	O
+8	커져갔다.	_	_	O
+
+#anno-id:18553
+#source:sejong
+#text:글은 처음과 끝이 일치되도록 일관성 있게 써야 된다.
+0	글은	_	_	B-Profiled_item
+1	처음과	_	_	B-Attribute
+2	끝이	_	_	I-Attribute
+3	일치되도록	일치되다.v	Evaluative_comparison	O
+4	일관성	_	_	O
+5	있게	_	_	O
+6	써야	_	_	O
+7	된다.	_	_	O
+
+#anno-id:24000
+#source:sejong
+#text:철수가 수초에 말려서 나오지 못하고 있다.
+0	철수가	_	_	B-Agent
+1	수초에	_	_	B-Potential_hindrance
+2	말려서	말리다.v	Preventing_or_letting	O
+3	나오지	_	_	O
+4	못하고	_	_	O
+5	있다.	_	_	O
+
+#anno-id:19419
+#source:sejong
+#text:본질적인 개혁이 달성되기 위해서는 철저한 과거청산과 더불어 제도적인 개혁이 병행돼야 한다.
+0	본질적인	_	_	B-Goal
+1	개혁이	_	_	I-Goal
+2	달성되기	달성되다.v	Accomplishment	O
+3	위해서는	_	_	O
+4	철저한	_	_	O
+5	과거청산과	_	_	O
+6	더불어	_	_	O
+7	제도적인	_	_	O
+8	개혁이	_	_	O
+9	병행돼야	_	_	O
+10	한다.	_	_	O
+
+#anno-id:18649
+#source:sejong
+#text:노동자들은 학생들과 힘을 합하여 반정부 투쟁에 나섰다.
+0	노동자들은	_	_	B-Part_1
+1	학생들과	_	_	B-Part_2
+2	힘을	_	_	I-Part_2
+3	합하여	합하다.v	Cause_to_amalgamate	O
+4	반정부	_	_	O
+5	투쟁에	_	_	O
+6	나섰다.	_	_	O
+
+#anno-id:24954
+#source:sejong
+#text:나는 영희와 제3세계의 인권 문제에 대해 토의했다.
+0	나는	_	_	B-Interlocutor_1
+1	영희와	_	_	B-Interlocutor_2
+2	제3세계의	_	_	B-Topic
+3	인권	_	_	I-Topic
+4	문제에	_	_	I-Topic
+5	대해	_	_	O
+6	토의했다.	토의하다.v	Discussion	O
+
+#anno-id:18974
+#source:sejong
+#text:지금까지 우리는 방법적 논의를 선행시킴으로써 우리의 물음을 단지 가시화시켰을 뿐이다.
+0	지금까지	_	_	O
+1	우리는	_	_	B-Speaker
+2	방법적	_	_	O
+3	논의를	_	_	O
+4	선행시킴으로써	_	_	O
+5	우리의	_	_	B-Category
+6	물음을	_	_	I-Category
+7	단지	_	_	O
+8	가시화시켰을	가시화시키다.v	Communicate_categorization	O
+9	뿐이다.	_	_	O
+
+#anno-id:20660
+#source:sejong
+#text:한국은 얼마전부터 유럽에 자동차를 수출하기시작했다.
+0	한국은	_	_	B-Exporter
+1	얼마전부터	_	_	B-Time
+2	유럽에	_	_	B-Importing_area
+3	자동차를	_	_	B-Goods
+4	수출하기시작했다.	수출하다.v	Exporting	O
+
+#anno-id:23913
+#source:sejong
+#text:집체적 지도와 유일적 지휘를 배합시키는 원칙이다.
+0	집체적	_	_	B-Parts
+1	지도와	_	_	I-Parts
+2	유일적	_	_	I-Parts
+3	지휘를	_	_	I-Parts
+4	배합시키는	배합시키다.v	Cause_to_amalgamate	O
+5	원칙이다.	_	_	O
+
+#anno-id:18210
+#source:sejong
+#text:김 교수는 그의 이론을 체계적으로 논고하였다.
+0	김	_	_	B-Arguer
+1	교수는	_	_	I-Arguer
+2	그의	_	_	B-Content
+3	이론을	_	_	I-Content
+4	체계적으로	_	_	B-Manner
+5	논고하였다.	논고하다.v	Reasoning	O
+
+#anno-id:24263
+#source:sejong
+#text:하늘 저 편에서 갑자기 새떼가 우리에게 밀려왔다.
+0	하늘	_	_	B-Place
+1	저	_	_	I-Place
+2	편에서	_	_	I-Place
+3	갑자기	_	_	B-Manner
+4	새떼가	_	_	B-Entity
+5	우리에게	_	_	B-Place
+6	밀려왔다.	밀려오다.v	Coming_to_be	O
+
+#anno-id:18811
+#source:sejong
+#text:이 사건과 그 사건을서로 관련시키면해결책이 나올 것이다.
+0	이	_	_	O
+1	사건과	_	_	O
+2	그	_	_	O
+3	사건을서로	_	_	O
+4	관련시키면해결책이	관련시키다.v	Rope_manipulation	O
+5	나올	_	_	O
+6	것이다.	_	_	O
+
+#anno-id:18100
+#source:sejong
+#text:누렇게 익은 곡식이 들판에 넘실거렸다.
+0	누렇게	_	_	B-Theme
+1	익은	_	_	I-Theme
+2	곡식이	_	_	I-Theme
+3	들판에	_	_	B-Place
+4	넘실거렸다.	넘실거리다.v	Moving_in_place	O
+
+#anno-id:22655
+#source:sejong
+#text:꼬마들이 몸을 쭈그리고 앉아서 벌레를 열심히들여다 본다.
+0	꼬마들이	_	_	B-Agent
+1	몸을	_	_	B-Point_of_contact
+2	쭈그리고	쭈그리다.v	Posture	O
+3	앉아서	_	_	O
+4	벌레를	_	_	O
+5	열심히들여다	_	_	O
+6	본다.	_	_	O
+
+#anno-id:23304
+#source:sejong
+#text:장롱과 책상의 간격을 좀 더 띄워야겠어.
+0	장롱과	_	_	B-Patient
+1	책상의	_	_	I-Patient
+2	간격을	_	_	I-Patient
+3	좀	_	_	B-Manner
+4	더	_	_	I-Manner
+5	띄워야겠어.	띄우다.v	Reshaping	O
+
+#anno-id:22616
+#source:sejong
+#text:그의 욕심이 결국 파멸을 초래하고 말 것이다.
+0	그의	_	_	B-Cause
+1	욕심이	_	_	I-Cause
+2	결국	_	_	O
+3	파멸을	_	_	B-Effect
+4	초래하고	초래하다.v	Cause_to_start	O
+5	말	_	_	O
+6	것이다.	_	_	O
+
+#anno-id:18539
+#source:sejong
+#text:승려들도 나라의 위기를 좌시할 수만은 없어 각지에서 의병을 일으켰다.
+0	승려들도	_	_	B-Cause
+1	나라의	_	_	I-Cause
+2	위기를	_	_	I-Cause
+3	좌시할	_	_	I-Cause
+4	수만은	_	_	I-Cause
+5	없어	_	_	O
+6	각지에서	_	_	B-Place
+7	의병을	_	_	B-Effect
+8	일으켰다.	일으키다.v	Cause_to_start	O
+
+#anno-id:22756
+#source:sejong
+#text:자리를 지키는 데만 급급한 사람들이 너무 많아.
+0	자리를	_	_	B-Asset
+1	지키는	지키다.v	Protecting	O
+2	데만	_	_	O
+3	급급한	_	_	O
+4	사람들이	_	_	O
+5	너무	_	_	O
+6	많아.	_	_	O
+
+#anno-id:17646
+#source:sejong
+#text:국가의 안위를 위협하는 불순한 세력은 결코 용납할 수 없다는 것이 정부의 입장이다.
+0	국가의	_	_	B-Valued_entity
+1	안위를	_	_	I-Valued_entity
+2	위협하는	위협하다.v	Endangering	O
+3	불순한	_	_	B-Agent
+4	세력은	_	_	I-Agent
+5	결코	_	_	O
+6	용납할	_	_	O
+7	수	_	_	O
+8	없다는	_	_	O
+9	것이	_	_	O
+10	정부의	_	_	O
+11	입장이다.	_	_	O
+
+#anno-id:23683
+#source:sejong
+#text:그의 소설 속에서는 현실적인 시간과 공간이 모두 해체되어 있다.
+0	그의	_	_	B-Place
+1	소설	_	_	I-Place
+2	속에서는	_	_	I-Place
+3	현실적인	_	_	B-Whole
+4	시간과	_	_	I-Whole
+5	공간이	_	_	I-Whole
+6	모두	_	_	B-Manner
+7	해체되어	해체되다.v	Breaking_apart	O
+8	있다.	_	_	O
+
+#anno-id:20105
+#source:sejong
+#text:십 년 이상 다니던 회사를 떠나려니 눈물이 나온다.
+0	십	_	_	B-Field
+1	년	_	_	I-Field
+2	이상	_	_	I-Field
+3	다니던	_	_	I-Field
+4	회사를	_	_	I-Field
+5	떠나려니	떠나다.v	Quitting	O
+6	눈물이	_	_	O
+7	나온다.	_	_	O
+
+#anno-id:17441
+#source:sejong
+#text:혼신의 힘을 다해 노래를 부르는 가수들만이 청중을 휘어잡을 수 있는 법이다.
+0	혼신의	_	_	B-Controlling_entity
+1	힘을	_	_	I-Controlling_entity
+2	다해	_	_	I-Controlling_entity
+3	노래를	_	_	I-Controlling_entity
+4	부르는	_	_	I-Controlling_entity
+5	가수들만이	_	_	I-Controlling_entity
+6	청중을	_	_	B-Dependent_entity
+7	휘어잡을	휘어잡다.v	Control	O
+8	수	_	_	O
+9	있는	_	_	O
+10	법이다.	_	_	O
+
+#anno-id:18835
+#source:sejong
+#text:철수가 영이와 서로 부딪쳤다.
+0	철수가	_	_	B-Impactor
+1	영이와	_	_	B-Impactee
+2	서로	_	_	B-Manner
+3	부딪쳤다.	부딪치다.v	Impact	O
+
+#anno-id:22508
+#source:sejong
+#text:요란한 벨 소리가 희정이의 잠을 깨웠다.
+0	요란한	_	_	B-Cause
+1	벨	_	_	I-Cause
+2	소리가	_	_	I-Cause
+3	희정이의	_	_	B-Sleeper
+4	잠을	_	_	I-Sleeper
+5	깨웠다.	깨우다.v	Cause_to_wake	O
+
+#anno-id:18178
+#source:sejong
+#text:그들은 정부에 자신들의 행위의 정당성을 설파했다.
+0	그들은	_	_	B-Communicator
+1	정부에	_	_	O
+2	자신들의	_	_	B-Message
+3	행위의	_	_	I-Message
+4	정당성을	_	_	I-Message
+5	설파했다.	설파하다.v	Communication	O
+
+#anno-id:18682
+#source:sejong
+#text:김 형사는 그를 둘러싼 많은 미스테리들을 밝혀 내겠다고 다짐했다.
+0	김	_	_	O
+1	형사는	_	_	O
+2	그를	_	_	B-Figure
+3	둘러싼	둘러싸다.v	Surrounding	O
+4	많은	_	_	B-Figure
+5	미스테리들을	_	_	I-Figure
+6	밝혀	_	_	O
+7	내겠다고	_	_	O
+8	다짐했다.	_	_	O
+
+#anno-id:19111
+#source:sejong
+#text:일이 너무 바삐 돌아가니까 정신이 없구나.
+0	일이	_	_	B-Theme
+1	너무	_	_	B-Manner
+2	바삐	_	_	I-Manner
+3	돌아가니까	돌아가다.v	Motion	O
+4	정신이	_	_	O
+5	없구나.	_	_	O
+
+#anno-id:21675
+#source:sejong
+#text:나는 이름난 막국수집을 찾으러 춘천 시내를 돌아다녔다.
+0	나는	_	_	B-Self_mover
+1	이름난	_	_	O
+2	막국수집을	_	_	O
+3	찾으러	_	_	O
+4	춘천	_	_	B-Area
+5	시내를	_	_	I-Area
+6	돌아다녔다.	돌아다니다.v	Self_motion	O
+
+#anno-id:22178
+#source:sejong
+#text:그녀의 얼굴이 사람들에게 가렸다.
+0	그녀의	_	_	B-Eclipsed
+1	얼굴이	_	_	I-Eclipsed
+2	사람들에게	_	_	B-Obstruction
+3	가렸다.	가리다.v	Eclipse	O
+
+#anno-id:21328
+#source:sejong
+#text:시어머니는 아예 부엌살림을 그 며느리에게 내맡겼다.
+0	시어머니는	_	_	B-Manipulator
+1	아예	_	_	B-Manner
+2	부엌살림을	_	_	B-Resulting_action
+3	그	_	_	B-Victim
+4	며느리에게	_	_	I-Victim
+5	내맡겼다.	내맡기다.v	Manipulate_into_doing	O
+
+#anno-id:20664
+#source:sejong
+#text:곁가지를 꺾어 주어야 나무가 곧게 잘 자란다.
+0	곁가지를	_	_	B-Patient
+1	꺾어	꺾다.v	Reshaping	O
+2	주어야	_	_	O
+3	나무가	_	_	O
+4	곧게	_	_	O
+5	잘	_	_	O
+6	자란다.	_	_	O
+
+#anno-id:19186
+#source:sejong
+#text:우리는 조그만 사다리를 벽에 기대어 두었다.
+0	우리는	_	_	B-Agent
+1	조그만	_	_	B-Theme
+2	사다리를	_	_	I-Theme
+3	벽에	_	_	B-Place
+4	기대어	기대다.v	Placing	O
+5	두었다.	_	_	O
+
+#anno-id:24549
+#source:sejong
+#text:나는 어디서 그와 만나기로 했는지를 까먹었다.
+0	나는	_	_	O
+1	어디서	_	_	O
+2	그와	_	_	O
+3	만나기로	_	_	O
+4	했는지를	_	_	O
+5	까먹었다.	까먹다.v	Remembering_to_do	O
+
+#anno-id:24058
+#source:sejong
+#text:꽃병에 장미꽃이 예쁘게 꽂혀 있다.
+0	꽃병에	_	_	B-Goal
+1	장미꽃이	_	_	B-Item
+2	예쁘게	_	_	B-Manner
+3	꽂혀	꽂히다.v	Being_attached	O
+4	있다.	_	_	O
+
+#anno-id:24410
+#source:sejong
+#text:아버지가 그의 사업을 뒷받침해 주었다.
+0	아버지가	_	_	B-Support
+1	그의	_	_	B-Proposition
+2	사업을	_	_	I-Proposition
+3	뒷받침해	뒷받침하다.v	Evidence	O
+4	주었다.	_	_	O
+
+#anno-id:20879
+#source:sejong
+#text:나쁜 짓을 일삼으면 감옥으로 끌려갔다.
+0	나쁜	_	_	B-Offense
+1	짓을	_	_	I-Offense
+2	일삼으면	_	_	I-Offense
+3	감옥으로	_	_	B-Place
+4	끌려갔다.	끌려가다.v	Arrest	O
+
+#anno-id:17849
+#source:sejong
+#text:그 물건을 찾아 주시는 분에게는 후하게 보상하겠습니다.
+0	그	_	_	B-Evaluee
+1	물건을	_	_	I-Evaluee
+2	찾아	_	_	I-Evaluee
+3	주시는	_	_	I-Evaluee
+4	분에게는	_	_	I-Evaluee
+5	후하게	_	_	B-Manner
+6	보상하겠습니다.	보상하다.v	Rewards_and_punishments	O
+
+#anno-id:18240
+#source:sejong
+#text:서울 서대문 형무소는 지금은 공원으로 단장되었다.
+0	서울	_	_	B-Theme
+1	서대문	_	_	I-Theme
+2	형무소는	_	_	I-Theme
+3	지금은	_	_	B-Time
+4	공원으로	_	_	B-Manner
+5	단장되었다.	단장되다.v	Distributed_position	O
+
+#anno-id:20892
+#source:sejong
+#text:연구소에서 잘못된 이론을 양산한다.
+0	연구소에서	_	_	B-Cause
+1	잘못된	_	_	B-Effect
+2	이론을	_	_	I-Effect
+3	양산한다.	양산하다.v	Cause_to_start	O
+
+#anno-id:24969
+#source:sejong
+#text:인호는 나이가 스무 살이 되었다.
+0	인호는	_	_	B-Entity
+1	나이가	_	_	B-Entity
+2	스무	_	_	B-Final_quality
+3	살이	_	_	I-Final_quality
+4	되었다.	되다.v	Becoming	O
+
+#anno-id:24061
+#source:sejong
+#text:아이가 잠자는 모습은 참 아름답다.
+0	아이가	_	_	B-Sleeper
+1	잠자는	잠자다.v	Sleep	O
+2	모습은	_	_	O
+3	참	_	_	O
+4	아름답다.	_	_	O
+
+#anno-id:23159
+#source:sejong
+#text:나는 그대를 만나러 먼 길을 돌아왔소.
+0	나는	_	_	B-Self_mover
+1	그대를	_	_	O
+2	만나러	_	_	O
+3	먼	_	_	B-Path
+4	길을	_	_	I-Path
+5	돌아왔소.	돌아오다.v	Self_motion	O
+
+#anno-id:24083
+#source:sejong
+#text:최씨는 집의 장구를 두드리며 판소리 장단까지 몸에 익혔다.
+0	최씨는	_	_	B-Agent
+1	집의	_	_	O
+2	장구를	_	_	O
+3	두드리며	_	_	O
+4	판소리	_	_	B-Action
+5	장단까지	_	_	I-Action
+6	몸에	_	_	B-Agent
+7	익혔다.	익히다.v	Practice	O
+
+#anno-id:19399
+#source:sejong
+#text:그 일에 많은 사람들이 매달렸다.
+0	그	_	_	B-Goal
+1	일에	_	_	I-Goal
+2	많은	_	_	B-Connector
+3	사람들이	_	_	I-Connector
+4	매달렸다.	매달리다.v	Becoming_attached	O
+
+#anno-id:23080
+#source:sejong
+#text:책을 들고 들어온 은실이는 그 사람과 이야기한다.
+0	책을	_	_	B-Interlocutor_1
+1	들고	_	_	I-Interlocutor_1
+2	들어온	_	_	I-Interlocutor_1
+3	은실이는	_	_	I-Interlocutor_1
+4	그	_	_	B-Interlocutor_2
+5	사람과	_	_	I-Interlocutor_2
+6	이야기한다.	이야기하다.v	Chatting	O
+
+#anno-id:21393
+#source:sejong
+#text:두 명의 20대 여성이 항공기에서 문을 열려는 등의 난동을 피운 후 승무원에 의해 제지당해 공항 당국 경찰에 연행됐다.
+0	두	_	_	O
+1	명의	_	_	O
+2	20대	_	_	O
+3	여성이	_	_	O
+4	항공기에서	_	_	O
+5	문을	_	_	O
+6	열려는	_	_	O
+7	등의	_	_	O
+8	난동을	_	_	O
+9	피운	_	_	O
+10	후	_	_	O
+11	승무원에	_	_	O
+12	의해	_	_	O
+13	제지당해	제지당하다.v	Preventing_or_letting	O
+14	공항	_	_	O
+15	당국	_	_	O
+16	경찰에	_	_	O
+17	연행됐다.	_	_	O
+
+#anno-id:22581
+#source:sejong
+#text:종이를 낭비하지 맙시다.
+0	종이를	_	_	B-Resource
+1	낭비하지	낭비하다.v	Frugality	O
+2	맙시다.	_	_	O
+
+#anno-id:22569
+#source:sejong
+#text:그 공사는 그런 쪽으로 결정됐다.
+0	그	_	_	B-Decision
+1	공사는	_	_	I-Decision
+2	그런	_	_	B-Decision
+3	쪽으로	_	_	I-Decision
+4	결정됐다.	결정되다.v	Deciding	O
+
+#anno-id:23041
+#source:sejong
+#text:김선수의 강펀치가 터졌습니다.
+0	김선수의	_	_	B-Event
+1	강펀치가	_	_	I-Event
+2	터졌습니다.	터지다.v	Event	O
+
+#anno-id:19966
+#source:sejong
+#text:서구풍조가 조선에도 물밀듯이 밀려왔다.
+0	서구풍조가	_	_	B-Theme
+1	조선에도	_	_	B-Goal
+2	물밀듯이	_	_	O
+3	밀려왔다.	밀려오다.v	Filling	O
+
+#anno-id:23125
+#source:sejong
+#text:나는 비서로서 사장님을 충실히 수행하고 아프리카에 갔다.
+0	나는	_	_	B-Agent
+1	비서로서	_	_	B-Manner
+2	사장님을	_	_	O
+3	충실히	_	_	B-Manner
+4	수행하고	수행하다.v	Conduct	O
+5	아프리카에	_	_	O
+6	갔다.	_	_	O
+
+#anno-id:25292
+#source:sejong
+#text:선생님은 그 아이를 특별 교육 대상에 포함시켰다.
+0	선생님은	_	_	O
+1	그	_	_	B-Part
+2	아이를	_	_	I-Part
+3	특별	_	_	B-Total
+4	교육	_	_	I-Total
+5	대상에	_	_	I-Total
+6	포함시켰다.	포함시키다.v	Inclusion	O
+
+#anno-id:21615
+#source:sejong
+#text:남북정상회담이 성사되려면 시간이 걸린다.
+0	남북정상회담이	_	_	B-Goal
+1	성사되려면	성사되다.v	Accomplishment	O
+2	시간이	_	_	O
+3	걸린다.	_	_	O
+
+#anno-id:23617
+#source:sejong
+#text:우리가 하려는 계획이 상부로부터 수락되었다.
+0	우리가	_	_	B-Proposal
+1	하려는	_	_	I-Proposal
+2	계획이	_	_	I-Proposal
+3	상부로부터	_	_	B-Interlocutor
+4	수락되었다.	수락되다.v	Respond_to_proposal	O
+
+#anno-id:23635
+#source:sejong
+#text:상관을 체포하는 것은 말처럼 쉽지 않았다.
+0	상관을	_	_	B-Suspect
+1	체포하는	체포하다.v	Arrest	O
+2	것은	_	_	O
+3	말처럼	_	_	O
+4	쉽지	_	_	O
+5	않았다.	_	_	O
+
+#anno-id:19362
+#source:sejong
+#text:그는 병원에 자신의 피를 팔았다.
+0	그는	_	_	B-Seller
+1	병원에	_	_	B-Buyer
+2	자신의	_	_	B-Goods
+3	피를	_	_	I-Goods
+4	팔았다.	팔다.v	Commerce_sell	O
+
+#anno-id:22873
+#source:sejong
+#text:서랍 속을 잘 뒤져보면 찾을 수 있을 거야.
+0	서랍	_	_	B-Ground
+1	속을	_	_	I-Ground
+2	잘	_	_	B-Manner
+3	뒤져보면	뒤지다.v	Scouring	O
+4	찾을	_	_	O
+5	수	_	_	O
+6	있을	_	_	O
+7	거야.	_	_	O
+
+#anno-id:17467
+#source:sejong
+#text:형사의 부탁으로 철수는 범인으로 지목받는 그 남자를 주시하고 있다.
+0	형사의	_	_	O
+1	부탁으로	_	_	O
+2	철수는	_	_	B-Perceiver_agentive
+3	범인으로	_	_	B-Phenomenon
+4	지목받는	_	_	I-Phenomenon
+5	그	_	_	I-Phenomenon
+6	남자를	_	_	I-Phenomenon
+7	주시하고	주시하다.v	Perception_active	O
+8	있다.	_	_	O
+
+#anno-id:20287
+#source:sejong
+#text:갑작스런 정전으로 공장이 스톱되었다.
+0	갑작스런	_	_	O
+1	정전으로	_	_	O
+2	공장이	_	_	B-Activity
+3	스톱되었다.	스톱되다.v	Activity_stop	O
+
+#anno-id:24603
+#source:sejong
+#text:부하직원들이 무능력한 멍청이들이라고 험담하면 어떡하니?
+0	부하직원들이	_	_	B-Message
+1	무능력한	_	_	I-Message
+2	멍청이들이라고	_	_	I-Message
+3	험담하면	험담하다.v	Communication_manner	O
+4	어떡하니?	_	_	O
+
+#anno-id:25163
+#source:sejong
+#text:철수와 민식은 서로 박치기하면서 싸운다.
+0	철수와	_	_	B-Impactors
+1	민식은	_	_	I-Impactors
+2	서로	_	_	B-Manner
+3	박치기하면서	박치기하다.v	Impact	O
+4	싸운다.	_	_	O
+
+#anno-id:18086
+#source:sejong
+#text:장난감 자동차를 태엽을 감아라.
+0	장난감	_	_	B-Theme
+1	자동차를	_	_	I-Theme
+2	태엽을	_	_	B-Theme
+3	감아라.	감다.v	Manipulate_into_shape	O
+
+#anno-id:23619
+#source:sejong
+#text:그 소녀는 정신이 혼미한 것을 보니 아마도 지난 여름에 귀신에 접했는가 보다.
+0	그	_	_	B-Party_1
+1	소녀는	_	_	I-Party_1
+2	정신이	_	_	O
+3	혼미한	_	_	O
+4	것을	_	_	O
+5	보니	_	_	O
+6	아마도	_	_	O
+7	지난	_	_	B-Time
+8	여름에	_	_	I-Time
+9	귀신에	_	_	B-Party_2
+10	접했는가	접하다.v	Encounter	O
+11	보다.	_	_	O
+
+#anno-id:17597
+#source:sejong
+#text:그래서 그가 학생들에게 인기가 있는지 모르겠다.
+0	그래서	_	_	O
+1	그가	_	_	B-Expressor
+2	학생들에게	_	_	O
+3	인기가	_	_	B-Topic
+4	있는지	_	_	O
+5	모르겠다.	모르다.v	Awareness	O
+
+#anno-id:20045
+#source:sejong
+#text:북한강은 남한강과 양평에서 서로 합류한다.
+0	북한강은	_	_	B-Part_1
+1	남한강과	_	_	B-Part_2
+2	양평에서	_	_	I-Part_2
+3	서로	_	_	B-Manner
+4	합류한다.	합류하다.v	Cause_to_amalgamate	O
+
+#anno-id:24071
+#source:sejong
+#text:나는 아들을 이국땅에 정착시켜 놓고 혼자 귀국했다.
+0	나는	_	_	O
+1	아들을	_	_	B-Resident
+2	이국땅에	_	_	B-Location
+3	정착시켜	정착시키다.v	Residence	O
+4	놓고	_	_	O
+5	혼자	_	_	O
+6	귀국했다.	_	_	O
+
+#anno-id:19473
+#source:sejong
+#text:탁월한 선동가는 말 한 마디로 사람들을 얼마든지 선동할 수 있다.
+0	탁월한	_	_	B-Cause
+1	선동가는	_	_	I-Cause
+2	말	_	_	O
+3	한	_	_	O
+4	마디로	_	_	O
+5	사람들을	_	_	O
+6	얼마든지	_	_	O
+7	선동할	선동하다.v	Cause_to_start	O
+8	수	_	_	O
+9	있다.	_	_	O
+
+#anno-id:22555
+#source:sejong
+#text:이번 달에는 고흐의 생애와 작품을 다룬 글이 특집으로 게재되었다.
+0	이번	_	_	B-Time
+1	달에는	_	_	I-Time
+2	고흐의	_	_	B-Work
+3	생애와	_	_	I-Work
+4	작품을	_	_	I-Work
+5	다룬	_	_	I-Work
+6	글이	_	_	I-Work
+7	특집으로	_	_	B-Manner
+8	게재되었다.	게재되다.v	Publishing	O
+
+#anno-id:21855
+#source:sejong
+#text:부모님이 돌아가신 후 큰 누나가 집안일을 거두었다.
+0	부모님이	_	_	B-Time
+1	돌아가신	_	_	I-Time
+2	후	_	_	I-Time
+3	큰	_	_	B-Recipient
+4	누나가	_	_	I-Recipient
+5	집안일을	_	_	B-Theme
+6	거두었다.	거두다.v	Getting	O
+
+#anno-id:23040
+#source:sejong
+#text:군인들이 지나가는 행인들을 검문하고 있다.
+0	군인들이	_	_	B-Inspector
+1	지나가는	_	_	I-Inspector
+2	행인들을	_	_	I-Inspector
+3	검문하고	검문하다.v	Inspecting	O
+4	있다.	_	_	O
+
+#anno-id:24008
+#source:sejong
+#text:이번에 손해가 난 비용은 약 30억원 정도로 추정된다.
+0	이번에	_	_	B-Item
+1	손해가	_	_	I-Item
+2	난	_	_	I-Item
+3	비용은	_	_	I-Item
+4	약	_	_	B-Estimation
+5	30억원	_	_	I-Estimation
+6	정도로	_	_	I-Estimation
+7	추정된다.	추정되다.v	Estimating	O
+
+#anno-id:20613
+#source:sejong
+#text:오늘은 네가 나에게 술 한잔을 사야 되지 않겠니?
+0	오늘은	_	_	B-Time
+1	네가	_	_	B-Buyer
+2	나에게	_	_	O
+3	술	_	_	B-Goods
+4	한잔을	_	_	I-Goods
+5	사야	사다.v	Commerce_buy	O
+6	되지	_	_	O
+7	않겠니?	_	_	O
+
+#anno-id:19327
+#source:sejong
+#text:학교를 지으려면 무엇보다 공간을 확보하여야 한다.
+0	학교를	_	_	B-Purpose
+1	지으려면	_	_	I-Purpose
+2	무엇보다	_	_	O
+3	공간을	_	_	B-Theme
+4	확보하여야	확보하다.v	Getting	O
+5	한다.	_	_	O
+
+#anno-id:22741
+#source:sejong
+#text:방안에 햇빛이 비치기 시작했다.
+0	방안에	_	_	B-Place
+1	햇빛이	_	_	B-Beam
+2	비치기	비치다.v	Light_movement	O
+3	시작했다.	_	_	O
+
+#anno-id:18977
+#source:sejong
+#text:우리나라는 1960년대에 비해서 경제적으로 대단히 발전했다.
+0	우리나라는	_	_	B-Entity
+1	1960년대에	_	_	O
+2	비해서	_	_	O
+3	경제적으로	_	_	B-Manner
+4	대단히	_	_	B-Manner
+5	발전했다.	발전하다.v	Progression	O
+
+#anno-id:19453
+#source:sejong
+#text:배우는 극중 인물에 대해 내적, 외적인 면으로 완벽하게 분장하여 극중 인물을 가장 실감나게 표현해 내는 역할을 하는 인물이다.
+0	배우는	_	_	B-Speaker
+1	극중	_	_	I-Speaker
+2	인물에	_	_	I-Speaker
+3	대해	_	_	I-Speaker
+4	내적,	_	_	I-Speaker
+5	외적인	_	_	I-Speaker
+6	면으로	_	_	I-Speaker
+7	완벽하게	_	_	I-Speaker
+8	분장하여	_	_	I-Speaker
+9	극중	_	_	B-Item
+10	인물을	_	_	I-Item
+11	가장	_	_	B-Manner
+12	실감나게	_	_	O
+13	표현해	표현하다.v	Communicate_categorization	O
+14	내는	_	_	O
+15	역할을	_	_	O
+16	하는	_	_	O
+17	인물이다.	_	_	O
+
+#anno-id:21594
+#source:sejong
+#text:소나기를 맞아 옷이 철벅한다.
+0	소나기를	_	_	B-Noisy_event
+1	맞아	_	_	I-Noisy_event
+2	옷이	_	_	B-Sound_source
+3	철벅한다.	철벅하다.v	Make_noise	O
+
+#anno-id:22152
+#source:sejong
+#text:그녀는 요즘 남편이 술에 취하지 않은 모습을 보기가 어려웠다.
+0	그녀는	_	_	O
+1	요즘	_	_	B-Time
+2	남편이	_	_	B-Patient
+3	술에	_	_	B-Event
+4	취하지	취하다.v	Intentionally_affect	O
+5	않은	_	_	O
+6	모습을	_	_	O
+7	보기가	_	_	O
+8	어려웠다.	_	_	O
+
+#anno-id:23454
+#source:sejong
+#text:우리나라는 21세기 정보화 시대를 지배할 중대형 컴퓨터 생산국 대열에 진입하게 되었다.
+0	우리나라는	_	_	B-New_member
+1	21세기	_	_	B-Group
+2	정보화	_	_	I-Group
+3	시대를	_	_	I-Group
+4	지배할	_	_	I-Group
+5	중대형	_	_	I-Group
+6	컴퓨터	_	_	I-Group
+7	생산국	_	_	I-Group
+8	대열에	_	_	I-Group
+9	진입하게	진입하다.v	Becoming_a_member	O
+10	되었다.	_	_	O
+
+#anno-id:18823
+#source:sejong
+#text:어려서부터 미영이와 나는 식구들 중 유난히 친했고, 서로를 잘 이해했다.
+0	어려서부터	_	_	O
+1	미영이와	_	_	B-Cognizer
+2	나는	_	_	I-Cognizer
+3	식구들	_	_	O
+4	중	_	_	O
+5	유난히	_	_	O
+6	친했고,	_	_	O
+7	서로를	_	_	B-Phenomenon
+8	잘	_	_	B-Manner
+9	이해했다.	이해하다.v	Grasp	O
+
+#anno-id:23514
+#source:sejong
+#text:우리도 노력하면 좋은 관계로 발전시킬 수 있다고 생각해.
+0	우리도	_	_	B-Agent
+1	노력하면	_	_	O
+2	좋은	_	_	B-Project
+3	관계로	_	_	I-Project
+4	발전시킬	발전시키다.v	Cause_to_make_progress	O
+5	수	_	_	O
+6	있다고	_	_	O
+7	생각해.	_	_	O
+
+#anno-id:24043
+#source:sejong
+#text:김교수는 유적을 조작하여 자신의 업적으로 만드는 파렴치한 일을 저질렀다.
+0	김교수는	_	_	O
+1	유적을	_	_	B-Entity
+2	조작하여	조작하다.v	Manipulation	O
+3	자신의	_	_	O
+4	업적으로	_	_	O
+5	만드는	_	_	O
+6	파렴치한	_	_	O
+7	일을	_	_	O
+8	저질렀다.	_	_	O
+
+#anno-id:22254
+#source:sejong
+#text:그는 등 뒤로 손이 틀린 채 형사에게 끌려갔다.
+0	그는	_	_	O
+1	등	_	_	O
+2	뒤로	_	_	O
+3	손이	_	_	O
+4	틀린	틀리다.v	Success_or_failure	O
+5	채	_	_	O
+6	형사에게	_	_	O
+7	끌려갔다.	_	_	O
+
+#anno-id:20412
+#source:sejong
+#text:그 젊은 학자는 매우 해박해서 여러 분야에 걸친 지식을 가지고 있다.
+0	그	_	_	O
+1	젊은	_	_	O
+2	학자는	_	_	O
+3	매우	_	_	O
+4	해박해서	_	_	O
+5	여러	_	_	O
+6	분야에	_	_	O
+7	걸친	걸치다.v	Relational_quantity	O
+8	지식을	_	_	O
+9	가지고	_	_	O
+10	있다.	_	_	O
+
+#anno-id:19592
+#source:sejong
+#text:나그네를 극진하게 대우하는 것은 우리의 미덕이다.
+0	나그네를	_	_	B-Affected_party
+1	극진하게	_	_	B-Manner
+2	대우하는	대우하다.v	Treating_and_mistreating	O
+3	것은	_	_	O
+4	우리의	_	_	O
+5	미덕이다.	_	_	O
+
+#anno-id:21289
+#source:sejong
+#text:이제 여성 차별의 장벽은 깨어지는 남녀평등의 시대가 왔다.
+0	이제	_	_	O
+1	여성	_	_	O
+2	차별의	_	_	O
+3	장벽은	_	_	O
+4	깨어지는	깨어지다.v	Cause_to_fragment	O
+5	남녀평등의	_	_	O
+6	시대가	_	_	O
+7	왔다.	_	_	O
+
+#anno-id:19704
+#source:sejong
+#text:꽃은 3월에서 5월 사이에 암수 딴 그루에 달리며, 열매는 붉은 색으로 10월에서 12월 사이에 익는다.
+0	꽃은	_	_	O
+1	3월에서	_	_	O
+2	5월	_	_	O
+3	사이에	_	_	O
+4	암수	_	_	O
+5	딴	_	_	O
+6	그루에	_	_	O
+7	달리며,	_	_	O
+8	열매는	_	_	B-Item
+9	붉은	_	_	B-Manner
+10	색으로	_	_	I-Manner
+11	10월에서	_	_	B-Time
+12	12월	_	_	I-Time
+13	사이에	_	_	I-Time
+14	익는다.	익다.v	Cause_temperature_change	O
+
+#anno-id:18386
+#source:sejong
+#text:주인의 기세에 놀라 뒷걸음치던 나는 그만 털썩 주저앉고 말았다.
+0	주인의	_	_	O
+1	기세에	_	_	O
+2	놀라	_	_	O
+3	뒷걸음치던	뒷걸음치다.v	Self_motion	O
+4	나는	_	_	B-Self_mover
+5	그만	_	_	O
+6	털썩	_	_	O
+7	주저앉고	_	_	O
+8	말았다.	_	_	O
+
+#anno-id:20625
+#source:sejong
+#text:선생님은 몸을 바짝 당겨 내 앞으로 다가오셨다.
+0	선생님은	_	_	B-Agent
+1	몸을	_	_	B-Theme
+2	바짝	_	_	B-Manner
+3	당겨	당기다.v	Cause_motion	O
+4	내	_	_	O
+5	앞으로	_	_	O
+6	다가오셨다.	_	_	O
+
+#anno-id:19312
+#source:sejong
+#text:우리는 요리를 배우러 단체로 학원을 찾아갔다.
+0	우리는	_	_	B-Cognizer_agent
+1	요리를	_	_	O
+2	배우러	_	_	O
+3	단체로	_	_	B-Manner
+4	학원을	_	_	B-Sought_entity
+5	찾아갔다.	찾아가다.v	Seeking	O
+
+#anno-id:23948
+#source:sejong
+#text:미안하지만 당신 요구를 들어줄 수 없습니다.
+0	미안하지만	_	_	B-Manner
+1	당신	_	_	B-Agreement
+2	요구를	_	_	I-Agreement
+3	들어줄	들어주다.v	Sign_agreement	O
+4	수	_	_	O
+5	없습니다.	_	_	O
+
+#anno-id:18644
+#source:sejong
+#text:현이의 어리숙한 말과 행동은 항상 사람들을 웃긴다.
+0	현이의	_	_	B-Stimulus
+1	어리숙한	_	_	I-Stimulus
+2	말과	_	_	I-Stimulus
+3	행동은	_	_	I-Stimulus
+4	항상	_	_	B-Manner
+5	사람들을	_	_	B-Experiencer
+6	웃긴다.	웃기다.v	Experiencer_obj	O
+
+#anno-id:24375
+#source:sejong
+#text:매표소 앞은 표를 사려는 사람들로 와글거린다.
+0	매표소	_	_	B-Location
+1	앞은	_	_	I-Location
+2	표를	_	_	B-Theme
+3	사려는	_	_	I-Theme
+4	사람들로	_	_	I-Theme
+5	와글거린다.	와글거리다.v	Abounding_with	O
+
+#anno-id:22097
+#source:sejong
+#text:철수가 기어이 영미의 꼬임에 넘어갔다.
+0	철수가	_	_	B-Experiencer
+1	기어이	_	_	O
+2	영미의	_	_	B-Stimulus
+3	꼬임에	_	_	I-Stimulus
+4	넘어갔다.	넘어가다.v	Experiencer_obj	O
+
+#anno-id:20188
+#source:sejong
+#text:수미는 빨래를 힘있게 뒤틀어 짰다.
+0	수미는	_	_	B-Deformer
+1	빨래를	_	_	B-Patient
+2	힘있게	_	_	B-Manner
+3	뒤틀어	뒤틀다.v	Reshaping	O
+4	짰다.	_	_	O
+
+#anno-id:24730
+#source:sejong
+#text:촛불이 타다 말고 금새 꺼졌다.
+0	촛불이	_	_	B-Fire
+1	타다	_	_	O
+2	말고	_	_	O
+3	금새	_	_	B-Manner
+4	꺼졌다.	꺼지다.v	Fire_going_out	O
+
+#anno-id:18897
+#source:sejong
+#text:할아버지께서 지금 낮잠을 주무시고 계신다.
+0	할아버지께서	_	_	B-Sleeper
+1	지금	_	_	B-Time
+2	낮잠을	_	_	O
+3	주무시고	주무시다.v	Sleep	O
+4	계신다.	_	_	O
+
+#anno-id:24821
+#source:sejong
+#text:약속시간이 지나도 그녀가 나타나지 않자 그는 시계만 주시할 뿐이다.
+0	약속시간이	_	_	O
+1	지나도	_	_	O
+2	그녀가	_	_	O
+3	나타나지	_	_	O
+4	않자	_	_	O
+5	그는	_	_	B-Perceiver_agentive
+6	시계만	_	_	B-Phenomenon
+7	주시할	주시하다.v	Perception_active	O
+8	뿐이다.	_	_	O
+
+#anno-id:20305
+#source:sejong
+#text:수미와 준오는 서로 신뢰한다.
+0	수미와	_	_	B-Cognizer
+1	준오는	_	_	I-Cognizer
+2	서로	_	_	B-Manner
+3	신뢰한다.	신뢰하다.v	Trust	O
+
+#anno-id:18863
+#source:sejong
+#text:방이 너무 뜨거우니 온도를 좀 낮추는 게 좋겠다.
+0	방이	_	_	B-Place
+1	너무	_	_	O
+2	뜨거우니	_	_	O
+3	온도를	_	_	B-Variable
+4	좀	_	_	B-Manner
+5	낮추는	낮추다.v	Position_on_a_scale	O
+6	게	_	_	O
+7	좋겠다.	_	_	O
+
+#anno-id:20046
+#source:sejong
+#text:그는 시위 관련자로 경찰서에 연행당했다.
+0	그는	_	_	B-Suspect
+1	시위	_	_	B-Charges
+2	관련자로	_	_	I-Charges
+3	경찰서에	_	_	B-Place
+4	연행당했다.	연행당하다.v	Arrest	O
+
+#anno-id:17459
+#source:sejong
+#text:과일, 채소 등은 생산되는 계절이 한정되어 있기 때문에 일년 내내 먹을 수 없다.
+0	과일,	_	_	O
+1	채소	_	_	O
+2	등은	_	_	O
+3	생산되는	생산되다.v	Creating	O
+4	계절이	_	_	O
+5	한정되어	_	_	B-Manner
+6	있기	_	_	I-Manner
+7	때문에	_	_	O
+8	일년	_	_	O
+9	내내	_	_	O
+10	먹을	_	_	O
+11	수	_	_	O
+12	없다.	_	_	O
+
+#anno-id:20848
+#source:sejong
+#text:달빛이 강물 위로 부서지고 있었다.
+0	달빛이	_	_	B-Object
+1	강물	_	_	B-Place
+2	위로	_	_	I-Place
+3	부서지고	부서지다.v	Being_operational	O
+4	있었다.	_	_	O
+
+#anno-id:19355
+#source:sejong
+#text:경찰은 용의자에게 사건의 전말을 진술시켜려고 하지만 말을 잘 듣지 않는다.
+0	경찰은	_	_	O
+1	용의자에게	_	_	B-Speaker
+2	사건의	_	_	B-Message
+3	전말을	_	_	I-Message
+4	진술시켜려고	진술시키다.v	Statement	O
+5	하지만	_	_	O
+6	말을	_	_	O
+7	잘	_	_	O
+8	듣지	_	_	O
+9	않는다.	_	_	O
+
+#anno-id:18868
+#source:sejong
+#text:오래 놓아 두었더니 밀가루 반죽이 다 굳어 버렸다.
+0	오래	_	_	O
+1	놓아	_	_	O
+2	두었더니	_	_	O
+3	밀가루	_	_	B-Patient
+4	반죽이	_	_	I-Patient
+5	다	_	_	B-Manner
+6	굳어	굳다.v	Change_of_consistency	O
+7	버렸다.	_	_	O
+
+#anno-id:17607
+#source:sejong
+#text:나는 체중을 줄이는데 실패했다.
+0	나는	_	_	B-Agent
+1	체중을	_	_	B-Item
+2	줄이는데	줄이다.v	Cause_change_of_position_on_a_scale	O
+3	실패했다.	_	_	O
+
+#anno-id:18358
+#source:sejong
+#text:그는 무장된 경호원들과 여러 대의 차량에 호위된 채 모습을 드러냈다.
+0	그는	_	_	O
+1	무장된	_	_	O
+2	경호원들과	_	_	O
+3	여러	_	_	B-Protection
+4	대의	_	_	I-Protection
+5	차량에	_	_	I-Protection
+6	호위된	호위되다.v	Protecting	O
+7	채	_	_	O
+8	모습을	_	_	O
+9	드러냈다.	_	_	O
+
+#anno-id:22375
+#source:sejong
+#text:두 나라의 관계가 정상적으로 회복되기까지는 다소간 시간이 걸릴 것으로 예측되고 있다.
+0	두	_	_	B-Patient
+1	나라의	_	_	I-Patient
+2	관계가	_	_	I-Patient
+3	정상적으로	_	_	B-Manner
+4	회복되기까지는	회복되다.v	Recovery	O
+5	다소간	_	_	O
+6	시간이	_	_	O
+7	걸릴	_	_	O
+8	것으로	_	_	O
+9	예측되고	_	_	O
+10	있다.	_	_	O
+
+#anno-id:21093
+#source:sejong
+#text:수영이는 애완견의 털을 매일매일 빗어 준다.
+0	수영이는	_	_	B-Impactor
+1	애완견의	_	_	B-Impactee
+2	털을	_	_	I-Impactee
+3	매일매일	_	_	B-Time
+4	빗어	빗다.v	Impact	O
+5	준다.	_	_	O
+
+#anno-id:18726
+#source:sejong
+#text:김 기자는 거짓을 진실인 양 꾸며 이 교수의 명예를 할퀴었다.
+0	김	_	_	B-Agent
+1	기자는	_	_	I-Agent
+2	거짓을	_	_	O
+3	진실인	_	_	O
+4	양	_	_	O
+5	꾸며	_	_	O
+6	이	_	_	B-Patient
+7	교수의	_	_	I-Patient
+8	명예를	_	_	I-Patient
+9	할퀴었다.	할퀴다.v	Damaging	O
+
+#anno-id:23699
+#source:sejong
+#text:논쟁 끝에 싸움이 벌어졌다.
+0	논쟁	_	_	B-Time
+1	끝에	_	_	I-Time
+2	싸움이	_	_	B-Event
+3	벌어졌다.	벌어지다.v	Event	O
+
+#anno-id:21075
+#source:sejong
+#text:그 동전은 내 발끝이 미치지 않는 곳으로 굴러가서 섰다.
+0	그	_	_	O
+1	동전은	_	_	O
+2	내	_	_	B-Content
+3	발끝이	_	_	I-Content
+4	미치지	미치다.v	Talking_into	O
+5	않는	_	_	O
+6	곳으로	_	_	O
+7	굴러가서	_	_	O
+8	섰다.	_	_	O
+
+#anno-id:23588
+#source:sejong
+#text:우리 삼촌은 강아지를 사랑해서 절대 개고기를먹지 않는다.
+0	우리	_	_	B-Experiencer
+1	삼촌은	_	_	I-Experiencer
+2	강아지를	_	_	B-Content
+3	사랑해서	사랑하다.v	Experiencer_focus	O
+4	절대	_	_	O
+5	개고기를먹지	_	_	O
+6	않는다.	_	_	O
+
+#anno-id:17438
+#source:sejong
+#text:저 사람은 사사건건 우리 일에 개입한다.
+0	저	_	_	B-Participant_1
+1	사람은	_	_	I-Participant_1
+2	사사건건	_	_	B-Manner
+3	우리	_	_	B-Event
+4	일에	_	_	I-Event
+5	개입한다.	개입하다.v	Participation	O
+
+#anno-id:22791
+#source:sejong
+#text:차 감독은 후반전에 김철수 선수를 이기영 선수와 교체했다.
+0	차	_	_	B-Agent
+1	감독은	_	_	I-Agent
+2	후반전에	_	_	B-Time
+3	김철수	_	_	B-Old_tool
+4	선수를	_	_	I-Old_tool
+5	이기영	_	_	B-New_tool
+6	선수와	_	_	I-New_tool
+7	교체했다.	교체하다.v	Change_tool	O
+
+#anno-id:18439
+#source:sejong
+#text:토끼가 당근을 아작거리며 씹고 있다.
+0	토끼가	_	_	B-Theme
+1	당근을	_	_	B-Source
+2	아작거리며	아작거리다.v	Motion_noise	O
+3	씹고	_	_	O
+4	있다.	_	_	O
+
+#anno-id:21772
+#source:sejong
+#text:저녁 노을이 붉게 타고 있다.
+0	저녁	_	_	B-Self_mover
+1	노을이	_	_	I-Self_mover
+2	붉게	_	_	B-Manner
+3	타고	타다.v	Self_motion	O
+4	있다.	_	_	O
+
+#anno-id:21441
+#source:sejong
+#text:수레가 달가닥거리며 지나간다.
+0	수레가	_	_	B-Theme
+1	달가닥거리며	달가닥거리다.v	Motion_noise	O
+2	지나간다.	_	_	O
+
+#anno-id:19889
+#source:sejong
+#text:그 소문이 사실로 확인되었다.
+0	그	_	_	B-Unconfirmed_content
+1	소문이	_	_	I-Unconfirmed_content
+2	사실로	_	_	B-Manner
+3	확인되었다.	확인되다.v	Verification	O
+
+#anno-id:23945
+#source:sejong
+#text:그 기업은 불우이웃들에게 성금을 10억원이나 내놓았다.
+0	그	_	_	B-Agent
+1	기업은	_	_	I-Agent
+2	불우이웃들에게	_	_	B-Goal
+3	성금을	_	_	B-Theme
+4	10억원이나	_	_	B-Manner
+5	내놓았다.	내놓다.v	Bringing	O
+
+#anno-id:19072
+#source:sejong
+#text:갑작스런 폭우 때문에 소대장은 소대원들을 집합했다.
+0	갑작스런	_	_	O
+1	폭우	_	_	O
+2	때문에	_	_	O
+3	소대장은	_	_	B-Agent
+4	소대원들을	_	_	B-Individuals
+5	집합했다.	집합하다.v	Gathering_up	O
+
+#anno-id:23733
+#source:sejong
+#text:이 가구는 장소를 너무 많이 잡아먹는다.
+0	이	_	_	B-Ingestor
+1	가구는	_	_	I-Ingestor
+2	장소를	_	_	B-Ingestibles
+3	너무	_	_	B-Manner
+4	많이	_	_	I-Manner
+5	잡아먹는다.	잡아먹다.v	Ingestion	O
+
+#anno-id:19423
+#source:sejong
+#text:우리 아버지는 세계 최고의 기업에서 시무하신다.
+0	우리	_	_	B-Agent
+1	아버지는	_	_	I-Agent
+2	세계	_	_	B-Place
+3	최고의	_	_	I-Place
+4	기업에서	_	_	I-Place
+5	시무하신다.	시무하다.v	Activity_start	O
+
+#anno-id:18205
+#source:sejong
+#text:요즘 아이들은 어른들의 말에 순종하지 않는다.
+0	요즘	_	_	B-Protagonist
+1	아이들은	_	_	I-Protagonist
+2	어른들의	_	_	B-Norm
+3	말에	_	_	I-Norm
+4	순종하지	순종하다.v	Compliance	O
+5	않는다.	_	_	O
+
+#anno-id:23708
+#source:sejong
+#text:그는 성경을 줄줄 외우지만 그 의미를 제대로 이해하지는 못하는 것 같다.
+0	그는	_	_	B-Cognizer
+1	성경을	_	_	B-Mental_content
+2	줄줄	_	_	B-Manner
+3	외우지만	외우다.v	Remembering_information	O
+4	그	_	_	O
+5	의미를	_	_	O
+6	제대로	_	_	O
+7	이해하지는	_	_	O
+8	못하는	_	_	O
+9	것	_	_	O
+10	같다.	_	_	O
+
+#anno-id:19886
+#source:sejong
+#text:벌로 운동장을 돌고 난 아이들이 숨을 헉헉거리며 바닥에 주저앉았다.
+0	벌로	_	_	B-Agent
+1	운동장을	_	_	I-Agent
+2	돌고	_	_	I-Agent
+3	난	_	_	I-Agent
+4	아이들이	_	_	I-Agent
+5	숨을	_	_	B-Air
+6	헉헉거리며	헉헉거리다.v	Breathing	O
+7	바닥에	_	_	O
+8	주저앉았다.	_	_	O
+
+#anno-id:18724
+#source:sejong
+#text:이번 우리 회사에서는 신세대를 겨냥한 상품들을 차별화시키기로 했다.
+0	이번	_	_	B-Cognizer
+1	우리	_	_	I-Cognizer
+2	회사에서는	_	_	I-Cognizer
+3	신세대를	_	_	B-Phenomena
+4	겨냥한	_	_	I-Phenomena
+5	상품들을	_	_	I-Phenomena
+6	차별화시키기로	차별화시키다.v	Differentiation	O
+7	했다.	_	_	O
+
+#anno-id:22621
+#source:sejong
+#text:영철이는 잠든 순희의 얼굴을 가볍게 매만졌다.
+0	영철이는	_	_	B-Agent
+1	잠든	_	_	B-Entity
+2	순희의	_	_	I-Entity
+3	얼굴을	_	_	I-Entity
+4	가볍게	_	_	B-Manner
+5	매만졌다.	매만지다.v	Manipulation	O
+
+#anno-id:22018
+#source:sejong
+#text:우리 가족은 이웃들이 알까 두려워 삼촌이 가출한 사실에 대해 쉬쉬하였다.
+0	우리	_	_	O
+1	가족은	_	_	O
+2	이웃들이	_	_	O
+3	알까	_	_	O
+4	두려워	_	_	O
+5	삼촌이	_	_	O
+6	가출한	_	_	O
+7	사실에	_	_	O
+8	대해	_	_	O
+9	쉬쉬하였다.	쉬쉬하다.v	Silencing	O
+
+#anno-id:17627
+#source:sejong
+#text:대부분의 미얀마 난민들이 난민 인정을 못 받고 불법입국자로 추방되는 것이 현실이다.
+0	대부분의	_	_	B-Agent
+1	미얀마	_	_	I-Agent
+2	난민들이	_	_	I-Agent
+3	난민	_	_	O
+4	인정을	_	_	O
+5	못	_	_	O
+6	받고	_	_	O
+7	불법입국자로	_	_	B-Manner
+8	추방되는	추방되다.v	Removing	O
+9	것이	_	_	O
+10	현실이다.	_	_	O
+
+#anno-id:21500
+#source:sejong
+#text:광이 밑에서 자고 있었구나!.
+0	광이	_	_	B-Place
+1	밑에서	_	_	B-Place
+2	자고	자다.v	Sleep	O
+3	있었구나!.	_	_	O
+
+#anno-id:19234
+#source:sejong
+#text:한번 저지른 일을 돌이킬 수는 없다.
+0	한번	_	_	B-Process
+1	저지른	_	_	I-Process
+2	일을	_	_	I-Process
+3	돌이킬	돌이키다.v	Cause_to_resume	O
+4	수는	_	_	O
+5	없다.	_	_	O
+
+#anno-id:23651
+#source:sejong
+#text:우리 부장님은 부서원들에게 각자의 능력과 적성에 맞는 일을 주려고 노력하는 편이다.
+0	우리	_	_	B-Donor
+1	부장님은	_	_	I-Donor
+2	부서원들에게	_	_	B-Recipient
+3	각자의	_	_	B-Theme
+4	능력과	_	_	I-Theme
+5	적성에	_	_	I-Theme
+6	맞는	_	_	I-Theme
+7	일을	_	_	I-Theme
+8	주려고	주다.v	Giving	O
+9	노력하는	_	_	O
+10	편이다.	_	_	O
+
+#anno-id:20201
+#source:sejong
+#text:그에게 있어 모든 정신 작용은 해체된 모습을 보인다.
+0	그에게	_	_	O
+1	있어	_	_	O
+2	모든	_	_	O
+3	정신	_	_	O
+4	작용은	_	_	O
+5	해체된	해체되다.v	Breaking_apart	O
+6	모습을	_	_	O
+7	보인다.	_	_	O
+
+#anno-id:20732
+#source:sejong
+#text:부산항 인근에 정박시키도록 지시했다.
+0	부산항	_	_	B-Place
+1	인근에	_	_	I-Place
+2	정박시키도록	정박시키다.v	Halt	O
+3	지시했다.	_	_	O
+
+#anno-id:23364
+#source:sejong
+#text:운전사는 택시를 갑자기 급정거하며 우리 차 앞을 가로막았다.
+0	운전사는	_	_	B-Means
+1	택시를	_	_	B-Theme
+2	갑자기	_	_	B-Manner
+3	급정거하며	급정거하다.v	Halt	O
+4	우리	_	_	O
+5	차	_	_	O
+6	앞을	_	_	O
+7	가로막았다.	_	_	O
+
+#anno-id:24548
+#source:sejong
+#text:고양이가 그릇에 담긴 우유를 혀로 핥으며 먹는다.
+0	고양이가	_	_	B-Ingestor
+1	그릇에	_	_	I-Ingestor
+2	담긴	_	_	I-Ingestor
+3	우유를	_	_	I-Ingestor
+4	혀로	_	_	B-Means
+5	핥으며	핥다.v	Ingestion	O
+6	먹는다.	_	_	O
+
+#anno-id:18342
+#source:sejong
+#text:경찰은 그들이 금궤를 장치해 둔 장소를 찾기 위해 총력을 기울였다.
+0	경찰은	_	_	O
+1	그들이	_	_	B-Agent
+2	금궤를	_	_	B-Component
+3	장치해	장치하다.v	Installing	O
+4	둔	_	_	O
+5	장소를	_	_	O
+6	찾기	_	_	O
+7	위해	_	_	O
+8	총력을	_	_	O
+9	기울였다.	_	_	O
+
+#anno-id:19282
+#source:sejong
+#text:함께 일할 사람을 구인할 때 가장 중요한 것은 정직성과 성실성이다.
+0	함께	_	_	B-Victim
+1	일할	_	_	I-Victim
+2	사람을	_	_	I-Victim
+3	구인할	구인하다.v	Kidnapping	O
+4	때	_	_	B-Time
+5	가장	_	_	O
+6	중요한	_	_	O
+7	것은	_	_	O
+8	정직성과	_	_	O
+9	성실성이다.	_	_	O
+
+#anno-id:22521
+#source:sejong
+#text:그 사람은 고의로 우리 일을 뒤틀어 놓았다.
+0	그	_	_	B-Deformer
+1	사람은	_	_	I-Deformer
+2	고의로	_	_	B-Manner
+3	우리	_	_	B-Patient
+4	일을	_	_	I-Patient
+5	뒤틀어	뒤틀다.v	Reshaping	O
+6	놓았다.	_	_	O
+
+#anno-id:19926
+#source:sejong
+#text:아이들은 부모님께 순종해야한다.
+0	아이들은	_	_	B-Protagonist
+1	부모님께	_	_	B-Norm
+2	순종해야한다.	순종하다.v	Compliance	O
+
+#anno-id:23517
+#source:sejong
+#text:영수와 순이는 서로 결혼하기로 손가락을 걸었다.
+0	영수와	_	_	B-Agent
+1	순이는	_	_	I-Agent
+2	서로	_	_	O
+3	결혼하기로	_	_	O
+4	손가락을	_	_	B-Item
+5	걸었다.	걸다.v	Attaching	O
+
+#anno-id:24999
+#source:sejong
+#text:나는 쓴 웃음을 웃으며 그와 헤어졌다.
+0	나는	_	_	B-Agent
+1	쓴	_	_	B-Body_part
+2	웃음을	_	_	I-Body_part
+3	웃으며	웃다.v	Making_faces	O
+4	그와	_	_	O
+5	헤어졌다.	_	_	O
+
+#anno-id:25441
+#source:sejong
+#text:아버님은 문을 통과하다가 넘어지셨다.
+0	아버님은	_	_	B-Theme
+1	문을	_	_	B-Path
+2	통과하다가	통과하다.v	Traversing	O
+3	넘어지셨다.	_	_	O
+
+#anno-id:17509
+#source:sejong
+#text:위가 음식물을 소화시키는 곳이듯이 뇌는 정보를 소화시키는 곳이다.
+0	위가	_	_	O
+1	음식물을	_	_	O
+2	소화시키는	_	_	O
+3	곳이듯이	_	_	O
+4	뇌는	_	_	B-Cognizer
+5	정보를	_	_	B-Phenomenon
+6	소화시키는	소화시키다.v	Grasp	O
+7	곳이다.	_	_	O
+
+#anno-id:22957
+#source:sejong
+#text:태권도의 외재적 가치는 이미 많은 선행의 연구에서 논증되어 왔다.
+0	태권도의	_	_	B-Content
+1	외재적	_	_	I-Content
+2	가치는	_	_	I-Content
+3	이미	_	_	B-Time
+4	많은	_	_	B-Arguer
+5	선행의	_	_	I-Arguer
+6	연구에서	_	_	I-Arguer
+7	논증되어	논증되다.v	Reasoning	O
+8	왔다.	_	_	O
+
+#anno-id:21898
+#source:sejong
+#text:앞서 가던 병사가 우리에게 손짓으로 적의 접근을 신호했다.
+0	앞서	_	_	B-Communicator
+1	가던	_	_	I-Communicator
+2	병사가	_	_	I-Communicator
+3	우리에게	_	_	B-Addressee
+4	손짓으로	_	_	B-Body_part
+5	적의	_	_	B-Message
+6	접근을	_	_	I-Message
+7	신호했다.	신호하다.v	Gesture	O
+
+#anno-id:20910
+#source:sejong
+#text:기영이는 민희에게 빨리 오라고 소리쳤다.
+0	기영이는	_	_	B-Message
+1	민희에게	_	_	I-Message
+2	빨리	_	_	I-Message
+3	오라고	_	_	I-Message
+4	소리쳤다.	소리치다.v	Communication_noise	O
+
+#anno-id:25246
+#source:sejong
+#text:사내가 집으로 들어서자 강아지는 킁킁대며 뒷걸음질을 쳤다.
+0	사내가	_	_	O
+1	집으로	_	_	O
+2	들어서자	_	_	O
+3	강아지는	_	_	B-Sound_source
+4	킁킁대며	킁킁대다.v	Make_noise	O
+5	뒷걸음질을	_	_	O
+6	쳤다.	_	_	O
+
+#anno-id:18733
+#source:sejong
+#text:옷이 한꺼풀씩 벗겨지고 드디어 알몸이 되었다.
+0	옷이	_	_	B-Clothing
+1	한꺼풀씩	_	_	B-Manner
+2	벗겨지고	벗겨지다.v	Undressing	O
+3	드디어	_	_	O
+4	알몸이	_	_	O
+5	되었다.	_	_	O
+
+#anno-id:20473
+#source:sejong
+#text:내 아들은 지금 변성기를 거치고 있는 중이다.
+0	내	_	_	B-Entity
+1	아들은	_	_	I-Entity
+2	지금	_	_	B-Time
+3	변성기를	_	_	B-Event
+4	거치고	거치다.v	Undergoing	O
+5	있는	_	_	O
+6	중이다.	_	_	O
+
+#anno-id:22826
+#source:sejong
+#text:장관은 기자들에게 아무 것도 언급하지 않았다.
+0	장관은	_	_	B-Communicator
+1	기자들에게	_	_	O
+2	아무	_	_	B-Message
+3	것도	_	_	I-Message
+4	언급하지	언급하다.v	Mention	O
+5	않았다.	_	_	O
+
+#anno-id:18332
+#source:sejong
+#text:아버지는 나의 건강에 대해 늘 우려하신다.
+0	아버지는	_	_	B-Experiencer
+1	나의	_	_	O
+2	건강에	_	_	O
+3	대해	_	_	O
+4	늘	_	_	B-Time
+5	우려하신다.	우려하다.v	Emotion_active	O
+
+#anno-id:18077
+#source:sejong
+#text:내 계획이 수포로 돌아간 것은 모두 네 탓이다.
+0	내	_	_	B-Entity
+1	계획이	_	_	I-Entity
+2	수포로	_	_	B-Final_category
+3	돌아간	돌아가다.v	Cause_change	O
+4	것은	_	_	O
+5	모두	_	_	O
+6	네	_	_	O
+7	탓이다.	_	_	O
+
+#anno-id:20415
+#source:sejong
+#text:마음이 맞았던 10명의 친구들은 교내 중창단을 결성하기로 했다.
+0	마음이	_	_	B-Creator
+1	맞았던	_	_	I-Creator
+2	10명의	_	_	I-Creator
+3	친구들은	_	_	I-Creator
+4	교내	_	_	B-Created_entity
+5	중창단을	_	_	I-Created_entity
+6	결성하기로	결성하다.v	Intentionally_create	O
+7	했다.	_	_	O
+
+#anno-id:25429
+#source:sejong
+#text:파티 장소에서는 베토벤의 피아노 곡이 연주되고 있었다.
+0	파티	_	_	B-Place
+1	장소에서는	_	_	I-Place
+2	베토벤의	_	_	B-Sound_maker
+3	피아노	_	_	I-Sound_maker
+4	곡이	_	_	I-Sound_maker
+5	연주되고	연주되다.v	Cause_to_make_noise	O
+6	있었다.	_	_	O
+
+#anno-id:20393
+#source:sejong
+#text:철수는 이번화재가 선생님들에게도 책임이 있다고 비판했다.
+0	철수는	_	_	B-Communicator
+1	이번화재가	_	_	B-Topic
+2	선생님들에게도	_	_	I-Topic
+3	책임이	_	_	I-Topic
+4	있다고	_	_	I-Topic
+5	비판했다.	비판하다.v	Judgment_communication	O
+
+#anno-id:22869
+#source:sejong
+#text:주민들은 모두 서로 어우러져 흥겨운 잔치를 열었다.
+0	주민들은	_	_	B-Parts
+1	모두	_	_	B-Whole
+2	서로	_	_	B-Manner
+3	어우러져	어우러지다.v	Amalgamation	O
+4	흥겨운	_	_	O
+5	잔치를	_	_	O
+6	열었다.	_	_	O
+
+#anno-id:17704
+#source:sejong
+#text:주위 사람들이 들을지 모르니 목소리를 낮춰라.
+0	주위	_	_	O
+1	사람들이	_	_	O
+2	들을지	_	_	O
+3	모르니	_	_	O
+4	목소리를	_	_	B-Item
+5	낮춰라.	낮추다.v	Position_on_a_scale	O
+
+#anno-id:17788
+#source:sejong
+#text:바닷가에서 달그락거리며 자갈돌이 부딪치는 소리가 났다.
+0	바닷가에서	_	_	B-Place
+1	달그락거리며	달그락거리다.v	Make_noise	O
+2	자갈돌이	_	_	O
+3	부딪치는	_	_	O
+4	소리가	_	_	O
+5	났다.	_	_	O
+
+#anno-id:24932
+#source:sejong
+#text:3시에 외출할 수 있도록 준비해 주세요.
+0	3시에	_	_	B-Activity
+1	외출할	_	_	I-Activity
+2	수	_	_	I-Activity
+3	있도록	_	_	O
+4	준비해	준비하다.v	Activity_prepare	O
+5	주세요.	_	_	O
+
+#anno-id:19331
+#source:sejong
+#text:고객이 조사를 의뢰할 경우, 과거 그 보다 선행된 연구와 비교하여 조사를 진행합니다.
+0	고객이	_	_	O
+1	조사를	_	_	O
+2	의뢰할	_	_	O
+3	경우,	_	_	O
+4	과거	_	_	O
+5	그	_	_	O
+6	보다	_	_	O
+7	선행된	선행되다.v	Relative_time	O
+8	연구와	_	_	B-Landmark_occasion
+9	비교하여	_	_	O
+10	조사를	_	_	O
+11	진행합니다.	_	_	O
+
+#anno-id:20153
+#source:sejong
+#text:담임 선생님의 사랑 어린 마음이 통해 정학 위기에 놓인 학생들이 지금은 착실하게 출석하고 있다.
+0	담임	_	_	O
+1	선생님의	_	_	O
+2	사랑	_	_	O
+3	어린	_	_	O
+4	마음이	_	_	O
+5	통해	_	_	O
+6	정학	_	_	B-Agent
+7	위기에	_	_	I-Agent
+8	놓인	_	_	I-Agent
+9	학생들이	_	_	I-Agent
+10	지금은	_	_	B-Time
+11	착실하게	_	_	B-Manner
+12	출석하고	출석하다.v	Attending	O
+13	있다.	_	_	O
+
+#anno-id:19127
+#source:sejong
+#text:나는 일제의 만행에 대해 증오한다
+0	나는	_	_	B-Experiencer
+1	일제의	_	_	B-Content
+2	만행에	_	_	I-Content
+3	대해	_	_	O
+4	증오한다	증오하다.v	Experiencer_focus	O
+
+#anno-id:20353
+#source:sejong
+#text:시민 운동이 한국의 부정부패라는 고질병을 치유시켰다.
+0	시민	_	_	B-Healer
+1	운동이	_	_	I-Healer
+2	한국의	_	_	B-Patient
+3	부정부패라는	_	_	I-Patient
+4	고질병을	_	_	I-Patient
+5	치유시켰다.	치유시키다.v	Cure	O
+
+#anno-id:23427
+#source:sejong
+#text:영희와 철수는 주소를 서로 교환했다.
+0	영희와	_	_	B-Exchangers
+1	철수는	_	_	I-Exchangers
+2	주소를	_	_	B-Themes
+3	서로	_	_	B-Manner
+4	교환했다.	교환하다.v	Exchange	O
+
+#anno-id:20543
+#source:sejong
+#text:대학생들은 홍도로 향했다.
+0	대학생들은	_	_	B-Self_mover
+1	홍도로	_	_	B-Place
+2	향했다.	향하다.v	Getting_underway	O
+
+#anno-id:24091
+#source:sejong
+#text:영희는 엄마에게 새 옷을 사 달라고 보채었다.
+0	영희는	_	_	B-Message
+1	엄마에게	_	_	I-Message
+2	새	_	_	I-Message
+3	옷을	_	_	I-Message
+4	사	_	_	I-Message
+5	달라고	_	_	I-Message
+6	보채었다.	보채다.v	Communication_noise	O
+
+#anno-id:25237
+#source:sejong
+#text:마르코폴로는 중국을 여행하고 와서 견문록을 썼다.
+0	마르코폴로는	_	_	B-Traveler
+1	중국을	_	_	B-Area
+2	여행하고	여행하다.v	Travel	O
+3	와서	_	_	O
+4	견문록을	_	_	O
+5	썼다.	_	_	O
+
+#anno-id:19763
+#source:sejong
+#text:이것은 농축시킨 유제품이라고 할 수 있다.
+0	이것은	_	_	B-Material
+1	농축시킨	농축시키다.v	Processing_materials	O
+2	유제품이라고	_	_	B-Material
+3	할	_	_	O
+4	수	_	_	O
+5	있다.	_	_	O
+
+#anno-id:20969
+#source:sejong
+#text:공석인 장관들을 빨리 임명해야 행정 공백을 막을 수 있다.
+0	공석인	_	_	B-Official
+1	장관들을	_	_	I-Official
+2	빨리	_	_	B-Manner
+3	임명해야	임명하다.v	Appointing	O
+4	행정	_	_	O
+5	공백을	_	_	O
+6	막을	_	_	O
+7	수	_	_	O
+8	있다.	_	_	O
+
+#anno-id:17603
+#source:sejong
+#text:가끔 기저귀를 벗겨 피부를 말리는 것이 아기의 피부를 짓무르지 않게 하는 방법입니다.
+0	가끔	_	_	O
+1	기저귀를	_	_	B-Clothing
+2	벗겨	벗기다.v	Undressing	O
+3	피부를	_	_	O
+4	말리는	_	_	O
+5	것이	_	_	O
+6	아기의	_	_	O
+7	피부를	_	_	O
+8	짓무르지	_	_	O
+9	않게	_	_	O
+10	하는	_	_	O
+11	방법입니다.	_	_	O
+
+#anno-id:21595
+#source:sejong
+#text:전시된 작품들 중 이판화가 유독 눈에 뜨인다.
+0	전시된	_	_	B-Phenomenon
+1	작품들	_	_	I-Phenomenon
+2	중	_	_	I-Phenomenon
+3	이판화가	_	_	I-Phenomenon
+4	유독	_	_	B-Manner
+5	눈에	_	_	B-Cognizer
+6	뜨인다.	뜨이다.v	Becoming_aware	O
+
+#anno-id:25406
+#source:sejong
+#text:그녀는 메모지를 한 장 뜯어 내게 건네주었다.
+0	그녀는	_	_	O
+1	메모지를	_	_	B-Item
+2	한	_	_	B-Manner
+3	장	_	_	I-Manner
+4	뜯어	뜯다.v	Becoming_detached	O
+5	내게	_	_	O
+6	건네주었다.	_	_	O
+
+#anno-id:17735
+#source:sejong
+#text:우리는 버스를 따라 잡으려고 언덕길을 달려갔다.
+0	우리는	_	_	B-Self_mover
+1	버스를	_	_	O
+2	따라	_	_	O
+3	잡으려고	_	_	O
+4	언덕길을	_	_	B-Path
+5	달려갔다.	달려가다.v	Self_motion	O
+
+#anno-id:24806
+#source:sejong
+#text:실직자는 사장에게 자기 처지를 사정사정했다.
+0	실직자는	_	_	B-Agent
+1	사장에게	_	_	O
+2	자기	_	_	B-Act
+3	처지를	_	_	I-Act
+4	사정사정했다.	사정사정하다.v	Justifying	O
+
+#anno-id:20392
+#source:sejong
+#text:우리 회사는 벤처 기업과 공장을 합하기로 결정했다.
+0	우리	_	_	B-Agent
+1	회사는	_	_	I-Agent
+2	벤처	_	_	B-Parts
+3	기업과	_	_	I-Parts
+4	공장을	_	_	I-Parts
+5	합하기로	합하다.v	Cause_to_amalgamate	O
+6	결정했다.	_	_	O
+
+#anno-id:24997
+#source:sejong
+#text:아이들은 팽이를 돌리며 놀고 있었다.
+0	아이들은	_	_	B-Goal
+1	팽이를	_	_	B-Theme
+2	돌리며	돌리다.v	Motion	O
+3	놀고	_	_	O
+4	있었다.	_	_	O
+
+#anno-id:22657
+#source:sejong
+#text:모두들 짐을 짊어지고 길을 재촉했다.
+0	모두들	_	_	B-Agent
+1	짐을	_	_	B-Theme
+2	짊어지고	짊어지다.v	Placing	O
+3	길을	_	_	O
+4	재촉했다.	_	_	O
+
+#anno-id:24067
+#source:sejong
+#text:이번 동아마라톤은 부산에서 스타트한다.
+0	이번	_	_	O
+1	동아마라톤은	_	_	O
+2	부산에서	_	_	O
+3	스타트한다.	스타트하다.v	Activity_start	O
+
+#anno-id:24036
+#source:sejong
+#text:황 선수는 반환점을 돌아왔다.
+0	황	_	_	B-Theme
+1	선수는	_	_	I-Theme
+2	반환점을	_	_	B-Path
+3	돌아왔다.	돌아오다.v	Motion	O
+
+#anno-id:19800
+#source:sejong
+#text:논의가 핵심을 찌르지 못하고 겉돌고 있다.
+0	논의가	_	_	B-Impactor
+1	핵심을	_	_	B-Impactee
+2	찌르지	찌르다.v	Cause_impact	O
+3	못하고	_	_	O
+4	겉돌고	_	_	O
+5	있다.	_	_	O
+
+#anno-id:25412
+#source:sejong
+#text:숨은그림찾기는 큰 그림 속에 숨어 있는 작은 그림을 찾는 게임이다.
+0	숨은그림찾기는	_	_	O
+1	큰	_	_	B-Hiding_place
+2	그림	_	_	I-Hiding_place
+3	속에	_	_	I-Hiding_place
+4	숨어	숨다.v	Hiding_objects	O
+5	있는	_	_	O
+6	작은	_	_	O
+7	그림을	_	_	O
+8	찾는	_	_	O
+9	게임이다.	_	_	O
+
+#anno-id:24050
+#source:sejong
+#text:그 사내는 다리를 건들거리며 신나게 노래를 불렀다.
+0	그	_	_	B-Agent
+1	사내는	_	_	I-Agent
+2	다리를	_	_	B-Body_part
+3	건들거리며	건들거리다.v	Body_movement	O
+4	신나게	_	_	O
+5	노래를	_	_	O
+6	불렀다.	_	_	O
+
+#anno-id:24066
+#source:sejong
+#text:부사는 형용사를 꾸민다.
+0	부사는	_	_	B-Clothing
+1	형용사를	_	_	B-Wearer
+2	꾸민다.	꾸미다.v	Dressing	O
+
+#anno-id:23694
+#source:sejong
+#text:그가 버스를 올라서는 누군가 뒤에서 부르는 소리가 들렸다.
+0	그가	_	_	B-Theme
+1	버스를	_	_	B-Goal
+2	올라서는	올라서다.v	Traversing	O
+3	누군가	_	_	O
+4	뒤에서	_	_	O
+5	부르는	_	_	O
+6	소리가	_	_	O
+7	들렸다.	_	_	O
+
+#anno-id:18972
+#source:sejong
+#text:치마가 못에 걸려 찢어졌다.
+0	치마가	_	_	B-Whole
+1	못에	_	_	B-Means
+2	걸려	_	_	O
+3	찢어졌다.	찢어지다.v	Becoming_separated	O
+
+#anno-id:18423
+#source:sejong
+#text:이 편지가 너에게 전달되면 즉시 태워버려라.
+0	이	_	_	B-Theme
+1	편지가	_	_	I-Theme
+2	너에게	_	_	B-Recipient
+3	전달되면	전달되다.v	Delivery	O
+4	즉시	_	_	O
+5	태워버려라.	_	_	O
+
+#anno-id:20269
+#source:sejong
+#text:심판은 나에게 더 이상 상대 선수에게 말을 하지 말라고 주의주었다.
+0	심판은	_	_	O
+1	나에게	_	_	O
+2	더	_	_	O
+3	이상	_	_	O
+4	상대	_	_	O
+5	선수에게	_	_	O
+6	말을	_	_	O
+7	하지	_	_	O
+8	말라고	_	_	O
+9	주의주었다.	주의주다.v	Attempt_suasion	O
+
+#anno-id:18169
+#source:sejong
+#text:그 피의자는 수사관에게 지독하게 심문당했다.
+0	그	_	_	B-Witness
+1	피의자는	_	_	I-Witness
+2	수사관에게	_	_	B-Questioner
+3	지독하게	_	_	B-Manner
+4	심문당했다.	심문당하다.v	Court_examination	O
+
+#anno-id:19979
+#source:sejong
+#text:아기가 아빠에게 배고프다고 칭얼거리는 모습이 가슴 아프다.
+0	아기가	_	_	B-Speaker
+1	아빠에게	_	_	O
+2	배고프다고	_	_	B-Message
+3	칭얼거리는	칭얼거리다.v	Communication_noise	O
+4	모습이	_	_	O
+5	가슴	_	_	O
+6	아프다.	_	_	O
+
+#anno-id:21977
+#source:sejong
+#text:그는 머리카락을 휘날리며 뛰고 있었다.
+0	그는	_	_	B-Agent
+1	머리카락을	_	_	B-Body_part
+2	휘날리며	휘날리다.v	Body_movement	O
+3	뛰고	_	_	O
+4	있었다.	_	_	O
+
+#anno-id:18142
+#source:sejong
+#text:당시 상황이 상상을 초월할 만큼 긴박했다고 술회되었다.
+0	당시	_	_	O
+1	상황이	_	_	O
+2	상상을	_	_	O
+3	초월할	_	_	O
+4	만큼	_	_	O
+5	긴박했다고	_	_	O
+6	술회되었다.	술회되다.v	Statement	O
+
+#anno-id:18979
+#source:sejong
+#text:그 분은 사람을 한번 등용하면 끝까지 신의한다.
+0	그	_	_	B-Selector
+1	분은	_	_	I-Selector
+2	사람을	_	_	B-Official
+3	한번	_	_	B-Manner
+4	등용하면	등용하다.v	Appointing	O
+5	끝까지	_	_	O
+6	신의한다.	_	_	O
+
+#anno-id:18907
+#source:sejong
+#text:짐승들은 자기 잠자리를 잘 고른 다음에야 잠이 든다.
+0	짐승들은	_	_	O
+1	자기	_	_	O
+2	잠자리를	_	_	B-Chosen
+3	잘	_	_	B-Manner
+4	고른	고르다.v	Choosing	O
+5	다음에야	_	_	B-Time
+6	잠이	_	_	O
+7	든다.	_	_	O
+
+#anno-id:18363
+#source:sejong
+#text:기영이의 영어실력이 진일보했다.
+0	기영이의	_	_	B-Event
+1	영어실력이	_	_	I-Event
+2	진일보했다.	진일보하다.v	Process_continue	O
+
+#anno-id:25120
+#source:sejong
+#text:지난 4월 개업한 모 다방은 지난 5월 종업원이 손님과 대금 관계로 시비가 붙은 사건이 발단돼 벌금은 물론 행정처분으로 영업 정지 2개월을 당했다.
+0	지난	_	_	B-Place
+1	4월	_	_	I-Place
+2	개업한	_	_	I-Place
+3	모	_	_	I-Place
+4	다방은	_	_	I-Place
+5	지난	_	_	B-Time
+6	5월	_	_	I-Time
+7	종업원이	_	_	B-Agent
+8	손님과	_	_	O
+9	대금	_	_	O
+10	관계로	_	_	O
+11	시비가	_	_	B-Activity
+12	붙은	_	_	I-Activity
+13	사건이	_	_	I-Activity
+14	발단돼	발단되다.v	Activity_start	O
+15	벌금은	_	_	O
+16	물론	_	_	O
+17	행정처분으로	_	_	O
+18	영업	_	_	O
+19	정지	_	_	O
+20	2개월을	_	_	O
+21	당했다.	_	_	O
+
+#anno-id:22133
+#source:sejong
+#text:그 친구는 술을 많이 했는지 몸이 몹시 건들거린다.
+0	그	_	_	O
+1	친구는	_	_	O
+2	술을	_	_	O
+3	많이	_	_	O
+4	했는지	_	_	O
+5	몸이	_	_	B-Body_part
+6	몹시	_	_	B-Manner
+7	건들거린다.	건들거리다.v	Body_movement	O
+
+#anno-id:21253
+#source:sejong
+#text:우리는 적의 감시를 피하기 위해 앞 마을을 돌아갔다.
+0	우리는	_	_	O
+1	적의	_	_	O
+2	감시를	_	_	O
+3	피하기	_	_	O
+4	위해	_	_	O
+5	앞	_	_	B-Path
+6	마을을	_	_	I-Path
+7	돌아갔다.	돌아가다.v	Motion	O
+
+#anno-id:25379
+#source:sejong
+#text:그 한복에는 자수가 놓여 있어서 아주 화사하다.
+0	그	_	_	B-Location
+1	한복에는	_	_	I-Location
+2	자수가	_	_	B-Theme
+3	놓여	놓이다.v	Being_located	O
+4	있어서	_	_	O
+5	아주	_	_	O
+6	화사하다.	_	_	O
+
+#anno-id:19535
+#source:sejong
+#text:지난해에 비하면 올해 예산은 반으로 축소된 것이다.
+0	지난해에	_	_	B-Time
+1	비하면	_	_	I-Time
+2	올해	_	_	B-Item
+3	예산은	_	_	I-Item
+4	반으로	_	_	B-Manner
+5	축소된	축소되다.v	Cause_change_of_position_on_a_scale	O
+6	것이다.	_	_	O
+
+#anno-id:19092
+#source:sejong
+#text:고대 일본과중국, 한국은 문물을 서로 교류했다.
+0	고대	_	_	B-Exchanger_1
+1	일본과중국,	_	_	I-Exchanger_1
+2	한국은	_	_	B-Exchanger_2
+3	문물을	_	_	B-Themes
+4	서로	_	_	B-Manner
+5	교류했다.	교류하다.v	Exchange	O
+
+#anno-id:24913
+#source:sejong
+#text:경험 많은 사람이 그 회사에 많이 채용된다.
+0	경험	_	_	B-Employee
+1	많은	_	_	I-Employee
+2	사람이	_	_	I-Employee
+3	그	_	_	B-Employer
+4	회사에	_	_	I-Employer
+5	많이	_	_	B-Manner
+6	채용된다.	채용되다.v	Hiring	O
+
+#anno-id:18226
+#source:sejong
+#text:영수는 운좋게도 좋은 일자리를 붙잡았다.
+0	영수는	_	_	B-Hunter
+1	운좋게도	_	_	B-Manner
+2	좋은	_	_	B-Food
+3	일자리를	_	_	I-Food
+4	붙잡았다.	붙잡다.v	Hunting_success_or_failure	O
+
+#anno-id:23321
+#source:sejong
+#text:경기침체가 오랫동안 지속되면 국민들의 생활은 더 힘들어질 것이다.
+0	경기침체가	_	_	B-Eventuality
+1	오랫동안	_	_	B-Duration
+2	지속되면	지속되다.v	Duration_relation	O
+3	국민들의	_	_	O
+4	생활은	_	_	O
+5	더	_	_	O
+6	힘들어질	_	_	O
+7	것이다.	_	_	O
+
+#anno-id:17857
+#source:sejong
+#text:공작이 두 날개를 활짝 벌리고 있었다.
+0	공작이	_	_	B-Agent
+1	두	_	_	B-Body_part
+2	날개를	_	_	I-Body_part
+3	활짝	_	_	B-Manner
+4	벌리고	벌리다.v	Body_movement	O
+5	있었다.	_	_	O
+
+#anno-id:19326
+#source:sejong
+#text:길이 너무 막혀 밤 10시가 넘어서야 비로소 집에 닿았다.
+0	길이	_	_	O
+1	너무	_	_	O
+2	막혀	_	_	O
+3	밤	_	_	B-Time
+4	10시가	_	_	I-Time
+5	넘어서야	_	_	O
+6	비로소	_	_	O
+7	집에	_	_	B-Ground
+8	닿았다.	닿다.v	Spatial_contact	O
+
+#anno-id:22382
+#source:sejong
+#text:고성능 홈PC는 사치스런 멀티미디어 기술에 기초하고 있다.
+0	고성능	_	_	B-Effect
+1	홈PC는	_	_	I-Effect
+2	사치스런	_	_	B-Cause
+3	멀티미디어	_	_	I-Cause
+4	기술에	_	_	I-Cause
+5	기초하고	기초하다.v	Cause_to_start	O
+6	있다.	_	_	O
+
+#anno-id:23173
+#source:sejong
+#text:우리는 우리의 결백을 무엇으로 입증시킬 수 있을까?
+0	우리는	_	_	O
+1	우리의	_	_	B-Proposition
+2	결백을	_	_	I-Proposition
+3	무엇으로	_	_	B-Support
+4	입증시킬	입증시키다.v	Evidence	O
+5	수	_	_	O
+6	있을까?	_	_	O
+
+#anno-id:19857
+#source:sejong
+#text:창가에 짙은안개가 서려 있다.
+0	창가에	_	_	B-Place
+1	짙은안개가	_	_	B-Theme
+2	서려	서리다.v	Filling	O
+3	있다.	_	_	O
+
+#anno-id:20601
+#source:sejong
+#text:그는 뼈가 으스러지는 통증을 느꼈다.
+0	그는	_	_	O
+1	뼈가	_	_	B-Patient
+2	으스러지는	으스러지다.v	Grinding	O
+3	통증을	_	_	B-Grinding_cause
+4	느꼈다.	_	_	O
+
+#anno-id:24738
+#source:sejong
+#text:이 병원 저 병원 다녀봐도, 병이 조금도 나아지지 않는다.
+0	이	_	_	B-Manner
+1	병원	_	_	I-Manner
+2	저	_	_	I-Manner
+3	병원	_	_	I-Manner
+4	다녀봐도,	_	_	I-Manner
+5	병이	_	_	B-Entity
+6	조금도	_	_	B-Manner
+7	나아지지	나아지다.v	Progression	O
+8	않는다.	_	_	O
+
+#anno-id:19088
+#source:sejong
+#text:차장은 열차를 10분 늦게 시발했다.
+0	차장은	_	_	O
+1	열차를	_	_	B-Theme
+2	10분	_	_	B-Time
+3	늦게	_	_	B-Manner
+4	시발했다.	시발하다.v	Departing	O
+
+#anno-id:17747
+#source:sejong
+#text:호주는 한국에 철광석, 쇠고기 등을 수출하고 있다.
+0	호주는	_	_	B-Exporter
+1	한국에	_	_	B-Importing_area
+2	철광석,	_	_	B-Goods
+3	쇠고기	_	_	I-Goods
+4	등을	_	_	I-Goods
+5	수출하고	수출하다.v	Exporting	O
+6	있다.	_	_	O
+
+#anno-id:24589
+#source:sejong
+#text:이리 저리 직장을 옮기던 시형은 결국 자기 회사를 차리게 되었다.
+0	이리	_	_	B-Creator
+1	저리	_	_	I-Creator
+2	직장을	_	_	I-Creator
+3	옮기던	_	_	I-Creator
+4	시형은	_	_	I-Creator
+5	결국	_	_	B-Time
+6	자기	_	_	B-Created_entity
+7	회사를	_	_	I-Created_entity
+8	차리게	차리다.v	Intentionally_create	O
+9	되었다.	_	_	O
+
+#anno-id:18983
+#source:sejong
+#text:커다란 뱀이 바위 밑에 똬리를 틀고 있다.
+0	커다란	_	_	B-Agent
+1	뱀이	_	_	I-Agent
+2	바위	_	_	B-Location
+3	밑에	_	_	I-Location
+4	똬리를	_	_	B-Point_of_contact
+5	틀고	틀다.v	Posture	O
+6	있다.	_	_	O
+
+#anno-id:25032
+#source:sejong
+#text:계획에서 그칠 것이 아니라 공사가 발리 착수되어야 할 것이 아니냐?
+0	계획에서	_	_	O
+1	그칠	_	_	O
+2	것이	_	_	O
+3	아니라	_	_	O
+4	공사가	_	_	B-Activity
+5	발리	_	_	O
+6	착수되어야	착수되다.v	Activity_start	O
+7	할	_	_	O
+8	것이	_	_	O
+9	아니냐?	_	_	O
+
+#anno-id:20820
+#source:sejong
+#text:논에서 한 나절 일을 했더니 거머리가 뜯어 다리가 벌겋게 되었다.
+0	논에서	_	_	B-Cause
+1	한	_	_	I-Cause
+2	나절	_	_	I-Cause
+3	일을	_	_	I-Cause
+4	했더니	_	_	I-Cause
+5	거머리가	_	_	B-Agent
+6	뜯어	뜯다.v	Damaging	O
+7	다리가	_	_	O
+8	벌겋게	_	_	O
+9	되었다.	_	_	O
+
+#anno-id:24380
+#source:sejong
+#text:김씨는 우리 나라가 가지고 있던 우월적 지위마저 손상시켰다.
+0	김씨는	_	_	B-Agent
+1	우리	_	_	B-Patient
+2	나라가	_	_	I-Patient
+3	가지고	_	_	I-Patient
+4	있던	_	_	I-Patient
+5	우월적	_	_	I-Patient
+6	지위마저	_	_	I-Patient
+7	손상시켰다.	손상시키다.v	Damaging	O
+
+#anno-id:23658
+#source:sejong
+#text:특히 겨울철에는 자동차 상태를 매일 점검해야 안전사고를 막을 수 있다.
+0	특히	_	_	B-Manner
+1	겨울철에는	_	_	B-Time
+2	자동차	_	_	B-Ground
+3	상태를	_	_	I-Ground
+4	매일	_	_	B-Time
+5	점검해야	점검하다.v	Inspecting	O
+6	안전사고를	_	_	O
+7	막을	_	_	O
+8	수	_	_	O
+9	있다.	_	_	O
+
+#anno-id:18437
+#source:sejong
+#text:열심히 일을 했는데도 상사에게서 욕먹고 나지 더 이상 일할 의욕이 생기지 않았다.
+0	열심히	_	_	O
+1	일을	_	_	O
+2	했는데도	_	_	O
+3	상사에게서	_	_	B-Communicator
+4	욕먹고	욕먹다.v	Judgment_direct_address	O
+5	나지	_	_	O
+6	더	_	_	O
+7	이상	_	_	O
+8	일할	_	_	O
+9	의욕이	_	_	O
+10	생기지	_	_	O
+11	않았다.	_	_	O
+
+#anno-id:17724
+#source:sejong
+#text:나와 이번 계획을 연계시킬 생각은 말아라.
+0	나와	_	_	B-Concept_1
+1	이번	_	_	B-Concept_2
+2	계획을	_	_	I-Concept_2
+3	연계시킬	연계시키다.v	Relating_concepts	O
+4	생각은	_	_	O
+5	말아라.	_	_	O
+
+#anno-id:25343
+#source:sejong
+#text:아이들을 올바른 길로 인도해 줄 의무가 어른들에게 있다.
+0	아이들을	_	_	B-Cotheme
+1	올바른	_	_	B-Path
+2	길로	_	_	I-Path
+3	인도해	인도하다.v	Cotheme	O
+4	줄	_	_	O
+5	의무가	_	_	O
+6	어른들에게	_	_	O
+7	있다.	_	_	O
+
+#anno-id:23251
+#source:sejong
+#text:광복절을 맞아 대통령은 죄수에게 형을 사면했다.
+0	광복절을	_	_	B-Time
+1	맞아	_	_	I-Time
+2	대통령은	_	_	B-Judge
+3	죄수에게	_	_	B-Evaluee
+4	형을	_	_	B-Offense
+5	사면했다.	사면하다.v	Forgiveness	O
+
+#anno-id:21379
+#source:sejong
+#text:폭풍이 가로수를 도로 한가운데에 쓰러뜨렸다.
+0	폭풍이	_	_	B-Source
+1	가로수를	_	_	B-Theme
+2	도로	_	_	B-Goal
+3	한가운데에	_	_	I-Goal
+4	쓰러뜨렸다.	쓰러뜨리다.v	Motion_directional	O
+
+#anno-id:17743
+#source:sejong
+#text:북한 정부는 1인당 가능한 사유지의 크기를 10평 정도로 축소시켰다.
+0	북한	_	_	B-Agent
+1	정부는	_	_	I-Agent
+2	1인당	_	_	B-Attribute
+3	가능한	_	_	I-Attribute
+4	사유지의	_	_	I-Attribute
+5	크기를	_	_	I-Attribute
+6	10평	_	_	B-Attribute
+7	정도로	_	_	I-Attribute
+8	축소시켰다.	축소시키다.v	Cause_change_of_position_on_a_scale	O
+
+#anno-id:23333
+#source:sejong
+#text:힘써 배우고 튼튼히 자라 쓸모있는 사람이 되자.
+0	힘써	_	_	O
+1	배우고	배우다.v	Studying	O
+2	튼튼히	_	_	O
+3	자라	_	_	O
+4	쓸모있는	_	_	O
+5	사람이	_	_	O
+6	되자.	_	_	O
+
+#anno-id:24633
+#source:sejong
+#text:말을 비틀지 말고 좀 똑똑히 말해라.
+0	말을	_	_	B-Patient
+1	비틀지	비틀다.v	Reshaping	O
+2	말고	_	_	O
+3	좀	_	_	O
+4	똑똑히	_	_	O
+5	말해라.	_	_	O
+
+#anno-id:20798
+#source:sejong
+#text:젊은 세대는 이 나라의 군부 독재에 분노하고 있다.
+0	젊은	_	_	B-Experiencer
+1	세대는	_	_	I-Experiencer
+2	이	_	_	B-Content
+3	나라의	_	_	I-Content
+4	군부	_	_	I-Content
+5	독재에	_	_	I-Content
+6	분노하고	분노하다.v	Experiencer_focus	O
+7	있다.	_	_	O
+
+#anno-id:19254
+#source:sejong
+#text:국가사회주의당원들은 독일의 경제 불안이 유태인들 때문이라고 사람들을 선동하였다.
+0	국가사회주의당원들은	_	_	B-Cause
+1	독일의	_	_	B-Means
+2	경제	_	_	I-Means
+3	불안이	_	_	I-Means
+4	유태인들	_	_	I-Means
+5	때문이라고	_	_	I-Means
+6	사람들을	_	_	B-Effect
+7	선동하였다.	선동하다.v	Cause_to_start	O
+
+#anno-id:19026
+#source:sejong
+#text:그는 사장님을 보좌한 지 10년이 되어 사장님의 눈빛으로 마음을 읽을 수 있다.
+0	그는	_	_	O
+1	사장님을	_	_	B-Benefited_party
+2	보좌한	보좌하다.v	Assistance	O
+3	지	_	_	O
+4	10년이	_	_	O
+5	되어	_	_	O
+6	사장님의	_	_	O
+7	눈빛으로	_	_	O
+8	마음을	_	_	O
+9	읽을	_	_	O
+10	수	_	_	O
+11	있다.	_	_	O
+
+#anno-id:21433
+#source:sejong
+#text:고추를 간장에 푹 담가서 일 주일 간 숙성시킨다.
+0	고추를	_	_	B-Theme
+1	간장에	_	_	B-Substance
+2	푹	_	_	B-Manner
+3	담가서	담그다.v	Dunking	O
+4	일	_	_	O
+5	주일	_	_	O
+6	간	_	_	O
+7	숙성시킨다.	_	_	O
+
+#anno-id:18302
+#source:sejong
+#text:부모님들은 아이들을 좋은 환경에서 공부시키기 위해 많은 노력을 기울이신다.
+0	부모님들은	_	_	O
+1	아이들을	_	_	B-Student
+2	좋은	_	_	B-Place
+3	환경에서	_	_	I-Place
+4	공부시키기	공부시키다.v	Studying	O
+5	위해	_	_	O
+6	많은	_	_	O
+7	노력을	_	_	O
+8	기울이신다.	_	_	O
+
+#anno-id:25394
+#source:sejong
+#text:할머니가 입가를 주름잡으며 웃으시는 모습이 보기 좋다.
+0	할머니가	_	_	B-Agent
+1	입가를	_	_	B-Body_part
+2	주름잡으며	주름잡다.v	Body_movement	O
+3	웃으시는	_	_	O
+4	모습이	_	_	O
+5	보기	_	_	O
+6	좋다.	_	_	O
+
+#anno-id:21306
+#source:sejong
+#text:성삼문은 반역죄로 처형되었다.
+0	성삼문은	_	_	B-Executed
+1	반역죄로	_	_	B-Purpose
+2	처형되었다.	처형되다.v	Execution	O
+
+#anno-id:17514
+#source:sejong
+#text:마른 바위에 붙어서 자라는데 비가 와서 물기가 있으면 새파랗게 살아나도 가물면 잎이 공처럼 둥글게 말라 오그라들어 죽은 것처럼 보인다.
+0	마른	_	_	O
+1	바위에	_	_	O
+2	붙어서	_	_	O
+3	자라는데	_	_	O
+4	비가	_	_	O
+5	와서	_	_	O
+6	물기가	_	_	O
+7	있으면	_	_	O
+8	새파랗게	_	_	O
+9	살아나도	_	_	O
+10	가물면	_	_	O
+11	잎이	_	_	B-Agent
+12	공처럼	_	_	B-Manner
+13	둥글게	_	_	B-Manner
+14	말라	_	_	O
+15	오그라들어	오그라들다.v	Posture	O
+16	죽은	_	_	O
+17	것처럼	_	_	O
+18	보인다.	_	_	O
+
+#anno-id:21066
+#source:sejong
+#text:갈비에 칼집을 넣어야 간이 속까지 골고루 잘 배고 무르게 익는다.
+0	갈비에	_	_	O
+1	칼집을	_	_	O
+2	넣어야	_	_	O
+3	간이	_	_	O
+4	속까지	_	_	O
+5	골고루	_	_	O
+6	잘	_	_	O
+7	배고	_	_	O
+8	무르게	_	_	B-Manner
+9	익는다.	익다.v	Apply_heat	O
+
+#anno-id:24569
+#source:sejong
+#text:미국과 소련은 한반도에서 서로 대결하고 있다.
+0	미국과	_	_	B-Cognizer
+1	소련은	_	_	I-Cognizer
+2	한반도에서	_	_	B-Place
+3	서로	_	_	B-Manner
+4	대결하고	대결하다.v	Taking_sides	O
+5	있다.	_	_	O
+
+#anno-id:22949
+#source:sejong
+#text:나는 차이코프스키의 피아노 협주곡을 지휘하고 있는 꿈을 꾸곤한다.
+0	나는	_	_	O
+1	차이코프스키의	_	_	B-Dependent_entity
+2	피아노	_	_	I-Dependent_entity
+3	협주곡을	_	_	I-Dependent_entity
+4	지휘하고	지휘하다.v	Control	O
+5	있는	_	_	O
+6	꿈을	_	_	O
+7	꾸곤한다.	_	_	O
+
+#anno-id:20496
+#source:sejong
+#text:소환에 불응하면 피의자를 강제로 구인할 수밖에 없다.
+0	소환에	_	_	O
+1	불응하면	_	_	O
+2	피의자를	_	_	B-Suspect
+3	강제로	_	_	B-Manner
+4	구인할	구인하다.v	Arrest	O
+5	수밖에	_	_	O
+6	없다.	_	_	O
+
+#anno-id:23629
+#source:sejong
+#text:우리 반대편 차선에서 트럭과 승용차가 격돌했다.
+0	우리	_	_	B-Place
+1	반대편	_	_	I-Place
+2	차선에서	_	_	I-Place
+3	트럭과	_	_	B-Impactors
+4	승용차가	_	_	I-Impactors
+5	격돌했다.	격돌하다.v	Impact	O
+
+#anno-id:22026
+#source:sejong
+#text:그녀는 화풀이라도 하듯 오징어를 갈기갈기 찢었다.
+0	그녀는	_	_	O
+1	화풀이라도	_	_	O
+2	하듯	_	_	O
+3	오징어를	_	_	B-Patient
+4	갈기갈기	_	_	B-Manner
+5	찢었다.	찢다.v	Damaging	O
+
+#anno-id:18394
+#source:sejong
+#text:고기를 먹고 나면 냄새가 너무 강해서 집안을 환기시켜야 했다.
+0	고기를	_	_	O
+1	먹고	_	_	O
+2	나면	_	_	O
+3	냄새가	_	_	B-Phenomenon
+4	너무	_	_	O
+5	강해서	_	_	O
+6	집안을	_	_	B-Place
+7	환기시켜야	환기시키다.v	Evoking	O
+8	했다.	_	_	O
+
+#anno-id:19904
+#source:sejong
+#text:상인들은 이 배로 생필품들을 섬 마을사람들에게 수송했다.
+0	상인들은	_	_	B-Sender
+1	이	_	_	B-Transport_means
+2	배로	_	_	I-Transport_means
+3	생필품들을	_	_	B-Theme
+4	섬	_	_	B-Recipient
+5	마을사람들에게	_	_	I-Recipient
+6	수송했다.	수송하다.v	Sending	O
+
+#anno-id:22547
+#source:sejong
+#text:모든 학생들이 수학여행 가는날을 고대하고 있다.
+0	모든	_	_	B-Cognizer
+1	학생들이	_	_	I-Cognizer
+2	수학여행	_	_	B-Phenomenon
+3	가는날을	_	_	I-Phenomenon
+4	고대하고	고대하다.v	Expectation	O
+5	있다.	_	_	O
+
+#anno-id:18390
+#source:sejong
+#text:아침 일찍 신문을 배달하는 것은 건강에도 좋다.
+0	아침	_	_	B-Time
+1	일찍	_	_	I-Time
+2	신문을	_	_	B-Theme
+3	배달하는	배달하다.v	Delivery	O
+4	것은	_	_	O
+5	건강에도	_	_	O
+6	좋다.	_	_	O
+
+#anno-id:23524
+#source:sejong
+#text:예수께서는 가장 가깝다는 제자들에게 배반당하는 고통을 겪으셨다.
+0	예수께서는	_	_	O
+1	가장	_	_	B-Rebel
+2	가깝다는	_	_	I-Rebel
+3	제자들에게	_	_	I-Rebel
+4	배반당하는	배반당하다.v	Rebellion	O
+5	고통을	_	_	O
+6	겪으셨다.	_	_	O
+
+#anno-id:18445
+#source:sejong
+#text:그의 침이 옆사람에게 튀었다.
+0	그의	_	_	B-Theme
+1	침이	_	_	I-Theme
+2	옆사람에게	_	_	B-Goal
+3	튀었다.	튀다.v	Motion_directional	O
+
+#anno-id:18381
+#source:sejong
+#text:여자친구의 격려전화를 받으니 힘이 솟아났다.
+0	여자친구의	_	_	O
+1	격려전화를	_	_	O
+2	받으니	_	_	O
+3	힘이	_	_	B-Entity
+4	솟아났다.	솟아나다.v	Coming_to_be	O
+
+#anno-id:18078
+#source:sejong
+#text:그는 제자들의 머리 속에 올바른 생각을 심어 주려 노력했다.
+0	그는	_	_	B-Agent
+1	제자들의	_	_	B-Ground
+2	머리	_	_	I-Ground
+3	속에	_	_	I-Ground
+4	올바른	_	_	B-Theme
+5	생각을	_	_	I-Theme
+6	심어	심다.v	Planting	O
+7	주려	_	_	O
+8	노력했다.	_	_	O
+
+#anno-id:25426
+#source:sejong
+#text:지하철이 벽을 울리고 지나간다.
+0	지하철이	_	_	B-Sound_source
+1	벽을	_	_	B-Sound_source
+2	울리고	울리다.v	Make_noise	O
+3	지나간다.	_	_	O
+
+#anno-id:18482
+#source:sejong
+#text:서해대교가 건설된 지 몇 년이 지났다.
+0	서해대교가	_	_	B-Created_entity
+1	건설된	건설되다.v	Building	O
+2	지	_	_	O
+3	몇	_	_	O
+4	년이	_	_	O
+5	지났다.	_	_	O
+
+#anno-id:21517
+#source:sejong
+#text:의사는 몸부림을 치는 정신병환자에게 안정제를 주입했다.
+0	의사는	_	_	B-Agent
+1	몸부림을	_	_	B-Goal
+2	치는	_	_	I-Goal
+3	정신병환자에게	_	_	I-Goal
+4	안정제를	_	_	B-Theme
+5	주입했다.	주입하다.v	Filling	O
+
+#anno-id:19982
+#source:sejong
+#text:정부는 우선 그에 관한 원칙을 법으로 규정지어야 한다.
+0	정부는	_	_	B-Cognizer
+1	우선	_	_	B-Time
+2	그에	_	_	B-Decision
+3	관한	_	_	I-Decision
+4	원칙을	_	_	I-Decision
+5	법으로	_	_	B-Manner
+6	규정지어야	규정짓다.v	Deciding	O
+7	한다.	_	_	O
+
+#anno-id:21267
+#source:sejong
+#text:나는 젓가락을 병뚜껑에 부딪쳐 소리를 냈다.
+0	나는	_	_	B-Agent
+1	젓가락을	_	_	B-Impactor
+2	병뚜껑에	_	_	B-Impactee
+3	부딪쳐	부딪치다.v	Cause_impact	O
+4	소리를	_	_	O
+5	냈다.	_	_	O
+
+#anno-id:21196
+#source:sejong
+#text:큰 태풍이 한반도를 할퀴고 지나갔다.
+0	큰	_	_	B-Agent
+1	태풍이	_	_	I-Agent
+2	한반도를	_	_	B-Patient
+3	할퀴고	할퀴다.v	Damaging	O
+4	지나갔다.	_	_	O
+
+#anno-id:20275
+#source:sejong
+#text:당초 공사 때 광 밑에 큰 돌이 깔린 것을 그대로 둔 채 필역하였다는 이야기가 당 공사의 도석수에 의하여 발설되어 옥사가 일어났다.
+0	당초	_	_	B-Message
+1	공사	_	_	I-Message
+2	때	_	_	I-Message
+3	광	_	_	I-Message
+4	밑에	_	_	I-Message
+5	큰	_	_	I-Message
+6	돌이	_	_	I-Message
+7	깔린	_	_	I-Message
+8	것을	_	_	I-Message
+9	그대로	_	_	I-Message
+10	둔	_	_	I-Message
+11	채	_	_	I-Message
+12	필역하였다는	_	_	I-Message
+13	이야기가	_	_	I-Message
+14	당	_	_	B-Speaker
+15	공사의	_	_	I-Speaker
+16	도석수에	_	_	I-Speaker
+17	의하여	_	_	O
+18	발설되어	발설되다.v	Telling	O
+19	옥사가	_	_	O
+20	일어났다.	_	_	O
+
+#anno-id:21880
+#source:sejong
+#text:경찰은 국민들에게 도박을 금지하고 있다.
+0	경찰은	_	_	B-Principle
+1	국민들에게	_	_	O
+2	도박을	_	_	B-State_of_affairs
+3	금지하고	금지하다.v	Prohibiting_or_licensing	O
+4	있다.	_	_	O
+
+#anno-id:23805
+#source:sejong
+#text:책상 위에 놓아둔 호출기가 진동하는 걸 보니 드디어 올 것이 왔나 보다.
+0	책상	_	_	B-Theme
+1	위에	_	_	I-Theme
+2	놓아둔	_	_	I-Theme
+3	호출기가	_	_	I-Theme
+4	진동하는	진동하다.v	Moving_in_place	O
+5	걸	_	_	O
+6	보니	_	_	O
+7	드디어	_	_	O
+8	올	_	_	O
+9	것이	_	_	O
+10	왔나	_	_	O
+11	보다.	_	_	O
+
+#anno-id:24959
+#source:sejong
+#text:준영은 동생의 옆구리를 간지럽히고 도망가 버렸다.
+0	준영은	_	_	B-Agent
+1	동생의	_	_	B-Entity
+2	옆구리를	_	_	I-Entity
+3	간지럽히고	간지럽히다.v	Manipulation	O
+4	도망가	_	_	O
+5	버렸다.	_	_	O
+
+#anno-id:22744
+#source:sejong
+#text:이 센서와 저기 설치된 센서는 서로 대응하여 작동한다.
+0	이	_	_	B-Responding_entity
+1	센서와	_	_	I-Responding_entity
+2	저기	_	_	I-Responding_entity
+3	설치된	_	_	I-Responding_entity
+4	센서는	_	_	I-Responding_entity
+5	서로	_	_	B-Manner
+6	대응하여	대응하다.v	Response	O
+7	작동한다.	_	_	O
+
+#anno-id:19199
+#source:sejong
+#text:김치가 전 세계에서 예찬된다.
+0	김치가	_	_	B-Topic
+1	전	_	_	B-Place
+2	세계에서	_	_	I-Place
+3	예찬된다.	예찬되다.v	Communication_manner	O
+
+#anno-id:20129
+#source:sejong
+#text:지구가 올 칠월에 멸망할 것이라는 예언은 보기좋게 빗나갔다.
+0	지구가	_	_	B-Time
+1	올	_	_	I-Time
+2	칠월에	_	_	I-Time
+3	멸망할	멸망하다.v	Subversion	O
+4	것이라는	_	_	O
+5	예언은	_	_	O
+6	보기좋게	_	_	O
+7	빗나갔다.	_	_	O
+
+#anno-id:18771
+#source:sejong
+#text:현재 우리의 계획이 수행되고 있다.
+0	현재	_	_	B-Time
+1	우리의	_	_	B-Purpose
+2	계획이	_	_	I-Purpose
+3	수행되고	수행되다.v	Intentionally_act	O
+4	있다.	_	_	O
+
+#anno-id:24407
+#source:sejong
+#text:논문 위에 꼭 참고 문헌을 첨부시켜야 한다.
+0	논문	_	_	B-Total
+1	위에	_	_	I-Total
+2	꼭	_	_	I-Total
+3	참고	_	_	I-Total
+4	문헌을	_	_	B-Part
+5	첨부시켜야	첨부시키다.v	Inclusion	O
+6	한다.	_	_	O
+
+#anno-id:24187
+#source:sejong
+#text:자그마한 파출소에 누추하게 차려입은 한 남자가 소리쳐 댄다.
+0	자그마한	_	_	B-Speaker
+1	파출소에	_	_	I-Speaker
+2	누추하게	_	_	I-Speaker
+3	차려입은	_	_	I-Speaker
+4	한	_	_	I-Speaker
+5	남자가	_	_	I-Speaker
+6	소리쳐	소리치다.v	Communication_noise	O
+7	댄다.	_	_	O
+
+#anno-id:17696
+#source:sejong
+#text:설계변경은 계약시에 예기되지 않았던 사태의 발생이나 사정의 변경으로 설계 내용을 변경하는 것이다.
+0	설계변경은	_	_	O
+1	계약시에	_	_	B-Time
+2	예기되지	예기되다.v	Expectation	O
+3	않았던	_	_	O
+4	사태의	_	_	O
+5	발생이나	_	_	O
+6	사정의	_	_	O
+7	변경으로	_	_	O
+8	설계	_	_	O
+9	내용을	_	_	O
+10	변경하는	_	_	O
+11	것이다.	_	_	O
+
+#anno-id:20519
+#source:sejong
+#text:그 기계는 지방에서 수리하러 가져온 거야.
+0	그	_	_	B-Theme
+1	기계는	_	_	I-Theme
+2	지방에서	_	_	B-Source
+3	수리하러	_	_	O
+4	가져온	가져오다.v	Bringing	O
+5	거야.	_	_	O
+
+#anno-id:23075
+#source:sejong
+#text:자동차에 받힌 철제 대문은 약간 찌그러졌지만 크게 부서지지는 않았다.
+0	자동차에	_	_	B-Patient
+1	받힌	_	_	I-Patient
+2	철제	_	_	I-Patient
+3	대문은	_	_	I-Patient
+4	약간	_	_	B-Manner
+5	찌그러졌지만	찌그러지다.v	Damaging	O
+6	크게	_	_	O
+7	부서지지는	_	_	O
+8	않았다.	_	_	O
+
+#anno-id:24808
+#source:sejong
+#text:놀부는 가난한 동생 흥부를 업신여겼다.
+0	놀부는	_	_	B-Cognizer
+1	가난한	_	_	B-Evaluee
+2	동생	_	_	I-Evaluee
+3	흥부를	_	_	I-Evaluee
+4	업신여겼다.	업신여기다.v	Judgment	O
+
+#anno-id:22627
+#source:sejong
+#text:회교도들이 코란을 암기한다.
+0	회교도들이	_	_	B-Cognizer
+1	코란을	_	_	B-Pattern
+2	암기한다.	암기하다.v	Memorization	O
+
+#anno-id:20844
+#source:sejong
+#text:회사 이전 문제를 둘러싸고 이사들 사이에 말이 많다.
+0	회사	_	_	B-Figure
+1	이전	_	_	I-Figure
+2	문제를	_	_	I-Figure
+3	둘러싸고	둘러싸다.v	Surrounding	O
+4	이사들	_	_	O
+5	사이에	_	_	O
+6	말이	_	_	O
+7	많다.	_	_	O
+
+#anno-id:18237
+#source:sejong
+#text:날이 저문다.
+0	날이	_	_	B-Process
+1	저문다.	저물다.v	Process_end	O
+
+#anno-id:24697
+#source:sejong
+#text:우리는 단지 그녀가 그를 진심으로 사랑했었다고 추정할 뿐이다.
+0	우리는	_	_	B-Cognizer
+1	단지	_	_	O
+2	그녀가	_	_	B-Item
+3	그를	_	_	B-Estimation
+4	진심으로	_	_	I-Estimation
+5	사랑했었다고	_	_	I-Estimation
+6	추정할	추정하다.v	Estimating	O
+7	뿐이다.	_	_	O
+
+#anno-id:17648
+#source:sejong
+#text:새로 나온 살충제로 모든 해충이 박멸되었다.
+0	새로	_	_	B-Cause
+1	나온	_	_	I-Cause
+2	살충제로	_	_	I-Cause
+3	모든	_	_	B-Theme
+4	해충이	_	_	I-Theme
+5	박멸되었다.	박멸되다.v	Emptying	O
+
+#anno-id:17591
+#source:sejong
+#text:어깨가 딱 벌어진 장정 몇 사람이 그를 호위하고 있었다.
+0	어깨가	_	_	B-Protection
+1	딱	_	_	I-Protection
+2	벌어진	_	_	I-Protection
+3	장정	_	_	I-Protection
+4	몇	_	_	I-Protection
+5	사람이	_	_	I-Protection
+6	그를	_	_	B-Asset
+7	호위하고	호위하다.v	Protecting	O
+8	있었다.	_	_	O
+
+#anno-id:18663
+#source:sejong
+#text:홍수로 마을로 들어가는 모든 도로가 끊어졌다.
+0	홍수로	_	_	O
+1	마을로	_	_	B-Goal
+2	들어가는	들어가다.v	Path_shape	O
+3	모든	_	_	B-Path
+4	도로가	_	_	I-Path
+5	끊어졌다.	_	_	O
+
+#anno-id:23441
+#source:sejong
+#text:강아지는 몸을 오므리고 따뜻한 햇살에 낮잠을 자고 있었다.
+0	강아지는	_	_	B-Agent
+1	몸을	_	_	B-Body_part
+2	오므리고	오므리다.v	Body_movement	O
+3	따뜻한	_	_	O
+4	햇살에	_	_	O
+5	낮잠을	_	_	O
+6	자고	_	_	O
+7	있었다.	_	_	O
+
+#anno-id:21875
+#source:sejong
+#text:그 말을 듣자 굳었던 그의 표정이 풀렸다.
+0	그	_	_	B-Manner
+1	말을	_	_	I-Manner
+2	듣자	_	_	I-Manner
+3	굳었던	_	_	B-Patient
+4	그의	_	_	I-Patient
+5	표정이	_	_	I-Patient
+6	풀렸다.	풀리다.v	Change_of_phase	O
+
+#anno-id:25148
+#source:sejong
+#text:그는 당대의 으뜸 가는 명필이었다.
+0	그는	_	_	O
+1	당대의	_	_	B-Time
+2	으뜸	_	_	I-Time
+3	가는	가다.v	Becoming	O
+4	명필이었다.	_	_	B-Entity
+
+#anno-id:22990
+#source:sejong
+#text:김장철이라 집집마다 김치를 담느라고 부산하다.
+0	김장철이라	_	_	B-Time
+1	집집마다	_	_	B-Place
+2	김치를	_	_	B-Contents
+3	담느라고	담다.v	Containing	O
+4	부산하다.	_	_	O
+
+#anno-id:22372
+#source:sejong
+#text:그 마을의 북쪽은 산으로 막혔다.
+0	그	_	_	B-Holding_location
+1	마을의	_	_	I-Holding_location
+2	북쪽은	_	_	I-Holding_location
+3	산으로	_	_	B-Cause
+4	막혔다.	막히다.v	Inhibit_movement	O
+
+#anno-id:19802
+#source:sejong
+#text:왕은 김 장군을 병마절도사로 임명하여 난을 평정하도록 했다.
+0	왕은	_	_	B-Selector
+1	김	_	_	B-Official
+2	장군을	_	_	I-Official
+3	병마절도사로	_	_	B-Role
+4	임명하여	임명하다.v	Appointing	O
+5	난을	_	_	O
+6	평정하도록	_	_	O
+7	했다.	_	_	O
+
+#anno-id:23450
+#source:sejong
+#text:기자들은 이번 대중 집회에 약 50만 명의 군중이 모이리라고 추측하였다.
+0	기자들은	_	_	B-Cognizer
+1	이번	_	_	B-Place
+2	대중	_	_	I-Place
+3	집회에	_	_	I-Place
+4	약	_	_	B-Estimation
+5	50만	_	_	I-Estimation
+6	명의	_	_	I-Estimation
+7	군중이	_	_	I-Estimation
+8	모이리라고	_	_	O
+9	추측하였다.	추측하다.v	Estimating	O
+
+#anno-id:21668
+#source:sejong
+#text:왜곡된 성문화를 바로잡고 건전한 문화 사회를 건설하자.
+0	왜곡된	왜곡되다.v	Prevarication	O
+1	성문화를	_	_	O
+2	바로잡고	_	_	O
+3	건전한	_	_	O
+4	문화	_	_	O
+5	사회를	_	_	O
+6	건설하자.	_	_	O
+
+#anno-id:23232
+#source:sejong
+#text:그 단어는 라틴어에서 유래되었다.
+0	그	_	_	B-Entity
+1	단어는	_	_	I-Entity
+2	라틴어에서	_	_	B-Origin
+3	유래되었다.	유래되다.v	Origin	O
+
+#anno-id:23278
+#source:sejong
+#text:더위가 이제는 완전히 물러간거지?
+0	더위가	_	_	O
+1	이제는	_	_	O
+2	완전히	_	_	O
+3	물러간거지?	물러가다.v	Quitting	O
+
+#anno-id:20546
+#source:sejong
+#text:영철이는 방문을 닫고 나갔다.
+0	영철이는	_	_	B-Agent
+1	방문을	_	_	B-Containing_object
+2	닫고	닫다.v	Closure	O
+3	나갔다.	_	_	O
+
+#anno-id:17654
+#source:sejong
+#text:눈을 깜빡거리며 주위를 둘러보았다.
+0	눈을	_	_	B-Emitter
+1	깜빡거리며	깜빡거리다.v	Light_movement	O
+2	주위를	_	_	O
+3	둘러보았다.	_	_	O
+
+#anno-id:21706
+#source:sejong
+#text:철수가 영희에게서 돈을 빌렸다.
+0	철수가	_	_	B-Borrower
+1	영희에게서	_	_	B-Lender
+2	돈을	_	_	B-Theme
+3	빌렸다.	빌리다.v	Borrowing	O
+
+#anno-id:20626
+#source:sejong
+#text:장지이는 지금까지 장이모우, 이안, 서극이라는 아시아의 거장들과 함께 작업했다.
+0	장지이는	_	_	B-Partner_1
+1	지금까지	_	_	B-Time
+2	장이모우,	_	_	B-Partners
+3	이안,	_	_	I-Partners
+4	서극이라는	_	_	I-Partners
+5	아시아의	_	_	I-Partners
+6	거장들과	_	_	I-Partners
+7	함께	_	_	I-Partners
+8	작업했다.	작업하다.v	Collaboration	O
+
+#anno-id:24274
+#source:sejong
+#text:선생님은 학생들을 두 편으로 가르셨다.
+0	선생님은	_	_	B-Agent
+1	학생들을	_	_	B-Whole
+2	두	_	_	B-Parts
+3	편으로	_	_	I-Parts
+4	가르셨다.	가르다.v	Separating	O
+
+#anno-id:18168
+#source:sejong
+#text:그녀는 이웃 사람들에게 도움을 호소했지만 아무도 와 주지 않았다.
+0	그녀는	_	_	B-Speaker
+1	이웃	_	_	B-Addressee
+2	사람들에게	_	_	I-Addressee
+3	도움을	_	_	B-Message
+4	호소했지만	호소하다.v	Request	O
+5	아무도	_	_	O
+6	와	_	_	O
+7	주지	_	_	O
+8	않았다.	_	_	O
+
+#anno-id:19503
+#source:sejong
+#text:이 제품은 우리 나라의 이름을 세계에 빛낸 제품이다.
+0	이	_	_	O
+1	제품은	_	_	O
+2	우리	_	_	B-Beam
+3	나라의	_	_	I-Beam
+4	이름을	_	_	I-Beam
+5	세계에	_	_	B-Goal
+6	빛낸	빛내다.v	Light_movement	O
+7	제품이다.	_	_	B-Emitter
+
+#anno-id:22452
+#source:sejong
+#text:그는 이번 시합에서 자신이 제명된 것을 알고는 놀랐다.
+0	그는	_	_	O
+1	이번	_	_	B-Group
+2	시합에서	_	_	I-Group
+3	자신이	_	_	B-Member
+4	제명된	제명되다.v	Exclude_member	O
+5	것을	_	_	O
+6	알고는	_	_	O
+7	놀랐다.	_	_	O
+
+#anno-id:18698
+#source:sejong
+#text:짬을 내서 한번 저한테 들러 주세요.
+0	짬을	_	_	B-Created_entity
+1	내서	내다.v	Creating	O
+2	한번	_	_	O
+3	저한테	_	_	O
+4	들러	_	_	O
+5	주세요.	_	_	O
+
+#anno-id:18272
+#source:sejong
+#text:전부 다 나자빠지면 나 혼자 어떻게 하란 말이냐?
+0	전부	_	_	B-Theme
+1	다	_	_	I-Theme
+2	나자빠지면	나자빠지다.v	Motion_directional	O
+3	나	_	_	O
+4	혼자	_	_	O
+5	어떻게	_	_	O
+6	하란	_	_	O
+7	말이냐?	_	_	O
+
+#anno-id:25132
+#source:sejong
+#text:업종별 전화번호부인 엘로우 페이지는 전국에 무료로 배포된다.
+0	업종별	_	_	B-Individuals
+1	전화번호부인	_	_	I-Individuals
+2	엘로우	_	_	I-Individuals
+3	페이지는	_	_	I-Individuals
+4	전국에	_	_	B-Place
+5	무료로	_	_	B-Manner
+6	배포된다.	배포되다.v	Dispersal	O
+
+#anno-id:25217
+#source:sejong
+#text:중동 지역의 소요가 진정될 때까지 여행을 삼가하는 것이 현명합니다.
+0	중동	_	_	B-Stimulus
+1	지역의	_	_	I-Stimulus
+2	소요가	_	_	I-Stimulus
+3	진정될	진정되다.v	Experiencer_obj	O
+4	때까지	_	_	B-Time
+5	여행을	_	_	O
+6	삼가하는	_	_	O
+7	것이	_	_	O
+8	현명합니다.	_	_	O
+
+#anno-id:23717
+#source:sejong
+#text:그 녀석은 옆 사람에게 죽일 놈이라고 욕을 뱉았다.
+0	그	_	_	B-Source_emitter
+1	녀석은	_	_	I-Source_emitter
+2	옆	_	_	I-Source_emitter
+3	사람에게	_	_	I-Source_emitter
+4	죽일	_	_	I-Source_emitter
+5	놈이라고	_	_	I-Source_emitter
+6	욕을	_	_	B-Emission
+7	뱉았다.	뱉다.v	Emitting	O
+
+#anno-id:24504
+#source:sejong
+#text:그 장수는 성문에 빗장을 걸치고 성을 봉쇄해 버렸다.
+0	그	_	_	O
+1	장수는	_	_	O
+2	성문에	_	_	B-Wearer
+3	빗장을	_	_	B-Clothing
+4	걸치고	걸치다.v	Dressing	O
+5	성을	_	_	O
+6	봉쇄해	_	_	O
+7	버렸다.	_	_	O
+
+#anno-id:17962
+#source:sejong
+#text:운동선수는 안정감 있게 보행하는 것이 중요하다
+0	운동선수는	_	_	O
+1	안정감	_	_	B-Manner
+2	있게	_	_	B-Manner
+3	보행하는	보행하다.v	Self_motion	O
+4	것이	_	_	O
+5	중요하다	_	_	O
+
+#anno-id:19735
+#source:sejong
+#text:태권도에서는 우선 자신을 방어하는 방법부터 배운다.
+0	태권도에서는	_	_	O
+1	우선	_	_	O
+2	자신을	_	_	B-Defender
+3	방어하는	방어하다.v	Defending	O
+4	방법부터	_	_	B-Manner
+5	배운다.	_	_	O
+
+#anno-id:18458
+#source:sejong
+#text:김씨는 정리해고를 당한 이후 새 직장을 찾지 못해 6개월을 쉬었다.
+0	김씨는	_	_	B-Agent
+1	정리해고를	_	_	O
+2	당한	_	_	O
+3	이후	_	_	O
+4	새	_	_	O
+5	직장을	_	_	O
+6	찾지	_	_	O
+7	못해	_	_	O
+8	6개월을	_	_	B-Time
+9	쉬었다.	쉬다.v	Activity_stop	O
+
+#anno-id:20967
+#source:sejong
+#text:이 운동은 현재 한 언론사에 의해 주도되고 있다.
+0	이	_	_	B-Activity
+1	운동은	_	_	I-Activity
+2	현재	_	_	B-Time
+3	한	_	_	B-Leader
+4	언론사에	_	_	I-Leader
+5	의해	_	_	O
+6	주도되고	주도되다.v	Leadership	O
+7	있다.	_	_	O
+
+#anno-id:21532
+#source:sejong
+#text:집채만한 거구가 어퍼컷 한방에 그대로 넘어갔다.
+0	집채만한	_	_	B-Self_mover
+1	거구가	_	_	I-Self_mover
+2	어퍼컷	_	_	B-Source
+3	한방에	_	_	I-Source
+4	그대로	_	_	O
+5	넘어갔다.	넘어가다.v	Self_motion	O
+
+#anno-id:17753
+#source:sejong
+#text:아군은 적군의 의도를 알아챘다.
+0	아군은	_	_	B-Cognizer
+1	적군의	_	_	B-Phenomenon
+2	의도를	_	_	I-Phenomenon
+3	알아챘다.	알아채다.v	Becoming_aware	O
+
+#anno-id:20135
+#source:sejong
+#text:그는 상대 선수를 구석에 몰았다.
+0	그는	_	_	B-Agent
+1	상대	_	_	B-Theme
+2	선수를	_	_	I-Theme
+3	구석에	_	_	B-Goal
+4	몰았다.	몰다.v	Cause_motion	O
+
+#anno-id:24244
+#source:sejong
+#text:바다에 파도가 너울거린다.
+0	바다에	_	_	B-Area
+1	파도가	_	_	B-Theme
+2	너울거린다.	너울거리다.v	Motion	O
+
+#anno-id:23230
+#source:sejong
+#text:광복절을 맞아 대통령은 죄수들을 사면했다.
+0	광복절을	_	_	B-Time
+1	맞아	_	_	I-Time
+2	대통령은	_	_	B-Judge
+3	죄수들을	_	_	B-Evaluee
+4	사면했다.	사면하다.v	Forgiveness	O
+
+#anno-id:18441
+#source:sejong
+#text:철수는 내 몸을 밀치고 지나갔다.
+0	철수는	_	_	B-Agent
+1	내	_	_	B-Theme
+2	몸을	_	_	I-Theme
+3	밀치고	밀치다.v	Cause_motion	O
+4	지나갔다.	_	_	O
+
+#anno-id:23684
+#source:sejong
+#text:하루하루의 삶이 기쁨에 넘친다.
+0	하루하루의	_	_	B-Location
+1	삶이	_	_	I-Location
+2	기쁨에	_	_	B-Theme
+3	넘친다.	넘치다.v	Abounding_with	O
+
+#anno-id:19816
+#source:sejong
+#text:폭도들은 학교에 세워진 동상을 산산조각냈다.
+0	폭도들은	_	_	O
+1	학교에	_	_	O
+2	세워진	_	_	O
+3	동상을	_	_	O
+4	산산조각냈다.	산산조각내다.v	Destroying	O
+
+#anno-id:23594
+#source:sejong
+#text:도박이 그의 삶을 황폐화시켰다.
+0	도박이	_	_	B-Destroyer
+1	그의	_	_	B-Patient
+2	삶을	_	_	I-Patient
+3	황폐화시켰다.	황폐화시키다.v	Destroying	O
+
+#anno-id:17992
+#source:sejong
+#text:금융 감독원은 부실 기업을 정리하기 위한 칼을 빼 들었다.
+0	금융	_	_	O
+1	감독원은	_	_	O
+2	부실	_	_	B-Theme
+3	기업을	_	_	I-Theme
+4	정리하기	정리하다.v	Arranging	O
+5	위한	_	_	O
+6	칼을	_	_	O
+7	빼	_	_	O
+8	들었다.	_	_	O
+
+#anno-id:19176
+#source:sejong
+#text:두 사람은 결국 이혼에 서로 합의했다.
+0	두	_	_	B-Interlocutor
+1	사람은	_	_	I-Interlocutor
+2	결국	_	_	O
+3	이혼에	_	_	B-Proposed_action
+4	서로	_	_	B-Manner
+5	합의했다.	합의하다.v	Agree_or_refuse_to_act	O
+
+#anno-id:21030
+#source:sejong
+#text:악의나 중과실이 없는 양수인은 보호되게 된다.
+0	악의나	_	_	B-Asset
+1	중과실이	_	_	I-Asset
+2	없는	_	_	I-Asset
+3	양수인은	_	_	I-Asset
+4	보호되게	보호되다.v	Protecting	O
+5	된다.	_	_	O
+
+#anno-id:22131
+#source:sejong
+#text:그는 우리들에게 그가 만든 요리를 자랑스럽게 내놓았다.
+0	그는	_	_	B-Agent
+1	우리들에게	_	_	B-Goal
+2	그가	_	_	B-Theme
+3	만든	_	_	I-Theme
+4	요리를	_	_	I-Theme
+5	자랑스럽게	_	_	B-Manner
+6	내놓았다.	내놓다.v	Bringing	O
+
+#anno-id:18853
+#source:sejong
+#text:어머니는 무릎이 좋지 않으셔서 계단을 올라오기가 벅차신 모양이었다.
+0	어머니는	_	_	B-Theme
+1	무릎이	_	_	B-Theme
+2	좋지	_	_	O
+3	않으셔서	_	_	O
+4	계단을	_	_	B-Path
+5	올라오기가	올라오다.v	Traversing	O
+6	벅차신	_	_	O
+7	모양이었다.	_	_	O
+
+#anno-id:18987
+#source:sejong
+#text:그 사람의 주장이 점점 더 정설로 굳어지고 있다.
+0	그	_	_	B-Patient
+1	사람의	_	_	I-Patient
+2	주장이	_	_	I-Patient
+3	점점	_	_	B-Manner
+4	더	_	_	I-Manner
+5	정설로	_	_	B-Manner
+6	굳어지고	굳어지다.v	Change_of_consistency	O
+7	있다.	_	_	O
+
+#anno-id:19853
+#source:sejong
+#text:올해는 예산보다 생활비가 과용되었다.
+0	올해는	_	_	O
+1	예산보다	_	_	O
+2	생활비가	_	_	O
+3	과용되었다.	과용되다.v	Frugality	O
+
+#anno-id:18451
+#source:sejong
+#text:그 여자는 결국 그 놈에게 먹히고 말았다.
+0	그	_	_	B-Ingestibles
+1	여자는	_	_	I-Ingestibles
+2	결국	_	_	B-Manner
+3	그	_	_	B-Ingestor
+4	놈에게	_	_	I-Ingestor
+5	먹히고	먹히다.v	Ingestion	O
+6	말았다.	_	_	O
+
+#anno-id:18949
+#source:sejong
+#text:재판부는 결국 피고인을 무죄로 판결짓고 재판을 끝냈다.
+0	재판부는	_	_	O
+1	결국	_	_	O
+2	피고인을	_	_	O
+3	무죄로	_	_	O
+4	판결짓고	판결짓다.v	Verdict	O
+5	재판을	_	_	O
+6	끝냈다.	_	_	O
+
+#anno-id:20615
+#source:sejong
+#text:아버지는 나에게 그만 입다물라고 소리를 지르셨다.
+0	아버지는	_	_	O
+1	나에게	_	_	O
+2	그만	_	_	O
+3	입다물라고	입다물다.v	Silencing	O
+4	소리를	_	_	O
+5	지르셨다.	_	_	O
+
+#anno-id:21032
+#source:sejong
+#text:지금까지 남북관계는 어둠에 가려 정체가 모호하다.
+0	지금까지	_	_	B-Time
+1	남북관계는	_	_	B-Eclipsed
+2	어둠에	_	_	B-Obstruction
+3	가려	가리다.v	Eclipse	O
+4	정체가	_	_	O
+5	모호하다.	_	_	O
+
+#anno-id:23921
+#source:sejong
+#text:너도 이제 밖으로 나도는 짓은 그만 해라.
+0	너도	_	_	O
+1	이제	_	_	O
+2	밖으로	_	_	B-Area
+3	나도는	나돌다.v	Self_motion	O
+4	짓은	_	_	O
+5	그만	_	_	O
+6	해라.	_	_	O
+
+#anno-id:21893
+#source:sejong
+#text:그 아이의 이는 이미 다 썩어서 치과의사도 어찌할 수가 없었다.
+0	그	_	_	B-Experiencer
+1	아이의	_	_	I-Experiencer
+2	이는	_	_	I-Experiencer
+3	이미	_	_	B-Time
+4	다	_	_	B-Manner
+5	썩어서	썩다.v	Experiencer_obj	O
+6	치과의사도	_	_	O
+7	어찌할	_	_	O
+8	수가	_	_	O
+9	없었다.	_	_	O
+
+#anno-id:23060
+#source:sejong
+#text:당신은 다른 사람들의 행동을 힐난하기 전에 먼저 당신 자신의 행동부터 돌아보아야 할 것입니다.
+0	당신은	_	_	O
+1	다른	_	_	B-Topic
+2	사람들의	_	_	I-Topic
+3	행동을	_	_	I-Topic
+4	힐난하기	힐난하다.v	Judgment_communication	O
+5	전에	_	_	O
+6	먼저	_	_	O
+7	당신	_	_	O
+8	자신의	_	_	O
+9	행동부터	_	_	O
+10	돌아보아야	_	_	O
+11	할	_	_	O
+12	것입니다.	_	_	O
+
+#anno-id:23289
+#source:sejong
+#text:대통령은 야당의원들을 국정 운영에 비협조적이라고 비판했다.
+0	대통령은	_	_	B-Evaluee
+1	야당의원들을	_	_	I-Evaluee
+2	국정	_	_	I-Evaluee
+3	운영에	_	_	I-Evaluee
+4	비협조적이라고	_	_	I-Evaluee
+5	비판했다.	비판하다.v	Judgment_communication	O
+
+#anno-id:21805
+#source:sejong
+#text:다음 수식에서 불필요한 문자들을 소거하시오.
+0	다음	_	_	B-Source
+1	수식에서	_	_	I-Source
+2	불필요한	_	_	B-Theme
+3	문자들을	_	_	I-Theme
+4	소거하시오.	소거하다.v	Removing	O
+
+#anno-id:19539
+#source:sejong
+#text:이 문제는 쉽게 풀릴 성질의 것이 아니다.
+0	이	_	_	O
+1	문제는	_	_	O
+2	쉽게	_	_	B-Manner
+3	풀릴	풀리다.v	Change_of_phase	O
+4	성질의	_	_	B-Patient
+5	것이	_	_	I-Patient
+6	아니다.	_	_	O
+
+#anno-id:23282
+#source:sejong
+#text:이런 상황에서 그들의 제의에 동의한다는 것은 패배를 뜻한다.
+0	이런	_	_	B-Form
+1	상황에서	_	_	I-Form
+2	그들의	_	_	I-Form
+3	제의에	_	_	I-Form
+4	동의한다는	_	_	I-Form
+5	것은	_	_	I-Form
+6	패배를	_	_	B-Meaning
+7	뜻한다.	뜻하다.v	Linguistic_meaning	O
+
+#anno-id:18738
+#source:sejong
+#text:선생님이 굳은 표정을 짓기 시작하자 학생들은 쥐죽은 듯이 조용해졌다.
+0	선생님이	_	_	B-Agent
+1	굳은	_	_	O
+2	표정을	_	_	O
+3	짓기	_	_	O
+4	시작하자	시작하다.v	Activity_start	O
+5	학생들은	_	_	O
+6	쥐죽은	_	_	O
+7	듯이	_	_	O
+8	조용해졌다.	_	_	O
+
+#anno-id:21653
+#source:sejong
+#text:삶에서 생겨나는 집착과 욕망은 모두 고통을 낳는다.
+0	삶에서	_	_	B-Place
+1	생겨나는	생겨나다.v	Coming_to_be	O
+2	집착과	_	_	B-Entity
+3	욕망은	_	_	I-Entity
+4	모두	_	_	O
+5	고통을	_	_	O
+6	낳는다.	_	_	O
+
+#anno-id:23407
+#source:sejong
+#text:이 상황에서의 동의는 패배하는 것을 뜻한다.
+0	이	_	_	B-Meaning
+1	상황에서의	_	_	I-Meaning
+2	동의는	_	_	I-Meaning
+3	패배하는	_	_	I-Meaning
+4	것을	_	_	I-Meaning
+5	뜻한다.	뜻하다.v	Linguistic_meaning	O
+
+#anno-id:21844
+#source:sejong
+#text:이번 조치로 교육계의 악습들이 일소될 수 있기만을 바란다.
+0	이번	_	_	B-Manner
+1	조치로	_	_	I-Manner
+2	교육계의	_	_	B-Theme
+3	악습들이	_	_	I-Theme
+4	일소될	일소되다.v	Removing	O
+5	수	_	_	O
+6	있기만을	_	_	O
+7	바란다.	_	_	O
+
+#anno-id:18572
+#source:sejong
+#text:하루강아지 범 무서운 줄 모르고 감히 내게 도전하다니?
+0	하루강아지	_	_	O
+1	범	_	_	O
+2	무서운	_	_	O
+3	줄	_	_	O
+4	모르고	_	_	O
+5	감히	_	_	O
+6	내게	_	_	B-Side
+7	도전하다니?	도전하다.v	Taking_sides	O
+
+#anno-id:22122
+#source:sejong
+#text:물이 고여 도랑이 철벅했다.
+0	물이	_	_	O
+1	고여	_	_	O
+2	도랑이	_	_	B-Sound_source
+3	철벅했다.	철벅하다.v	Make_noise	O
+
+#anno-id:21146
+#source:sejong
+#text:나와 최 신부는 강릉에서 서울까지 동행했다.
+0	나와	_	_	B-Theme
+1	최	_	_	I-Theme
+2	신부는	_	_	I-Theme
+3	강릉에서	_	_	B-Path
+4	서울까지	_	_	I-Path
+5	동행했다.	동행하다.v	Cotheme	O
+
+#anno-id:24816
+#source:sejong
+#text:우리 꼬마는 어려서인지 덧셈을 늘 틀린다.
+0	우리	_	_	B-Agent
+1	꼬마는	_	_	I-Agent
+2	어려서인지	_	_	O
+3	덧셈을	_	_	B-Goal
+4	늘	_	_	B-Time
+5	틀린다.	틀리다.v	Success_or_failure	O
+
+#anno-id:23823
+#source:sejong
+#text:그가 제공한 정보는 사실과 부합하지 않는다.
+0	그가	_	_	B-Evaluee
+1	제공한	_	_	I-Evaluee
+2	정보는	_	_	I-Evaluee
+3	사실과	_	_	B-Purpose
+4	부합하지	부합하다.v	Suitability	O
+5	않는다.	_	_	O
+
+#anno-id:23281
+#source:sejong
+#text:반윤리 의식을 일소한다는 것이 그 정책의 목적이었다.
+0	반윤리	_	_	B-Theme
+1	의식을	_	_	I-Theme
+2	일소한다는	일소하다.v	Removing	O
+3	것이	_	_	O
+4	그	_	_	O
+5	정책의	_	_	O
+6	목적이었다.	_	_	O
+
+#anno-id:21378
+#source:sejong
+#text:장롱이 너무 커서 안방에 못 들어왔다.
+0	장롱이	_	_	B-Theme
+1	너무	_	_	O
+2	커서	_	_	O
+3	안방에	_	_	B-Goal
+4	못	_	_	B-Manner
+5	들어왔다.	들어오다.v	Arriving	O
+
+#anno-id:19866
+#source:sejong
+#text:그는 알아들을 수 없는 말을 중얼거리며 떠났다.
+0	그는	_	_	B-Message
+1	알아들을	_	_	I-Message
+2	수	_	_	I-Message
+3	없는	_	_	I-Message
+4	말을	_	_	I-Message
+5	중얼거리며	중얼거리다.v	Communication_noise	O
+6	떠났다.	_	_	O
+
+#anno-id:21632
+#source:sejong
+#text:이 곳에서는 10시에 들어오는 열차만 상행한다.
+0	이	_	_	B-Place
+1	곳에서는	_	_	I-Place
+2	10시에	_	_	B-Theme
+3	들어오는	_	_	I-Theme
+4	열차만	_	_	I-Theme
+5	상행한다.	상행하다.v	Traversing	O
+
+#anno-id:18956
+#source:sejong
+#text:손자는 저녁마다 할아버지의 어깨를 주물러 드렸다.
+0	손자는	_	_	O
+1	저녁마다	_	_	O
+2	할아버지의	_	_	O
+3	어깨를	_	_	O
+4	주물러	_	_	O
+5	드렸다.	드리다.v	Offering	O
+
+#anno-id:17989
+#source:sejong
+#text:마음이 약하여 불쌍한 사람들을 연쇄한다.
+0	마음이	_	_	O
+1	약하여	_	_	O
+2	불쌍한	_	_	B-Connector
+3	사람들을	_	_	I-Connector
+4	연쇄한다.	연쇄하다.v	Attaching	O
+
+#anno-id:17464
+#source:sejong
+#text:어른들 말씀하시는 데에 거드는 게 아니다.
+0	어른들	_	_	B-Benefited_party
+1	말씀하시는	_	_	I-Benefited_party
+2	데에	_	_	I-Benefited_party
+3	거드는	거들다.v	Assistance	O
+4	게	_	_	O
+5	아니다.	_	_	O
+
+#anno-id:17954
+#source:sejong
+#text:실수로 눈썹을 전부 태우고 말았다.
+0	실수로	_	_	B-Manner
+1	눈썹을	_	_	B-Entity
+2	전부	_	_	B-Manner
+3	태우고	태우다.v	Absorb_heat	O
+4	말았다.	_	_	O
+
+#anno-id:21931
+#source:sejong
+#text:수입다변화제도의 해제 이후 일본상품이 밀물처럼 한국시장에 밀려올 것이다.
+0	수입다변화제도의	_	_	B-Time
+1	해제	_	_	I-Time
+2	이후	_	_	I-Time
+3	일본상품이	_	_	B-Theme
+4	밀물처럼	_	_	B-Manner
+5	한국시장에	_	_	B-Goal
+6	밀려올	밀려오다.v	Filling	O
+7	것이다.	_	_	O
+
+#anno-id:19145
+#source:sejong
+#text:증권 시장이 조정기를 거치면 안정될 것이다.
+0	증권	_	_	B-Entity
+1	시장이	_	_	I-Entity
+2	조정기를	_	_	B-Event
+3	거치면	거치다.v	Undergoing	O
+4	안정될	_	_	O
+5	것이다.	_	_	O
+
+#anno-id:19220
+#source:sejong
+#text:전반전에서 한국 선수들이 이스라엘 선수들에게 거칠게 공격했다.
+0	전반전에서	_	_	B-Time
+1	한국	_	_	B-Assailant
+2	선수들이	_	_	I-Assailant
+3	이스라엘	_	_	B-Victim
+4	선수들에게	_	_	I-Victim
+5	거칠게	_	_	B-Manner
+6	공격했다.	공격하다.v	Attack	O
+
+#anno-id:19506
+#source:sejong
+#text:그 친구는 간호사의 정성어린 간호로 차츰 치료되기 시작했다.
+0	그	_	_	B-Patient
+1	친구는	_	_	I-Patient
+2	간호사의	_	_	B-Healer
+3	정성어린	_	_	I-Healer
+4	간호로	_	_	I-Healer
+5	차츰	_	_	B-Manner
+6	치료되기	치료되다.v	Cure	O
+7	시작했다.	_	_	O
+
+#anno-id:23009
+#source:sejong
+#text:방송사는 적의 침공에 대해 계속 예고하고 있었다.
+0	방송사는	_	_	B-Communicator
+1	적의	_	_	O
+2	침공에	_	_	O
+3	대해	_	_	O
+4	계속	_	_	B-Manner
+5	예고하고	예고하다.v	Heralding	O
+6	있었다.	_	_	O
+
+#anno-id:22787
+#source:sejong
+#text:그 가구는 화려한 조각으로 장식되었다.
+0	그	_	_	B-Location
+1	가구는	_	_	I-Location
+2	화려한	_	_	B-Theme
+3	조각으로	_	_	I-Theme
+4	장식되었다.	장식되다.v	Distributed_position	O
+
+#anno-id:19172
+#source:sejong
+#text:호철이는 옷을 부스럭대며 일어났다.
+0	호철이는	_	_	B-Impactor
+1	옷을	_	_	B-Impactee
+2	부스럭대며	부스럭대다.v	Cause_impact	O
+3	일어났다.	_	_	O
+
+#anno-id:18865
+#source:sejong
+#text:정부 조직이 갈수록 커지면서 비효율적이 되어 가고 있다.
+0	정부	_	_	B-Attribute
+1	조직이	_	_	I-Attribute
+2	갈수록	_	_	O
+3	커지면서	커지다.v	Change_position_on_a_scale	O
+4	비효율적이	_	_	O
+5	되어	_	_	O
+6	가고	_	_	O
+7	있다.	_	_	O
+
+#anno-id:18669
+#source:sejong
+#text:나는 그 말이 이기는 쪽에 만 원을 걸었다.
+0	나는	_	_	B-Gambler
+1	그	_	_	B-Uncertain_situation
+2	말이	_	_	I-Uncertain_situation
+3	이기는	_	_	I-Uncertain_situation
+4	쪽에	_	_	I-Uncertain_situation
+5	만	_	_	B-Asset
+6	원을	_	_	I-Asset
+7	걸었다.	걸다.v	Wagering	O
+
+#anno-id:18373
+#source:sejong
+#text:무작위로 추출한 견본들을 철저히 분석하여 우리는 지금의 최상품들을 만들어냈다.
+0	무작위로	_	_	B-Manner
+1	추출한	추출하다.v	Mining	O
+2	견본들을	_	_	B-Resource
+3	철저히	_	_	O
+4	분석하여	_	_	O
+5	우리는	_	_	O
+6	지금의	_	_	O
+7	최상품들을	_	_	O
+8	만들어냈다.	_	_	O
+
+#anno-id:18417
+#source:sejong
+#text:너도 이제 너가 살 방도를 차려야 하지 않겠니?
+0	너도	_	_	B-Agent
+1	이제	_	_	B-Time
+2	너가	_	_	B-Activity
+3	살	_	_	I-Activity
+4	방도를	_	_	I-Activity
+5	차려야	차리다.v	Activity_prepare	O
+6	하지	_	_	O
+7	않겠니?	_	_	O
+
+#anno-id:21444
+#source:sejong
+#text:김과장을 경쟁회사 간부와 접선시켜볼 예정이다.
+0	김과장을	_	_	B-Agent
+1	경쟁회사	_	_	B-Goal
+2	간부와	_	_	I-Goal
+3	접선시켜볼	접선시키다.v	Attaching	O
+4	예정이다.	_	_	O
+
+#anno-id:22314
+#source:sejong
+#text:어머니의 폐렴은 일단 의사의 약으로 치유되는 것 같았다.
+0	어머니의	_	_	B-Affliction
+1	폐렴은	_	_	I-Affliction
+2	일단	_	_	O
+3	의사의	_	_	B-Medication
+4	약으로	_	_	I-Medication
+5	치유되는	치유되다.v	Cure	O
+6	것	_	_	O
+7	같았다.	_	_	O
+
+#anno-id:18154
+#source:sejong
+#text:선생님은 학생들에게 대학보다는 전공을 고려하여 대학을 선택하라고 권고했다.
+0	선생님은	_	_	B-Message
+1	학생들에게	_	_	I-Message
+2	대학보다는	_	_	I-Message
+3	전공을	_	_	I-Message
+4	고려하여	_	_	I-Message
+5	대학을	_	_	I-Message
+6	선택하라고	_	_	I-Message
+7	권고했다.	권고하다.v	Request	O
+
+#anno-id:25420
+#source:sejong
+#text:그는 갑자기 왼쪽 다리에 마비를 일으켜서 더 이상 걸을 수가 없었다.
+0	그는	_	_	B-Cause
+1	갑자기	_	_	B-Time
+2	왼쪽	_	_	B-Place
+3	다리에	_	_	I-Place
+4	마비를	_	_	B-Effect
+5	일으켜서	일으키다.v	Cause_to_start	O
+6	더	_	_	O
+7	이상	_	_	O
+8	걸을	_	_	O
+9	수가	_	_	O
+10	없었다.	_	_	O
+
+#anno-id:25353
+#source:sejong
+#text:초밥이나 덮밥용 생선은 식초에 적셨다 요리하면 좋다.
+0	초밥이나	_	_	B-Patient
+1	덮밥용	_	_	I-Patient
+2	생선은	_	_	I-Patient
+3	식초에	_	_	B-Liquid
+4	적셨다	적시다.v	Cause_to_be_wet	O
+5	요리하면	_	_	O
+6	좋다.	_	_	O
+
+#anno-id:23032
+#source:sejong
+#text:교각은 교량상부 하중을 지반에 전달하는 역할을 하는 구조물로서 기초형식은 대부분 말뚝기초와 직접기초로 설계된다.
+0	교각은	_	_	O
+1	교량상부	_	_	O
+2	하중을	_	_	O
+3	지반에	_	_	O
+4	전달하는	_	_	O
+5	역할을	_	_	O
+6	하는	_	_	O
+7	구조물로서	_	_	O
+8	기초형식은	_	_	B-Idea
+9	대부분	_	_	O
+10	말뚝기초와	_	_	B-Means
+11	직접기초로	_	_	I-Means
+12	설계된다.	설계되다.v	Coming_up_with	O
+
+#anno-id:20995
+#source:sejong
+#text:그 집이 이제 서서히 생활의 안정을 찾고 있다.
+0	그	_	_	B-Agent
+1	집이	_	_	I-Agent
+2	이제	_	_	B-Time
+3	서서히	_	_	B-Manner
+4	생활의	_	_	B-Sought_entity
+5	안정을	_	_	I-Sought_entity
+6	찾고	찾다.v	Seeking_to_achieve	O
+7	있다.	_	_	O
+
+#anno-id:17458
+#source:sejong
+#text:그녀는 다니던 직장을 그만두고 요즘 글쓰기에 전념하고 있다.
+0	그녀는	_	_	B-Agent
+1	다니던	_	_	O
+2	직장을	_	_	O
+3	그만두고	_	_	O
+4	요즘	_	_	B-Time
+5	글쓰기에	_	_	B-Consideration
+6	전념하고	전념하다.v	Emphasizing	O
+7	있다.	_	_	O
+
+#anno-id:18532
+#source:sejong
+#text:동진은 일주일 간 집에 감금당했다.
+0	동진은	_	_	B-Prisoner
+1	일주일	_	_	B-Time
+2	간	_	_	I-Time
+3	집에	_	_	B-Prison
+4	감금당했다.	감금당하다.v	Imprisonment	O
+
+#anno-id:24834
+#source:sejong
+#text:인간는 옛날부터 땅을 일어 경작을 했다.
+0	인간는	_	_	O
+1	옛날부터	_	_	B-Time
+2	땅을	_	_	B-Event
+3	일어	일다.v	Event	O
+4	경작을	_	_	O
+5	했다.	_	_	O
+
+#anno-id:22412
+#source:sejong
+#text:이 공장은 연간 3천톤의 철강을 생산시키고 있습니다.
+0	이	_	_	B-Creator
+1	공장은	_	_	I-Creator
+2	연간	_	_	B-Created_entity
+3	3천톤의	_	_	I-Created_entity
+4	철강을	_	_	I-Created_entity
+5	생산시키고	생산시키다.v	Intentionally_create	O
+6	있습니다.	_	_	O
+
+#anno-id:21439
+#source:sejong
+#text:끝까지 용감하게 독재 정권에 저항하라.
+0	끝까지	_	_	B-Time
+1	용감하게	_	_	B-Manner
+2	독재	_	_	B-Enemy
+3	정권에	_	_	I-Enemy
+4	저항하라.	저항하다.v	Repel	O
+
+#anno-id:22601
+#source:sejong
+#text:요즘 세상에 생각이 깨어 있는 사람은 드물다.
+0	요즘	_	_	B-Time
+1	세상에	_	_	B-Place
+2	생각이	_	_	B-Sleep_state
+3	깨어	깨다.v	Waking_up	O
+4	있는	_	_	O
+5	사람은	_	_	O
+6	드물다.	_	_	O
+
+#anno-id:19070
+#source:sejong
+#text:그는 급히 약국에 뛰어가서 응급 약을 샀다.
+0	그는	_	_	B-Self_mover
+1	급히	_	_	B-Manner
+2	약국에	_	_	B-Goal
+3	뛰어가서	뛰어가다.v	Self_motion	O
+4	응급	_	_	O
+5	약을	_	_	O
+6	샀다.	_	_	O
+
+#anno-id:20491
+#source:sejong
+#text:그 음악은 나의 지친 마음을 어루만져 주었다.
+0	그	_	_	B-Agent
+1	음악은	_	_	I-Agent
+2	나의	_	_	B-Entity
+3	지친	_	_	I-Entity
+4	마음을	_	_	I-Entity
+5	어루만져	어루만지다.v	Manipulation	O
+6	주었다.	_	_	O
+
+#anno-id:17661
+#source:sejong
+#text:이 지긋지긋한 전쟁은 언제 끝장날까?
+0	이	_	_	B-Process
+1	지긋지긋한	_	_	I-Process
+2	전쟁은	_	_	I-Process
+3	언제	_	_	B-Time
+4	끝장날까?	끝장나다.v	Process_end	O
+
+#anno-id:24651
+#source:sejong
+#text:말 안 듣는 사람은 이곳에서 당장 내보내겠다.
+0	말	_	_	B-Theme
+1	안	_	_	I-Theme
+2	듣는	_	_	I-Theme
+3	사람은	_	_	I-Theme
+4	이곳에서	_	_	B-Place
+5	당장	_	_	B-Time
+6	내보내겠다.	내보내다.v	Sending	O
+
+#anno-id:22923
+#source:sejong
+#text:하단부는 곡식을 갈아 내릴 수 있도록 한 부분이 하향해 있다.
+0	하단부는	_	_	B-Area
+1	곡식을	_	_	B-Theme
+2	갈아	_	_	I-Theme
+3	내릴	_	_	I-Theme
+4	수	_	_	I-Theme
+5	있도록	_	_	I-Theme
+6	한	_	_	I-Theme
+7	부분이	_	_	I-Theme
+8	하향해	하향하다.v	Motion_directional	O
+9	있다.	_	_	O
+
+#anno-id:17733
+#source:sejong
+#text:우리 마을에 새로 큰 길이 뚫렸다.
+0	우리	_	_	B-Area
+1	마을에	_	_	I-Area
+2	새로	_	_	B-Road
+3	큰	_	_	I-Road
+4	길이	_	_	I-Road
+5	뚫렸다.	뚫리다.v	Path_shape	O
+
+#anno-id:23059
+#source:sejong
+#text:반제적 성격보다 반봉건적 성격을 선행시킨 동학농민들의 반봉건적 농민혁명운동이라는 역사적 성격을 가진 것이라고 볼 수 있다.
+0	반제적	_	_	B-Landmark_occasion
+1	성격보다	_	_	I-Landmark_occasion
+2	반봉건적	_	_	B-Focal_occasion
+3	성격을	_	_	I-Focal_occasion
+4	선행시킨	선행시키다.v	Relative_time	O
+5	동학농민들의	_	_	B-Focal_participant
+6	반봉건적	_	_	I-Focal_participant
+7	농민혁명운동이라는	_	_	I-Focal_participant
+8	역사적	_	_	O
+9	성격을	_	_	O
+10	가진	_	_	O
+11	것이라고	_	_	O
+12	볼	_	_	O
+13	수	_	_	O
+14	있다.	_	_	O
+
+#anno-id:23396
+#source:sejong
+#text:그는 우리 반에서 첫째가는 멋쟁이었다.
+0	그는	_	_	O
+1	우리	_	_	B-Comparison_set
+2	반에서	_	_	I-Comparison_set
+3	첫째가는	첫째가다.v	Ordinal_numbers	O
+4	멋쟁이었다.	_	_	B-Item
+
+#anno-id:17479
+#source:sejong
+#text:아이는 수줍은 모습으로 선생님께 꽃다발을 드렸다.
+0	아이는	_	_	B-Offerer
+1	수줍은	_	_	B-Manner
+2	모습으로	_	_	I-Manner
+3	선생님께	_	_	B-Potential_recipient
+4	꽃다발을	_	_	B-Theme
+5	드렸다.	드리다.v	Offering	O
+
+#anno-id:23560
+#source:sejong
+#text:선생님이 학생들에게 지난 시간 배운 내용을 환기시켰다.
+0	선생님이	_	_	B-Stimulus
+1	학생들에게	_	_	B-Cognizer
+2	지난	_	_	B-Phenomenon
+3	시간	_	_	I-Phenomenon
+4	배운	_	_	I-Phenomenon
+5	내용을	_	_	I-Phenomenon
+6	환기시켰다.	환기시키다.v	Evoking	O
+
+#anno-id:23698
+#source:sejong
+#text:서민들을 위한 정책은 사회 복지를 향상시킬 수 있는 내용을 담고 있어야 한다.
+0	서민들을	_	_	B-Project
+1	위한	_	_	I-Project
+2	정책은	_	_	I-Project
+3	사회	_	_	B-Project
+4	복지를	_	_	I-Project
+5	향상시킬	향상시키다.v	Cause_to_make_progress	O
+6	수	_	_	O
+7	있는	_	_	O
+8	내용을	_	_	O
+9	담고	_	_	O
+10	있어야	_	_	O
+11	한다.	_	_	O
+
+#anno-id:17476
+#source:sejong
+#text:경비는 나에게 차를 구석에 주차하라고 말했다.
+0	경비는	_	_	B-Agent
+1	나에게	_	_	B-Agent
+2	차를	_	_	B-Theme
+3	구석에	_	_	B-Place
+4	주차하라고	주차하다.v	Placing	O
+5	말했다.	_	_	O
+
+#anno-id:25447
+#source:sejong
+#text:1등 당첨자가 없는 경우에는 해당 1등 당첨금은 이월되어 다음 회차 1등 당첨금에 합산되고, 2등~4등 당첨자가 없는 경우에는 해당 당첨금은 전액 이월되어 다음 회차에 포함되어 지급됩니다.
+0	1등	_	_	B-Cause
+1	당첨자가	_	_	I-Cause
+2	없는	_	_	I-Cause
+3	경우에는	_	_	I-Cause
+4	해당	_	_	I-Cause
+5	1등	_	_	I-Cause
+6	당첨금은	_	_	I-Cause
+7	이월되어	_	_	I-Cause
+8	다음	_	_	I-Cause
+9	회차	_	_	I-Cause
+10	1등	_	_	I-Cause
+11	당첨금에	_	_	I-Cause
+12	합산되고,	_	_	I-Cause
+13	2등~4등	_	_	I-Cause
+14	당첨자가	_	_	I-Cause
+15	없는	_	_	I-Cause
+16	경우에는	_	_	I-Cause
+17	해당	_	_	B-Event
+18	당첨금은	_	_	I-Event
+19	전액	_	_	B-Manner
+20	이월되어	이월되다.v	Change_event_time	O
+21	다음	_	_	O
+22	회차에	_	_	O
+23	포함되어	_	_	O
+24	지급됩니다.	_	_	O
+
+#anno-id:25325
+#source:sejong
+#text:어머니는 나에게 늘 바르게 살도록 교육시켰다.
+0	어머니는	_	_	B-Teacher
+1	나에게	_	_	B-Student
+2	늘	_	_	B-Subject
+3	바르게	_	_	I-Subject
+4	살도록	_	_	O
+5	교육시켰다.	교육시키다.v	Education_teaching	O
+
+#anno-id:20552
+#source:sejong
+#text:그 못된 아이는 집 잃은 불쌍한 강아지를 괴롭혔다.
+0	그	_	_	B-Agent
+1	못된	_	_	I-Agent
+2	아이는	_	_	I-Agent
+3	집	_	_	B-Victim
+4	잃은	_	_	I-Victim
+5	불쌍한	_	_	I-Victim
+6	강아지를	_	_	I-Victim
+7	괴롭혔다.	괴롭히다.v	Cause_harm	O
+
+#anno-id:18193
+#source:sejong
+#text:그녀는 자기 친구를 이용하여 오늘날의 부귀를 얻었다.
+0	그녀는	_	_	B-Agent
+1	자기	_	_	B-Instrument
+2	친구를	_	_	I-Instrument
+3	이용하여	이용하다.v	Using	O
+4	오늘날의	_	_	O
+5	부귀를	_	_	O
+6	얻었다.	_	_	O
+
+#anno-id:22096
+#source:sejong
+#text:어제 그는 할머니 댁에 갔다오다가 초등학교 동창생을 만났다.
+0	어제	_	_	B-Time
+1	그는	_	_	B-Self_mover
+2	할머니	_	_	B-Goal
+3	댁에	_	_	I-Goal
+4	갔다오다가	갔다오다.v	Self_motion	O
+5	초등학교	_	_	O
+6	동창생을	_	_	O
+7	만났다.	_	_	O
+
+#anno-id:20833
+#source:sejong
+#text:신출내기 목사를 설교시켰더니 조금 떨더라.
+0	신출내기	_	_	B-Speaker
+1	목사를	_	_	I-Speaker
+2	설교시켰더니	설교시키다.v	Attempt_suasion	O
+3	조금	_	_	O
+4	떨더라.	_	_	O
+
+#anno-id:24519
+#source:sejong
+#text:누가 뭐라고 주장하든간에 그 아이는 다른 사람들에게 그 의견을 반문하고 따지는 것을 좋아한다.
+0	누가	_	_	O
+1	뭐라고	_	_	O
+2	주장하든간에	_	_	O
+3	그	_	_	O
+4	아이는	_	_	O
+5	다른	_	_	B-Addressee
+6	사람들에게	_	_	I-Addressee
+7	그	_	_	B-Message
+8	의견을	_	_	I-Message
+9	반문하고	반문하다.v	Questioning	O
+10	따지는	_	_	O
+11	것을	_	_	O
+12	좋아한다.	_	_	O
+
+#anno-id:20511
+#source:sejong
+#text:수입 개방의 초기에는 어느 나라나 수입을 동결시켜 개방의 폭을 최소화하려고 한다.
+0	수입	_	_	B-Time
+1	개방의	_	_	I-Time
+2	초기에는	_	_	I-Time
+3	어느	_	_	B-Activity
+4	나라나	_	_	I-Activity
+5	수입을	_	_	I-Activity
+6	동결시켜	동결시키다.v	Activity_pause	O
+7	개방의	_	_	O
+8	폭을	_	_	O
+9	최소화하려고	_	_	O
+10	한다.	_	_	O
+
+#anno-id:24359
+#source:sejong
+#text:길거리가 행인들로 북적댄다.
+0	길거리가	_	_	B-Location
+1	행인들로	_	_	B-Theme
+2	북적댄다.	북적대다.v	Abounding_with	O
+
+#anno-id:25098
+#source:sejong
+#text:그는 뒷동산을 과수원으로 가꾸는 데 평생을 보냈다.
+0	그는	_	_	O
+1	뒷동산을	_	_	B-Location
+2	과수원으로	_	_	B-Theme
+3	가꾸는	가꾸다.v	Distributed_position	O
+4	데	_	_	O
+5	평생을	_	_	O
+6	보냈다.	_	_	O
+
+#anno-id:24247
+#source:sejong
+#text:암벽이 있는 위험한 산을 등산하다가 실족사했다.
+0	암벽이	_	_	B-Path
+1	있는	_	_	I-Path
+2	위험한	_	_	I-Path
+3	산을	_	_	I-Path
+4	등산하다가	등산하다.v	Self_motion	O
+5	실족사했다.	_	_	O
+
+#anno-id:21626
+#source:sejong
+#text:그렇게 싼 가격에 이만큼 좋은 방을 세내기란 어렵다.
+0	그렇게	_	_	B-Means
+1	싼	_	_	I-Means
+2	가격에	_	_	I-Means
+3	이만큼	_	_	B-Manner
+4	좋은	_	_	B-Goods
+5	방을	_	_	I-Goods
+6	세내기란	세내다.v	Renting	O
+7	어렵다.	_	_	O
+
+#anno-id:22998
+#source:sejong
+#text:이 개는 조난 등산객을 구하기 위해 훈련되었다.
+0	이	_	_	B-Agent
+1	개는	_	_	I-Agent
+2	조난	_	_	B-Patient
+3	등산객을	_	_	I-Patient
+4	구하기	구하다.v	Rescuing	O
+5	위해	_	_	O
+6	훈련되었다.	_	_	O
+
+#anno-id:18215
+#source:sejong
+#text:총선이 가까워 오자 각 국회의원들은 지역구의 표를 다지기 위해 열심히 발로 뛰었다.
+0	총선이	_	_	O
+1	가까워	_	_	O
+2	오자	_	_	O
+3	각	_	_	O
+4	국회의원들은	_	_	O
+5	지역구의	_	_	B-Patient
+6	표를	_	_	I-Patient
+7	다지기	다지다.v	Change_of_consistency	O
+8	위해	_	_	O
+9	열심히	_	_	O
+10	발로	_	_	O
+11	뛰었다.	_	_	O
+
+#anno-id:21119
+#source:sejong
+#text:그는 기록을 말소하는 데 온갖 노력을 했다.
+0	그는	_	_	O
+1	기록을	_	_	B-Theme
+2	말소하는	말소하다.v	Removing	O
+3	데	_	_	O
+4	온갖	_	_	O
+5	노력을	_	_	O
+6	했다.	_	_	O
+
+#anno-id:18283
+#source:sejong
+#text:불교에서 절을 하는 것은 자신을 참회하는 행위이다.
+0	불교에서	_	_	B-Action
+1	절을	_	_	I-Action
+2	하는	_	_	I-Action
+3	것은	_	_	I-Action
+4	자신을	_	_	B-Experiencer
+5	참회하는	참회하다.v	Contrition	O
+6	행위이다.	_	_	B-Action
+
+#anno-id:21937
+#source:sejong
+#text:올해 들어 그 녀석은 부쩍 키가 컸다.
+0	올해	_	_	B-Time
+1	들어	들다.v	Becoming	O
+2	그	_	_	O
+3	녀석은	_	_	O
+4	부쩍	_	_	O
+5	키가	_	_	O
+6	컸다.	_	_	O
+
